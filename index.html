@@ -52,45 +52,6 @@
       display: none;
     }
 
-    .nexo-install-shortcut {
-      box-sizing: border-box;
-      position: fixed;
-      z-index: 9999;
-      top: calc(env(safe-area-inset-top) + 68px);
-      right: max(16px, env(safe-area-inset-right));
-      display: grid;
-      width: 44px;
-      height: 44px;
-      place-items: center;
-      border: 1px solid rgba(111, 151, 255, .58);
-      border-radius: 15px;
-      background: linear-gradient(145deg, #2a3348, #1b2030);
-      box-shadow: 0 10px 28px rgba(0, 0, 0, .34);
-      color: #9bc5ff;
-      cursor: pointer;
-      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
-    }
-
-    .nexo-install-shortcut svg {
-      width: 20px;
-      height: 20px;
-    }
-
-    .nexo-install-shortcut:hover {
-      transform: translateY(-2px);
-      border-color: #9bc5ff;
-      background: linear-gradient(145deg, #34425d, #20283a);
-    }
-
-    .nexo-install-shortcut:focus-visible {
-      outline: 3px solid #9bc5ff;
-      outline-offset: 3px;
-    }
-
-    .nexo-install-shortcut[hidden] {
-      display: none;
-    }
-
     .nexo-install-icon {
       width: 48px;
       height: 48px;
@@ -145,20 +106,6 @@
     }
 
     @media (max-width: 520px) {
-      .nexo-install-shortcut {
-        top: calc(env(safe-area-inset-top) + 12px);
-        right: max(80px, calc(env(safe-area-inset-right) + 64px));
-        width: 32px;
-        height: 32px;
-        border-radius: 11px;
-        box-shadow: 0 5px 16px rgba(0, 0, 0, .26);
-      }
-
-      .nexo-install-shortcut svg {
-        width: 17px;
-        height: 17px;
-      }
-
       .nexo-install-card {
         grid-template-columns: 36px minmax(0, 1fr) auto 32px;
         gap: 8px;
@@ -199,7 +146,6 @@
 
     @media (prefers-reduced-motion: reduce) {
       .nexo-install-card { animation: none; }
-      .nexo-install-shortcut { transition: none; }
     }
   </style>
 </head>
@@ -213,15 +159,9 @@
     <button id="nexo-install-button" class="nexo-install-button" type="button">Instalar</button>
     <button id="nexo-install-close" class="nexo-install-close" type="button" aria-label="Dispensar aviso de instalação">×</button>
   </aside>
-  <button id="nexo-install-shortcut" class="nexo-install-shortcut" type="button" aria-label="Instalar o NEXO" title="Instalar o NEXO" hidden>
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M12 3v11m0 0 4-4m-4 4-4-4M5 16v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-  </button>
   <script>
     (() => {
       const card = document.getElementById('nexo-install-card');
-      const shortcut = document.getElementById('nexo-install-shortcut');
       const installButton = document.getElementById('nexo-install-button');
       const closeButton = document.getElementById('nexo-install-close');
       const copyText = document.getElementById('nexo-install-copy-text');
@@ -229,12 +169,11 @@
       const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
       let installPrompt = null;
 
-      if (isInstalled()) return;
-
-      shortcut.hidden = false;
-
       const openCard = () => {
-        if (installPrompt) {
+        if (isInstalled()) {
+          installButton.hidden = true;
+          copyText.textContent = 'O NEXO já está instalado neste dispositivo.';
+        } else if (installPrompt) {
           installButton.hidden = false;
           copyText.textContent = 'Instale para abrir em tela cheia no celular ou no computador.';
         } else {
@@ -244,10 +183,10 @@
             : 'Abra o menu do navegador e escolha “Instalar app” ou “Adicionar à tela inicial”.';
         }
         card.hidden = false;
-        shortcut.hidden = true;
       };
 
-      shortcut.addEventListener('click', openCard);
+      window.nexoShowInstallCard = openCard;
+      if (isInstalled()) return;
 
       window.addEventListener('beforeinstallprompt', (event) => {
         event.preventDefault();
@@ -268,10 +207,8 @@
           const choice = await currentPrompt.userChoice;
           if (choice?.outcome === 'accepted') {
             card.hidden = true;
-            shortcut.hidden = true;
           } else {
             card.hidden = true;
-            shortcut.hidden = false;
           }
         } catch (_) {
           copyText.textContent = 'Abra o menu do navegador e escolha “Instalar app”.';
@@ -283,12 +220,10 @@
       closeButton.addEventListener('click', () => {
         sessionStorage.setItem('nexo-install-dismissed', '1');
         card.hidden = true;
-        shortcut.hidden = false;
       });
 
       window.addEventListener('appinstalled', () => {
         card.hidden = true;
-        shortcut.hidden = true;
         sessionStorage.removeItem('nexo-install-dismissed');
       });
     })();
