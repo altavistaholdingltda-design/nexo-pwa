@@ -71,6 +71,11 @@
       transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
     }
 
+    .nexo-install-shortcut svg {
+      width: 20px;
+      height: 20px;
+    }
+
     .nexo-install-shortcut:hover {
       transform: translateY(-2px);
       border-color: #9bc5ff;
@@ -142,9 +147,16 @@
     @media (max-width: 520px) {
       .nexo-install-shortcut {
         top: calc(env(safe-area-inset-top) + 40px);
-        width: 40px;
-        height: 40px;
-        border-radius: 13px;
+        right: max(12px, env(safe-area-inset-right));
+        width: 32px;
+        height: 32px;
+        border-radius: 11px;
+        box-shadow: 0 5px 16px rgba(0, 0, 0, .26);
+      }
+
+      .nexo-install-shortcut svg {
+        width: 17px;
+        height: 17px;
       }
 
       .nexo-install-card {
