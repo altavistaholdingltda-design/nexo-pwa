@@ -265,15 +265,79 @@
         URL.revokeObjectURL(url);
       });
       bar.append(title, download, close);
-      const frame = document.createElement('iframe');
-      frame.src = url;
-      frame.title = 'Documento PDF';
-      Object.assign(frame.style, { flex: '1', width: '100%', border: '0' });
-      overlay.append(bar, frame);
+      const viewer = document.createElement('div');
+      viewer.setAttribute('aria-label', 'Páginas do PDF');
+      Object.assign(viewer.style, {
+        flex: '1', minHeight: '0', overflow: 'auto', padding: '12px',
+        display: 'flex', justifyContent: 'center', alignItems: 'flex-start',
+      });
+      const status = document.createElement('span');
+      status.textContent = 'Preparando visualização…';
+      status.style.color = '#fff';
+      viewer.append(status);
+      const footer = document.createElement('div');
+      Object.assign(footer.style, {
+        display: 'flex', justifyContent: 'center', alignItems: 'center',
+        gap: '18px', padding: '10px', color: '#fff', font: '14px system-ui, sans-serif',
+      });
+      const prev = document.createElement('button');
+      prev.textContent = 'Anterior';
+      const count = document.createElement('span');
+      const next = document.createElement('button');
+      next.textContent = 'Próxima';
+      for (const button of [prev, next]) {
+        Object.assign(button.style, {
+          background: '#34373b', color: '#fff', border: '0',
+          borderRadius: '8px', padding: '9px 13px', cursor: 'pointer',
+        });
+      }
+      footer.append(prev, count, next);
+      overlay.append(bar, viewer, footer);
       document.body.append(overlay);
+      (async () => {
+        try {
+          const base = document.baseURI;
+          const pdfjs = await import(new URL('pdfjs/pdf.min.mjs', base).href);
+          pdfjs.GlobalWorkerOptions.workerSrc = new URL('pdfjs/pdf.worker.min.mjs', base).href;
+          const pdf = await pdfjs.getDocument({ data: new Uint8Array(bytes) }).promise;
+          let current = 1;
+          let renderVersion = 0;
+          const renderPage = async () => {
+            const version = ++renderVersion;
+            viewer.replaceChildren();
+            const page = await pdf.getPage(current);
+            const natural = page.getViewport({ scale: 1 });
+            const scale = Math.min(1.6, Math.max(0.5, (viewer.clientWidth - 24) / natural.width));
+            const viewport = page.getViewport({ scale });
+            const canvas = document.createElement('canvas');
+            const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+            canvas.width = Math.ceil(viewport.width * pixelRatio);
+            canvas.height = Math.ceil(viewport.height * pixelRatio);
+            canvas.style.width = `${viewport.width}px`;
+            canvas.style.height = `${viewport.height}px`;
+            canvas.style.maxWidth = '100%';
+            canvas.style.boxShadow = '0 8px 30px #0008';
+            const context = canvas.getContext('2d');
+            context.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
+            await page.render({ canvasContext: context, viewport }).promise;
+            if (version !== renderVersion || !overlay.isConnected) return;
+            viewer.append(canvas);
+            viewer.scrollTop = 0;
+            count.textContent = `${current} / ${pdf.numPages}`;
+            prev.disabled = current === 1;
+            next.disabled = current === pdf.numPages;
+          };
+          prev.addEventListener('click', () => { if (current > 1) { current--; renderPage(); } });
+          next.addEventListener('click', () => { if (current < pdf.numPages) { current++; renderPage(); } });
+          await renderPage();
+        } catch (error) {
+          status.textContent = 'Não foi possível mostrar a prévia neste navegador. Use Baixar.';
+          viewer.replaceChildren(status);
+        }
+      })();
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=1790806316" async></script>
+  <script src="flutter_bootstrap.js?v=1790806559" async></script>
 </body>
 </html>
