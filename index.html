@@ -253,6 +253,42 @@
       download.download = 'nexo-material.pdf';
       download.textContent = 'Baixar';
       Object.assign(download.style, { color: '#79b2ff', textDecoration: 'none' });
+      if ('serviceWorker' in navigator && crypto.randomUUID) {
+        (async () => {
+          try {
+            const scope = new URL('pdf-export/', document.baseURI).href;
+            const registration = await navigator.serviceWorker.register(
+              new URL('pdf-download-sw.js', document.baseURI).href,
+              { scope },
+            );
+            let worker = registration.active;
+            if (!worker) {
+              worker = registration.installing || registration.waiting;
+              if (!worker) return;
+              await new Promise((resolve, reject) => {
+                const timeout = setTimeout(() => reject(new Error('worker timeout')), 8000);
+                worker.addEventListener('statechange', () => {
+                  if (worker.state === 'activated') {
+                    clearTimeout(timeout);
+                    resolve();
+                  }
+                });
+              });
+            }
+            if (!overlay.isConnected) return;
+            const id = crypto.randomUUID();
+            const channel = new MessageChannel();
+            await new Promise((resolve, reject) => {
+              const timeout = setTimeout(() => reject(new Error('pdf timeout')), 8000);
+              channel.port1.onmessage = () => { clearTimeout(timeout); resolve(); };
+              worker.postMessage({ type: 'nexo-pdf', id, bytes }, [channel.port2]);
+            });
+            download.href = new URL(`pdf-export/${id}.pdf`, document.baseURI).href;
+          } catch (_) {
+            // The direct Blob link remains available when service workers fail.
+          }
+        })();
+      }
       const close = document.createElement('button');
       close.type = 'button';
       close.textContent = 'Fechar';
@@ -361,6 +397,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=1790807227" async></script>
+  <script src="flutter_bootstrap.js?v=1790807335" async></script>
 </body>
 </html>
