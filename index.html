@@ -284,12 +284,13 @@
               worker.postMessage({ type: 'nexo-pdf', id, bytes }, [channel.port2]);
             });
             const localUrl = new URL(`pdf-export/${id}.pdf`, document.baseURI).href;
-            const response = await fetch(localUrl, { method: 'HEAD', cache: 'no-store' });
+            const response = await fetch(localUrl, { cache: 'no-store' });
             if (!response.ok || response.headers.get('content-type') !== 'application/pdf') {
               throw new Error('pdf unavailable');
             }
             download.href = localUrl;
-          } catch (_) {
+          } catch (error) {
+            console.warn('NEXO PDF local download fallback:', error);
             // The direct Blob link remains available when service workers fail.
           }
         })();
@@ -402,6 +403,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=1790807810" async></script>
+  <script src="flutter_bootstrap.js?v=1790807953" async></script>
 </body>
 </html>
