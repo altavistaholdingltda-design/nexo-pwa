@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <base href="/nexo-pwa/">
+  <base href="$FLUTTER_BASE_HREF">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
@@ -260,7 +260,9 @@
         background: '#34373b', color: '#fff', border: '0',
         borderRadius: '8px', padding: '9px 13px', cursor: 'pointer',
       });
+      let onPreviewResize;
       close.addEventListener('click', () => {
+        if (onPreviewResize) window.removeEventListener('resize', onPreviewResize);
         overlay.remove();
         URL.revokeObjectURL(url);
       });
@@ -292,6 +294,20 @@
         });
       }
       footer.append(prev, count, next);
+      const file = new File([bytes], 'nexo-material.pdf', { type: 'application/pdf' });
+      if (navigator.canShare?.({ files: [file] })) {
+        const share = document.createElement('button');
+        share.textContent = 'Compartilhar';
+        Object.assign(share.style, {
+          background: '#2878e8', color: '#fff', border: '0',
+          borderRadius: '8px', padding: '9px 13px', cursor: 'pointer',
+        });
+        share.addEventListener('click', async () => {
+          try { await navigator.share({ files: [file], title: 'Material NEXO' }); }
+          catch (_) { /* Cancelar a folha de compartilhamento mantém a prévia aberta. */ }
+        });
+        footer.append(share);
+      }
       overlay.append(bar, viewer, footer);
       document.body.append(overlay);
       (async () => {
@@ -329,6 +345,13 @@
           };
           prev.addEventListener('click', () => { if (current > 1) { current--; renderPage(); } });
           next.addEventListener('click', () => { if (current < pdf.numPages) { current++; renderPage(); } });
+          if (!overlay.isConnected) return;
+          let resizeTimer;
+          onPreviewResize = () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(renderPage, 150);
+          };
+          window.addEventListener('resize', onPreviewResize);
           await renderPage();
         } catch (error) {
           status.textContent = 'Não foi possível mostrar a prévia neste navegador. Use Baixar.';
@@ -338,6 +361,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=1790806896" async></script>
+  <script src="flutter_bootstrap.js?v=1790807227" async></script>
 </body>
 </html>
