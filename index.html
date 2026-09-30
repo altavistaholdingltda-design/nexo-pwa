@@ -230,6 +230,19 @@
       });
     })();
   </script>
-  <script src="flutter_bootstrap.js?v=1790803966" async></script>
+  <script>
+    window.nexoOpenPdfPreview = function (bytes) {
+      const url = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
+      const preview = window.open(url, '_blank');
+      if (!preview) {
+        URL.revokeObjectURL(url);
+        return false;
+      }
+      preview.opener = null;
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      return true;
+    };
+  </script>
+  <script src="flutter_bootstrap.js?v=1790806147" async></script>
 </body>
 </html>
