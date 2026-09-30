@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <base href="/nexo-pwa/">
+  <base href="$FLUTTER_BASE_HREF">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
@@ -233,16 +233,47 @@
   <script>
     window.nexoOpenPdfPreview = function (bytes) {
       const url = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
-      const preview = window.open(url, '_blank');
-      if (!preview) {
+      const overlay = document.createElement('div');
+      overlay.setAttribute('role', 'dialog');
+      overlay.setAttribute('aria-label', 'Visualização do PDF');
+      Object.assign(overlay.style, {
+        position: 'fixed', inset: '0', zIndex: '2147483647',
+        display: 'flex', flexDirection: 'column', background: '#202124',
+      });
+      const bar = document.createElement('div');
+      Object.assign(bar.style, {
+        display: 'flex', alignItems: 'center', gap: '12px', padding: '10px 16px',
+        color: '#fff', font: '600 15px system-ui, sans-serif',
+      });
+      const title = document.createElement('span');
+      title.textContent = 'Prévia do PDF';
+      title.style.flex = '1';
+      const download = document.createElement('a');
+      download.href = url;
+      download.download = 'nexo-material.pdf';
+      download.textContent = 'Baixar';
+      Object.assign(download.style, { color: '#79b2ff', textDecoration: 'none' });
+      const close = document.createElement('button');
+      close.type = 'button';
+      close.textContent = 'Fechar';
+      Object.assign(close.style, {
+        background: '#34373b', color: '#fff', border: '0',
+        borderRadius: '8px', padding: '9px 13px', cursor: 'pointer',
+      });
+      close.addEventListener('click', () => {
+        overlay.remove();
         URL.revokeObjectURL(url);
-        return false;
-      }
-      preview.opener = null;
-      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      });
+      bar.append(title, download, close);
+      const frame = document.createElement('iframe');
+      frame.src = url;
+      frame.title = 'Documento PDF';
+      Object.assign(frame.style, { flex: '1', width: '100%', border: '0' });
+      overlay.append(bar, frame);
+      document.body.append(overlay);
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=1790806147" async></script>
+  <script src="flutter_bootstrap.js?v=1790806316" async></script>
 </body>
 </html>
