@@ -36371,41 +36371,43 @@ if(r==="PGRST301"||r==="PGRST302")return B.pd
 if(r==="42501")return B.bfJ
 return A.aAB(b,"NXO-DATA-001")}if(t.bE.b(a))return B.bfI
 return A.aAB(b,"NXO-UNKNOWN-001")},
-bAm(a,a0,a1,a2,a3,a4,a5,a6,a7,a8){var s,r,q,p,o,n,m,l,k,j,i,h=null,g="NXO-RATE-429",f="Limite tempor\xe1rio de solicita\xe7\xf5es",e="Aguarde um pouco e tente de novo.",d="Tente novamente em instantes.",c="Aguarde um pouco e toque em \u201cTentar novamente\u201d.",b=a4==null?"":" Refer\xeancia: "+a4+"."
-switch(a8){case"NEXO_RATE_LIMITED":return new A.eY(g,f,"Voc\xea atingiu o limite tempor\xe1rio deste recurso.",e+(a7!=null&&a7>0&&a7<=3600?" Tente novamente em cerca de "+A.l(a7)+" segundos.":"")+b,!0,h)
-case"NEXO_RATE_LIMIT_UNAVAILABLE":return new A.eY("NXO-RATE-503","Limite de uso indispon\xedvel","O servidor n\xe3o conseguiu confirmar o limite deste recurso.",d+b,!0,h)
-case"NEXO_MONTHLY_QUOTA_EXCEEDED":s=a0==="image"
-r=s?"cr\xe9ditos de imagem":"respostas"
-q=a1!=null
-if(q&&a3!=null){p=a2==null?".":"; restam "+A.l(a2)+"."
-o=" Uso: "+A.l(a3)+" de "+A.l(a1)+p}else o=""
-p=a5!=null
-n=p&&a5>1?" Este pedido precisava de "+A.l(a5)+" cr\xe9ditos.":""
-m=A.hx(a6==null?"":a6)
-l=m==null?h:m.us()
+bAm(a2,a3,a4,a5,a6,a7,a8,a9,b0,b1){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f="NXO-RATE-429",e="Limite tempor\xe1rio de solicita\xe7\xf5es",d="Aguarde um pouco e tente de novo.",c="Tente novamente em instantes.",b="cr\xe9ditos de imagem",a="respostas",a0="Aguarde um pouco e toque em \u201cTentar novamente\u201d.",a1=a7==null?"":" Refer\xeancia: "+a7+"."
+switch(b1){case"NEXO_RATE_LIMITED":return new A.eY(f,e,"Voc\xea atingiu o limite tempor\xe1rio deste recurso.",d+(b0!=null&&b0>0&&b0<=3600?" Tente novamente em cerca de "+A.l(b0)+" segundos.":"")+a1,!0,g)
+case"NEXO_RATE_LIMIT_UNAVAILABLE":return new A.eY("NXO-RATE-503","Limite de uso indispon\xedvel","O servidor n\xe3o conseguiu confirmar o limite deste recurso.",c+a1,!0,g)
+case"NEXO_MONTHLY_QUOTA_EXCEEDED":s=a3==="image"
+r=s?b:a
+q=a4!=null
+if(q&&a6!=null){p=a5==null?".":"; restam "+A.l(a5)+"."
+o=" Uso: "+A.l(a6)+" de "+A.l(a4)+p}else o=""
+p=a8!=null
+n=p&&a8>1?" Este pedido precisava de "+A.l(a8)+" cr\xe9ditos.":""
+m=A.hx(a9==null?"":a9)
+l=m==null?g:m.us()
 k=l==null?"":" Renova em "+B.o.e5(B.l.j(A.jq(l)),2,"0")+"/"+B.o.e5(B.l.j(A.iQ(l)),2,"0")+"/"+A.hG(l)+" \xe0s "+B.o.e5(B.l.j(A.a33(l)),2,"0")+":"+B.o.e5(B.l.j(A.a34(l)),2,"0")+"."
-j=p&&a2!=null&&a5>a2
-if(j)i="Este pedido precisa de "+A.l(a5)+" "+r+", mas restam "+A.l(a2)+" neste ciclo."+k
-else i=q&&a3!=null?"Voc\xea usou "+A.l(a3)+" de "+A.l(a1)+" "+r+" neste ciclo."+k:"Voc\xea chegou ao limite de "+r+" deste ciclo."+k
+j=p&&a5!=null&&a8>a5
+if(s)i=a8===1?"cr\xe9dito de imagem":b
+else i=a8===1?"resposta":a
+if(j)h="Este pedido precisa de "+A.l(a8)+" "+i+", mas seu saldo neste ciclo \xe9 "+A.l(a5)+"."+k
+else h=q&&a6!=null?"Voc\xea usou "+A.l(a6)+" de "+A.l(a4)+" "+r+" neste ciclo."+k:"Voc\xea chegou ao limite de "+r+" deste ciclo."+k
 if(j)s="Seu saldo atual n\xe3o cobre este pedido"
 else s=s?"Seu limite de imagens chegou ao fim":"Seu limite de respostas chegou ao fim"
-return new A.eY("NXO-PLAN-QUOTA-001",s,i,"Conhe\xe7a os planos NEXO com limites maiores."+o+n+k+b,!1,i)
-case"NEXO_SUBSCRIPTION_QUOTA_UNAVAILABLE":return new A.eY("NXO-PLAN-QUOTA-CHECK-001","N\xe3o foi poss\xedvel consultar sua cota","O servidor n\xe3o conseguiu confirmar o saldo do seu plano agora.",d+b,!0,h)
-case"AI_PROVIDER_NOT_CONFIGURED":return new A.eY("NXO-AI-CONFIG-001","Servi\xe7o de IA n\xe3o configurado","A conex\xe3o do app est\xe1 ativa, mas a fun\xe7\xe3o do NEXO n\xe3o encontrou a credencial do provedor no servidor.","A equipe deve conferir o segredo OPENAI_API_KEY nas configura\xe7\xf5es da fun\xe7\xe3o Supabase. Ele nunca deve ser colocado no APK."+b,!1,h)
-case"AI_PROVIDER_AUTH_INVALID":return new A.eY("NXO-AI-AUTH-001","Credencial do servi\xe7o recusada","O Supabase recebeu a solicita\xe7\xe3o, mas o provedor de IA recusou a credencial configurada no servidor.","A equipe deve verificar a chave e o projeto do provedor no Supabase. A chave n\xe3o \xe9 armazenada neste aparelho."+b,!1,h)
-case"AI_PROVIDER_QUOTA_EXHAUSTED":return new A.eY("NXO-AI-QUOTA-001","Cota do servi\xe7o de IA esgotada","A conex\xe3o est\xe1 funcionando, mas o provedor informou que a cota ou o faturamento precisa de aten\xe7\xe3o.","A equipe deve conferir os limites e o faturamento do projeto de IA."+b,!1,h)
-case"AI_PROVIDER_ACCESS_DENIED":return new A.eY("NXO-AI-ACCESS-001","Projeto de IA sem acesso ao servi\xe7o","A credencial do servidor foi reconhecida, mas o provedor recusou o acesso ao recurso configurado.","A equipe deve conferir as permiss\xf5es do projeto e o acesso ao modelo no provedor."+b,!1,h)
-case"AI_PROVIDER_NETWORK_ERROR":return new A.eY("NXO-AI-NETWORK-001","O servidor n\xe3o alcan\xe7ou o provedor de IA","A conex\xe3o do app com o Supabase chegou \xe0 fun\xe7\xe3o, mas a fun\xe7\xe3o n\xe3o conseguiu contatar o servi\xe7o de IA.","Tente novamente em instantes. Se persistir, a equipe deve conferir a sa\xedda de rede e a disponibilidade do provedor."+b,!0,h)
-case"AI_PROVIDER_TIMEOUT":return new A.eY("NXO-AI-TIMEOUT-001","A resposta demorou mais que o esperado","O servidor encerrou a espera pelo servi\xe7o de IA para manter o app responsivo.",d+b,!0,h)
-case"NEXO_EMPTY_RESPONSE":return new A.eY("NXO-RESPONSE-002","O servi\xe7o n\xe3o retornou uma resposta","A solicita\xe7\xe3o chegou ao servi\xe7o de IA, mas nenhum texto utiliz\xe1vel voltou.","Tente novamente. Se acontecer de novo, envie o c\xf3digo ao suporte NEXO."+b,!0,h)
-case"AI_PROVIDER_RATE_LIMITED":return new A.eY("NXO-AI-RATE-001","Muitas solicita\xe7\xf5es em sequ\xeancia","O servi\xe7o recebeu mais pedidos do que consegue atender agora.",c+b,!0,h)
-case"AI_IMAGE_PROVIDER_RATE_LIMITED":return new A.eY("NXO-AI-IMAGE-RATE-001","Gera\xe7\xe3o de imagem temporariamente ocupada","O provedor de imagens est\xe1 limitando novas gera\xe7\xf5es neste momento.",c+(a7!=null&&a7>0&&a7<=3600?" O servi\xe7o indicou uma espera de cerca de "+A.l(a7)+" segundos.":"")+b,!0,h)}if(a===0)return A.blH(B.l0)
-if(a===401)return B.pd
-if(a===403)return new A.eY("NXO-AUTH-403","Solicita\xe7\xe3o sem permiss\xe3o","O servidor recusou o acesso desta conta a esta a\xe7\xe3o. Nenhuma resposta fict\xedcia foi criada.","Confirme se entrou na conta correta. Se persistir, contate o suporte NEXO."+b,!1,h)
-if(a===429)return new A.eY(g,f,"O servi\xe7o est\xe1 limitando pedidos neste momento.",e+b,!0,h)
-if(a===502||a===503||a===504||a>=500){s=""+a
-return new A.eY("NXO-SERVER-"+s,"Servi\xe7o do NEXO indispon\xedvel","A conex\xe3o chegou ao servidor, mas o servi\xe7o n\xe3o conseguiu concluir a resposta (HTTP "+s+").","Tente novamente em instantes. Se continuar, a equipe deve conferir a fun\xe7\xe3o e a configura\xe7\xe3o do provedor."+b,!0,h)}if(a>=400){s=""+a
-return new A.eY("NXO-REQUEST-"+s,"Solicita\xe7\xe3o recusada","O servidor recusou a solicita\xe7\xe3o (HTTP "+s+").","Confira se a sess\xe3o est\xe1 ativa. Se persistir, contate o suporte NEXO."+b,!1,h)}return A.aAB(B.l0,"NXO-UNKNOWN-001")},
+return new A.eY("NXO-PLAN-QUOTA-001",s,h,"Conhe\xe7a os planos NEXO com limites maiores."+o+n+k+a1,!1,h)
+case"NEXO_SUBSCRIPTION_QUOTA_UNAVAILABLE":return new A.eY("NXO-PLAN-QUOTA-CHECK-001","N\xe3o foi poss\xedvel consultar sua cota","O servidor n\xe3o conseguiu confirmar o saldo do seu plano agora.",c+a1,!0,g)
+case"AI_PROVIDER_NOT_CONFIGURED":return new A.eY("NXO-AI-CONFIG-001","Servi\xe7o de IA n\xe3o configurado","A conex\xe3o do app est\xe1 ativa, mas a fun\xe7\xe3o do NEXO n\xe3o encontrou a credencial do provedor no servidor.","A equipe deve conferir o segredo OPENAI_API_KEY nas configura\xe7\xf5es da fun\xe7\xe3o Supabase. Ele nunca deve ser colocado no APK."+a1,!1,g)
+case"AI_PROVIDER_AUTH_INVALID":return new A.eY("NXO-AI-AUTH-001","Credencial do servi\xe7o recusada","O Supabase recebeu a solicita\xe7\xe3o, mas o provedor de IA recusou a credencial configurada no servidor.","A equipe deve verificar a chave e o projeto do provedor no Supabase. A chave n\xe3o \xe9 armazenada neste aparelho."+a1,!1,g)
+case"AI_PROVIDER_QUOTA_EXHAUSTED":return new A.eY("NXO-AI-QUOTA-001","Cota do servi\xe7o de IA esgotada","A conex\xe3o est\xe1 funcionando, mas o provedor informou que a cota ou o faturamento precisa de aten\xe7\xe3o.","A equipe deve conferir os limites e o faturamento do projeto de IA."+a1,!1,g)
+case"AI_PROVIDER_ACCESS_DENIED":return new A.eY("NXO-AI-ACCESS-001","Projeto de IA sem acesso ao servi\xe7o","A credencial do servidor foi reconhecida, mas o provedor recusou o acesso ao recurso configurado.","A equipe deve conferir as permiss\xf5es do projeto e o acesso ao modelo no provedor."+a1,!1,g)
+case"AI_PROVIDER_NETWORK_ERROR":return new A.eY("NXO-AI-NETWORK-001","O servidor n\xe3o alcan\xe7ou o provedor de IA","A conex\xe3o do app com o Supabase chegou \xe0 fun\xe7\xe3o, mas a fun\xe7\xe3o n\xe3o conseguiu contatar o servi\xe7o de IA.","Tente novamente em instantes. Se persistir, a equipe deve conferir a sa\xedda de rede e a disponibilidade do provedor."+a1,!0,g)
+case"AI_PROVIDER_TIMEOUT":return new A.eY("NXO-AI-TIMEOUT-001","A resposta demorou mais que o esperado","O servidor encerrou a espera pelo servi\xe7o de IA para manter o app responsivo.",c+a1,!0,g)
+case"NEXO_EMPTY_RESPONSE":return new A.eY("NXO-RESPONSE-002","O servi\xe7o n\xe3o retornou uma resposta","A solicita\xe7\xe3o chegou ao servi\xe7o de IA, mas nenhum texto utiliz\xe1vel voltou.","Tente novamente. Se acontecer de novo, envie o c\xf3digo ao suporte NEXO."+a1,!0,g)
+case"AI_PROVIDER_RATE_LIMITED":return new A.eY("NXO-AI-RATE-001","Muitas solicita\xe7\xf5es em sequ\xeancia","O servi\xe7o recebeu mais pedidos do que consegue atender agora.",a0+a1,!0,g)
+case"AI_IMAGE_PROVIDER_RATE_LIMITED":return new A.eY("NXO-AI-IMAGE-RATE-001","Gera\xe7\xe3o de imagem temporariamente ocupada","O provedor de imagens est\xe1 limitando novas gera\xe7\xf5es neste momento.",a0+(b0!=null&&b0>0&&b0<=3600?" O servi\xe7o indicou uma espera de cerca de "+A.l(b0)+" segundos.":"")+a1,!0,g)}if(a2===0)return A.blH(B.l0)
+if(a2===401)return B.pd
+if(a2===403)return new A.eY("NXO-AUTH-403","Solicita\xe7\xe3o sem permiss\xe3o","O servidor recusou o acesso desta conta a esta a\xe7\xe3o. Nenhuma resposta fict\xedcia foi criada.","Confirme se entrou na conta correta. Se persistir, contate o suporte NEXO."+a1,!1,g)
+if(a2===429)return new A.eY(f,e,"O servi\xe7o est\xe1 limitando pedidos neste momento.",d+a1,!0,g)
+if(a2===502||a2===503||a2===504||a2>=500){s=""+a2
+return new A.eY("NXO-SERVER-"+s,"Servi\xe7o do NEXO indispon\xedvel","A conex\xe3o chegou ao servidor, mas o servi\xe7o n\xe3o conseguiu concluir a resposta (HTTP "+s+").","Tente novamente em instantes. Se continuar, a equipe deve conferir a fun\xe7\xe3o e a configura\xe7\xe3o do provedor."+a1,!0,g)}if(a2>=400){s=""+a2
+return new A.eY("NXO-REQUEST-"+s,"Solicita\xe7\xe3o recusada","O servidor recusou a solicita\xe7\xe3o (HTTP "+s+").","Confira se a sess\xe3o est\xe1 ativa. Se persistir, contate o suporte NEXO."+a1,!1,g)}return A.aAB(B.l0,"NXO-UNKNOWN-001")},
 blH(a){var s=a!==B.l0,r=s?"NXO-NETWORK-SAVE":"NXO-NETWORK-001",q=s?"N\xe3o foi poss\xedvel salvar a conversa":"Servidor sem resposta"
 return new A.eY(r,q,s?"A conex\xe3o com o Supabase falhou antes de confirmar o salvamento.":"N\xe3o consegui alcan\xe7ar o servidor Supabase; a resposta da IA n\xe3o foi recebida.","Confira a internet. Sua pergunta foi preservada; toque em \u201cTentar novamente\u201d quando a conex\xe3o voltar.",!0,null)},
 aAB(a,b){if(a===B.vD)return B.bfK
