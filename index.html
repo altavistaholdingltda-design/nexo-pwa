@@ -27,6 +27,118 @@
       color: #f4f6ff;
     }
 
+    .nexo-boot-splash {
+      position: fixed;
+      z-index: 2147483646;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background:
+        radial-gradient(ellipse at 50% 44%, rgba(54, 105, 174, .2), transparent 58%),
+        #212121;
+      color: #f4f6ff;
+      font: 14px/1.45 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      opacity: 1;
+      transition: opacity 220ms ease;
+    }
+
+    .nexo-boot-splash[hidden] {
+      display: none;
+    }
+
+    .nexo-boot-splash.is-ready {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .nexo-boot-content {
+      display: grid;
+      justify-items: center;
+      gap: 9px;
+      width: min(100%, 300px);
+      text-align: center;
+    }
+
+    .nexo-boot-logo {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 5px;
+      border: 1px solid rgba(255, 255, 255, .1);
+      border-radius: 20px;
+      background: rgba(27, 34, 47, .86);
+      object-fit: contain;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, .24);
+    }
+
+    .nexo-boot-title {
+      font-size: 18px;
+      font-weight: 750;
+      letter-spacing: .12em;
+    }
+
+    .nexo-boot-subtitle {
+      color: #abb5c7;
+      font-size: 11px;
+      font-weight: 650;
+      letter-spacing: .11em;
+    }
+
+    .nexo-boot-progress {
+      position: relative;
+      width: min(220px, 72vw);
+      height: 3px;
+      margin-top: 11px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .1);
+    }
+
+    .nexo-boot-progress::after {
+      position: absolute;
+      inset: 0 auto 0 -42%;
+      width: 42%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #3687ff, #43d5df);
+      content: "";
+      animation: nexo-boot-loading 1.25s ease-in-out infinite;
+    }
+
+    .nexo-boot-slow {
+      display: grid;
+      justify-items: center;
+      gap: 12px;
+      margin-top: 12px;
+      color: #c4cad8;
+      font-size: 13px;
+    }
+
+    .nexo-boot-slow[hidden] {
+      display: none;
+    }
+
+    .nexo-boot-retry {
+      min-height: 42px;
+      padding: 0 18px;
+      border: 1px solid rgba(111, 151, 255, .4);
+      border-radius: 14px;
+      background: rgba(54, 112, 203, .18);
+      color: #a7c9ff;
+      font: inherit;
+      font-weight: 650;
+      cursor: pointer;
+    }
+
+    @keyframes nexo-boot-loading {
+      from { transform: translateX(0); }
+      to { transform: translateX(340%); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .nexo-boot-splash { transition: none; }
+      .nexo-boot-progress::after { animation: none; inset-inline-start: 0; width: 38%; }
+    }
+
     .nexo-install-card {
       box-sizing: border-box;
       position: fixed;
@@ -152,6 +264,18 @@
   </style>
 </head>
 <body>
+  <div id="nexo-boot-splash" class="nexo-boot-splash" role="status" aria-live="polite" aria-label="Abrindo o NEXO">
+    <div class="nexo-boot-content">
+      <img class="nexo-boot-logo" src="icons/Icon-192.png" alt="">
+      <strong class="nexo-boot-title">NEXO</strong>
+      <span class="nexo-boot-subtitle">IA PARA O DIA A DIA</span>
+      <div class="nexo-boot-progress" aria-hidden="true"></div>
+      <div id="nexo-boot-slow" class="nexo-boot-slow" hidden>
+        <span>A abertura está demorando. Confira sua conexão e tente novamente.</span>
+        <button id="nexo-boot-retry" class="nexo-boot-retry" type="button">Tentar novamente</button>
+      </div>
+    </div>
+  </div>
   <aside id="nexo-install-card" class="nexo-install-card" role="status" aria-live="polite" hidden>
     <img class="nexo-install-icon" src="icons/Icon-192.png" alt="">
     <div class="nexo-install-copy">
@@ -161,6 +285,23 @@
     <button id="nexo-install-button" class="nexo-install-button" type="button">Instalar</button>
     <button id="nexo-install-close" class="nexo-install-close" type="button" aria-label="Dispensar aviso de instalação">×</button>
   </aside>
+  <script>
+    (() => {
+      const splash = document.getElementById('nexo-boot-splash');
+      const slowMessage = document.getElementById('nexo-boot-slow');
+      const retryButton = document.getElementById('nexo-boot-retry');
+      const slowTimer = window.setTimeout(() => {
+        slowMessage.hidden = false;
+      }, 12000);
+
+      retryButton.addEventListener('click', () => window.location.reload());
+      window.addEventListener('flutter-first-frame', () => {
+        window.clearTimeout(slowTimer);
+        splash.classList.add('is-ready');
+        window.setTimeout(() => { splash.hidden = true; }, 240);
+      }, { once: true });
+    })();
+  </script>
   <script>
     (() => {
       const card = document.getElementById('nexo-install-card');
@@ -361,6 +502,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=20261001213900" async></script>
+  <script src="flutter_bootstrap.js?v=20261001230417" async></script>
 </body>
 </html>
