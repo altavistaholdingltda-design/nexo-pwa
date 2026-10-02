@@ -279,6 +279,39 @@
         height: 28px;
         justify-self: end;
       }
+
+      .nexo-install-card.is-dialog {
+        grid-template-columns: 40px minmax(0, 1fr) auto 32px;
+        gap: 10px;
+        padding: 14px;
+        border-radius: 20px;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 13px;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-copy strong {
+        font-size: 14px;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-copy span {
+        font-size: 13px;
+        line-height: 1.35;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-button {
+        min-height: 40px;
+        padding-inline: 10px;
+        font-size: 13px;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-close {
+        width: 32px;
+        height: 32px;
+      }
     }
 
     @keyframes nexo-install-enter {
@@ -309,11 +342,11 @@
       </div>
     </div>
   </div>
-  <div id="nexo-install-backdrop" class="nexo-install-backdrop" hidden></div>
+  <div id="nexo-install-backdrop" class="nexo-install-backdrop" aria-hidden="true" hidden></div>
   <aside id="nexo-install-card" class="nexo-install-card" role="status" aria-live="polite" hidden>
     <img class="nexo-install-icon" src="icons/Icon-192.png" alt="">
     <div class="nexo-install-copy">
-      <strong>Tenha o NEXO sempre à mão</strong>
+      <strong id="nexo-install-title">Tenha o NEXO sempre à mão</strong>
       <span id="nexo-install-copy-text">Instale para abrir em tela cheia no celular ou no computador.</span>
     </div>
     <button id="nexo-install-button" class="nexo-install-button" type="button">Instalar</button>
@@ -346,14 +379,22 @@
       const isInstalled = () => window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
       const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
       let installPrompt = null;
+      let returnFocus = null;
 
       const closeCard = () => {
+        const shouldRestoreFocus = card.classList.contains('is-dialog');
         card.hidden = true;
         backdrop.hidden = true;
         card.classList.remove('is-dialog');
         card.setAttribute('role', 'status');
+        card.setAttribute('aria-live', 'polite');
         card.removeAttribute('aria-modal');
+        card.removeAttribute('aria-labelledby');
         document.body.classList.remove('nexo-install-open');
+        if (shouldRestoreFocus && returnFocus?.isConnected) {
+          returnFocus.focus({ preventScroll: true });
+        }
+        returnFocus = null;
       };
 
       const openCard = (asDialog = false) => {
@@ -370,15 +411,22 @@
             : 'Abra o menu do navegador e escolha “Instalar app” ou “Adicionar à tela inicial”.';
         }
         if (asDialog) {
+          if (card.hidden || !card.classList.contains('is-dialog')) {
+            returnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+          }
           card.classList.add('is-dialog');
           card.setAttribute('role', 'dialog');
           card.setAttribute('aria-modal', 'true');
+          card.setAttribute('aria-labelledby', 'nexo-install-title');
+          card.removeAttribute('aria-live');
           backdrop.hidden = false;
           document.body.classList.add('nexo-install-open');
         } else {
           card.classList.remove('is-dialog');
           card.setAttribute('role', 'status');
+          card.setAttribute('aria-live', 'polite');
           card.removeAttribute('aria-modal');
+          card.removeAttribute('aria-labelledby');
           backdrop.hidden = true;
           document.body.classList.remove('nexo-install-open');
         }
@@ -425,9 +473,27 @@
       });
 
       document.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape' && !card.hidden) {
+        if (card.hidden || !card.classList.contains('is-dialog')) return;
+        if (event.key === 'Escape') {
           sessionStorage.setItem('nexo-install-dismissed', '1');
           closeCard();
+          return;
+        }
+        if (event.key !== 'Tab') return;
+        const focusable = Array.from(card.querySelectorAll('button:not([disabled]):not([hidden]), a[href], [tabindex]:not([tabindex="-1"])'))
+          .filter((element) => !element.hidden && element.getAttribute('aria-hidden') !== 'true');
+        if (!focusable.length) {
+          event.preventDefault();
+          closeButton.focus({ preventScroll: true });
+          return;
+        }
+        const currentIndex = focusable.indexOf(document.activeElement);
+        if (event.shiftKey && currentIndex <= 0) {
+          event.preventDefault();
+          focusable[focusable.length - 1].focus({ preventScroll: true });
+        } else if (!event.shiftKey && currentIndex === focusable.length - 1) {
+          event.preventDefault();
+          focusable[0].focus({ preventScroll: true });
         }
       });
 
@@ -568,6 +634,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=20261002104116" async></script>
+  <script src="flutter_bootstrap.js?v=20261002105359" async></script>
 </body>
 </html>
