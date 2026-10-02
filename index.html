@@ -221,34 +221,36 @@
 
     @media (max-width: 520px) {
       .nexo-install-card {
-        grid-template-columns: 36px minmax(0, 1fr) auto 32px;
-        gap: 8px;
-        padding: 10px;
-        border-radius: 19px;
+        top: calc(env(safe-area-inset-top) + 58px);
+        grid-template-columns: 32px minmax(0, 1fr) auto 28px;
+        gap: 6px;
+        padding: 8px;
+        border-radius: 16px;
       }
 
       .nexo-install-icon {
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
       }
 
       .nexo-install-copy strong {
-        font-size: 12px;
-      }
-
-      .nexo-install-copy span {
         font-size: 11px;
       }
 
+      .nexo-install-copy span {
+        font-size: 10px;
+        line-height: 1.25;
+      }
+
       .nexo-install-button {
-        min-height: 36px;
-        padding-inline: 10px;
-        font-size: 12px;
+        min-height: 34px;
+        padding-inline: 8px;
+        font-size: 11px;
       }
 
       .nexo-install-close {
-        width: 32px;
-        height: 32px;
+        width: 28px;
+        height: 28px;
         justify-self: end;
       }
     }
@@ -502,6 +504,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=20261002042629" async></script>
+  <script src="flutter_bootstrap.js?v=20261002101930" async></script>
 </body>
 </html>
