@@ -42,7 +42,7 @@ _flutter.buildConfig = {"engineRevision":"5d531788691ec3404cac0cee66ead4007b1773
 
 
 (() => {
-  const serviceWorkerVersion = '20261003120248';
+  const serviceWorkerVersion = '20261003122832';
 
   if ('serviceWorker' in navigator) {
     const workerUrl = new URL('flutter_service_worker.js', document.baseURI);
@@ -52,6 +52,9 @@ _flutter.buildConfig = {"engineRevision":"5d531788691ec3404cac0cee66ead4007b1773
     // Register the offline shell without making first launch wait for its cache.
     navigator.serviceWorker
       .register(workerUrl, { scope })
+      .then((registration) => {
+        window.nexoTrackPwaUpdate?.(registration, serviceWorkerVersion);
+      })
       .catch((error) => console.warn('NEXO offline shell unavailable:', error));
   }
 
