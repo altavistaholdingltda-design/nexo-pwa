@@ -42,7 +42,7 @@ _flutter.buildConfig = {"engineRevision":"5d531788691ec3404cac0cee66ead4007b1773
 
 
 (() => {
-  const serviceWorkerVersion = '20261003122832';
+  const serviceWorkerVersion = '20261003125450';
 
   if ('serviceWorker' in navigator) {
     const workerUrl = new URL('flutter_service_worker.js', document.baseURI);
@@ -53,7 +53,7 @@ _flutter.buildConfig = {"engineRevision":"5d531788691ec3404cac0cee66ead4007b1773
     navigator.serviceWorker
       .register(workerUrl, { scope })
       .then((registration) => {
-        window.nexoTrackPwaUpdate?.(registration, serviceWorkerVersion);
+        window.nexoTrackPwaUpdate?.(registration);
       })
       .catch((error) => console.warn('NEXO offline shell unavailable:', error));
   }

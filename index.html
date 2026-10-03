@@ -328,19 +328,46 @@
       .nexo-install-card { animation: none; }
     }
 
+    .nexo-update-trigger {
+      box-sizing: border-box;
+      position: fixed;
+      z-index: 10002;
+      top: calc(env(safe-area-inset-top) + 9px);
+      right: calc(env(safe-area-inset-right) + 64px);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      min-height: 36px;
+      padding: 0 11px;
+      border: 1px solid rgba(83, 200, 229, .48);
+      border-radius: 13px;
+      background: linear-gradient(135deg, #26364a, #222936);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, .28);
+      color: #c9dcff;
+      font: 650 12px/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      cursor: pointer;
+    }
+
+    .nexo-update-trigger[hidden] { display: none; }
+    .nexo-update-trigger svg { width: 16px; height: 16px; flex: none; }
+    .nexo-update-trigger:focus-visible,
+    .nexo-update-button:focus-visible,
+    .nexo-update-close:focus-visible { outline: 2px solid #8dc8ff; outline-offset: 2px; }
+
     .nexo-update-card {
       box-sizing: border-box;
       position: fixed;
       z-index: 10001;
-      top: calc(env(safe-area-inset-top) + 68px);
+      top: calc(env(safe-area-inset-top) + 58px);
       right: max(16px, env(safe-area-inset-right));
-      left: max(16px, env(safe-area-inset-left));
+      left: auto;
       display: grid;
       grid-template-columns: 36px minmax(0, 1fr) auto 32px;
       align-items: center;
       gap: 10px;
-      width: min(100% - 32px, 540px);
-      margin-inline: auto;
+      width: min(calc(100vw - 32px), 420px);
+      margin: 0;
       padding: 12px;
       border: 1px solid rgba(83, 200, 229, .4);
       border-radius: 18px;
@@ -393,12 +420,24 @@
     }
 
     @media (max-width: 520px) {
+      .nexo-update-trigger {
+        top: calc(env(safe-area-inset-top) + 8px);
+        right: calc(env(safe-area-inset-right) + 58px);
+        min-height: 34px;
+        padding-inline: 9px;
+        border-radius: 12px;
+        font-size: 11px;
+      }
+
       .nexo-update-card {
-        top: calc(env(safe-area-inset-top) + 58px);
+        top: calc(env(safe-area-inset-top) + 54px);
+        right: max(12px, env(safe-area-inset-right));
+        left: max(12px, env(safe-area-inset-left));
         grid-template-columns: 30px minmax(0, 1fr) auto 28px;
         gap: 7px;
         padding: 9px;
         border-radius: 16px;
+        width: auto;
       }
 
       .nexo-update-card.is-below-install { top: calc(env(safe-area-inset-top) + 132px); }
@@ -437,14 +476,18 @@
     <button id="nexo-install-button" class="nexo-install-button" type="button">Instalar</button>
     <button id="nexo-install-close" class="nexo-install-close" type="button" aria-label="Dispensar aviso de instalação">×</button>
   </aside>
-  <aside id="nexo-update-card" class="nexo-update-card" role="status" aria-live="polite" hidden>
+  <button id="nexo-update-trigger" class="nexo-update-trigger" type="button" aria-controls="nexo-update-card" aria-expanded="false" aria-label="Atualização pronta. Abrir opções" hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7v5h-5"></path><path d="M4.9 16a8 8 0 0 0 13.2 2L20 16"></path><path d="M4 12a8 8 0 0 1 13.6-5.7L20 8"></path></svg>
+    <span>Atualizar</span>
+  </button>
+  <aside id="nexo-update-card" class="nexo-update-card" role="group" aria-label="Atualização pronta" hidden>
     <img class="nexo-update-icon" src="icons/Icon-192.png" alt="">
     <div class="nexo-update-copy">
       <strong>Atualização pronta</strong>
       <span>As conversas salvas continuam aqui. Copie qualquer texto que ainda não foi enviado antes de atualizar.</span>
     </div>
     <button id="nexo-update-button" class="nexo-update-button" type="button">Atualizar</button>
-    <button id="nexo-update-close" class="nexo-update-close" type="button" aria-label="Lembrar depois da atualização">×</button>
+    <button id="nexo-update-close" class="nexo-update-close" type="button" aria-label="Fechar informações da atualização">×</button>
   </aside>
   <script>
     (() => {
@@ -600,25 +643,23 @@
   <script>
     (() => {
       const card = document.getElementById('nexo-update-card');
+      const trigger = document.getElementById('nexo-update-trigger');
       const updateButton = document.getElementById('nexo-update-button');
       const closeButton = document.getElementById('nexo-update-close');
       const installCard = document.getElementById('nexo-install-card');
       let registration = null;
-      let updateVersion = '';
       let waitingWorker = null;
       let firstFrameReady = false;
       let reloadWhenControlled = false;
 
       const showIfReady = () => {
         if (!firstFrameReady || !waitingWorker || !navigator.serviceWorker.controller) return;
-        if (sessionStorage.getItem('nexo-update-dismissed') === updateVersion) return;
+        trigger.hidden = false;
         card.classList.toggle('is-below-install', !installCard.hidden);
-        card.hidden = false;
       };
 
-      const trackRegistration = (nextRegistration, version) => {
+      const trackRegistration = (nextRegistration) => {
         registration = nextRegistration;
-        updateVersion = version;
         waitingWorker = registration.waiting;
         showIfReady();
 
@@ -639,6 +680,13 @@
         showIfReady();
       }, { once: true });
 
+      trigger.addEventListener('click', () => {
+        const open = card.hidden;
+        card.hidden = !open;
+        trigger.setAttribute('aria-expanded', String(open));
+        if (open) updateButton.focus();
+      });
+
       updateButton.addEventListener('click', () => {
         waitingWorker = registration?.waiting || waitingWorker;
         if (!waitingWorker) return;
@@ -649,8 +697,22 @@
       });
 
       closeButton.addEventListener('click', () => {
-        sessionStorage.setItem('nexo-update-dismissed', updateVersion);
         card.hidden = true;
+        trigger.setAttribute('aria-expanded', 'false');
+        trigger.focus();
+      });
+
+      document.addEventListener('pointerdown', (event) => {
+        if (card.hidden || card.contains(event.target) || trigger.contains(event.target)) return;
+        card.hidden = true;
+        trigger.setAttribute('aria-expanded', 'false');
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key !== 'Escape' || card.hidden) return;
+        card.hidden = true;
+        trigger.setAttribute('aria-expanded', 'false');
+        trigger.focus();
       });
 
       new MutationObserver(() => {
@@ -793,6 +855,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=20261003122832" async></script>
+  <script src="flutter_bootstrap.js?v=20261003125450" async></script>
 </body>
 </html>
