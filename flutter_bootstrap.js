@@ -42,7 +42,7 @@ _flutter.buildConfig = {"engineRevision":"5d531788691ec3404cac0cee66ead4007b1773
 
 
 (() => {
-  const serviceWorkerVersion = '20261003152656';
+  const serviceWorkerVersion = '20261003155336';
 
   if ('serviceWorker' in navigator) {
     const workerUrl = new URL('flutter_service_worker.js', document.baseURI);
