@@ -42,11 +42,8 @@ _flutter.buildConfig = {"engineRevision":"5d531788691ec3404cac0cee66ead4007b1773
 
 
 (() => {
-  const serviceWorkerVersion = '20261004032524';
-
   if ('serviceWorker' in navigator) {
     const workerUrl = new URL('flutter_service_worker.js', document.baseURI);
-    workerUrl.searchParams.set('v', serviceWorkerVersion);
     const scope = new URL('.', document.baseURI).pathname;
 
     // Register the offline shell without making first launch wait for its cache.
