@@ -199,6 +199,35 @@
       .nexo-boot-progress::after { animation: none; inset-inline-start: 0; width: 38%; }
     }
 
+    @media (prefers-color-scheme: light) {
+      body {
+        background: #f8fafc;
+        color: #0f172a;
+      }
+      .nexo-boot-splash {
+        background: radial-gradient(ellipse at 50% 44%, rgba(37, 99, 235, .08), transparent 58%), #f8fafc;
+        color: #0f172a;
+      }
+      .nexo-boot-logo {
+        background: #ffffff;
+        border-color: rgba(0, 0, 0, .1);
+      }
+      .nexo-boot-subtitle {
+        color: #64748b;
+      }
+      .nexo-boot-progress {
+        background: rgba(0, 0, 0, .08);
+      }
+      .nexo-boot-slow {
+        color: #475569;
+      }
+      .nexo-boot-retry {
+        border-color: rgba(37, 99, 235, .4);
+        background: rgba(37, 99, 235, .1);
+        color: #1d4ed8;
+      }
+    }
+
     .nexo-install-card {
       box-sizing: border-box;
       position: fixed;
