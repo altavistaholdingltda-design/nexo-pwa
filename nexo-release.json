@@ -1,8 +1,8 @@
 {
-  "phase": "niche-home-banners-phase-8",
-  "source_commit": "a3972689b93b6499790d89690213b28c061a219c",
-  "built_at_utc": "2026-10-14T17:30:40.382442+00:00",
+  "phase": "chat-recovery-message-controls-phase-9",
+  "source_commit": "d6b64bcfdaab4305515b4fa4381158c36de10968",
+  "built_at_utc": "2026-10-14T18:01:47.739910+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 125
+  "tests_passed": 138
 }
