@@ -1,0 +1,49 @@
+name: Assemble validated NEXO Web release
+on:
+  push:
+    branches:
+      - nexo-pages-stage-fase1-2026-10-14
+    paths:
+      - '__nexo_stage__/READY'
+permissions:
+  contents: write
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Validate and unpack compiled files
+        run: |
+          python3 - <<'PY'
+          import pathlib, json, base64, hashlib, tarfile, io
+          p = pathlib.Path('__nexo_stage__')
+          manifest = json.loads((p/'manifest.json').read_text())
+          expected = manifest['parts']
+          names = [f'part-{i:04d}.txt' for i in range(expected)]
+          b64 = ''.join((p / n).read_text(encoding='ascii') for n in names)
+          payload = base64.b64decode(b64, validate=True)
+          if hashlib.sha256(payload).hexdigest() != manifest['sha256']: raise SystemExit('Archive checksum mismatch')
+          if len(payload) != manifest['tar_bytes']: raise SystemExit('Archive length mismatch')
+          with tarfile.open(fileobj=io.BytesIO(payload), mode='r:gz') as tf:
+              files = [m.name for m in tf.getmembers() if m.isfile()]
+              if files != manifest['files']: raise SystemExit('Unexpected archive contents')
+              for m in tf.getmembers():
+                  path = pathlib.PurePosixPath(m.name)
+                  if (not m.isfile() or path.is_absolute() or '..' in path.parts or path.parts[0] in {'.git','.github','__nexo_stage__'}):
+                      raise SystemExit('Unsafe archive path')
+              tf.extractall('/tmp/nexo-web-release',filter='data')
+          print(f'Validated {len(files)} files from Flutter Web release')
+          PY
+      - name: Create ready-to-publish branch without modifying live Pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -C nexo-ready-release-2026-10-14 origin/gh-pages
+          cp -a /tmp/nexo-web-release/. .
+          git add -A
+          git diff --cached --quiet && { echo 'No content changes'; exit 1; }
+          git commit -m 'deploy: validated NEXO responsive UI phase 1'
+          git push origin HEAD:refs/heads/nexo-ready-release-2026-10-14
