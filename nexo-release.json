@@ -1,8 +1,8 @@
 {
-  "phase": "chat-recovery-message-controls-phase-9",
-  "source_commit": "d6b64bcfdaab4305515b4fa4381158c36de10968",
-  "built_at_utc": "2026-10-14T18:01:47.739910+00:00",
+  "phase": "monochrome-brand-fast-entrance-phase-10",
+  "source_commit": "74da3d9b181d68ab52545ed413ebddb3754dafc5",
+  "built_at_utc": "2026-10-14T18:41:41.080967+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 138
+  "tests_passed": 143
 }
