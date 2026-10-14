@@ -1,0 +1,33 @@
+{
+  "sha256": "5124371f6d020398e72104dbb8c37cb46411be519542fe15574dd1fb665b60c5",
+  "files": [
+    ".last_build_id",
+    ".nojekyll",
+    "assets/NOTICES",
+    "assets/fonts/MaterialIcons-Regular.otf",
+    "assets/packages/record_web/assets/js/record.worklet.js",
+    "canvaskit/canvaskit.js",
+    "canvaskit/canvaskit.js.symbols",
+    "canvaskit/canvaskit.wasm",
+    "canvaskit/chromium/canvaskit.js",
+    "canvaskit/chromium/canvaskit.js.symbols",
+    "canvaskit/chromium/canvaskit.wasm",
+    "canvaskit/skwasm.js",
+    "canvaskit/skwasm.js.symbols",
+    "canvaskit/skwasm.wasm",
+    "canvaskit/skwasm_heavy.js",
+    "canvaskit/skwasm_heavy.js.symbols",
+    "canvaskit/skwasm_heavy.wasm",
+    "canvaskit/webparagraph/canvaskit.js.symbols",
+    "canvaskit/webparagraph/canvaskit.wasm",
+    "canvaskit/wimp.js",
+    "canvaskit/wimp.js.symbols",
+    "canvaskit/wimp.wasm",
+    "flutter.js",
+    "flutter_bootstrap.js",
+    "index.html",
+    "main.dart.js"
+  ],
+  "parts": 82,
+  "tar_bytes": 14680738
+}
