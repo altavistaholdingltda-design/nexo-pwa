@@ -1,8 +1,8 @@
 {
-  "phase": "visual-suggestions-phase-4",
-  "source_commit": "b2557c9d7968fab43c419ec88fb0fab9ab9ce6ba",
-  "built_at_utc": "2026-10-14T16:02:51.565961+00:00",
+  "phase": "horizontal-banners-phase-5",
+  "source_commit": "fd8678cdbb51ad738a1b2a6daa94bd3f423a8ec4",
+  "built_at_utc": "2026-10-14T16:25:01.162465+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 124
+  "tests_passed": 125
 }
