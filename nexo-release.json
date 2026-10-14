@@ -1,8 +1,8 @@
 {
-  "phase": "mobile-ui-phase-1",
-  "source_commit": "72fcaf6c17778bfa3e78a232698290f5b358b034",
-  "built_at_utc": "2026-10-14T12:56:04.362395+00:00",
+  "phase": "graphite-dark-phase-2",
+  "source_commit": "1486e4436614b1cce7814e6f4324fa997170000b",
+  "built_at_utc": "2026-10-14T14:07:21.403718+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 109
+  "tests_passed": 111
 }
