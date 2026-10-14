@@ -1,8 +1,8 @@
 {
-  "phase": "readable-mobile-menus-compact-user-messages-phase-11",
-  "source_commit": "746c367062d219e4d6a074974e2b98341f1989c3",
-  "built_at_utc": "2026-10-14T20:58:53.098107+00:00",
+  "phase": "contextual-user-message-time-phase-12",
+  "source_commit": "2bdd200a048a3ad3bb57f3986f3f83291d75d424",
+  "built_at_utc": "2026-10-14T22:31:04.572836+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 152
+  "tests_passed": 157
 }
