@@ -1,7 +1,7 @@
 {
-  "phase": "functional-stability-phase-15",
-  "source_commit": "850aa284b7ffacf27693f3ad0ab9b149414428db",
-  "built_at_utc": "2026-10-15T11:09:15.690283+00:00",
+  "phase": "specialist-directory-readability-phase-16",
+  "source_commit": "04fa3bb477ba3a1ccecb38e78aa7a1527aef26a3",
+  "built_at_utc": "2026-10-15T11:47:33.962657+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
   "tests_passed": 180
