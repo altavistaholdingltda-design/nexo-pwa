@@ -1,10 +1,11 @@
 {
   "phase": "chat-reading-and-structured-choices",
-  "source_commit": "432195a78dbda551e159b6aae9ec64370bf95c4b",
-  "built_at_utc": "2026-10-15T16:45:49.758896+00:00",
+  "source_commit": "a32328ce655584fc32127343cd30476385ecd55a",
+  "built_at_utc": "2026-10-15T17:02:53.718062+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 192,
+  "tests_passed": 193,
   "backend_version": 68,
-  "migration": "20261015010000"
+  "migration": "20261015010000",
+  "browser_stop_fix": true
 }
