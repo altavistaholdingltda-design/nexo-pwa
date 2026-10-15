@@ -1,8 +1,10 @@
 {
-  "phase": "thinking-menu-readability-phase-17",
-  "source_commit": "d862421b2e5bf30bad36efa853098bc83785d264",
-  "built_at_utc": "2026-10-15T12:03:32.440977+00:00",
+  "phase": "chat-reading-and-structured-choices",
+  "source_commit": "432195a78dbda551e159b6aae9ec64370bf95c4b",
+  "built_at_utc": "2026-10-15T16:45:49.758896+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 180
+  "tests_passed": 192,
+  "backend_version": 68,
+  "migration": "20261015010000"
 }
