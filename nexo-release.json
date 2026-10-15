@@ -1,8 +1,8 @@
 {
-  "phase": "specialist-homes-reply-isolation-phase-14",
-  "source_commit": "6f6fcaef4869b261c8aaf76ba65d72761e826574",
-  "built_at_utc": "2026-10-15T01:59:03.235451+00:00",
+  "phase": "functional-stability-phase-15",
+  "source_commit": "850aa284b7ffacf27693f3ad0ab9b149414428db",
+  "built_at_utc": "2026-10-15T11:09:15.690283+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 167
+  "tests_passed": 180
 }
