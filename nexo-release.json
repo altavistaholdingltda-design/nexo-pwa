@@ -1,7 +1,7 @@
 {
   "phase": "chat-performance-and-deferred-pdf",
-  "source_commit": "e28640a0dfa137b9dde7270a53f4d10fa3653e1b",
-  "built_at_utc": "2026-10-16T22:05:23.722915+00:00",
+  "source_commit": "cf68a1cac0c785ef0bd5df965afa9d534ee92939",
+  "built_at_utc": "2026-10-16T22:08:21.070701+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
   "tests_passed": 251,
@@ -10,5 +10,6 @@
   "browser_stop_fix": true,
   "test_scope": "Full Flutter suite; preview original fidelity, incremental Markdown, direct image restoration and retained-screen tickers",
   "initial_js_before_bytes": 5213200,
-  "initial_js_after_bytes": 4212540
+  "initial_js_after_bytes": 4212540,
+  "python_tests_passed": 1
 }
