@@ -138862,41 +138862,41 @@ if(a==="pdf")s.c.$0()
 if(a==="report")s.d.$0()},
 $S:10}
 A.aXY.prototype={
-$1(a){var s,r,q,p=this,o=null,n=A.b([],t.Do),m=p.b
-if(m)n.push(B.btm)
-if(m)n.push(A.kP(A.A(p.c?"Parar \xe1udio":"Ouvir texto",o,o,o,o,o,o,o),48,o,"speak",t.N))
-s=p.d
-if(s||m)m=p.a.a.id
-else m=!1
-if(m)n.push(B.btr)
-if(s)n.push(B.btk)
-if(s)n.push(B.btq)
-m=p.a
-m.a.toString
-s=p.e.Q
-r=s?B.ea:B.vm
-if(s)q=B.dP
-else q=p.f?B.I:B.N
-q=A.aG(r,q,o,18)
-s=s?"Remover dos favoritos":"Salvar nos favoritos"
-n.push(A.kP(A.ag(A.b([q,B.ce,A.A(s,o,o,o,o,A.P(o,o,p.f?B.T:B.R,o,o,o,o,o,o,o,o,13,o,o,B.aF,o,o,!0,o,o,o,o,o,o,o,o),o,o)],t.p),B.F,B.u,B.C,0),48,o,"star",t.N))
-m=m.a
-m=m.p1
-s=m?B.oc:B.Dm
-if(m)r=B.iS
-else r=p.f?B.I:B.N
-r=A.aG(s,r,o,18)
-m=m?"Desafixar do topo":"Fixar no topo"
-n.push(A.kP(A.ag(A.b([r,B.ce,A.A(m,o,o,o,o,A.P(o,o,p.f?B.T:B.R,o,o,o,o,o,o,o,o,13,o,o,B.aF,o,o,!0,o,o,o,o,o,o,o,o),o,o)],t.p),B.F,B.u,B.C,0),48,o,"pin",t.N))
-m=p.f
-s=A.aG(B.ji,m?B.I:B.N,o,18)
+$1(a){var s,r,q,p,o=this,n=null,m=A.b([],t.Do),l=o.b
+if(l)m.push(B.btm)
+if(l)m.push(A.kP(A.A(o.c?"Parar \xe1udio":"Ouvir texto",n,n,n,n,n,n,n),48,n,"speak",t.N))
+s=o.d
+if(s||l)r=o.a.a.id
+else r=!1
+if(r)m.push(B.btr)
+if(s)m.push(B.btk)
+if(s)m.push(B.btq)
+s=o.a
+s.a.toString
+r=o.e.Q
+q=r?B.ea:B.vm
+if(r)p=B.dP
+else p=o.f?B.I:B.N
+p=A.aG(q,p,n,18)
+r=r?"Remover dos favoritos":"Salvar nos favoritos"
+m.push(A.kP(A.ag(A.b([p,B.ce,A.A(r,n,n,n,n,A.P(n,n,o.f?B.T:B.R,n,n,n,n,n,n,n,n,13,n,n,B.aF,n,n,!0,n,n,n,n,n,n,n,n),n,n)],t.p),B.F,B.u,B.C,0),48,n,"star",t.N))
+s=s.a
+s=s.p1
+r=s?B.oc:B.Dm
+if(s)q=B.iS
+else q=o.f?B.I:B.N
+q=A.aG(r,q,n,18)
+s=s?"Desafixar do topo":"Fixar no topo"
+m.push(A.kP(A.ag(A.b([q,B.ce,A.A(s,n,n,n,n,A.P(n,n,o.f?B.T:B.R,n,n,n,n,n,n,n,n,13,n,n,B.aF,n,n,!0,n,n,n,n,n,n,n,n),n,n)],t.p),B.F,B.u,B.C,0),48,n,"pin",t.N))
+if(!l){l=o.f
+s=A.aG(B.ji,l?B.I:B.N,n,18)
+m.push(A.kP(A.ag(A.b([s,B.ce,A.A("Copiar resposta",n,n,n,n,A.P(n,n,l?B.T:B.R,n,n,n,n,n,n,n,n,13,n,n,B.aF,n,n,!0,n,n,n,n,n,n,n,n),n,n)],t.p),B.F,B.u,B.C,0),48,n,"copy",t.N))}l=o.f
+s=A.aG(B.kW,l?B.I:B.N,n,18)
 r=t.p
 q=t.N
-n.push(A.kP(A.ag(A.b([s,B.ce,A.A("Copiar resposta",o,o,o,o,A.P(o,o,m?B.T:B.R,o,o,o,o,o,o,o,o,13,o,o,B.aF,o,o,!0,o,o,o,o,o,o,o,o),o,o)],r),B.F,B.u,B.C,0),48,o,"copy",q))
-s=A.aG(B.kW,m?B.I:B.N,o,18)
-n.push(A.kP(A.ag(A.b([s,B.ce,A.A("Exportar em PDF",o,o,o,o,A.P(o,o,m?B.T:B.R,o,o,o,o,o,o,o,o,13,o,o,B.aF,o,o,!0,o,o,o,o,o,o,o,o),o,o)],r),B.F,B.u,B.C,0),48,o,"pdf",q))
-n.push(A.kP(A.ag(A.b([B.aff,B.ce,A.A("Denunciar resposta",o,o,o,o,A.P(o,o,m?B.T:B.R,o,o,o,o,o,o,o,o,13,o,o,B.aF,o,o,!0,o,o,o,o,o,o,o,o),o,o)],r),B.F,B.u,B.C,0),48,o,"report",q))
-return n},
+m.push(A.kP(A.ag(A.b([s,B.ce,A.A("Exportar em PDF",n,n,n,n,A.P(n,n,l?B.T:B.R,n,n,n,n,n,n,n,n,13,n,n,B.aF,n,n,!0,n,n,n,n,n,n,n,n),n,n)],r),B.F,B.u,B.C,0),48,n,"pdf",q))
+m.push(A.kP(A.ag(A.b([B.aff,B.ce,A.A("Denunciar resposta",n,n,n,n,A.P(n,n,l?B.T:B.R,n,n,n,n,n,n,n,n,13,n,n,B.aF,n,n,!0,n,n,n,n,n,n,n,n),n,n)],r),B.F,B.u,B.C,0),48,n,"report",q))
+return m},
 $S:85}
 A.aXz.prototype={
 $1(a){var s,r,q,p=this,o=p.c
