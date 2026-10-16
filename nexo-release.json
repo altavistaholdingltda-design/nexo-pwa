@@ -1,7 +1,7 @@
 {
   "phase": "image-actions-and-compact-reading",
-  "source_commit": "a741454a50350a7e6723b7b26ea38284966ca24a",
-  "built_at_utc": "2026-10-16T11:53:29.870883+00:00",
+  "source_commit": "e36709704fc0d4c05b142ad8ecd03217e62e0601",
+  "built_at_utc": "2026-10-16T11:58:04.738187+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
   "tests_passed": 221,
