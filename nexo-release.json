@@ -1,10 +1,10 @@
 {
-  "phase": "desktop-density",
-  "source_commit": "5fa15f2f5ff8fd1d35b60175613d6869b249b2fd",
-  "built_at_utc": "2026-10-15T20:52:36.415396+00:00",
+  "phase": "contextual-questions-and-reading",
+  "source_commit": "dd20dba6b50a692f4fff9b62bdebd878a19a4afa",
+  "built_at_utc": "2026-10-16T10:06:58.3216628Z",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 194,
+  "tests_passed": 203,
   "backend_version": 68,
   "migration": "20261015010000",
   "browser_stop_fix": true
