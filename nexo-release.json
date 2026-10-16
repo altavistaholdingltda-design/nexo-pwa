@@ -1,12 +1,12 @@
 {
-  "phase": "storage-guidance-empty-states-and-activity",
-  "source_commit": "e6fc2d6ddd9d1e00d657710e52bb520b275c3ab2",
-  "built_at_utc": "2026-10-16T16:52:26.807380+00:00",
+  "phase": "persistent-drafts-and-undo",
+  "source_commit": "9a00f5b11c6dcb19adedf7a5f53bdf8097df1c9d",
+  "built_at_utc": "2026-10-16T17:35:44.505321+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 236,
+  "tests_passed": 243,
   "backend_version": 70,
   "migration": "20261015010000",
   "browser_stop_fix": true,
-  "test_scope": "full Flutter suite; onboarding tests rerun after dialog width adjustment"
+  "test_scope": "Full Flutter suite; final draft, image-history and language tests rerun (12 passed)"
 }
