@@ -1,10 +1,10 @@
 {
-  "phase": "contextual-questions-and-reading",
-  "source_commit": "dd20dba6b50a692f4fff9b62bdebd878a19a4afa",
-  "built_at_utc": "2026-10-16T10:06:58.3216628Z",
+  "phase": "sent-message-visibility",
+  "source_commit": "6a3bc7843906953cf6504410568c1c769deed083",
+  "built_at_utc": "2026-10-16T11:10:14.082723+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 203,
+  "tests_passed": 207,
   "backend_version": 68,
   "migration": "20261015010000",
   "browser_stop_fix": true
