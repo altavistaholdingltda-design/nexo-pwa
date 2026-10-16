@@ -1,11 +1,12 @@
 {
-  "phase": "image-actions-and-compact-reading",
-  "source_commit": "e36709704fc0d4c05b142ad8ecd03217e62e0601",
-  "built_at_utc": "2026-10-16T11:58:04.738187+00:00",
+  "phase": "subtle-inline-image-menu",
+  "source_commit": "4a665f920767dfbcad113bf64dc6a6cceaccb215",
+  "built_at_utc": "2026-10-16T12:13:54.996443+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 221,
+  "tests_passed": 12,
   "backend_version": 70,
   "migration": "20261015010000",
-  "browser_stop_fix": true
+  "browser_stop_fix": true,
+  "test_scope": "chat_ux_polish_test + chat_presentation_test"
 }
