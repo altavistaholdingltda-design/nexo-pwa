@@ -1,12 +1,12 @@
 {
   "phase": "app-navigation-history-recovery-accessibility",
-  "source_commit": "464a3330a132a6a01581b3fce85a6b9ef43af858",
-  "built_at_utc": "2026-10-16T16:15:28.019775+00:00",
+  "source_commit": "fa11f5fffad8f2d1db4861aa61a7cdda391eb2d2",
+  "built_at_utc": "2026-10-16T16:20:15.167676+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
   "tests_passed": 231,
   "backend_version": 70,
   "migration": "20261015010000",
   "browser_stop_fix": true,
-  "test_scope": "full Flutter test suite"
+  "test_scope": "full Flutter test suite; navigation tests rerun after semantics adjustment"
 }
