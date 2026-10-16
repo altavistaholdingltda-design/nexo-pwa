@@ -1,11 +1,11 @@
 {
   "phase": "smooth-replies-inline-images",
-  "source_commit": "50c8d0329cd692faba65e87e190d977723dff491",
-  "built_at_utc": "2026-10-16T11:34:56.344965+00:00",
+  "source_commit": "fc30e26c2cce1e4963c3e155d681352b5898a510",
+  "built_at_utc": "2026-10-16T11:42:02.287099+00:00",
   "flutter": "3.47.1",
   "dart": "3.13.1",
   "tests_passed": 217,
-  "backend_version": 69,
+  "backend_version": 70,
   "migration": "20261015010000",
   "browser_stop_fix": true
 }
