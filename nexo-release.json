@@ -1,15 +1,15 @@
 {
-  "phase": "chat-performance-and-deferred-pdf",
-  "source_commit": "cf68a1cac0c785ef0bd5df965afa9d534ee92939",
-  "built_at_utc": "2026-10-16T22:08:21.070701+00:00",
+  "phase": "release-readiness-and-authenticated-support",
+  "source_commit": "3d880239ccb030b2465fcbd1a0f80022c03d24d5",
+  "built_at_utc": "2026-10-16T22:44:50.5837921Z",
   "flutter": "3.47.1",
   "dart": "3.13.1",
-  "tests_passed": 251,
-  "backend_version": 70,
-  "migration": "20261015010000",
+  "tests_passed": 257,
+  "backend_version": 71,
+  "migration": "20261016000000",
   "browser_stop_fix": true,
-  "test_scope": "Full Flutter suite; preview original fidelity, incremental Markdown, direct image restoration and retained-screen tickers",
+  "test_scope": "Full Flutter suite plus narrow-screen support case; backend guard and contract tests; live rollback-only RLS isolation; authenticated chat smoke",
   "initial_js_before_bytes": 5213200,
-  "initial_js_after_bytes": 4212540,
-  "python_tests_passed": 1
+  "initial_js_after_bytes": 4372059,
+  "python_tests_passed": 4
 }
