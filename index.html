@@ -22,6 +22,7 @@
       try {
         var color = isDark ? '#111315' : '#f8fafc';
         if (document.documentElement) {
+          document.documentElement.dataset.nexoTheme = isDark ? 'dark' : 'light';
           document.documentElement.style.backgroundColor = color;
         }
         if (document.body) {
@@ -50,6 +51,68 @@
   <link rel="manifest" href="manifest.json">
   <title>NEXO IA</title>
   <style>
+    :root {
+      color-scheme: dark;
+      --nexo-pwa-card-bg: linear-gradient(135deg, rgba(38, 45, 63, .98), rgba(25, 29, 40, .98));
+      --nexo-pwa-border: rgba(111, 151, 255, .42);
+      --nexo-pwa-shadow: 0 18px 56px rgba(0, 0, 0, .48), 0 0 0 1px rgba(255, 255, 255, .04) inset;
+      --nexo-pwa-text: #f4f6ff;
+      --nexo-pwa-muted: #c4cad8;
+      --nexo-pwa-icon-bg: #111318;
+      --nexo-pwa-icon-border: rgba(255, 255, 255, .12);
+      --nexo-pwa-close-bg: rgba(255, 255, 255, .08);
+      --nexo-pwa-close-text: #e1e6f1;
+      --nexo-pwa-backdrop: rgba(8, 10, 15, .64);
+      --nexo-pwa-update-bg: linear-gradient(135deg, rgba(35, 48, 61, .98), rgba(25, 29, 39, .98));
+      --nexo-pwa-update-border: rgba(83, 200, 229, .4);
+      --nexo-pwa-update-shadow: 0 16px 42px rgba(0, 0, 0, .42);
+      --nexo-pwa-update-trigger-bg: linear-gradient(135deg, #26364a, #222936);
+      --nexo-pwa-update-trigger-border: rgba(83, 200, 229, .48);
+      --nexo-pwa-update-trigger-text: #c9dcff;
+    }
+
+    :root[data-nexo-theme="light"] {
+      color-scheme: light;
+      --nexo-pwa-card-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(241, 247, 255, .99));
+      --nexo-pwa-border: rgba(37, 99, 235, .24);
+      --nexo-pwa-shadow: 0 18px 48px rgba(15, 23, 42, .18), 0 0 0 1px rgba(255, 255, 255, .8) inset;
+      --nexo-pwa-text: #0f172a;
+      --nexo-pwa-muted: #475569;
+      --nexo-pwa-icon-bg: #f1f5f9;
+      --nexo-pwa-icon-border: rgba(15, 23, 42, .12);
+      --nexo-pwa-close-bg: rgba(15, 23, 42, .07);
+      --nexo-pwa-close-text: #475569;
+      --nexo-pwa-backdrop: rgba(15, 23, 42, .28);
+      --nexo-pwa-update-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(239, 247, 255, .99));
+      --nexo-pwa-update-border: rgba(37, 99, 235, .2);
+      --nexo-pwa-update-shadow: 0 16px 42px rgba(15, 23, 42, .18);
+      --nexo-pwa-update-trigger-bg: linear-gradient(135deg, #eff6ff, #f8fafc);
+      --nexo-pwa-update-trigger-border: rgba(37, 99, 235, .28);
+      --nexo-pwa-update-trigger-text: #1e3a8a;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root:not([data-nexo-theme]) {
+        color-scheme: light;
+        --nexo-pwa-card-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(241, 247, 255, .99));
+        --nexo-pwa-border: rgba(37, 99, 235, .24);
+        --nexo-pwa-shadow: 0 18px 48px rgba(15, 23, 42, .18), 0 0 0 1px rgba(255, 255, 255, .8) inset;
+        --nexo-pwa-text: #0f172a;
+        --nexo-pwa-muted: #475569;
+        --nexo-pwa-icon-bg: #f1f5f9;
+        --nexo-pwa-icon-border: rgba(15, 23, 42, .12);
+        --nexo-pwa-close-bg: rgba(15, 23, 42, .07);
+        --nexo-pwa-close-text: #475569;
+        --nexo-pwa-backdrop: rgba(15, 23, 42, .28);
+        --nexo-pwa-update-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(239, 247, 255, .99));
+        --nexo-pwa-update-border: rgba(37, 99, 235, .2);
+        --nexo-pwa-update-shadow: 0 16px 42px rgba(15, 23, 42, .18);
+        --nexo-pwa-update-trigger-bg: linear-gradient(135deg, #eff6ff, #f8fafc);
+        --nexo-pwa-update-trigger-border: rgba(37, 99, 235, .28);
+        --nexo-pwa-update-trigger-text: #1e3a8a;
+      }
+    }
+
     html {
       width: 100%;
       height: 100%;
@@ -230,11 +293,11 @@
       width: min(calc(100% - 32px), 520px);
       margin-inline: 0;
       padding: 14px;
-      border: 1px solid rgba(111, 151, 255, .42);
+      border: 1px solid var(--nexo-pwa-border);
       border-radius: 22px;
-      background: linear-gradient(135deg, rgba(38, 45, 63, .98), rgba(25, 29, 40, .98));
-      box-shadow: 0 18px 56px rgba(0, 0, 0, .48), 0 0 0 1px rgba(255, 255, 255, .04) inset;
-      color: #f4f6ff;
+      background: var(--nexo-pwa-card-bg);
+      box-shadow: var(--nexo-pwa-shadow);
+      color: var(--nexo-pwa-text);
       font: 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       animation: nexo-install-enter 260ms cubic-bezier(.2, .8, .2, 1) both;
     }
@@ -247,7 +310,7 @@
       position: fixed;
       inset: 0;
       z-index: 9999;
-      background: rgba(8, 10, 15, .64);
+      background: var(--nexo-pwa-backdrop);
       backdrop-filter: blur(9px);
       -webkit-backdrop-filter: blur(9px);
     }
@@ -272,9 +335,9 @@
     .nexo-install-icon {
       width: 48px;
       height: 48px;
-      border: 1px solid rgba(255, 255, 255, .12);
+      border: 1px solid var(--nexo-pwa-icon-border);
       border-radius: 15px;
-      background: #111318;
+      background: var(--nexo-pwa-icon-bg);
       object-fit: contain;
     }
 
@@ -290,7 +353,7 @@
     }
 
     .nexo-install-copy span {
-      color: #c4cad8;
+      color: var(--nexo-pwa-muted);
       font-size: 13px;
     }
 
@@ -316,8 +379,8 @@
       height: 36px;
       border: 0;
       border-radius: 12px;
-      background: rgba(255, 255, 255, .08);
-      color: #e1e6f1;
+      background: var(--nexo-pwa-close-bg);
+      color: var(--nexo-pwa-close-text);
       font: 22px/1 system-ui, sans-serif;
       cursor: pointer;
     }
@@ -423,11 +486,11 @@
       gap: 7px;
       min-height: 36px;
       padding: 0 11px;
-      border: 1px solid rgba(83, 200, 229, .48);
+      border: 1px solid var(--nexo-pwa-update-trigger-border);
       border-radius: 13px;
-      background: linear-gradient(135deg, #26364a, #222936);
+      background: var(--nexo-pwa-update-trigger-bg);
       box-shadow: 0 6px 18px rgba(0, 0, 0, .28);
-      color: #c9dcff;
+      color: var(--nexo-pwa-update-trigger-text);
       font: 650 12px/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       cursor: pointer;
     }
@@ -452,11 +515,11 @@
       width: min(calc(100vw - 32px), 420px);
       margin: 0;
       padding: 12px;
-      border: 1px solid rgba(83, 200, 229, .4);
+      border: 1px solid var(--nexo-pwa-update-border);
       border-radius: 18px;
-      background: linear-gradient(135deg, rgba(35, 48, 61, .98), rgba(25, 29, 39, .98));
-      box-shadow: 0 16px 42px rgba(0, 0, 0, .42);
-      color: #f4f6ff;
+      background: var(--nexo-pwa-update-bg);
+      box-shadow: var(--nexo-pwa-update-shadow);
+      color: var(--nexo-pwa-text);
       font: 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       animation: nexo-install-enter 220ms cubic-bezier(.2, .8, .2, 1) both;
     }
@@ -467,15 +530,15 @@
     .nexo-update-icon {
       width: 36px;
       height: 36px;
-      border: 1px solid rgba(255, 255, 255, .12);
+      border: 1px solid var(--nexo-pwa-icon-border);
       border-radius: 12px;
-      background: #111318;
+      background: var(--nexo-pwa-icon-bg);
       object-fit: contain;
     }
 
     .nexo-update-copy { display: grid; gap: 3px; min-width: 0; }
     .nexo-update-copy strong { font-size: 14px; font-weight: 750; }
-    .nexo-update-copy span { color: #c4cad8; font-size: 12px; }
+    .nexo-update-copy span { color: var(--nexo-pwa-muted); font-size: 12px; }
 
     .nexo-update-button {
       min-height: 38px;
@@ -496,8 +559,8 @@
       height: 32px;
       border: 0;
       border-radius: 11px;
-      background: rgba(255, 255, 255, .08);
-      color: #e1e6f1;
+      background: var(--nexo-pwa-close-bg);
+      color: var(--nexo-pwa-close-text);
       font: 21px/1 system-ui, sans-serif;
       cursor: pointer;
     }
@@ -980,6 +1043,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=3d880239ccb030b2465fcbd1a0f80022c03d24d5" async></script>
+  <script src="flutter_bootstrap.js?v=fb8dc82fcaf63d23786183535b97802b312cf3c6" async></script>
 </body>
 </html>
