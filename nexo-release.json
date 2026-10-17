@@ -1,8 +1,8 @@
 {
-  "phase": "daily-free-chat-allowance",
-  "source_commit": "655ab9b7067ec370a18c8eb2d8db37f2979e55e8",
-  "built_at_utc": "2026-10-17T22:32:36.8439057Z",
+  "phase": "home-with-specialist-chat",
+  "source_commit": "b6a446a14a9a891c793dbf9a64b4c2b45b3971a0",
+  "built_at_utc": "2026-10-17T23:20:44.0010652Z",
   "flutter": "3.47.1",
-  "tests_passed": 275,
-  "test_scope": "Full Flutter test suite, Flutter analyze, chat backend contracts and production Web build"
+  "tests_passed": 276,
+  "test_scope": "Full Flutter suite, affected chat and home flows, Flutter analyze, production Web build"
 }
