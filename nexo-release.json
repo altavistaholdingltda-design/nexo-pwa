@@ -1,8 +1,8 @@
 {
-  "phase": "guided-specialist-plans-and-focus-mode",
-  "source_commit": "fb8dc82fcaf63d23786183535b97802b312cf3c6",
-  "built_at_utc": "2026-10-17T19:03:23.0393353Z",
+  "phase": "daily-free-chat-allowance",
+  "source_commit": "655ab9b",
+  "built_at_utc": "2026-10-17T22:31:58.6889765Z",
   "flutter": "3.47.1",
-  "tests_passed": 272,
-  "test_scope": "Full Flutter test suite; guided builder, contextual check-ins, focus sessions; production Web build"
+  "tests_passed": 275,
+  "test_scope": "Full Flutter test suite, Flutter analyze, chat backend contracts and production Web build"
 }
