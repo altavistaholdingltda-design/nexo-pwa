@@ -53,6 +53,17 @@
   <style>
     :root {
       color-scheme: dark;
+      --nexo-install-bg: #111315;
+      --nexo-install-border: rgba(255, 255, 255, .16);
+      --nexo-install-shadow: 0 18px 48px rgba(0, 0, 0, .48);
+      --nexo-install-text: #f8fafc;
+      --nexo-install-muted: #cbd5e1;
+      --nexo-install-icon-bg: #222426;
+      --nexo-install-icon-border: rgba(255, 255, 255, .15);
+      --nexo-install-close-bg: rgba(255, 255, 255, .08);
+      --nexo-install-close-text: #e2e8f0;
+      --nexo-install-button-bg: #ffffff;
+      --nexo-install-button-text: #111315;
       --nexo-pwa-card-bg: linear-gradient(135deg, rgba(38, 45, 63, .98), rgba(25, 29, 40, .98));
       --nexo-pwa-border: rgba(111, 151, 255, .42);
       --nexo-pwa-shadow: 0 18px 56px rgba(0, 0, 0, .48), 0 0 0 1px rgba(255, 255, 255, .04) inset;
@@ -73,6 +84,17 @@
 
     :root[data-nexo-theme="light"] {
       color-scheme: light;
+      --nexo-install-bg: #ffffff;
+      --nexo-install-border: rgba(15, 23, 42, .18);
+      --nexo-install-shadow: 0 18px 48px rgba(15, 23, 42, .16);
+      --nexo-install-text: #0f172a;
+      --nexo-install-muted: #475569;
+      --nexo-install-icon-bg: #f1f5f9;
+      --nexo-install-icon-border: rgba(15, 23, 42, .12);
+      --nexo-install-close-bg: rgba(15, 23, 42, .07);
+      --nexo-install-close-text: #475569;
+      --nexo-install-button-bg: #111315;
+      --nexo-install-button-text: #ffffff;
       --nexo-pwa-card-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(241, 247, 255, .99));
       --nexo-pwa-border: rgba(37, 99, 235, .24);
       --nexo-pwa-shadow: 0 18px 48px rgba(15, 23, 42, .18), 0 0 0 1px rgba(255, 255, 255, .8) inset;
@@ -94,6 +116,17 @@
     @media (prefers-color-scheme: light) {
       :root:not([data-nexo-theme]) {
         color-scheme: light;
+        --nexo-install-bg: #ffffff;
+        --nexo-install-border: rgba(15, 23, 42, .18);
+        --nexo-install-shadow: 0 18px 48px rgba(15, 23, 42, .16);
+        --nexo-install-text: #0f172a;
+        --nexo-install-muted: #475569;
+        --nexo-install-icon-bg: #f1f5f9;
+        --nexo-install-icon-border: rgba(15, 23, 42, .12);
+        --nexo-install-close-bg: rgba(15, 23, 42, .07);
+        --nexo-install-close-text: #475569;
+        --nexo-install-button-bg: #111315;
+        --nexo-install-button-text: #ffffff;
         --nexo-pwa-card-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(241, 247, 255, .99));
         --nexo-pwa-border: rgba(37, 99, 235, .24);
         --nexo-pwa-shadow: 0 18px 48px rgba(15, 23, 42, .18), 0 0 0 1px rgba(255, 255, 255, .8) inset;
@@ -293,11 +326,11 @@
       width: min(calc(100% - 32px), 520px);
       margin-inline: 0;
       padding: 14px;
-      border: 1px solid var(--nexo-pwa-border);
+      border: 1px solid var(--nexo-install-border);
       border-radius: 22px;
-      background: var(--nexo-pwa-card-bg);
-      box-shadow: var(--nexo-pwa-shadow);
-      color: var(--nexo-pwa-text);
+      background: var(--nexo-install-bg);
+      box-shadow: var(--nexo-install-shadow);
+      color: var(--nexo-install-text);
       font: 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       animation: nexo-install-enter 260ms cubic-bezier(.2, .8, .2, 1) both;
     }
@@ -335,9 +368,9 @@
     .nexo-install-icon {
       width: 48px;
       height: 48px;
-      border: 1px solid var(--nexo-pwa-icon-border);
+      border: 1px solid var(--nexo-install-icon-border);
       border-radius: 15px;
-      background: var(--nexo-pwa-icon-bg);
+      background: var(--nexo-install-icon-bg);
       object-fit: contain;
     }
 
@@ -353,7 +386,7 @@
     }
 
     .nexo-install-copy span {
-      color: var(--nexo-pwa-muted);
+      color: var(--nexo-install-muted);
       font-size: 13px;
     }
 
@@ -362,8 +395,8 @@
       padding: 0 17px;
       border: 0;
       border-radius: 14px;
-      background: linear-gradient(135deg, #73aaff, #a38cff);
-      color: #111318;
+      background: var(--nexo-install-button-bg);
+      color: var(--nexo-install-button-text);
       font: inherit;
       font-weight: 750;
       cursor: pointer;
@@ -379,15 +412,13 @@
       height: 36px;
       border: 0;
       border-radius: 12px;
-      background: var(--nexo-pwa-close-bg);
-      color: var(--nexo-pwa-close-text);
+      background: var(--nexo-install-close-bg);
+      color: var(--nexo-install-close-text);
       font: 22px/1 system-ui, sans-serif;
       cursor: pointer;
     }
 
     @media (max-width: 520px) {
-      .nexo-install-card:not(.is-dialog) { display: none; }
-
       .nexo-install-card {
         top: calc(env(safe-area-inset-top) + 58px);
         grid-template-columns: 32px minmax(0, 1fr) auto 28px;
@@ -651,8 +682,8 @@
   <aside id="nexo-install-card" class="nexo-install-card" role="status" aria-live="polite" hidden>
     <img class="nexo-install-icon" src="icons/Icon-192.png?v=mono-20261014" alt="NEXO">
     <div class="nexo-install-copy">
-      <strong id="nexo-install-title">Tenha o NEXO sempre à mão</strong>
-      <span id="nexo-install-copy-text">Instale para abrir em tela cheia no celular ou no computador.</span>
+      <strong id="nexo-install-title">Instale o NEXO</strong>
+    <span id="nexo-install-copy-text">Abra pela tela inicial.</span>
     </div>
     <button id="nexo-install-button" class="nexo-install-button" type="button">Instalar</button>
     <button id="nexo-install-close" class="nexo-install-close" type="button" aria-label="Dispensar aviso de instalação">×</button>
@@ -724,15 +755,15 @@
       const openCard = (asDialog = false) => {
         if (isInstalled()) {
           installButton.hidden = true;
-          copyText.textContent = 'O NEXO já está instalado neste dispositivo.';
+          copyText.textContent = 'NEXO já instalado neste aparelho.';
         } else if (installPrompt) {
           installButton.hidden = false;
-          copyText.textContent = 'Instale para abrir em tela cheia no celular ou no computador.';
+          copyText.textContent = 'Abra pela tela inicial.';
         } else {
           installButton.hidden = true;
           copyText.textContent = isIos
-            ? 'No Safari, toque em Compartilhar e escolha “Adicionar à Tela de Início”.'
-            : 'Abra o menu do navegador e escolha “Instalar app” ou “Adicionar à tela inicial”.';
+            ? 'No Safari: Compartilhar → Adicionar à Tela de Início.'
+            : 'No menu do navegador, escolha “Instalar app”.';
         }
         if (asDialog) {
           if (card.hidden || !card.classList.contains('is-dialog')) {
@@ -1043,6 +1074,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=b6a446a14a9a891c793dbf9a64b4c2b45b3971a0" async></script>
+  <script src="flutter_bootstrap.js?v=3223c6656b2b769d3246a52960a464f8f2a23348" async></script>
 </body>
 </html>

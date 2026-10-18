@@ -1,8 +1,8 @@
 {
-  "phase": "home-with-specialist-chat",
-  "source_commit": "b6a446a14a9a891c793dbf9a64b4c2b45b3971a0",
-  "built_at_utc": "2026-10-17T23:20:44.0010652Z",
+  "phase": "home-refresh-guided-specialists",
+  "source_commit": "3223c6656b2b769d3246a52960a464f8f2a23348",
+  "built_at_utc": "2026-10-18T20:13:44Z",
   "flutter": "3.47.1",
-  "tests_passed": 276,
-  "test_scope": "Full Flutter suite, affected chat and home flows, Flutter analyze, production Web build"
+  "tests_passed": 281,
+  "test_scope": "Full Flutter suite, Flutter analyze, production Web build"
 }
