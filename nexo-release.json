@@ -1,8 +1,8 @@
 {
-  "phase": "vertical-home-cards-new-images-remove-marketing-ad",
-  "source_commit": "0c8cfe4d8bea103c7c3968cb1e18989cbd80111c",
-  "built_at_utc": "2026-10-18T21:34:54Z",
+  "phase": "home-suggestion-card-balance",
+  "source_commit": "9f93d8ad3a4eded84947393452b59753f0619bbc",
+  "built_at_utc": "2026-10-18T22:24:29Z",
   "flutter": "3.47.1",
   "tests_passed": 283,
-  "test_scope": "Full Flutter test suite, flutter analyze, production Web build"
+  "test_scope": "Full Flutter test suite, flutter analyze, production web build"
 }
