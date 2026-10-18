@@ -1,8 +1,7 @@
 {
-  "phase": "home-suggestion-card-balance",
-  "source_commit": "9f93d8ad3a4eded84947393452b59753f0619bbc",
-  "built_at_utc": "2026-10-18T22:24:29Z",
+  "phase": "home-next-step",
+  "source_commit": "6b005e7df06a198a0be4a3564ef90aba594ae346",
+  "built_at_utc": "2026-10-18T23:01:47Z",
   "flutter": "3.47.1",
-  "tests_passed": 283,
-  "test_scope": "Full Flutter test suite, flutter analyze, production web build"
+  "test_scope": "Home suggestions, dark home and contextual interface widget tests; flutter analyze; production web build"
 }
