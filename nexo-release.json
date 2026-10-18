@@ -1,8 +1,8 @@
 {
-  "phase": "home-refresh-guided-specialists",
-  "source_commit": "3223c6656b2b769d3246a52960a464f8f2a23348",
-  "built_at_utc": "2026-10-18T20:13:44Z",
+  "phase": "mobile-guided-specialist-flow",
+  "source_commit": "bfd2b698fbbc526651144dc2805b1986c75c2e84",
+  "built_at_utc": "2026-10-18T20:40:45Z",
   "flutter": "3.47.1",
-  "tests_passed": 281,
-  "test_scope": "Full Flutter suite, Flutter analyze, production Web build"
+  "tests_passed": 283,
+  "test_scope": "Full Flutter test suite, flutter analyze, production Web build"
 }

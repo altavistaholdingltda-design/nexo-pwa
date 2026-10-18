@@ -796,7 +796,7 @@
       window.addEventListener('beforeinstallprompt', (event) => {
         event.preventDefault();
         installPrompt = event;
-        if (sessionStorage.getItem('nexo-install-dismissed') !== '1') reopenCard();
+        if (!card.hidden) reopenCard();
       });
 
       installButton.addEventListener('click', async () => {
@@ -1074,6 +1074,6 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=3223c6656b2b769d3246a52960a464f8f2a23348" async></script>
+  <script src="flutter_bootstrap.js?v=bfd2b698fbbc526651144dc2805b1986c75c2e84" async></script>
 </body>
 </html>
