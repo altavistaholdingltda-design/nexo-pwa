@@ -1,7 +1,8 @@
 {
-  "phase": "home-next-step",
-  "source_commit": "6b005e7df06a198a0be4a3564ef90aba594ae346",
-  "built_at_utc": "2026-10-18T23:01:47Z",
+  "phase": "cinematic-guided-intake",
+  "source_commit": "64f4a05c12e11e43e49f706c0f98f10c49398c70",
+  "built_at_utc": "2026-10-19T00:33:43Z",
   "flutter": "3.47.1",
-  "test_scope": "Home suggestions, dark home and contextual interface widget tests; flutter analyze; production web build"
+  "tests_passed": 17,
+  "test_scope": "Guided builder and home suggestion widget tests, small screen and enlarged text; flutter analyze; production web build"
 }
