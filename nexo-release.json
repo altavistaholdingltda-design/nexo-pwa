@@ -1,10 +1,7 @@
 {
-  "phase": "culinary-personal-goals",
-  "source_commit": "67780a368ee9b9bb4c762962091c1fb641ed7368",
-  "built_at_utc": "2026-10-19T11:21:01Z",
+  "phase": "audit-hardening",
+  "source_commit": "aa146b984183ec906a8fb372240b53d89a11582d",
+  "built_at_utc": "2026-10-19T12:09:30.763534+00:00",
   "flutter": "3.47.1",
-  "tests_passed": 38,
-  "test_scope": "Specialist apps, nutrition goal validation and persistence, mobile light/dark visual checks with enlarged text; analysis; production web build",
-  "specialist_apps": 15,
-  "vitta_foods": 400
+  "validated_by": "Release readiness"
 }
