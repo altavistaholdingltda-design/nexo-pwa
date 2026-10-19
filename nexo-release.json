@@ -1,10 +1,10 @@
 {
-  "phase": "culinary-dashboard-polish",
-  "source_commit": "896013f9411353171cd284c5a1d242f1e03c58ea",
-  "built_at_utc": "2026-10-19T11:06:27Z",
+  "phase": "culinary-personal-goals",
+  "source_commit": "67780a368ee9b9bb4c762962091c1fb641ed7368",
+  "built_at_utc": "2026-10-19T11:21:01Z",
   "flutter": "3.47.1",
-  "tests_passed": 35,
-  "test_scope": "Specialist apps, home navigation, mobile visual checks in light and dark with enlarged text; analysis; production web build",
+  "tests_passed": 38,
+  "test_scope": "Specialist apps, nutrition goal validation and persistence, mobile light/dark visual checks with enlarged text; analysis; production web build",
   "specialist_apps": 15,
   "vitta_foods": 400
 }
