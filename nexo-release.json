@@ -1,8 +1,8 @@
 {
-  "phase": "effective-specialist-personalization",
-  "source_commit": "5fb095e7ed917b15794ec2d46eb0a35f2d368dc8",
-  "built_at_utc": "2026-10-19T17:30:39Z",
+  "phase": "specialist-coherence-audit",
+  "source_commit": "09f43d3e9f694d9c5515297528f30c331e7742dd",
+  "built_at_utc": "2026-10-19T18:15:07Z",
   "flutter": "3.47.1",
-  "tests_passed": 382,
-  "test_scope": "Complete Flutter suite; all onboarding choices mapped to free workflows, profile-driven next steps for all 15 areas, monthly/weekly/receipt finance windows; final mobile visual regressions; analysis; production web build"
+  "tests_passed": 396,
+  "test_scope": "Complete Flutter suite; concurrent record persistence, legacy plans and account isolation, reviewed chat imports, weekly planning, allergies and source provenance; backend quota guards; mobile visuals dark/light enlarged text; static analysis; production web build. Purchase activation deferred by user."
 }
