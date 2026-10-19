@@ -1,8 +1,8 @@
 {
-  "phase": "all-specialists-guided-layout",
-  "source_commit": "411591be14288162761cb4f5d68f99772e90cad8",
-  "built_at_utc": "2026-10-19T16:17:28Z",
+  "phase": "inclusive-specialist-onboarding",
+  "source_commit": "04ae0d3c4e4314136495d8c503febfd9919c7455",
+  "built_at_utc": "2026-10-19T17:14:12Z",
   "flutter": "3.47.1",
-  "tests_passed": 56,
-  "test_scope": "All 15 specialist assistants on mobile light/dark enlarged text, contextual shortcuts and draft retention; specialist app CRUD, kitchen goals and visual regressions; analysis; production build"
+  "tests_passed": 84,
+  "test_scope": "All 15 specialist custom/deferred onboarding flows, non-cook diary, assistant mobile light/dark, app CRUD, home routing, kitchen goals and visuals; analysis; production build"
 }
