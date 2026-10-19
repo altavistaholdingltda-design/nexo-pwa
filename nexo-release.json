@@ -1,8 +1,7 @@
 {
-  "phase": "visual-chef-nexo",
-  "source_commit": "518363cb436410cd995c89d8260cddaebb67547a",
-  "built_at_utc": "2026-10-19T13:50:30Z",
+  "phase": "chef-cutlery-icon",
+  "source_commit": "5f8d6a03e98c17c1c300a8e8fcdd6e1aa8b291c6",
+  "built_at_utc": "2026-10-19T15:54:49Z",
   "flutter": "3.47.1",
-  "tests_passed": 23,
-  "test_scope": "Specialist app behavior and mobile visual checks in light/dark, shortcut selection and draft preservation; analysis; production build"
+  "test_scope": "Production web build; icon-only change"
 }
