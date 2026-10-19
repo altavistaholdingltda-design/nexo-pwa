@@ -1,8 +1,8 @@
 {
-  "phase": "inclusive-specialist-onboarding",
-  "source_commit": "04ae0d3c4e4314136495d8c503febfd9919c7455",
-  "built_at_utc": "2026-10-19T17:14:12Z",
+  "phase": "effective-specialist-personalization",
+  "source_commit": "5fb095e7ed917b15794ec2d46eb0a35f2d368dc8",
+  "built_at_utc": "2026-10-19T17:30:39Z",
   "flutter": "3.47.1",
-  "tests_passed": 84,
-  "test_scope": "All 15 specialist custom/deferred onboarding flows, non-cook diary, assistant mobile light/dark, app CRUD, home routing, kitchen goals and visuals; analysis; production build"
+  "tests_passed": 382,
+  "test_scope": "Complete Flutter suite; all onboarding choices mapped to free workflows, profile-driven next steps for all 15 areas, monthly/weekly/receipt finance windows; final mobile visual regressions; analysis; production web build"
 }
