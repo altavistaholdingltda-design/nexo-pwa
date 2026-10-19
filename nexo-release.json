@@ -1,8 +1,10 @@
 {
-  "phase": "cinematic-guided-intake",
-  "source_commit": "64f4a05c12e11e43e49f706c0f98f10c49398c70",
-  "built_at_utc": "2026-10-19T00:33:43Z",
+  "phase": "specialist-apps-chef-nexo",
+  "source_commit": "b57b1ffe8a7a3016b125b520bd2d2b0202675f6d",
+  "built_at_utc": "2026-10-19T10:31:58Z",
   "flutter": "3.47.1",
-  "tests_passed": 17,
-  "test_scope": "Guided builder and home suggestion widget tests, small screen and enlarged text; flutter analyze; production web build"
+  "tests_passed": 309,
+  "test_scope": "Full Flutter suite; 23 specialist app checks after Chef NEXO rename; analysis; RLS isolation with rollback; production web build",
+  "specialist_apps": 15,
+  "vitta_foods": 400
 }
