@@ -1,7 +1,8 @@
 {
-  "phase": "audit-hardening",
-  "source_commit": "aa146b984183ec906a8fb372240b53d89a11582d",
-  "built_at_utc": "2026-10-19T12:09:30.763534+00:00",
+  "phase": "visual-chef-nexo",
+  "source_commit": "518363cb436410cd995c89d8260cddaebb67547a",
+  "built_at_utc": "2026-10-19T13:50:30Z",
   "flutter": "3.47.1",
-  "validated_by": "Release readiness"
+  "tests_passed": 23,
+  "test_scope": "Specialist app behavior and mobile visual checks in light/dark, shortcut selection and draft preservation; analysis; production build"
 }
