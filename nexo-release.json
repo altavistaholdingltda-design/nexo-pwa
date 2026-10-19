@@ -1,8 +1,8 @@
 {
-  "phase": "specialist-coherence-audit",
-  "source_commit": "09f43d3e9f694d9c5515297528f30c331e7742dd",
-  "built_at_utc": "2026-10-19T18:15:07Z",
+  "phase": "guided-goals-and-shared-plan-intake",
+  "source_commit": "dfac580efd6aef8e20a484eb1da61e7d9dfd2e89",
+  "built_at_utc": "2026-10-19T19:08:01Z",
   "flutter": "3.47.1",
-  "tests_passed": 396,
-  "test_scope": "Complete Flutter suite; concurrent record persistence, legacy plans and account isolation, reviewed chat imports, weekly planning, allergies and source provenance; backend quota guards; mobile visuals dark/light enlarged text; static analysis; production web build. Purchase activation deferred by user."
+  "tests_passed": 406,
+  "test_scope": "Complete Flutter suite; 12 focused and mobile visual tests repeated after final copy changes; shared onboarding intake and saved context in 15 areas, Portuguese food search, reviewed imports without fabricated dates, accurate local/cloud status, reviewed maintenance energy estimates and manual/diary-only goals; backend quota guards; static analysis; production build. Purchase activation deferred by user."
 }
