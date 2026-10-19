@@ -1,10 +1,10 @@
 {
-  "phase": "specialist-apps-chef-nexo",
-  "source_commit": "b57b1ffe8a7a3016b125b520bd2d2b0202675f6d",
-  "built_at_utc": "2026-10-19T10:31:58Z",
+  "phase": "culinary-dashboard-polish",
+  "source_commit": "896013f9411353171cd284c5a1d242f1e03c58ea",
+  "built_at_utc": "2026-10-19T11:06:27Z",
   "flutter": "3.47.1",
-  "tests_passed": 309,
-  "test_scope": "Full Flutter suite; 23 specialist app checks after Chef NEXO rename; analysis; RLS isolation with rollback; production web build",
+  "tests_passed": 35,
+  "test_scope": "Specialist apps, home navigation, mobile visual checks in light and dark with enlarged text; analysis; production web build",
   "specialist_apps": 15,
   "vitta_foods": 400
 }
