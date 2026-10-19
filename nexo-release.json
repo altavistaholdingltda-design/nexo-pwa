@@ -1,7 +1,8 @@
 {
-  "phase": "chef-cutlery-icon",
-  "source_commit": "5f8d6a03e98c17c1c300a8e8fcdd6e1aa8b291c6",
-  "built_at_utc": "2026-10-19T15:54:49Z",
+  "phase": "all-specialists-guided-layout",
+  "source_commit": "411591be14288162761cb4f5d68f99772e90cad8",
+  "built_at_utc": "2026-10-19T16:17:28Z",
   "flutter": "3.47.1",
-  "test_scope": "Production web build; icon-only change"
+  "tests_passed": 56,
+  "test_scope": "All 15 specialist assistants on mobile light/dark enlarged text, contextual shortcuts and draft retention; specialist app CRUD, kitchen goals and visual regressions; analysis; production build"
 }
