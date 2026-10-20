@@ -1,7 +1,7 @@
 {
   "validated_by": "NEXO web release",
-  "built_at_utc": "2026-10-20T12:19:08.1170952Z",
-  "source_commit": "a3c17cf90167f5c32760fa2fdff55973cda452d7",
+  "built_at_utc": "2026-10-20T12:27:37.6651097Z",
+  "source_commit": "247c43de92154096ee1e8f1953ffa226e9a03ec8",
   "flutter": "3.47.1",
   "phase": "website-release"
 }
