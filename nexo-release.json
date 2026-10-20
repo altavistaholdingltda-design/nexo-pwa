@@ -1,7 +1,7 @@
 {
-  "phase": "audit-hardening",
-  "source_commit": "45cf99e2d73f46e50d8e1e036b6bd283c20eefe6",
-  "built_at_utc": "2026-10-20T23:20:26.6852153Z",
-  "flutter": "3.47.1",
-  "validated_by": "Release readiness"
+  "phase": "marketing-image-editing",
+  "source_commit": "834045895d13d6295fd5cab14f06761f9e4e11ac",
+  "validated_by": "Release readiness",
+  "built_at_utc": "2026-10-20T23:37:55.0839911Z",
+  "flutter": "3.47.1"
 }
