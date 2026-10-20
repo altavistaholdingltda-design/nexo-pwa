@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <base href="/nexo-pwa/">
+  <script>
+    (function() {
+      var base = document.querySelector('base');
+      if (!base) {
+        base = document.createElement('base');
+        document.head.prepend(base);
+      }
+      var p = window.location.pathname;
+      if (p.indexOf('/nexo-pwa') === 0) {
+        base.setAttribute('href', '/nexo-pwa/');
+      } else {
+        base.setAttribute('href', '/');
+      }
+    })();
+  </script>
+  <script>
+    window.nexoSetTheme = function(isDark) {
+      try {
+        var color = isDark ? '#111315' : '#f8fafc';
+        if (document.documentElement) {
+          document.documentElement.dataset.nexoTheme = isDark ? 'dark' : 'light';
+          document.documentElement.style.backgroundColor = color;
+        }
+        if (document.body) {
+          document.body.style.backgroundColor = color;
+        }
+        var metas = document.querySelectorAll('meta[name="theme-color"]');
+        metas.forEach(function(m) {
+          m.setAttribute('content', color);
+        });
+      } catch (_) {}
+    };
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="NEXO IA: especialistas para estudar, planejar e criar no dia a dia.">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111315">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8fafc">
+  <meta name="theme-color" content="#111315">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="NEXO IA">
+  <link rel="icon" type="image/png" href="favicon.png?v=mono-20261014">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png?v=mono-20261014">
+  <link rel="manifest" href="manifest.json">
+  <title>NEXO IA</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --nexo-install-bg: #111315;
+      --nexo-install-border: rgba(255, 255, 255, .16);
+      --nexo-install-shadow: 0 18px 48px rgba(0, 0, 0, .48);
+      --nexo-install-text: #f8fafc;
+      --nexo-install-muted: #cbd5e1;
+      --nexo-install-icon-bg: #222426;
+      --nexo-install-icon-border: rgba(255, 255, 255, .15);
+      --nexo-install-close-bg: rgba(255, 255, 255, .08);
+      --nexo-install-close-text: #e2e8f0;
+      --nexo-install-button-bg: #ffffff;
+      --nexo-install-button-text: #111315;
+      --nexo-pwa-card-bg: linear-gradient(135deg, rgba(38, 45, 63, .98), rgba(25, 29, 40, .98));
+      --nexo-pwa-border: rgba(111, 151, 255, .42);
+      --nexo-pwa-shadow: 0 18px 56px rgba(0, 0, 0, .48), 0 0 0 1px rgba(255, 255, 255, .04) inset;
+      --nexo-pwa-text: #f4f6ff;
+      --nexo-pwa-muted: #c4cad8;
+      --nexo-pwa-icon-bg: #111318;
+      --nexo-pwa-icon-border: rgba(255, 255, 255, .12);
+      --nexo-pwa-close-bg: rgba(255, 255, 255, .08);
+      --nexo-pwa-close-text: #e1e6f1;
+      --nexo-pwa-backdrop: rgba(8, 10, 15, .64);
+      --nexo-pwa-update-bg: linear-gradient(135deg, rgba(35, 48, 61, .98), rgba(25, 29, 39, .98));
+      --nexo-pwa-update-border: rgba(83, 200, 229, .4);
+      --nexo-pwa-update-shadow: 0 16px 42px rgba(0, 0, 0, .42);
+      --nexo-pwa-update-trigger-bg: linear-gradient(135deg, #26364a, #222936);
+      --nexo-pwa-update-trigger-border: rgba(83, 200, 229, .48);
+      --nexo-pwa-update-trigger-text: #c9dcff;
+    }
+
+    :root[data-nexo-theme="light"] {
+      color-scheme: light;
+      --nexo-install-bg: #ffffff;
+      --nexo-install-border: rgba(15, 23, 42, .18);
+      --nexo-install-shadow: 0 18px 48px rgba(15, 23, 42, .16);
+      --nexo-install-text: #0f172a;
+      --nexo-install-muted: #475569;
+      --nexo-install-icon-bg: #f1f5f9;
+      --nexo-install-icon-border: rgba(15, 23, 42, .12);
+      --nexo-install-close-bg: rgba(15, 23, 42, .07);
+      --nexo-install-close-text: #475569;
+      --nexo-install-button-bg: #111315;
+      --nexo-install-button-text: #ffffff;
+      --nexo-pwa-card-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(241, 247, 255, .99));
+      --nexo-pwa-border: rgba(37, 99, 235, .24);
+      --nexo-pwa-shadow: 0 18px 48px rgba(15, 23, 42, .18), 0 0 0 1px rgba(255, 255, 255, .8) inset;
+      --nexo-pwa-text: #0f172a;
+      --nexo-pwa-muted: #475569;
+      --nexo-pwa-icon-bg: #f1f5f9;
+      --nexo-pwa-icon-border: rgba(15, 23, 42, .12);
+      --nexo-pwa-close-bg: rgba(15, 23, 42, .07);
+      --nexo-pwa-close-text: #475569;
+      --nexo-pwa-backdrop: rgba(15, 23, 42, .28);
+      --nexo-pwa-update-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(239, 247, 255, .99));
+      --nexo-pwa-update-border: rgba(37, 99, 235, .2);
+      --nexo-pwa-update-shadow: 0 16px 42px rgba(15, 23, 42, .18);
+      --nexo-pwa-update-trigger-bg: linear-gradient(135deg, #eff6ff, #f8fafc);
+      --nexo-pwa-update-trigger-border: rgba(37, 99, 235, .28);
+      --nexo-pwa-update-trigger-text: #1e3a8a;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root:not([data-nexo-theme]) {
+        color-scheme: light;
+        --nexo-install-bg: #ffffff;
+        --nexo-install-border: rgba(15, 23, 42, .18);
+        --nexo-install-shadow: 0 18px 48px rgba(15, 23, 42, .16);
+        --nexo-install-text: #0f172a;
+        --nexo-install-muted: #475569;
+        --nexo-install-icon-bg: #f1f5f9;
+        --nexo-install-icon-border: rgba(15, 23, 42, .12);
+        --nexo-install-close-bg: rgba(15, 23, 42, .07);
+        --nexo-install-close-text: #475569;
+        --nexo-install-button-bg: #111315;
+        --nexo-install-button-text: #ffffff;
+        --nexo-pwa-card-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(241, 247, 255, .99));
+        --nexo-pwa-border: rgba(37, 99, 235, .24);
+        --nexo-pwa-shadow: 0 18px 48px rgba(15, 23, 42, .18), 0 0 0 1px rgba(255, 255, 255, .8) inset;
+        --nexo-pwa-text: #0f172a;
+        --nexo-pwa-muted: #475569;
+        --nexo-pwa-icon-bg: #f1f5f9;
+        --nexo-pwa-icon-border: rgba(15, 23, 42, .12);
+        --nexo-pwa-close-bg: rgba(15, 23, 42, .07);
+        --nexo-pwa-close-text: #475569;
+        --nexo-pwa-backdrop: rgba(15, 23, 42, .28);
+        --nexo-pwa-update-bg: linear-gradient(135deg, rgba(255, 255, 255, .99), rgba(239, 247, 255, .99));
+        --nexo-pwa-update-border: rgba(37, 99, 235, .2);
+        --nexo-pwa-update-shadow: 0 16px 42px rgba(15, 23, 42, .18);
+        --nexo-pwa-update-trigger-bg: linear-gradient(135deg, #eff6ff, #f8fafc);
+        --nexo-pwa-update-trigger-border: rgba(37, 99, 235, .28);
+        --nexo-pwa-update-trigger-text: #1e3a8a;
+      }
+    }
+
+    html {
+      width: 100%;
+      height: 100%;
+      height: -webkit-fill-available;
+      margin: 0;
+      padding: 0;
+      background-color: #111315;
+      overscroll-behavior: none;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      height: -webkit-fill-available;
+      margin: 0;
+      padding: 0;
+      background-color: #111315;
+      color: #f4f6ff;
+      overscroll-behavior: none;
+    }
+
+    .nexo-boot-splash {
+      position: fixed;
+      z-index: 2147483646;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: #111315;
+      color: #f4f6ff;
+      font: 14px/1.45 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      opacity: 1;
+      transition: opacity 220ms ease;
+    }
+
+    .nexo-boot-splash[hidden] {
+      display: none;
+    }
+
+    .nexo-boot-splash.is-ready {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .nexo-boot-content {
+      display: grid;
+      justify-items: center;
+      gap: 9px;
+      width: min(100%, 300px);
+      text-align: center;
+      animation: nexo-boot-enter 180ms ease-out both;
+    }
+
+    .nexo-boot-logo {
+      width: 116px;
+      height: 116px;
+      margin-bottom: 13px;
+      border: 0;
+      background: transparent;
+      object-fit: contain;
+      opacity: .8;
+    }
+
+    .nexo-boot-title {
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 4px;
+    }
+
+    .nexo-boot-subtitle {
+      color: #abb5c7;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: .2px;
+    }
+
+    .nexo-boot-progress {
+      position: relative;
+      width: min(120px, 72vw);
+      height: 2px;
+      margin-top: 11px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .1);
+    }
+
+    .nexo-boot-progress::after {
+      position: absolute;
+      inset: 0 auto 0 -42%;
+      width: 42%;
+      border-radius: inherit;
+      background: #d6d6d6;
+      content: "";
+      animation: nexo-boot-loading 1.25s ease-in-out infinite;
+    }
+
+    .nexo-boot-slow {
+      display: grid;
+      justify-items: center;
+      gap: 12px;
+      margin-top: 12px;
+      color: #c4cad8;
+      font-size: 13px;
+    }
+
+    .nexo-boot-slow[hidden] {
+      display: none;
+    }
+
+    .nexo-boot-retry {
+      min-height: 42px;
+      padding: 0 18px;
+      border: 1px solid rgba(111, 151, 255, .4);
+      border-radius: 14px;
+      background: rgba(54, 112, 203, .18);
+      color: #a7c9ff;
+      font: inherit;
+      font-weight: 650;
+      cursor: pointer;
+    }
+
+    @keyframes nexo-boot-loading {
+      from { transform: translateX(0); }
+      to { transform: translateX(340%); }
+    }
+
+    @keyframes nexo-boot-enter {
+      from { opacity: 0; transform: translateY(4px) scale(.98); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .nexo-boot-splash { transition: none; }
+      .nexo-boot-content { animation: none; }
+      .nexo-boot-progress::after { animation: none; inset-inline-start: 0; width: 38%; }
+    }
+
+    @media (prefers-color-scheme: light) {
+      html,
+      body {
+        background-color: #f8fafc;
+        color: #0f172a;
+      }
+      .nexo-boot-splash {
+        background: #f8fafc;
+        color: #0f172a;
+      }
+      .nexo-boot-logo { filter: invert(1); }
+      .nexo-boot-subtitle {
+        color: #64748b;
+      }
+      .nexo-boot-progress {
+        background: rgba(0, 0, 0, .08);
+      }
+      .nexo-boot-progress::after { background: #555555; }
+      .nexo-boot-slow {
+        color: #475569;
+      }
+      .nexo-boot-retry {
+        border-color: rgba(37, 99, 235, .4);
+        background: rgba(37, 99, 235, .1);
+        color: #1d4ed8;
+      }
+    }
+
+    .nexo-install-card {
+      box-sizing: border-box;
+      position: fixed;
+      z-index: 10000;
+      top: calc(env(safe-area-inset-top) + 68px);
+      right: max(16px, env(safe-area-inset-right));
+      left: auto;
+      display: grid;
+      grid-template-columns: 48px minmax(0, 1fr) auto 36px;
+      align-items: center;
+      gap: 14px;
+      width: min(calc(100% - 32px), 520px);
+      margin-inline: 0;
+      padding: 14px;
+      border: 1px solid var(--nexo-install-border);
+      border-radius: 22px;
+      background: var(--nexo-install-bg);
+      box-shadow: var(--nexo-install-shadow);
+      color: var(--nexo-install-text);
+      font: 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      animation: nexo-install-enter 260ms cubic-bezier(.2, .8, .2, 1) both;
+    }
+
+    .nexo-install-card[hidden] {
+      display: none;
+    }
+
+    .nexo-install-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: var(--nexo-pwa-backdrop);
+      backdrop-filter: blur(9px);
+      -webkit-backdrop-filter: blur(9px);
+    }
+
+    .nexo-install-backdrop[hidden] {
+      display: none;
+    }
+
+    body.nexo-install-open {
+      overflow: hidden;
+    }
+
+    .nexo-install-card.is-dialog {
+      top: 50%;
+      right: auto;
+      left: 50%;
+      width: min(calc(100% - 32px), 460px);
+      transform: translate(-50%, -50%);
+      animation: nexo-install-dialog-enter 220ms cubic-bezier(.2, .8, .2, 1) both;
+    }
+
+    .nexo-install-icon {
+      width: 48px;
+      height: 48px;
+      border: 1px solid var(--nexo-install-icon-border);
+      border-radius: 15px;
+      background: var(--nexo-install-icon-bg);
+      object-fit: contain;
+    }
+
+    .nexo-install-copy {
+      display: grid;
+      gap: 3px;
+      min-width: 0;
+    }
+
+    .nexo-install-copy strong {
+      font-size: 15px;
+      font-weight: 750;
+    }
+
+    .nexo-install-copy span {
+      color: var(--nexo-install-muted);
+      font-size: 13px;
+    }
+
+    .nexo-install-button {
+      min-height: 42px;
+      padding: 0 17px;
+      border: 0;
+      border-radius: 14px;
+      background: var(--nexo-install-button-bg);
+      color: var(--nexo-install-button-text);
+      font: inherit;
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    .nexo-install-button:disabled {
+      opacity: .65;
+      cursor: wait;
+    }
+
+    .nexo-install-close {
+      width: 36px;
+      height: 36px;
+      border: 0;
+      border-radius: 12px;
+      background: var(--nexo-install-close-bg);
+      color: var(--nexo-install-close-text);
+      font: 22px/1 system-ui, sans-serif;
+      cursor: pointer;
+    }
+
+    @media (max-width: 520px) {
+      .nexo-install-card {
+        top: calc(env(safe-area-inset-top) + 58px);
+        grid-template-columns: 32px minmax(0, 1fr) auto 28px;
+        gap: 6px;
+        padding: 8px;
+        border-radius: 16px;
+      }
+
+      .nexo-install-icon {
+        width: 32px;
+        height: 32px;
+      }
+
+      .nexo-install-copy strong {
+        font-size: 11px;
+      }
+
+      .nexo-install-copy span {
+        font-size: 10px;
+        line-height: 1.25;
+      }
+
+      .nexo-install-card:not(.is-dialog) .nexo-install-copy span {
+        display: none;
+      }
+
+      .nexo-install-button {
+        min-height: 34px;
+        padding-inline: 8px;
+        font-size: 11px;
+      }
+
+      .nexo-install-close {
+        width: 28px;
+        height: 28px;
+        justify-self: end;
+      }
+
+      .nexo-install-card.is-dialog {
+        grid-template-columns: 40px minmax(0, 1fr) auto 32px;
+        gap: 10px;
+        padding: 14px;
+        border-radius: 20px;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 13px;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-copy strong {
+        font-size: 14px;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-copy span {
+        font-size: 13px;
+        line-height: 1.35;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-button {
+        min-height: 40px;
+        padding-inline: 10px;
+        font-size: 13px;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-close {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    @keyframes nexo-install-enter {
+      from { opacity: 0; transform: translateY(12px) scale(.985); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes nexo-install-dialog-enter {
+      from { opacity: 0; transform: translate(-50%, -50%) scale(.97); }
+      to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .nexo-install-card { animation: none; }
+    }
+
+    .nexo-update-trigger {
+      box-sizing: border-box;
+      position: fixed;
+      z-index: 9997;
+      top: calc(env(safe-area-inset-top) + 9px);
+      right: calc(env(safe-area-inset-right) + 84px);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      min-height: 36px;
+      padding: 0 11px;
+      border: 1px solid var(--nexo-pwa-update-trigger-border);
+      border-radius: 13px;
+      background: var(--nexo-pwa-update-trigger-bg);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, .28);
+      color: var(--nexo-pwa-update-trigger-text);
+      font: 650 12px/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      cursor: pointer;
+    }
+
+    .nexo-update-trigger[hidden] { display: none; }
+    .nexo-update-trigger svg { width: 16px; height: 16px; flex: none; }
+    .nexo-update-trigger:focus-visible,
+    .nexo-update-button:focus-visible,
+    .nexo-update-close:focus-visible { outline: 2px solid #8dc8ff; outline-offset: 2px; }
+
+    .nexo-update-card {
+      box-sizing: border-box;
+      position: fixed;
+      z-index: 9998;
+      top: calc(env(safe-area-inset-top) + 58px);
+      right: max(16px, env(safe-area-inset-right));
+      left: auto;
+      display: grid;
+      grid-template-columns: 36px minmax(0, 1fr) auto 32px;
+      align-items: center;
+      gap: 10px;
+      width: min(calc(100vw - 32px), 420px);
+      margin: 0;
+      padding: 12px;
+      border: 1px solid var(--nexo-pwa-update-border);
+      border-radius: 18px;
+      background: var(--nexo-pwa-update-bg);
+      box-shadow: var(--nexo-pwa-update-shadow);
+      color: var(--nexo-pwa-text);
+      font: 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      animation: nexo-install-enter 220ms cubic-bezier(.2, .8, .2, 1) both;
+    }
+
+    .nexo-update-card[hidden] { display: none; }
+    .nexo-update-card.is-below-install { top: calc(env(safe-area-inset-top) + 152px); }
+
+    .nexo-update-icon {
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--nexo-pwa-icon-border);
+      border-radius: 12px;
+      background: var(--nexo-pwa-icon-bg);
+      object-fit: contain;
+    }
+
+    .nexo-update-copy { display: grid; gap: 3px; min-width: 0; }
+    .nexo-update-copy strong { font-size: 14px; font-weight: 750; }
+    .nexo-update-copy span { color: var(--nexo-pwa-muted); font-size: 12px; }
+
+    .nexo-update-button {
+      min-height: 38px;
+      padding: 0 13px;
+      border: 0;
+      border-radius: 13px;
+      background: linear-gradient(135deg, #72a9ff, #55cce1);
+      color: #10151d;
+      font: inherit;
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    .nexo-update-button:disabled { opacity: .7; cursor: wait; }
+
+    .nexo-update-close {
+      width: 32px;
+      height: 32px;
+      border: 0;
+      border-radius: 11px;
+      background: var(--nexo-pwa-close-bg);
+      color: var(--nexo-pwa-close-text);
+      font: 21px/1 system-ui, sans-serif;
+      cursor: pointer;
+    }
+
+    @media (max-width: 520px) {
+      .nexo-update-trigger {
+        top: calc(env(safe-area-inset-top) + 8px);
+        right: calc(env(safe-area-inset-right) + 80px);
+        min-height: 34px;
+        padding-inline: 9px;
+        border-radius: 12px;
+        font-size: 11px;
+      }
+
+      .nexo-update-card {
+        top: calc(env(safe-area-inset-top) + 54px);
+        right: max(12px, env(safe-area-inset-right));
+        left: max(12px, env(safe-area-inset-left));
+        grid-template-columns: 30px minmax(0, 1fr) auto 28px;
+        gap: 7px;
+        padding: 9px;
+        border-radius: 16px;
+        width: auto;
+      }
+
+      .nexo-update-card.is-below-install { top: calc(env(safe-area-inset-top) + 132px); }
+      .nexo-update-icon { width: 30px; height: 30px; }
+      .nexo-update-copy strong { font-size: 12px; }
+      .nexo-update-copy span { font-size: 10px; line-height: 1.25; }
+      .nexo-update-button { min-height: 34px; padding-inline: 8px; font-size: 11px; }
+      .nexo-update-close { width: 28px; height: 28px; }
+    }
+
+    @media (max-width: 360px) {
+      .nexo-install-card.is-dialog {
+        grid-template-columns: 40px minmax(0, 1fr) 32px;
+        grid-template-rows: auto auto;
+        align-items: start;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-icon {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+        align-self: center;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-copy {
+        grid-column: 2 / 4;
+        grid-row: 1;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-button {
+        grid-column: 2;
+        grid-row: 2;
+        justify-self: start;
+        margin-top: 8px;
+      }
+
+      .nexo-install-card.is-dialog .nexo-install-close {
+        grid-column: 3;
+        grid-row: 2;
+        justify-self: end;
+        align-self: end;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .nexo-update-card { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div id="nexo-boot-splash" class="nexo-boot-splash" role="status" aria-live="polite" aria-label="Abrindo o NEXO">
+    <div class="nexo-boot-content">
+      <img class="nexo-boot-logo" src="icons/nexo-mark.svg" alt="NEXO" onerror="this.src='icons/Icon-192.png?v=mono-20261014';">
+      <strong class="nexo-boot-title">NEXO</strong>
+      <span class="nexo-boot-subtitle">Seu próximo passo começa aqui</span>
+      <div class="nexo-boot-progress" aria-hidden="true"></div>
+      <div id="nexo-boot-slow" class="nexo-boot-slow" hidden>
+        <strong>Ainda estamos abrindo o NEXO</strong>
+        <span>A primeira abertura pode levar alguns instantes. Deixe esta tela aberta; o app continuará carregando automaticamente.</span>
+        <span id="nexo-boot-retry-hint" hidden>Se preferir, você pode reiniciar a abertura:</span>
+        <button id="nexo-boot-retry" class="nexo-boot-retry" type="button" hidden>Recarregar agora</button>
+      </div>
+    </div>
+  </div>
+  <div id="nexo-install-backdrop" class="nexo-install-backdrop" aria-hidden="true" hidden></div>
+  <aside id="nexo-install-card" class="nexo-install-card" role="status" aria-live="polite" hidden>
+    <img class="nexo-install-icon" src="icons/Icon-192.png?v=mono-20261014" alt="NEXO">
+    <div class="nexo-install-copy">
+      <strong id="nexo-install-title">Instale o NEXO</strong>
+    <span id="nexo-install-copy-text">Abra pela tela inicial.</span>
+    </div>
+    <button id="nexo-install-button" class="nexo-install-button" type="button">Instalar</button>
+    <button id="nexo-install-close" class="nexo-install-close" type="button" aria-label="Dispensar aviso de instalação">×</button>
+  </aside>
+  <button id="nexo-update-trigger" class="nexo-update-trigger" type="button" aria-controls="nexo-update-card" aria-expanded="false" aria-label="Atualização pronta. Abrir opções" hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7v5h-5"></path><path d="M4.9 16a8 8 0 0 0 13.2 2L20 16"></path><path d="M4 12a8 8 0 0 1 13.6-5.7L20 8"></path></svg>
+    <span>Atualizar</span>
+  </button>
+  <aside id="nexo-update-card" class="nexo-update-card" role="group" aria-label="Atualização pronta" hidden>
+    <img class="nexo-update-icon" src="icons/Icon-192.png?v=mono-20261014" alt="NEXO">
+    <div class="nexo-update-copy">
+      <strong>Atualização pronta</strong>
+      <span>As conversas salvas continuam aqui. Copie qualquer texto que ainda não foi enviado antes de atualizar.</span>
+    </div>
+    <button id="nexo-update-button" class="nexo-update-button" type="button">Atualizar</button>
+    <button id="nexo-update-close" class="nexo-update-close" type="button" aria-label="Fechar informações da atualização">×</button>
+  </aside>
+  <script>
+    (() => {
+      const splash = document.getElementById('nexo-boot-splash');
+      const slowMessage = document.getElementById('nexo-boot-slow');
+      const retryHint = document.getElementById('nexo-boot-retry-hint');
+      const retryButton = document.getElementById('nexo-boot-retry');
+      const slowTimer = window.setTimeout(() => {
+        slowMessage.hidden = false;
+      }, 10000);
+      const retryTimer = window.setTimeout(() => {
+        retryHint.hidden = false;
+        retryButton.hidden = false;
+      }, 30000);
+
+      retryButton.addEventListener('click', () => window.location.reload());
+      window.addEventListener('flutter-first-frame', () => {
+        window.clearTimeout(slowTimer);
+        window.clearTimeout(retryTimer);
+        splash.classList.add('is-ready');
+        window.setTimeout(() => { splash.hidden = true; }, 240);
+      }, { once: true });
+    })();
+  </script>
+  <script>
+    (() => {
+      const card = document.getElementById('nexo-install-card');
+      const backdrop = document.getElementById('nexo-install-backdrop');
+      const installButton = document.getElementById('nexo-install-button');
+      const closeButton = document.getElementById('nexo-install-close');
+      const copyText = document.getElementById('nexo-install-copy-text');
+      const isInstalled = () => window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+      const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
+      let installPrompt = null;
+      let returnFocus = null;
+
+      const closeCard = () => {
+        const shouldRestoreFocus = card.classList.contains('is-dialog');
+        card.hidden = true;
+        backdrop.hidden = true;
+        card.classList.remove('is-dialog');
+        card.setAttribute('role', 'status');
+        card.setAttribute('aria-live', 'polite');
+        card.removeAttribute('aria-modal');
+        card.removeAttribute('aria-labelledby');
+        document.body.classList.remove('nexo-install-open');
+        if (shouldRestoreFocus && returnFocus?.isConnected) {
+          returnFocus.focus({ preventScroll: true });
+        }
+        returnFocus = null;
+      };
+
+      const openCard = (asDialog = false) => {
+        if (isInstalled()) {
+          installButton.hidden = true;
+          copyText.textContent = 'NEXO já instalado neste aparelho.';
+        } else if (installPrompt) {
+          installButton.hidden = false;
+          copyText.textContent = 'Abra pela tela inicial.';
+        } else {
+          installButton.hidden = true;
+          copyText.textContent = isIos
+            ? 'No Safari: Compartilhar → Adicionar à Tela de Início.'
+            : 'No menu do navegador, escolha “Instalar app”.';
+        }
+        if (asDialog) {
+          if (card.hidden || !card.classList.contains('is-dialog')) {
+            returnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+          }
+          card.classList.add('is-dialog');
+          card.setAttribute('role', 'dialog');
+          card.setAttribute('aria-modal', 'true');
+          card.setAttribute('aria-labelledby', 'nexo-install-title');
+          card.removeAttribute('aria-live');
+          backdrop.hidden = false;
+          document.body.classList.add('nexo-install-open');
+        } else {
+          card.classList.remove('is-dialog');
+          card.setAttribute('role', 'status');
+          card.setAttribute('aria-live', 'polite');
+          card.removeAttribute('aria-modal');
+          card.removeAttribute('aria-labelledby');
+          backdrop.hidden = true;
+          document.body.classList.remove('nexo-install-open');
+        }
+        card.hidden = false;
+        if (asDialog) closeButton.focus({ preventScroll: true });
+      };
+      const reopenCard = () => openCard(card.classList.contains('is-dialog'));
+
+      window.nexoShowInstallCard = () => openCard(true);
+      if (isInstalled()) return;
+
+      window.addEventListener('beforeinstallprompt', (event) => {
+        event.preventDefault();
+        installPrompt = event;
+        if (!card.hidden) reopenCard();
+      });
+
+      installButton.addEventListener('click', async () => {
+        if (!installPrompt) {
+          reopenCard();
+          return;
+        }
+        installButton.disabled = true;
+        const currentPrompt = installPrompt;
+        installPrompt = null;
+        try {
+          await currentPrompt.prompt();
+          await currentPrompt.userChoice;
+          closeCard();
+        } catch (_) {
+          copyText.textContent = 'Abra o menu do navegador e escolha “Instalar app”.';
+        } finally {
+          installButton.disabled = false;
+        }
+      });
+
+      closeButton.addEventListener('click', () => {
+        sessionStorage.setItem('nexo-install-dismissed', '1');
+        closeCard();
+      });
+
+      backdrop.addEventListener('click', () => {
+        sessionStorage.setItem('nexo-install-dismissed', '1');
+        closeCard();
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (card.hidden || !card.classList.contains('is-dialog')) return;
+        if (event.key === 'Escape') {
+          sessionStorage.setItem('nexo-install-dismissed', '1');
+          closeCard();
+          return;
+        }
+        if (event.key !== 'Tab') return;
+        const focusable = Array.from(card.querySelectorAll('button:not([disabled]):not([hidden]), a[href], [tabindex]:not([tabindex="-1"])'))
+          .filter((element) => !element.hidden && element.getAttribute('aria-hidden') !== 'true');
+        if (!focusable.length) {
+          event.preventDefault();
+          closeButton.focus({ preventScroll: true });
+          return;
+        }
+        const currentIndex = focusable.indexOf(document.activeElement);
+        if (event.shiftKey && currentIndex <= 0) {
+          event.preventDefault();
+          focusable[focusable.length - 1].focus({ preventScroll: true });
+        } else if (!event.shiftKey && currentIndex === focusable.length - 1) {
+          event.preventDefault();
+          focusable[0].focus({ preventScroll: true });
+        }
+      });
+
+      window.addEventListener('appinstalled', () => {
+        closeCard();
+        sessionStorage.removeItem('nexo-install-dismissed');
+      });
+    })();
+  </script>
+  <script>
+    (() => {
+      const card = document.getElementById('nexo-update-card');
+      const trigger = document.getElementById('nexo-update-trigger');
+      const updateButton = document.getElementById('nexo-update-button');
+      const closeButton = document.getElementById('nexo-update-close');
+      const installCard = document.getElementById('nexo-install-card');
+      let registration = null;
+      let waitingWorker = null;
+      let firstFrameReady = false;
+      let reloadWhenControlled = false;
+
+      const showIfReady = () => {
+        if (!firstFrameReady || !waitingWorker || !navigator.serviceWorker.controller) return;
+        trigger.hidden = false;
+        card.classList.toggle('is-below-install', !installCard.hidden);
+      };
+
+      const trackRegistration = (nextRegistration) => {
+        registration = nextRegistration;
+        waitingWorker = registration.waiting;
+        showIfReady();
+
+        registration.addEventListener('updatefound', () => {
+          const installingWorker = registration.installing;
+          if (!installingWorker) return;
+          installingWorker.addEventListener('statechange', () => {
+            if (installingWorker.state !== 'installed') return;
+            waitingWorker = registration.waiting || installingWorker;
+            showIfReady();
+          });
+        });
+      };
+
+      window.nexoTrackPwaUpdate = trackRegistration;
+      window.addEventListener('flutter-first-frame', () => {
+        firstFrameReady = true;
+        showIfReady();
+      }, { once: true });
+
+      trigger.addEventListener('click', () => {
+        const open = card.hidden;
+        card.hidden = !open;
+        trigger.setAttribute('aria-expanded', String(open));
+        if (open) updateButton.focus();
+      });
+
+      updateButton.addEventListener('click', () => {
+        waitingWorker = registration?.waiting || waitingWorker;
+        if (!waitingWorker) return;
+        reloadWhenControlled = true;
+        updateButton.disabled = true;
+        updateButton.textContent = 'Atualizando…';
+        waitingWorker.postMessage({ type: 'NEXO_ACTIVATE_UPDATE' });
+      });
+
+      closeButton.addEventListener('click', () => {
+        card.hidden = true;
+        trigger.setAttribute('aria-expanded', 'false');
+        trigger.focus();
+      });
+
+      document.addEventListener('pointerdown', (event) => {
+        if (card.hidden || card.contains(event.target) || trigger.contains(event.target)) return;
+        card.hidden = true;
+        trigger.setAttribute('aria-expanded', 'false');
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key !== 'Escape' || card.hidden) return;
+        card.hidden = true;
+        trigger.setAttribute('aria-expanded', 'false');
+        trigger.focus();
+      });
+
+      new MutationObserver(() => {
+        if (!card.hidden) card.classList.toggle('is-below-install', !installCard.hidden);
+      }).observe(installCard, { attributes: true, attributeFilter: ['hidden'] });
+
+      navigator.serviceWorker?.addEventListener('controllerchange', () => {
+        if (reloadWhenControlled) window.location.reload();
+      });
+    })();
+  </script>
+  <script>
+    window.nexoOpenPdfPreview = function (bytes) {
+      const url = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
+      const overlay = document.createElement('div');
+      overlay.setAttribute('role', 'dialog');
+      overlay.setAttribute('aria-label', 'Visualização do PDF');
+      Object.assign(overlay.style, {
+        position: 'fixed', inset: '0', zIndex: '2147483647',
+        display: 'flex', flexDirection: 'column', background: '#202124',
+      });
+      const bar = document.createElement('div');
+      Object.assign(bar.style, {
+        display: 'flex', alignItems: 'center', gap: '12px', padding: '10px 16px',
+        color: '#fff', font: '600 15px system-ui, sans-serif',
+      });
+      const title = document.createElement('span');
+      title.textContent = 'Prévia do PDF';
+      title.style.flex = '1';
+      const download = document.createElement('a');
+      download.href = url;
+      download.download = 'nexo-material.pdf';
+      download.textContent = 'Baixar';
+      Object.assign(download.style, { color: '#79b2ff', textDecoration: 'none' });
+      const close = document.createElement('button');
+      close.type = 'button';
+      close.textContent = 'Fechar';
+      Object.assign(close.style, {
+        background: '#34373b', color: '#fff', border: '0',
+        borderRadius: '8px', padding: '9px 13px', cursor: 'pointer',
+      });
+      let onPreviewResize;
+      close.addEventListener('click', () => {
+        if (onPreviewResize) window.removeEventListener('resize', onPreviewResize);
+        overlay.remove();
+        URL.revokeObjectURL(url);
+      });
+      bar.append(title, download, close);
+      const viewer = document.createElement('div');
+      viewer.setAttribute('aria-label', 'Páginas do PDF');
+      Object.assign(viewer.style, {
+        flex: '1', minHeight: '0', overflow: 'auto', padding: '12px',
+        display: 'flex', justifyContent: 'center', alignItems: 'flex-start',
+      });
+      const status = document.createElement('span');
+      status.textContent = 'Preparando visualização…';
+      status.style.color = '#fff';
+      viewer.append(status);
+      const footer = document.createElement('div');
+      Object.assign(footer.style, {
+        display: 'flex', justifyContent: 'center', alignItems: 'center',
+        gap: '18px', padding: '10px', color: '#fff', font: '14px system-ui, sans-serif',
+      });
+      const prev = document.createElement('button');
+      prev.textContent = 'Anterior';
+      const count = document.createElement('span');
+      const next = document.createElement('button');
+      next.textContent = 'Próxima';
+      for (const button of [prev, next]) {
+        Object.assign(button.style, {
+          background: '#34373b', color: '#fff', border: '0',
+          borderRadius: '8px', padding: '9px 13px', cursor: 'pointer',
+        });
+      }
+      footer.append(prev, count, next);
+      const file = new File([bytes], 'nexo-material.pdf', { type: 'application/pdf' });
+      if (navigator.canShare?.({ files: [file] })) {
+        const share = document.createElement('button');
+        share.textContent = 'Compartilhar';
+        Object.assign(share.style, {
+          background: '#2878e8', color: '#fff', border: '0',
+          borderRadius: '8px', padding: '9px 13px', cursor: 'pointer',
+        });
+        share.addEventListener('click', async () => {
+          try { await navigator.share({ files: [file], title: 'Material NEXO' }); }
+          catch (_) { /* Cancelar a folha de compartilhamento mantém a prévia aberta. */ }
+        });
+        footer.append(share);
+      }
+      overlay.append(bar, viewer, footer);
+      document.body.append(overlay);
+      (async () => {
+        try {
+          const base = document.baseURI;
+          const pdfjs = await import(new URL('pdfjs/pdf.min.mjs', base).href);
+          pdfjs.GlobalWorkerOptions.workerSrc = new URL('pdfjs/pdf.worker.min.mjs', base).href;
+          const pdf = await pdfjs.getDocument({ data: new Uint8Array(bytes) }).promise;
+          let current = 1;
+          let renderVersion = 0;
+          const renderPage = async () => {
+            const version = ++renderVersion;
+            viewer.replaceChildren();
+            const page = await pdf.getPage(current);
+            const natural = page.getViewport({ scale: 1 });
+            const scale = Math.min(1.6, Math.max(0.5, (viewer.clientWidth - 24) / natural.width));
+            const viewport = page.getViewport({ scale });
+            const canvas = document.createElement('canvas');
+            const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+            canvas.width = Math.ceil(viewport.width * pixelRatio);
+            canvas.height = Math.ceil(viewport.height * pixelRatio);
+            canvas.style.width = `${viewport.width}px`;
+            canvas.style.height = `${viewport.height}px`;
+            canvas.style.maxWidth = '100%';
+            canvas.style.boxShadow = '0 8px 30px #0008';
+            const context = canvas.getContext('2d');
+            const transform = pixelRatio === 1 ? null : [pixelRatio, 0, 0, pixelRatio, 0, 0];
+            await page.render({ canvasContext: context, viewport, transform }).promise;
+            if (version !== renderVersion || !overlay.isConnected) return;
+            viewer.append(canvas);
+            viewer.scrollTop = 0;
+            count.textContent = `${current} / ${pdf.numPages}`;
+            prev.disabled = current === 1;
+            next.disabled = current === pdf.numPages;
+          };
+          prev.addEventListener('click', () => { if (current > 1) { current--; renderPage(); } });
+          next.addEventListener('click', () => { if (current < pdf.numPages) { current++; renderPage(); } });
+          if (!overlay.isConnected) return;
+          let resizeTimer;
+          onPreviewResize = () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(renderPage, 150);
+          };
+          window.addEventListener('resize', onPreviewResize);
+          await renderPage();
+        } catch (error) {
+          status.textContent = 'Não foi possível mostrar a prévia neste navegador. Use Baixar.';
+          viewer.replaceChildren(status);
+        }
+      })();
+      return true;
+    };
+  </script>
+  <script src="flutter_bootstrap.js?v=a3c17cf90167f5c32760fa2fdff55973cda452d7" async></script>
+</body>
+</html>
