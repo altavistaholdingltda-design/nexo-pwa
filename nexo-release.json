@@ -1,7 +1,7 @@
 {
-  "phase": "image-edit-preview",
-  "source_commit": "ca3e8bec342324e6c23e8e46858578275754abe3",
-  "built_at_utc": "2026-10-21T01:07:51.462094+00:00",
+  "source_commit": "b88b7e6d3fe6017374a603e66a0169185791049d",
+  "built_at_utc": "2026-10-21T01:44:19.4912486Z",
+  "phase": "image-studio-versioning",
   "flutter": "3.47.1",
-  "validated_by": "Codex release checks"
+  "validated_by": "NEXO image studio"
 }
