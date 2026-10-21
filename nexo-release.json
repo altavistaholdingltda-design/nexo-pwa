@@ -1,7 +1,7 @@
 {
-  "built_at_utc": "2026-10-21T10:19:16.7100789Z",
+  "phase": "account-sync-runner-local-chat",
+  "source_commit": "db1a7a814fc163275b1ed10a19a3edaa5de3d08c",
+  "built_at_utc": "2026-10-21T11:15:47.523708+00:00",
   "flutter": "3.47.1",
-  "validated_by": "NEXO image studio",
-  "phase": "image-version-history",
-  "source_commit": "fca1f00a44a0e64960b32907882ae73c6a96f110"
+  "validated_by": "local Flutter tests and release build"
 }
