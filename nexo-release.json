@@ -1,7 +1,7 @@
 {
-  "built_at_utc": "2026-10-21T01:50:01.6217544Z",
+  "built_at_utc": "2026-10-21T10:19:16.7100789Z",
   "flutter": "3.47.1",
   "validated_by": "NEXO image studio",
-  "phase": "image-studio-versioning",
-  "source_commit": "e76431ba910bd4c4cc01de35f5c63cf4c2cb8916"
+  "phase": "image-version-history",
+  "source_commit": "fca1f00a44a0e64960b32907882ae73c6a96f110"
 }
