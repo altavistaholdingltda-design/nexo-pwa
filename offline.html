@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111315">
+  <title>NEXO — Sem conexão</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { margin: 0; min-height: 100dvh; display: grid; place-items: center; background: #f8fafc; color: #111315; }
+    main { max-width: 28rem; padding: 2rem; }
+    .brand { font-weight: 800; letter-spacing: .12em; }
+    h1 { font-size: 1.8rem; line-height: 1.2; }
+    p { line-height: 1.6; }
+    button { margin-top: 1rem; border: 0; border-radius: .75rem; padding: .85rem 1.1rem; background: #111315; color: white; font: inherit; font-weight: 600; cursor: pointer; }
+    button:focus-visible { outline: 3px solid #64748b; outline-offset: 4px; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111315; color: #f8fafc; }
+      button { background: white; color: #111315; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand">NEXO</p>
+    <h1>Você está sem conexão</h1>
+    <p>Conecte-se à internet para abrir esta área e conversar com os especialistas.</p>
+    <p>Seus rascunhos e arquivos salvos neste aparelho continuam aqui.</p>
+    <button type="button" onclick="window.location.reload()">Tentar novamente</button>
+  </main>
+</body>
+</html>

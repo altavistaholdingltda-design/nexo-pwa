@@ -36,6 +36,8 @@
     };
   </script>
   <meta charset="UTF-8">
+  <meta name="nexo-release" content="d00909e754e33e270b427bb9160cb92f14037f10">
+  <link data-nexo-preload rel="preload" href="main.db1a7a814fc163275b1ed10a19a3edaa5de3d08c.dart.js" as="script" fetchpriority="high">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="NEXO IA: especialistas para estudar, planejar e criar no dia a dia.">
@@ -859,90 +861,7 @@
       });
     })();
   </script>
-  <script>
-    (() => {
-      const card = document.getElementById('nexo-update-card');
-      const trigger = document.getElementById('nexo-update-trigger');
-      const updateButton = document.getElementById('nexo-update-button');
-      const closeButton = document.getElementById('nexo-update-close');
-      const installCard = document.getElementById('nexo-install-card');
-      let registration = null;
-      let waitingWorker = null;
-      let firstFrameReady = false;
-      let reloadWhenControlled = false;
-
-      const showIfReady = () => {
-        if (!firstFrameReady || !waitingWorker || !navigator.serviceWorker.controller) return;
-        trigger.hidden = false;
-        card.classList.toggle('is-below-install', !installCard.hidden);
-      };
-
-      const trackRegistration = (nextRegistration) => {
-        registration = nextRegistration;
-        waitingWorker = registration.waiting;
-        showIfReady();
-
-        registration.addEventListener('updatefound', () => {
-          const installingWorker = registration.installing;
-          if (!installingWorker) return;
-          installingWorker.addEventListener('statechange', () => {
-            if (installingWorker.state !== 'installed') return;
-            waitingWorker = registration.waiting || installingWorker;
-            showIfReady();
-          });
-        });
-      };
-
-      window.nexoTrackPwaUpdate = trackRegistration;
-      window.addEventListener('flutter-first-frame', () => {
-        firstFrameReady = true;
-        showIfReady();
-      }, { once: true });
-
-      trigger.addEventListener('click', () => {
-        const open = card.hidden;
-        card.hidden = !open;
-        trigger.setAttribute('aria-expanded', String(open));
-        if (open) updateButton.focus();
-      });
-
-      updateButton.addEventListener('click', () => {
-        waitingWorker = registration?.waiting || waitingWorker;
-        if (!waitingWorker) return;
-        reloadWhenControlled = true;
-        updateButton.disabled = true;
-        updateButton.textContent = 'Atualizando…';
-        waitingWorker.postMessage({ type: 'NEXO_ACTIVATE_UPDATE' });
-      });
-
-      closeButton.addEventListener('click', () => {
-        card.hidden = true;
-        trigger.setAttribute('aria-expanded', 'false');
-        trigger.focus();
-      });
-
-      document.addEventListener('pointerdown', (event) => {
-        if (card.hidden || card.contains(event.target) || trigger.contains(event.target)) return;
-        card.hidden = true;
-        trigger.setAttribute('aria-expanded', 'false');
-      });
-
-      document.addEventListener('keydown', (event) => {
-        if (event.key !== 'Escape' || card.hidden) return;
-        card.hidden = true;
-        trigger.setAttribute('aria-expanded', 'false');
-        trigger.focus();
-      });
-
-      new MutationObserver(() => {
-        if (!card.hidden) card.classList.toggle('is-below-install', !installCard.hidden);
-      }).observe(installCard, { attributes: true, attributeFilter: ['hidden'] });
-
-      navigator.serviceWorker?.addEventListener('controllerchange', () => {
-        if (reloadWhenControlled) window.location.reload();
-      });
-    })();
-  </script>
+  <script src="nexo_pwa.d00909e754e33e270b427bb9160cb92f14037f10.js"></script>
   <script>
     window.nexoOpenPdfPreview = function (bytes) {
       const url = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
@@ -1074,6 +993,7 @@
       return true;
     };
   </script>
-  <script src="flutter_bootstrap.js?v=db1a7a814fc163275b1ed10a19a3edaa5de3d08c" async></script>
+  <script src="flutter_bootstrap.d00909e754e33e270b427bb9160cb92f14037f10.js" async></script>
 </body>
 </html>
+
