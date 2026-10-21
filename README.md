@@ -13,9 +13,13 @@ Aplicativo: https://altavistaholdingltda-design.github.io/nexo-pwa/
 
 Selecionar um modelo prepara um pedido editável; a conversa com IA continua sujeita à assinatura e aos limites do plano. Os recursos futuros ainda não fazem parte dos benefícios disponíveis.
 
+## Ajuste visual — 21/10/2026
+
+- **Conteúdos e modelos** mostra o resumo e os atalhos primeiro; etapas e cuidados completos ficam em **Ver dicas e cuidados**.
+
 ## Origem e validação
 
-Fonte compilada: `91e607799115a2f63b794595668ef3d84f764fa2`.
+Fonte compilada: `4273d53b9b2894d728f75c5e19e6a8c00c6f68c8`.
 
 Validação: 474 testes Flutter, análise estática, regressões de backend com serviços simulados, 21 testes do PWA e compilação web de publicação.
 
