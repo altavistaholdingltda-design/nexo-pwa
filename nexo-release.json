@@ -1,7 +1,7 @@
 {
-  "phase": "campaign-kit",
-  "source_commit": "96a441cffcbe4a91ada0b95e371706cf2ac48651",
-  "built_at_utc": "2026-10-21T00:43:14.191806+00:00",
+  "phase": "image-edit-preview",
+  "source_commit": "ca3e8bec342324e6c23e8e46858578275754abe3",
+  "built_at_utc": "2026-10-21T01:07:51.462094+00:00",
   "flutter": "3.47.1",
   "validated_by": "Codex release checks"
 }
