@@ -1,7 +1,7 @@
 {
-  "phase": "marketing-campaign-kit",
+  "phase": "campaign-kit",
+  "source_commit": "96a441cffcbe4a91ada0b95e371706cf2ac48651",
+  "built_at_utc": "2026-10-21T00:43:14.191806+00:00",
   "flutter": "3.47.1",
-  "source_commit": "6e2940b544db7d649621c1cb39b0bb6d873f25ad",
-  "validated_by": "Release readiness",
-  "built_at_utc": "2026-10-20T23:55:53.9239546Z"
+  "validated_by": "Codex release checks"
 }
