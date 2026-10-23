@@ -1,0 +1,5929 @@
+{
+  "fr": {
+    "primeiro-dia": [
+      {
+        "role": "npc",
+        "text": "Bonjour ! Vous êtes nouveau à Paris ?",
+        "pt": "Olá! É novo em Paris?",
+        "text_f": "Bonjour ! Vous êtes nouvelle à Paris ?",
+        "pt_f": "Olá! É nova em Paris?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, c’est ma première fois.",
+        "pt": "Sim, é minha primeira vez."
+      },
+      {
+        "role": "npc",
+        "text": "Bienvenue ! Vous cherchez quelque chose ?",
+        "pt": "Bem-vindo! Está procurando algo?"
+      },
+      {
+        "role": "you",
+        "text": "Je cherche mon hôtel, s’il vous plaît.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "C’est à cinq minutes à pied.",
+        "pt": "Fica a cinco minutos a pé."
+      },
+      {
+        "role": "you",
+        "text": "Merci de votre aide !",
+        "pt": "Obrigado pela ajuda!",
+        "pt_f": "Obrigada pela ajuda!"
+      }
+    ],
+    "primeiro-dia-base": [
+      {
+        "role": "npc",
+        "text": "Bonjour ! Vous êtes nouveau à Paris ?",
+        "pt": "Olá! É novo em Paris?",
+        "text_f": "Bonjour ! Vous êtes nouvelle à Paris ?",
+        "pt_f": "Olá! É nova em Paris?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, c’est ma première fois.",
+        "pt": "Sim, é minha primeira vez."
+      },
+      {
+        "role": "npc",
+        "text": "Bienvenue ! Vous cherchez quelque chose ?",
+        "pt": "Bem-vindo! Está procurando algo?"
+      },
+      {
+        "role": "you",
+        "text": "Je cherche mon hôtel, s’il vous plaît.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "C’est à cinq minutes à pied.",
+        "pt": "Fica a cinco minutos a pé."
+      },
+      {
+        "role": "you",
+        "text": "Merci de votre aide !",
+        "pt": "Obrigado pela ajuda!",
+        "pt_f": "Obrigada pela ajuda!"
+      }
+    ],
+    "primeiro-dia-plus": [
+      {
+        "role": "npc",
+        "text": "Besoin d’un renseignement touristique ?",
+        "pt": "Precisa de uma informação turística?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, où acheter une carte de transport ?",
+        "pt": "Sim, onde comprar um cartão de transporte?"
+      },
+      {
+        "role": "npc",
+        "text": "À la station de métro, au guichet.",
+        "pt": "Na estação de metrô, no guichê."
+      },
+      {
+        "role": "you",
+        "text": "Elle est valable plusieurs jours ?",
+        "pt": "É válida por vários dias?"
+      },
+      {
+        "role": "npc",
+        "text": "Oui, il y a un forfait de trois jours.",
+        "pt": "Sim, tem um passe de três dias."
+      },
+      {
+        "role": "you",
+        "text": "Parfait, je vais là-bas tout de suite.",
+        "pt": "Perfeito, vou para lá agora mesmo."
+      }
+    ],
+    "primeiro-dia-go": [
+      {
+        "role": "npc",
+        "text": "Vous avez l’air un peu perdu — je peux aider ?",
+        "pt": "Você parece um pouco perdido — posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Oui. Il me faut une carte SIM et un quartier sympa pour dîner.",
+        "pt": "Sim. Preciso de um chip SIM e um bairro legal para jantar."
+      },
+      {
+        "role": "npc",
+        "text": "Pour la SIM, le kiosque en face. Pour dîner, essayez le Marais.",
+        "pt": "Para o chip, o quiosque em frente. Para jantar, experimente o Marais."
+      },
+      {
+        "role": "you",
+        "text": "Y a-t-il des restos abordables mais corrects là-bas ?",
+        "pt": "Há restaurantes bons e com preços acessíveis por lá?"
+      },
+      {
+        "role": "npc",
+        "text": "Oui, rue des Rosiers — évitez juste les spots trop touristiques.",
+        "pt": "Sim, rue des Rosiers — só evite os pontos muito turísticos."
+      },
+      {
+        "role": "you",
+        "text": "Excellent conseil, je m’en souviendrai. Merci beaucoup.",
+        "pt": "Ótimo conselho, vou lembrar. Muito obrigado.",
+        "pt_f": "Ótimo conselho, vou lembrar. Muito obrigada."
+      }
+    ],
+    "cafe": [
+      {
+        "role": "npc",
+        "text": "Bonjour, je vous écoute.",
+        "pt": "Olá, em que posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Un café allongé et un croissant, s’il vous plaît.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Pour ici ou à emporter ?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "À emporter, merci.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "Ça fera quatre euros cinquante.",
+        "pt": "São quatro euros e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "Je paie par carte.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-base": [
+      {
+        "role": "npc",
+        "text": "Bonjour, je vous écoute.",
+        "pt": "Olá, em que posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Un café allongé et un croissant, s’il vous plaît.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Pour ici ou à emporter ?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "À emporter, merci.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "Ça fera quatre euros cinquante.",
+        "pt": "São quatro euros e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "Je paie par carte.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-plus": [
+      {
+        "role": "npc",
+        "text": "Voilà votre café au lait.",
+        "pt": "Aqui está seu café com leite."
+      },
+      {
+        "role": "you",
+        "text": "Pardon, j’avais commandé sans lait — j’y suis allergique.",
+        "pt": "Desculpe, eu pedi sem leite — sou alérgico."
+      },
+      {
+        "role": "npc",
+        "text": "Oh, désolé ! Je vous en refais un avec lait d’avoine ?",
+        "pt": "Ah, desculpe! Refaço com leite de aveia?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, s’il vous plaît. Et un muffin sans fruits à coque.",
+        "pt": "Sim, por favor. E um muffin sem oleaginosas."
+      },
+      {
+        "role": "npc",
+        "text": "D’accord, c’est prêt dans deux minutes.",
+        "pt": "Certo, fica pronto em dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Merci de corriger la commande.",
+        "pt": "Obrigado por corrigir o pedido.",
+        "pt_f": "Obrigada por corrigir o pedido."
+      }
+    ],
+    "cafe-go": [
+      {
+        "role": "npc",
+        "text": "Tout va bien avec votre commande ?",
+        "pt": "Está tudo bem com o pedido?"
+      },
+      {
+        "role": "you",
+        "text": "Pas vraiment — le café est froid et ce n’est pas ce que j’ai demandé.",
+        "pt": "Nem tanto — o café está frio e não é o que pedi."
+      },
+      {
+        "role": "npc",
+        "text": "Je suis vraiment désolé. Je vous le remplace tout de suite.",
+        "pt": "Sinto muito mesmo. Troco na hora."
+      },
+      {
+        "role": "you",
+        "text": "Merci. Serait-il possible d’offrir le croissant en geste commercial ?",
+        "pt": "Obrigado. Seria possível oferecer o croissant como gesto comercial?",
+        "pt_f": "Obrigada. Seria possível oferecer o croissant como gesto comercial?"
+      },
+      {
+        "role": "npc",
+        "text": "Bien sûr — croissant offert, et un café frais correctement préparé.",
+        "pt": "Claro — croissant de cortesia e um café fresco certo."
+      },
+      {
+        "role": "you",
+        "text": "Parfait, c’est très correct de votre part. Merci.",
+        "pt": "Perfeito, muito correto da sua parte. Obrigado.",
+        "pt_f": "Perfeito, muito correto da sua parte. Obrigada."
+      }
+    ],
+    "metro": [
+      {
+        "role": "npc",
+        "text": "Vous voulez un ticket ?",
+        "pt": "Quer um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "Un billet aller-retour, s’il vous plaît.",
+        "pt": "Uma passagem ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Pour quelle destination ?",
+        "pt": "Para qual destino?"
+      },
+      {
+        "role": "you",
+        "text": "Pour aller à Montmartre.",
+        "pt": "Para ir a Montmartre."
+      },
+      {
+        "role": "npc",
+        "text": "Prenez la ligne 12.",
+        "pt": "Pegue a linha 12."
+      },
+      {
+        "role": "you",
+        "text": "Merci, c’est quelle direction ?",
+        "pt": "Obrigado, é qual direção?",
+        "pt_f": "Obrigada, é qual direção?"
+      }
+    ],
+    "metro-base": [
+      {
+        "role": "npc",
+        "text": "Vous voulez un ticket ?",
+        "pt": "Quer um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "Un billet aller-retour, s’il vous plaît.",
+        "pt": "Uma passagem ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Pour quelle destination ?",
+        "pt": "Para qual destino?"
+      },
+      {
+        "role": "you",
+        "text": "Pour aller à Montmartre.",
+        "pt": "Para ir a Montmartre."
+      },
+      {
+        "role": "npc",
+        "text": "Prenez la ligne 12.",
+        "pt": "Pegue a linha 12."
+      },
+      {
+        "role": "you",
+        "text": "Merci, c’est quelle direction ?",
+        "pt": "Obrigado, é qual direção?",
+        "pt_f": "Obrigada, é qual direção?"
+      }
+    ],
+    "metro-plus": [
+      {
+        "role": "npc",
+        "text": "Le tourniquet ne s’ouvre pas ?",
+        "pt": "A catraca não abre?"
+      },
+      {
+        "role": "you",
+        "text": "J’ai perdu mon ticket et je suis en retard.",
+        "pt": "Perdi meu bilhete e estou atrasado.",
+        "pt_f": "Perdi meu bilhete e estou atrasada."
+      },
+      {
+        "role": "npc",
+        "text": "Vous pouvez en racheter un ici.",
+        "pt": "Pode comprar outro aqui."
+      },
+      {
+        "role": "you",
+        "text": "Y a-t-il un train pour République bientôt ?",
+        "pt": "Tem um trem para République em breve?"
+      },
+      {
+        "role": "npc",
+        "text": "Oui, dans quatre minutes, direction Mairie d’Ivry.",
+        "pt": "Sim, em quatro minutos, direção Mairie d’Ivry."
+      },
+      {
+        "role": "you",
+        "text": "Merci, je prends un ticket simple alors.",
+        "pt": "Obrigado, então peço um bilhete simples.",
+        "pt_f": "Obrigada, então peço um bilhete simples."
+      }
+    ],
+    "metro-go": [
+      {
+        "role": "npc",
+        "text": "Les distributeurs sont en panne, désolé.",
+        "pt": "As máquinas estão com defeito, desculpe."
+      },
+      {
+        "role": "you",
+        "text": "Je dois absolument prendre ce train. Puis-je payer au guichet ?",
+        "pt": "Preciso pegar este trem de qualquer jeito. Posso pagar no guichê?"
+      },
+      {
+        "role": "npc",
+        "text": "Oui — carte ou espèces. Quelle zone ?",
+        "pt": "Sim — cartão ou dinheiro. Qual zona?"
+      },
+      {
+        "role": "you",
+        "text": "Zone 1–2. Et je suis pressé : mon rendez-vous est dans vingt minutes.",
+        "pt": "Zona 1–2. E tenho pressa: meu compromisso é em vinte minutos."
+      },
+      {
+        "role": "npc",
+        "text": "Voici votre ticket. Quai de droite, départ imminent.",
+        "pt": "Aqui está o bilhete. Plataforma à direita, partida iminente."
+      },
+      {
+        "role": "you",
+        "text": "Merci d’avoir accéléré, vous m’avez sauvé la journée.",
+        "pt": "Obrigado por agilizar, você salvou meu dia.",
+        "pt_f": "Obrigada por agilizar, você salvou meu dia."
+      }
+    ],
+    "hotel": [
+      {
+        "role": "npc",
+        "text": "Bonsoir, vous avez une réservation ?",
+        "pt": "Boa noite, tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, au nom de Silva.",
+        "pt": "Sim, no nome de Silva."
+      },
+      {
+        "role": "npc",
+        "text": "Pièce d’identité, s’il vous plaît.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Voici mon passeport.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Voici votre clé. Chambre 412.",
+        "pt": "Aqui está sua chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "Le wifi fonctionne déjà ?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-base": [
+      {
+        "role": "npc",
+        "text": "Bonsoir, vous avez une réservation ?",
+        "pt": "Boa noite, tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, au nom de Silva.",
+        "pt": "Sim, no nome de Silva."
+      },
+      {
+        "role": "npc",
+        "text": "Pièce d’identité, s’il vous plaît.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Voici mon passeport.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Voici votre clé. Chambre 412.",
+        "pt": "Aqui está sua chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "Le wifi fonctionne déjà ?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-plus": [
+      {
+        "role": "npc",
+        "text": "Bonjour, je peux vous aider ?",
+        "pt": "Olá, posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Quel est le mot de passe du wifi, s’il vous plaît ?",
+        "pt": "Qual é a senha do wifi, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "C’est HotelGuest2024, sur le réseau Invités.",
+        "pt": "É HotelGuest2024, na rede Convidados."
+      },
+      {
+        "role": "you",
+        "text": "Et puis-je faire un départ tardif demain ?",
+        "pt": "E posso fazer o check-out mais tarde amanhã?"
+      },
+      {
+        "role": "npc",
+        "text": "Jusqu’à quatorze heures, pour dix euros.",
+        "pt": "Até às quatorze horas, por dez euros."
+      },
+      {
+        "role": "you",
+        "text": "D’accord, je confirme le départ tardif.",
+        "pt": "Certo, confirmo o check-out mais tarde."
+      }
+    ],
+    "hotel-go": [
+      {
+        "role": "npc",
+        "text": "Bonsoir, un problème avec la chambre ?",
+        "pt": "Boa noite, algum problema com o quarto?"
+      },
+      {
+        "role": "you",
+        "text": "Oui — la clim ne marche pas et c’est trop bruyant côté rue.",
+        "pt": "Sim — o ar-condicionado não funciona e está barulhento do lado da rua."
+      },
+      {
+        "role": "npc",
+        "text": "Je peux vous proposer une chambre plus calme au cinquième.",
+        "pt": "Posso oferecer um quarto mais calmo no quinto andar."
+      },
+      {
+        "role": "you",
+        "text": "Volontiers. Et pourriez-vous inclure un départ à quinze heures ?",
+        "pt": "Com prazer. E poderiam incluir saída às quinze horas?"
+      },
+      {
+        "role": "npc",
+        "text": "D’accord — changement gratuit et départ tardif sans frais.",
+        "pt": "Combinado — troca de quarto e check-out mais tarde sem custo."
+      },
+      {
+        "role": "you",
+        "text": "Excellent, merci d’avoir trouvé une solution.",
+        "pt": "Excelente, obrigado por achar uma solução.",
+        "pt_f": "Excelente, obrigada por achar uma solução."
+      }
+    ],
+    "rua": [
+      {
+        "role": "npc",
+        "text": "Vous êtes perdu ?",
+        "pt": "Está perdido?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, où est la pharmacie la plus proche ?",
+        "pt": "Sim, onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Tout droit, puis à droite.",
+        "pt": "Em frente, depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "C’est loin à pied ?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "Non, deux minutes.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Merci beaucoup !",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "rua-base": [
+      {
+        "role": "npc",
+        "text": "Vous êtes perdu ?",
+        "pt": "Está perdido?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, où est la pharmacie la plus proche ?",
+        "pt": "Sim, onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Tout droit, puis à droite.",
+        "pt": "Em frente, depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "C’est loin à pied ?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "Non, deux minutes.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Merci beaucoup !",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "rua-plus": [
+      {
+        "role": "npc",
+        "text": "Vous cherchez quelque chose ?",
+        "pt": "Está procurando algo?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, un distributeur. La banque est fermée.",
+        "pt": "Sim, um caixa eletrônico. O banco está fechado."
+      },
+      {
+        "role": "npc",
+        "text": "Il y en a un dans la pharmacie, au coin.",
+        "pt": "Tem um na farmácia, na esquina."
+      },
+      {
+        "role": "you",
+        "text": "Est-ce qu’il accepte les cartes étrangères ?",
+        "pt": "Ele aceita cartões estrangeiros?"
+      },
+      {
+        "role": "npc",
+        "text": "Oui, Visa et Mastercard d’habitude.",
+        "pt": "Sim, Visa e Mastercard em geral."
+      },
+      {
+        "role": "you",
+        "text": "Super, merci pour l’indication.",
+        "pt": "Ótimo, obrigado pela indicação.",
+        "pt_f": "Ótimo, obrigada pela indicação."
+      }
+    ],
+    "rua-go": [
+      {
+        "role": "npc",
+        "text": "Le dernier métro est déjà passé ?",
+        "pt": "O último metrô já passou?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, et mon hôtel est un peu loin. Un taxi ou un bus de nuit ?",
+        "pt": "Sim, e meu hotel fica um pouco longe. Táxi ou ônibus noturno?"
+      },
+      {
+        "role": "npc",
+        "text": "Le N02 s’arrête là. Sinon taxi, environ quinze euros.",
+        "pt": "O N02 para ali. Senão táxi, uns quinze euros."
+      },
+      {
+        "role": "you",
+        "text": "Le bus est-il sûr à cette heure, selon vous ?",
+        "pt": "O ônibus é seguro a esta hora, na sua opinião?"
+      },
+      {
+        "role": "npc",
+        "text": "Oui, fréquenté. Sinon, commandez un VTC depuis l’application.",
+        "pt": "Sim, movimentado. Senão, chame um app de carro."
+      },
+      {
+        "role": "you",
+        "text": "Je prends le bus alors. Merci pour les options.",
+        "pt": "Então pego o ônibus. Obrigado pelas opções.",
+        "pt_f": "Então pego o ônibus. Obrigada pelas opções."
+      }
+    ],
+    "restaurante": [
+      {
+        "role": "npc",
+        "text": "Une table pour combien ?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "Pour deux, s’il vous plaît.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Vous avez choisi ?",
+        "pt": "Já escolheu?"
+      },
+      {
+        "role": "you",
+        "text": "Je prends le plat du jour.",
+        "pt": "Vou de prato do dia."
+      },
+      {
+        "role": "npc",
+        "text": "Et comme boisson ?",
+        "pt": "E de bebida?"
+      },
+      {
+        "role": "you",
+        "text": "Une carafe d’eau, s’il vous plaît.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-base": [
+      {
+        "role": "npc",
+        "text": "Une table pour combien ?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "Pour deux, s’il vous plaît.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Vous avez choisi ?",
+        "pt": "Já escolheu?"
+      },
+      {
+        "role": "you",
+        "text": "Je prends le plat du jour.",
+        "pt": "Vou de prato do dia."
+      },
+      {
+        "role": "npc",
+        "text": "Et comme boisson ?",
+        "pt": "E de bebida?"
+      },
+      {
+        "role": "you",
+        "text": "Une carafe d’eau, s’il vous plaît.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-plus": [
+      {
+        "role": "npc",
+        "text": "Des allergies à signaler ?",
+        "pt": "Alguma alergia a informar?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, je suis allergique aux arachides.",
+        "pt": "Sim, sou alérgico a amendoim."
+      },
+      {
+        "role": "npc",
+        "text": "Le curry en contient. Je vous recommande le poisson.",
+        "pt": "O curry tem. Recomendo o peixe."
+      },
+      {
+        "role": "you",
+        "text": "Parfait. Sans sauce à base de noix, s’il vous plaît.",
+        "pt": "Perfeito. Sem molho à base de nozes, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Bien noté, je préviens la cuisine.",
+        "pt": "Anotado, aviso a cozinha."
+      },
+      {
+        "role": "you",
+        "text": "Merci, c’est important pour moi.",
+        "pt": "Obrigado, é importante para mim.",
+        "pt_f": "Obrigada, é importante para mim."
+      }
+    ],
+    "restaurante-go": [
+      {
+        "role": "npc",
+        "text": "Voici l’addition. Ça vous convient ?",
+        "pt": "Aqui está a conta. Está certo?"
+      },
+      {
+        "role": "you",
+        "text": "Il y a une erreur : on n’a pas commandé ce dessert.",
+        "pt": "Tem um erro: não pedimos essa sobremesa."
+      },
+      {
+        "role": "npc",
+        "text": "Pardon — je corrige immédiatement.",
+        "pt": "Desculpe — corrijo na hora."
+      },
+      {
+        "role": "you",
+        "text": "Et pourriez-vous séparer l’addition en deux, s’il vous plaît ?",
+        "pt": "E poderiam dividir a conta em duas, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Bien sûr. Deux totals égaux, hors dessert.",
+        "pt": "Claro. Dois totais iguais, sem a sobremesa."
+      },
+      {
+        "role": "you",
+        "text": "Parfait. Merci d’avoir réglé ça proprement.",
+        "pt": "Perfeito. Obrigado por resolver com educação.",
+        "pt_f": "Perfeito. Obrigada por resolver com educação."
+      }
+    ],
+    "compras": [
+      {
+        "role": "npc",
+        "text": "Je peux vous aider ?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Je cherche une taille M.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "En quelle couleur ?",
+        "pt": "Em qual cor?"
+      },
+      {
+        "role": "you",
+        "text": "En bleu, s’il vous plaît.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Vous voulez l’essayer ?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, où sont les cabines ?",
+        "pt": "Sim, onde ficam os provadores?"
+      }
+    ],
+    "compras-base": [
+      {
+        "role": "npc",
+        "text": "Je peux vous aider ?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Je cherche une taille M.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "En quelle couleur ?",
+        "pt": "Em qual cor?"
+      },
+      {
+        "role": "you",
+        "text": "En bleu, s’il vous plaît.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Vous voulez l’essayer ?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, où sont les cabines ?",
+        "pt": "Sim, onde ficam os provadores?"
+      }
+    ],
+    "compras-plus": [
+      {
+        "role": "npc",
+        "text": "Ça vous va ?",
+        "pt": "Ficou bom?"
+      },
+      {
+        "role": "you",
+        "text": "Le M est trop juste. Vous avez un L ?",
+        "pt": "O M ficou justo demais. Tem um L?"
+      },
+      {
+        "role": "npc",
+        "text": "Oui, en stock. Vous voulez échanger ?",
+        "pt": "Sim, em estoque. Quer trocar?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, et garder le ticket pour un éventuel retour.",
+        "pt": "Sim, e guardar o cupom para uma eventual devolução."
+      },
+      {
+        "role": "npc",
+        "text": "Trente jours pour changer ou rembourser.",
+        "pt": "Trinta dias para trocar ou reembolsar."
+      },
+      {
+        "role": "you",
+        "text": "Parfait, je prends le L alors.",
+        "pt": "Perfeito, então levo o L."
+      }
+    ],
+    "compras-go": [
+      {
+        "role": "npc",
+        "text": "Comment puis-je vous aider ?",
+        "pt": "Como posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "La couture est défaite. Puis-je l’échanger et faire le détaxe ?",
+        "pt": "A costura está abrindo. Posso trocar e pedir o reembolso de impostos?"
+      },
+      {
+        "role": "npc",
+        "text": "Oui. Avez-vous le ticket et votre passeport ?",
+        "pt": "Sim. Tem o cupom e o passaporte?"
+      },
+      {
+        "role": "you",
+        "text": "Oui. Pour le même modèle, y a-t-il une réduction aujourd’hui ?",
+        "pt": "Sim. Para o mesmo modelo, tem desconto hoje?"
+      },
+      {
+        "role": "npc",
+        "text": "Je peux appliquer dix pour cent sur l’échange.",
+        "pt": "Posso aplicar dez por cento na troca."
+      },
+      {
+        "role": "you",
+        "text": "Marché conclu — et le formulaire détaxe, s’il vous plaît.",
+        "pt": "Fechado — e o formulário de reembolso de impostos, por favor."
+      }
+    ],
+    "aeroporto": [
+      {
+        "role": "npc",
+        "text": "Passeport et billet, s’il vous plaît.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Voici mon passeport. Je voyage léger.",
+        "pt": "Aqui está meu passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Porte A24. Embarquement dans trente minutes.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "Où est le contrôle de sécurité ?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Tout droit, suivez les panneaux.",
+        "pt": "Em frente, siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Merci. Mon vol est à l’heure ?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-base": [
+      {
+        "role": "npc",
+        "text": "Passeport et billet, s’il vous plaît.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Voici mon passeport. Je voyage léger.",
+        "pt": "Aqui está meu passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Porte A24. Embarquement dans trente minutes.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "Où est le contrôle de sécurité ?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Tout droit, suivez les panneaux.",
+        "pt": "Em frente, siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Merci. Mon vol est à l’heure ?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-plus": [
+      {
+        "role": "npc",
+        "text": "Votre attention : changement de porte.",
+        "pt": "Atenção: mudança de portão."
+      },
+      {
+        "role": "you",
+        "text": "Mon vol pour Lisbonne — quelle est la nouvelle porte ?",
+        "pt": "Meu voo para Lisboa — qual é o novo portão?"
+      },
+      {
+        "role": "npc",
+        "text": "Porte B12 maintenant. Départ retardé de vingt minutes.",
+        "pt": "Portão B12 agora. Partida atrasada em vinte minutos."
+      },
+      {
+        "role": "you",
+        "text": "Où se trouve le terminal B, s’il vous plaît ?",
+        "pt": "Onde fica o terminal B, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Navette gratuite, toutes les cinq minutes.",
+        "pt": "Traslado gratuito, a cada cinco minutos."
+      },
+      {
+        "role": "you",
+        "text": "Merci, j’y vais tout de suite.",
+        "pt": "Obrigado, vou para lá agora.",
+        "pt_f": "Obrigada, vou para lá agora."
+      }
+    ],
+    "aeroporto-go": [
+      {
+        "role": "npc",
+        "text": "Prochain vol ? Votre correspondance est ratée ?",
+        "pt": "Próximo voo? Perdeu a conexão?"
+      },
+      {
+        "role": "you",
+        "text": "Oui, à cause du retard. Pouvez-vous me réacheminer ?",
+        "pt": "Sim, por causa do atraso. Podem me remanejar?"
+      },
+      {
+        "role": "npc",
+        "text": "Il reste une place ce soir via Madrid.",
+        "pt": "Tem um assento hoje à noite via Madri."
+      },
+      {
+        "role": "you",
+        "text": "Est-ce que le bagage enregistre suit automatiquement ?",
+        "pt": "A bagagem despachada segue automaticamente?"
+      },
+      {
+        "role": "npc",
+        "text": "Oui — je mets une étiquette prioritaire et un voucher repas.",
+        "pt": "Sim — coloco etiqueta prioritária e um voucher de refeição."
+      },
+      {
+        "role": "you",
+        "text": "Merci beaucoup d’avoir trouvé une solution aussi vite.",
+        "pt": "Muito obrigado por achar uma solução tão rápido.",
+        "pt_f": "Muito obrigada por achar uma solução tão rápido."
+      }
+    ],
+    "emergencia": [
+      {
+        "role": "npc",
+        "text": "Vous allez bien ?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "Non, j’ai besoin d’aide.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "Que se passe-t-il ?",
+        "pt": "O que está acontecendo?"
+      },
+      {
+        "role": "you",
+        "text": "J’ai très mal à la tête.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "On appelle une pharmacie.",
+        "pt": "Vamos chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Merci. Où est l’hôpital le plus proche ?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-base": [
+      {
+        "role": "npc",
+        "text": "Vous allez bien ?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "Non, j’ai besoin d’aide.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "Que se passe-t-il ?",
+        "pt": "O que está acontecendo?"
+      },
+      {
+        "role": "you",
+        "text": "J’ai très mal à la tête.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "On appelle une pharmacie.",
+        "pt": "Vamos chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Merci. Où est l’hôpital le plus proche ?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-plus": [
+      {
+        "role": "npc",
+        "text": "Qu’est-ce qui s’est passé ?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "role": "you",
+        "text": "J’ai perdu mon portefeuille dans le métro.",
+        "pt": "Perdi minha carteira no metrô."
+      },
+      {
+        "role": "npc",
+        "text": "Il faut le déclarer au commissariat.",
+        "pt": "É preciso declarar na delegacia."
+      },
+      {
+        "role": "you",
+        "text": "Pouvez-vous m’indiquer le plus proche ?",
+        "pt": "Pode me indicar o mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Deux rues plus loin, à gauche. Apportez une pièce d’identité.",
+        "pt": "Duas ruas adiante, à esquerda. Leve um documento."
+      },
+      {
+        "role": "you",
+        "text": "Merci. Je vais aussi bloquer mes cartes.",
+        "pt": "Obrigado. Vou também bloquear meus cartões.",
+        "pt_f": "Obrigada. Vou também bloquear meus cartões."
+      }
+    ],
+    "emergencia-go": [
+      {
+        "role": "npc",
+        "text": "Je suis secouriste. Qu’est-ce qui ne va pas ?",
+        "pt": "Sou socorrista. O que não vai bem?"
+      },
+      {
+        "role": "you",
+        "text": "Vertiges, nausée, et une douleur sourde à la poitrine.",
+        "pt": "Tontura, náusea e uma dor surda no peito."
+      },
+      {
+        "role": "npc",
+        "text": "Depuis quand ? Êtes-vous seul ici ?",
+        "pt": "Desde quando? Está sozinho aqui?"
+      },
+      {
+        "role": "you",
+        "text": "Depuis une heure. Pouvez-vous appeler les urgences ?",
+        "pt": "Há uma hora. Pode ligar para o SAMU?"
+      },
+      {
+        "role": "npc",
+        "text": "J’appelle le 112. Asseyez-vous, ne faites plus d’effort.",
+        "pt": "Ligo o 112. Sente-se, não faça mais esforço."
+      },
+      {
+        "role": "you",
+        "text": "D’accord. Merci — j’ai aussi mon assurance voyage ici.",
+        "pt": "Certo. Obrigado — tenho também meu seguro viagem aqui.",
+        "pt_f": "Certo. Obrigada — tenho também meu seguro viagem aqui."
+      }
+    ]
+  },
+  "en": {
+    "primeiro-dia": [
+      {
+        "role": "npc",
+        "text": "Hi! Are you new in town?",
+        "pt": "Oi! É novo na cidade?"
+      },
+      {
+        "role": "you",
+        "text": "Yes, it’s my first time here.",
+        "pt": "Sim, é minha primeira vez aqui."
+      },
+      {
+        "role": "npc",
+        "text": "Welcome! Looking for something?",
+        "pt": "Bem-vindo! Procurando algo?"
+      },
+      {
+        "role": "you",
+        "text": "I’m looking for my hotel, please.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "It’s a five-minute walk that way.",
+        "pt": "Fica a cinco minutos a pé por ali."
+      },
+      {
+        "role": "you",
+        "text": "Thank you so much!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "primeiro-dia-base": [
+      {
+        "role": "npc",
+        "text": "Hi! Are you new in town?",
+        "pt": "Oi! É novo na cidade?"
+      },
+      {
+        "role": "you",
+        "text": "Yes, it’s my first time here.",
+        "pt": "Sim, é minha primeira vez aqui."
+      },
+      {
+        "role": "npc",
+        "text": "Welcome! Looking for something?",
+        "pt": "Bem-vindo! Procurando algo?"
+      },
+      {
+        "role": "you",
+        "text": "I’m looking for my hotel, please.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "It’s a five-minute walk that way.",
+        "pt": "Fica a cinco minutos a pé por ali."
+      },
+      {
+        "role": "you",
+        "text": "Thank you so much!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "primeiro-dia-plus": [
+      {
+        "role": "npc",
+        "text": "Need a tourist tip?",
+        "pt": "Precisa de uma dica de turista?"
+      },
+      {
+        "role": "you",
+        "text": "Yes — where can I buy a transit card?",
+        "pt": "Sim — onde posso comprar um cartão de transporte?"
+      },
+      {
+        "role": "npc",
+        "text": "At the metro station ticket desk.",
+        "pt": "No guichê da estação de metrô."
+      },
+      {
+        "role": "you",
+        "text": "Is it valid for several days?",
+        "pt": "É válido por vários dias?"
+      },
+      {
+        "role": "npc",
+        "text": "Yes, there’s a three-day pass.",
+        "pt": "Sim, tem um passe de três dias."
+      },
+      {
+        "role": "you",
+        "text": "Perfect, I’ll go there right away.",
+        "pt": "Perfeito, vou para lá agora mesmo."
+      }
+    ],
+    "primeiro-dia-go": [
+      {
+        "role": "npc",
+        "text": "You look a bit lost — can I help?",
+        "pt": "Você parece um pouco perdido — posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Yes. I need a SIM card and a nice area for dinner.",
+        "pt": "Sim. Preciso de um chip SIM e um bairro legal para jantar."
+      },
+      {
+        "role": "npc",
+        "text": "SIM at the kiosk across the street. For dinner, try the old town.",
+        "pt": "Chip no quiosque em frente. Para jantar, experimente a cidade antiga."
+      },
+      {
+        "role": "you",
+        "text": "Are there affordable but decent places there?",
+        "pt": "Tem lugares acessíveis mas bons por lá?"
+      },
+      {
+        "role": "npc",
+        "text": "Yes — side streets, not the main square traps.",
+        "pt": "Sim — ruas laterais, não as armadilhas da praça principal."
+      },
+      {
+        "role": "you",
+        "text": "Great advice — I’ll remember that. Thanks a lot.",
+        "pt": "Ótimo conselho — vou lembrar. Muito obrigado.",
+        "pt_f": "Ótimo conselho — vou lembrar. Muito obrigada."
+      }
+    ],
+    "cafe": [
+      {
+        "role": "npc",
+        "text": "Hi, what can I get you?",
+        "pt": "Oi, o que deseja?"
+      },
+      {
+        "role": "you",
+        "text": "A long coffee and a croissant, please.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "For here or to go?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "To go, thanks.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "That’ll be four fifty.",
+        "pt": "Fica quatro e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "I’ll pay by card.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-base": [
+      {
+        "role": "npc",
+        "text": "Hi, what can I get you?",
+        "pt": "Oi, o que deseja?"
+      },
+      {
+        "role": "you",
+        "text": "A long coffee and a croissant, please.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "For here or to go?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "To go, thanks.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "That’ll be four fifty.",
+        "pt": "Fica quatro e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "I’ll pay by card.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-plus": [
+      {
+        "role": "npc",
+        "text": "Here’s your latte.",
+        "pt": "Aqui está seu latte."
+      },
+      {
+        "role": "you",
+        "text": "Sorry — I ordered no milk. I’m allergic.",
+        "pt": "Desculpe — pedi sem leite. Sou alérgico."
+      },
+      {
+        "role": "npc",
+        "text": "Oh no! Shall I remake it with oat milk?",
+        "pt": "Puxa! Refaço com leite de aveia?"
+      },
+      {
+        "role": "you",
+        "text": "Yes, please. And a muffin without nuts.",
+        "pt": "Sim, por favor. E um muffin sem nozes."
+      },
+      {
+        "role": "npc",
+        "text": "Got it — ready in two minutes.",
+        "pt": "Certo — pronto em dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Thanks for fixing the order.",
+        "pt": "Obrigado por corrigir o pedido.",
+        "pt_f": "Obrigada por corrigir o pedido."
+      }
+    ],
+    "cafe-go": [
+      {
+        "role": "npc",
+        "text": "Everything okay with your order?",
+        "pt": "Tudo certo com o pedido?"
+      },
+      {
+        "role": "you",
+        "text": "Not really — the coffee’s cold and it’s not what I asked for.",
+        "pt": "Nem tanto — o café está frio e não é o que pedi."
+      },
+      {
+        "role": "npc",
+        "text": "I’m really sorry. I’ll remake it right away.",
+        "pt": "Sinto muito mesmo. Refaço na hora."
+      },
+      {
+        "role": "you",
+        "text": "Thanks. Could you comp the pastry as a courtesy?",
+        "pt": "Obrigado. Poderia oferecer o doce como cortesia?",
+        "pt_f": "Obrigada. Poderia oferecer o doce como cortesia?"
+      },
+      {
+        "role": "npc",
+        "text": "Of course — pastry on us, and a fresh coffee made correctly.",
+        "pt": "Claro — doce por nossa conta e um café fresco certo."
+      },
+      {
+        "role": "you",
+        "text": "Perfect — that’s very fair of you. Thank you.",
+        "pt": "Perfeito — muito justo da sua parte. Obrigado.",
+        "pt_f": "Perfeito — muito justo da sua parte. Obrigada."
+      }
+    ],
+    "metro": [
+      {
+        "role": "npc",
+        "text": "Need a ticket?",
+        "pt": "Precisa de um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "A round-trip ticket, please.",
+        "pt": "Uma passagem ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Where to?",
+        "pt": "Para onde?"
+      },
+      {
+        "role": "you",
+        "text": "To downtown, please.",
+        "pt": "Para o centro, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Take line 1.",
+        "pt": "Pegue a linha 1."
+      },
+      {
+        "role": "you",
+        "text": "Thanks — which direction?",
+        "pt": "Obrigado — qual direção?",
+        "pt_f": "Obrigada — qual direção?"
+      }
+    ],
+    "metro-base": [
+      {
+        "role": "npc",
+        "text": "Need a ticket?",
+        "pt": "Precisa de um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "A round-trip ticket, please.",
+        "pt": "Uma passagem ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Where to?",
+        "pt": "Para onde?"
+      },
+      {
+        "role": "you",
+        "text": "To downtown, please.",
+        "pt": "Para o centro, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Take line 1.",
+        "pt": "Pegue a linha 1."
+      },
+      {
+        "role": "you",
+        "text": "Thanks — which direction?",
+        "pt": "Obrigado — qual direção?",
+        "pt_f": "Obrigada — qual direção?"
+      }
+    ],
+    "metro-plus": [
+      {
+        "role": "npc",
+        "text": "Gate won’t open?",
+        "pt": "A catraca não abre?"
+      },
+      {
+        "role": "you",
+        "text": "I lost my ticket and I’m running late.",
+        "pt": "Perdi o bilhete e estou atrasado.",
+        "pt_f": "Perdi o bilhete e estou atrasada."
+      },
+      {
+        "role": "npc",
+        "text": "You can buy another one here.",
+        "pt": "Pode comprar outro aqui."
+      },
+      {
+        "role": "you",
+        "text": "Is there a train to Central soon?",
+        "pt": "Tem um trem para o centro em breve?"
+      },
+      {
+        "role": "npc",
+        "text": "Yes, in four minutes — northbound.",
+        "pt": "Sim, em quatro minutos — sentido norte."
+      },
+      {
+        "role": "you",
+        "text": "Thanks — I’ll take a single ticket then.",
+        "pt": "Obrigado — então peço um bilhete simples.",
+        "pt_f": "Obrigada — então peço um bilhete simples."
+      }
+    ],
+    "metro-go": [
+      {
+        "role": "npc",
+        "text": "Sorry, the ticket machines are down.",
+        "pt": "Desculpe, as máquinas de bilhete estão fora."
+      },
+      {
+        "role": "you",
+        "text": "I really need this train. Can I pay at the desk?",
+        "pt": "Preciso muito deste trem. Posso pagar no guichê?"
+      },
+      {
+        "role": "npc",
+        "text": "Yes — card or cash. Which zone?",
+        "pt": "Sim — cartão ou dinheiro. Qual zona?"
+      },
+      {
+        "role": "you",
+        "text": "Zones 1–2. I’m in a rush — meeting in twenty minutes.",
+        "pt": "Zonas 1–2. Tenho pressa — reunião em vinte minutos."
+      },
+      {
+        "role": "npc",
+        "text": "Here’s your ticket. Right platform, departing soon.",
+        "pt": "Aqui está o bilhete. Plataforma à direita, saindo já."
+      },
+      {
+        "role": "you",
+        "text": "Thanks for rushing that — you saved my day.",
+        "pt": "Obrigado por agilizar — você salvou meu dia.",
+        "pt_f": "Obrigada por agilizar — você salvou meu dia."
+      }
+    ],
+    "hotel": [
+      {
+        "role": "npc",
+        "text": "Good evening. Do you have a reservation?",
+        "pt": "Boa noite. Tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Yes, under Silva.",
+        "pt": "Sim, no nome Silva."
+      },
+      {
+        "role": "npc",
+        "text": "ID, please.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Here’s my passport.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Here’s your key. Room 412.",
+        "pt": "Aqui está a chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "Does the Wi‑Fi work already?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-base": [
+      {
+        "role": "npc",
+        "text": "Good evening. Do you have a reservation?",
+        "pt": "Boa noite. Tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Yes, under Silva.",
+        "pt": "Sim, no nome Silva."
+      },
+      {
+        "role": "npc",
+        "text": "ID, please.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Here’s my passport.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Here’s your key. Room 412.",
+        "pt": "Aqui está a chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "Does the Wi‑Fi work already?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-plus": [
+      {
+        "role": "npc",
+        "text": "Hi, how can I help?",
+        "pt": "Oi, como posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "What’s the Wi‑Fi password, please?",
+        "pt": "Qual é a senha do wifi, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "It’s HotelGuest2024 on Guests network.",
+        "pt": "É HotelGuest2024 na rede Convidados."
+      },
+      {
+        "role": "you",
+        "text": "And can I get a late checkout tomorrow?",
+        "pt": "E posso fazer o check-out mais tarde amanhã?"
+      },
+      {
+        "role": "npc",
+        "text": "Until 2 p.m., for ten euros.",
+        "pt": "Até às 14h, por dez euros."
+      },
+      {
+        "role": "you",
+        "text": "Okay, please confirm late checkout.",
+        "pt": "Certo, confirme o check-out mais tarde, por favor."
+      }
+    ],
+    "hotel-go": [
+      {
+        "role": "npc",
+        "text": "Evening — issue with the room?",
+        "pt": "Boa noite — problema com o quarto?"
+      },
+      {
+        "role": "you",
+        "text": "Yes — the AC isn’t working and the street side is too noisy.",
+        "pt": "Sim — o ar não funciona e o lado da rua está barulhento demais."
+      },
+      {
+        "role": "npc",
+        "text": "I can move you to a quieter room on the fifth floor.",
+        "pt": "Posso mudar você para um quarto mais calmo no quinto."
+      },
+      {
+        "role": "you",
+        "text": "Please do. And could you include a 3 p.m. checkout?",
+        "pt": "Por favor. E poderiam incluir checkout às 15h?"
+      },
+      {
+        "role": "npc",
+        "text": "Deal — free room change and late checkout at no charge.",
+        "pt": "Combinado — troca de quarto e check-out mais tarde sem custo."
+      },
+      {
+        "role": "you",
+        "text": "Excellent — thanks for sorting that out.",
+        "pt": "Excelente — obrigado por resolver isso.",
+        "pt_f": "Excelente — obrigada por resolver isso."
+      }
+    ],
+    "rua": [
+      {
+        "role": "npc",
+        "text": "Are you lost?",
+        "pt": "Está perdido?"
+      },
+      {
+        "role": "you",
+        "text": "Yes — where’s the nearest pharmacy?",
+        "pt": "Sim — onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Straight ahead, then right.",
+        "pt": "Em frente, depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "Is it far on foot?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "No, two minutes.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Thank you!",
+        "pt": "Obrigado!",
+        "pt_f": "Obrigada!"
+      }
+    ],
+    "rua-base": [
+      {
+        "role": "npc",
+        "text": "Are you lost?",
+        "pt": "Está perdido?"
+      },
+      {
+        "role": "you",
+        "text": "Yes — where’s the nearest pharmacy?",
+        "pt": "Sim — onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Straight ahead, then right.",
+        "pt": "Em frente, depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "Is it far on foot?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "No, two minutes.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Thank you!",
+        "pt": "Obrigado!",
+        "pt_f": "Obrigada!"
+      }
+    ],
+    "rua-plus": [
+      {
+        "role": "npc",
+        "text": "Looking for something?",
+        "pt": "Procurando algo?"
+      },
+      {
+        "role": "you",
+        "text": "Yes — an ATM. The bank is closed.",
+        "pt": "Sim — um caixa. O banco está fechado."
+      },
+      {
+        "role": "npc",
+        "text": "There’s one inside the pharmacy on the corner.",
+        "pt": "Tem um dentro da farmácia na esquina."
+      },
+      {
+        "role": "you",
+        "text": "Does it take foreign cards?",
+        "pt": "Aceita cartões estrangeiros?"
+      },
+      {
+        "role": "npc",
+        "text": "Usually Visa and Mastercard, yes.",
+        "pt": "Em geral Visa e Mastercard, sim."
+      },
+      {
+        "role": "you",
+        "text": "Great, thanks for the tip.",
+        "pt": "Ótimo, obrigado pela dica.",
+        "pt_f": "Ótimo, obrigada pela dica."
+      }
+    ],
+    "rua-go": [
+      {
+        "role": "npc",
+        "text": "Did you miss the last metro?",
+        "pt": "Perdeu o último metrô?"
+      },
+      {
+        "role": "you",
+        "text": "Yes, and my hotel’s a bit far. Night bus or taxi?",
+        "pt": "Sim, e meu hotel fica um pouco longe. Ônibus noturno ou táxi?"
+      },
+      {
+        "role": "npc",
+        "text": "The N02 stops there. Taxi’s about fifteen euros.",
+        "pt": "O N02 para ali. Táxi fica uns quinze euros."
+      },
+      {
+        "role": "you",
+        "text": "Is the bus reasonably safe at this hour?",
+        "pt": "O ônibus é razoavelmente seguro a esta hora?"
+      },
+      {
+        "role": "npc",
+        "text": "Yes, it’s busy. Or order a rideshare from the app.",
+        "pt": "Sim, é movimentado. Ou chame um app de carro."
+      },
+      {
+        "role": "you",
+        "text": "I’ll take the bus then. Thanks for the options.",
+        "pt": "Então pego o ônibus. Obrigado pelas opções.",
+        "pt_f": "Então pego o ônibus. Obrigada pelas opções."
+      }
+    ],
+    "restaurante": [
+      {
+        "role": "npc",
+        "text": "A table for how many?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "For two, please.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Have you decided?",
+        "pt": "Já decidiu?"
+      },
+      {
+        "role": "you",
+        "text": "I’ll have the daily special.",
+        "pt": "Vou de prato do dia."
+      },
+      {
+        "role": "npc",
+        "text": "And to drink?",
+        "pt": "E de beber?"
+      },
+      {
+        "role": "you",
+        "text": "A jug of water, please.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-base": [
+      {
+        "role": "npc",
+        "text": "A table for how many?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "For two, please.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Have you decided?",
+        "pt": "Já decidiu?"
+      },
+      {
+        "role": "you",
+        "text": "I’ll have the daily special.",
+        "pt": "Vou de prato do dia."
+      },
+      {
+        "role": "npc",
+        "text": "And to drink?",
+        "pt": "E de beber?"
+      },
+      {
+        "role": "you",
+        "text": "A jug of water, please.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-plus": [
+      {
+        "role": "npc",
+        "text": "Any allergies I should note?",
+        "pt": "Alguma alergia que eu deva anotar?"
+      },
+      {
+        "role": "you",
+        "text": "Yes, I’m allergic to peanuts.",
+        "pt": "Sim, sou alérgico a amendoim."
+      },
+      {
+        "role": "npc",
+        "text": "The curry has peanuts. I’d suggest the fish.",
+        "pt": "O curry tem amendoim. Sugiro o peixe."
+      },
+      {
+        "role": "you",
+        "text": "Perfect. No nut-based sauce, please.",
+        "pt": "Perfeito. Sem molho à base de nozes, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Noted — I’ll tell the kitchen.",
+        "pt": "Anotado — aviso a cozinha."
+      },
+      {
+        "role": "you",
+        "text": "Thanks, that’s really important to me.",
+        "pt": "Obrigado, isso é muito importante para mim.",
+        "pt_f": "Obrigada, isso é muito importante para mim."
+      }
+    ],
+    "restaurante-go": [
+      {
+        "role": "npc",
+        "text": "Here’s the bill. Does that look right?",
+        "pt": "Aqui está a conta. Está certo?"
+      },
+      {
+        "role": "you",
+        "text": "There’s a mistake — we didn’t order that dessert.",
+        "pt": "Tem um erro — não pedimos aquela sobremesa."
+      },
+      {
+        "role": "npc",
+        "text": "Sorry — I’ll fix it immediately.",
+        "pt": "Desculpe — corrijo na hora."
+      },
+      {
+        "role": "you",
+        "text": "And could you split the bill in two, please?",
+        "pt": "E poderiam dividir a conta em duas, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Of course. Two equal totals, without the dessert.",
+        "pt": "Claro. Dois totais iguais, sem a sobremesa."
+      },
+      {
+        "role": "you",
+        "text": "Perfect. Thanks for handling that properly.",
+        "pt": "Perfeito. Obrigado por resolver direito.",
+        "pt_f": "Perfeito. Obrigada por resolver direito."
+      }
+    ],
+    "compras": [
+      {
+        "role": "npc",
+        "text": "Can I help you?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "I’m looking for a medium.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "What color?",
+        "pt": "Qual cor?"
+      },
+      {
+        "role": "you",
+        "text": "In blue, please.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Want to try it on?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Yes — where are the fitting rooms?",
+        "pt": "Sim — onde ficam os provadores?"
+      }
+    ],
+    "compras-base": [
+      {
+        "role": "npc",
+        "text": "Can I help you?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "I’m looking for a medium.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "What color?",
+        "pt": "Qual cor?"
+      },
+      {
+        "role": "you",
+        "text": "In blue, please.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Want to try it on?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Yes — where are the fitting rooms?",
+        "pt": "Sim — onde ficam os provadores?"
+      }
+    ],
+    "compras-plus": [
+      {
+        "role": "npc",
+        "text": "How does it fit?",
+        "pt": "Como ficou?"
+      },
+      {
+        "role": "you",
+        "text": "The medium is too tight. Do you have a large?",
+        "pt": "O M ficou justo demais. Tem um G?"
+      },
+      {
+        "role": "npc",
+        "text": "Yes, in stock. Want to exchange it?",
+        "pt": "Sim, em estoque. Quer trocar?"
+      },
+      {
+        "role": "you",
+        "text": "Yes — and keep the receipt for a possible return.",
+        "pt": "Sim — e guardar o cupom para eventual devolução."
+      },
+      {
+        "role": "npc",
+        "text": "Thirty days to exchange or refund.",
+        "pt": "Trinta dias para trocar ou reembolsar."
+      },
+      {
+        "role": "you",
+        "text": "Perfect — I’ll take the large then.",
+        "pt": "Perfeito — então levo o G."
+      }
+    ],
+    "compras-go": [
+      {
+        "role": "npc",
+        "text": "How can I help you?",
+        "pt": "Como posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "The seam’s coming undone. Can I exchange it and do tax-free?",
+        "pt": "A costura está abrindo. Posso trocar e pedir o reembolso de impostos?"
+      },
+      {
+        "role": "npc",
+        "text": "Yes. Do you have the receipt and your passport?",
+        "pt": "Sim. Tem o cupom e o passaporte?"
+      },
+      {
+        "role": "you",
+        "text": "Yes. For the same model, is there a discount today?",
+        "pt": "Sim. Para o mesmo modelo, tem desconto hoje?"
+      },
+      {
+        "role": "npc",
+        "text": "I can apply ten percent on the exchange.",
+        "pt": "Posso aplicar dez por cento na troca."
+      },
+      {
+        "role": "you",
+        "text": "Deal — and the tax-free form, please.",
+        "pt": "Fechado — e o formulário de reembolso de impostos, por favor."
+      }
+    ],
+    "aeroporto": [
+      {
+        "role": "npc",
+        "text": "Passport and ticket, please.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Here’s my passport. I’m traveling light.",
+        "pt": "Aqui está meu passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Gate A24. Boarding in thirty minutes.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "Where is security?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Straight ahead — follow the signs.",
+        "pt": "Em frente — siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Thanks. Is my flight on time?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-base": [
+      {
+        "role": "npc",
+        "text": "Passport and ticket, please.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Here’s my passport. I’m traveling light.",
+        "pt": "Aqui está meu passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Gate A24. Boarding in thirty minutes.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "Where is security?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Straight ahead — follow the signs.",
+        "pt": "Em frente — siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Thanks. Is my flight on time?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-plus": [
+      {
+        "role": "npc",
+        "text": "Attention: gate change.",
+        "pt": "Atenção: mudança de portão."
+      },
+      {
+        "role": "you",
+        "text": "My flight to Lisbon — what’s the new gate?",
+        "pt": "Meu voo para Lisboa — qual é o novo portão?"
+      },
+      {
+        "role": "npc",
+        "text": "Gate B12 now. Delayed twenty minutes.",
+        "pt": "Portão B12 agora. Atrasado vinte minutos."
+      },
+      {
+        "role": "you",
+        "text": "Where is terminal B, please?",
+        "pt": "Onde fica o terminal B, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Free shuttle every five minutes.",
+        "pt": "Traslado gratuito a cada cinco minutos."
+      },
+      {
+        "role": "you",
+        "text": "Thanks — I’m heading there now.",
+        "pt": "Obrigado — estou indo para lá agora.",
+        "pt_f": "Obrigada — estou indo para lá agora."
+      }
+    ],
+    "aeroporto-go": [
+      {
+        "role": "npc",
+        "text": "Next flight? Did you miss your connection?",
+        "pt": "Próximo voo? Perdeu a conexão?"
+      },
+      {
+        "role": "you",
+        "text": "Yes, because of the delay. Can you rebook me?",
+        "pt": "Sim, por causa do atraso. Podem remarcar?"
+      },
+      {
+        "role": "npc",
+        "text": "There’s a seat tonight via Madrid.",
+        "pt": "Tem um assento hoje à noite via Madri."
+      },
+      {
+        "role": "you",
+        "text": "Will my checked bag transfer automatically?",
+        "pt": "Minha bagagem despachada transfere automaticamente?"
+      },
+      {
+        "role": "npc",
+        "text": "Yes — priority tag plus a meal voucher.",
+        "pt": "Sim — etiqueta prioritária e um voucher de refeição."
+      },
+      {
+        "role": "you",
+        "text": "Thank you so much for finding a fix this quickly.",
+        "pt": "Muito obrigado por achar uma solução tão rápido.",
+        "pt_f": "Muito obrigada por achar uma solução tão rápido."
+      }
+    ],
+    "emergencia": [
+      {
+        "role": "npc",
+        "text": "Are you okay?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "No, I need help.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "What’s wrong?",
+        "pt": "O que houve?"
+      },
+      {
+        "role": "you",
+        "text": "I have a bad headache.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "I’ll call a pharmacy.",
+        "pt": "Vou chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Thank you. Where’s the nearest hospital?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-base": [
+      {
+        "role": "npc",
+        "text": "Are you okay?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "No, I need help.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "What’s wrong?",
+        "pt": "O que houve?"
+      },
+      {
+        "role": "you",
+        "text": "I have a bad headache.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "I’ll call a pharmacy.",
+        "pt": "Vou chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Thank you. Where’s the nearest hospital?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-plus": [
+      {
+        "role": "npc",
+        "text": "What happened?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "role": "you",
+        "text": "I lost my wallet on the metro.",
+        "pt": "Perdi minha carteira no metrô."
+      },
+      {
+        "role": "npc",
+        "text": "You should report it at the police station.",
+        "pt": "Você deve declarar na delegacia."
+      },
+      {
+        "role": "you",
+        "text": "Can you point me to the nearest one?",
+        "pt": "Pode me indicar a mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Two blocks down, left. Bring ID.",
+        "pt": "Duas quadras adiante, à esquerda. Leve documento."
+      },
+      {
+        "role": "you",
+        "text": "Thanks. I’ll also freeze my cards.",
+        "pt": "Obrigado. Vou também bloquear meus cartões.",
+        "pt_f": "Obrigada. Vou também bloquear meus cartões."
+      }
+    ],
+    "emergencia-go": [
+      {
+        "role": "npc",
+        "text": "I’m a first aider. What’s wrong?",
+        "pt": "Sou socorrista. O que houve?"
+      },
+      {
+        "role": "you",
+        "text": "Dizziness, nausea, and a dull pain in my chest.",
+        "pt": "Tontura, náusea e uma dor surda no peito."
+      },
+      {
+        "role": "npc",
+        "text": "Since when? Are you alone here?",
+        "pt": "Desde quando? Está sozinho aqui?"
+      },
+      {
+        "role": "you",
+        "text": "For about an hour. Can you call emergency services?",
+        "pt": "Há cerca de uma hora. Pode ligar para o resgate?"
+      },
+      {
+        "role": "npc",
+        "text": "Calling 112 now. Sit down — don’t exert yourself.",
+        "pt": "Ligando 112 agora. Sente-se — não faça esforço."
+      },
+      {
+        "role": "you",
+        "text": "Okay. Thanks — I also have my travel insurance here.",
+        "pt": "Certo. Obrigado — tenho também meu seguro viagem aqui.",
+        "pt_f": "Certo. Obrigada — tenho também meu seguro viagem aqui."
+      }
+    ]
+  },
+  "es": {
+    "primeiro-dia": [
+      {
+        "role": "npc",
+        "text": "¡Hola! ¿Es nuevo en la ciudad?",
+        "pt": "Oi! É novo na cidade?",
+        "text_f": "¡Hola! ¿Es nueva en la ciudad?",
+        "pt_f": "Oi! É nova na cidade?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, es mi primera vez.",
+        "pt": "Sim, é minha primeira vez."
+      },
+      {
+        "role": "npc",
+        "text": "¡Bienvenido! ¿Busca algo?",
+        "pt": "Bem-vindo! Procura algo?"
+      },
+      {
+        "role": "you",
+        "text": "Busco mi hotel, por favor.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Está a cinco minutos a pie.",
+        "pt": "Fica a cinco minutos a pé."
+      },
+      {
+        "role": "you",
+        "text": "¡Muchas gracias!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "primeiro-dia-base": [
+      {
+        "role": "npc",
+        "text": "¡Hola! ¿Es nuevo en la ciudad?",
+        "pt": "Oi! É novo na cidade?",
+        "text_f": "¡Hola! ¿Es nueva en la ciudad?",
+        "pt_f": "Oi! É nova na cidade?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, es mi primera vez.",
+        "pt": "Sim, é minha primeira vez."
+      },
+      {
+        "role": "npc",
+        "text": "¡Bienvenido! ¿Busca algo?",
+        "pt": "Bem-vindo! Procura algo?"
+      },
+      {
+        "role": "you",
+        "text": "Busco mi hotel, por favor.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Está a cinco minutos a pie.",
+        "pt": "Fica a cinco minutos a pé."
+      },
+      {
+        "role": "you",
+        "text": "¡Muchas gracias!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "primeiro-dia-plus": [
+      {
+        "role": "npc",
+        "text": "¿Necesita una tip turística?",
+        "pt": "Precisa de uma dica de turista?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, ¿dónde compro una tarjeta de transporte?",
+        "pt": "Sim, onde compro um cartão de transporte?"
+      },
+      {
+        "role": "npc",
+        "text": "En el metro, en la ventanilla.",
+        "pt": "No metrô, no guichê."
+      },
+      {
+        "role": "you",
+        "text": "¿Vale para varios días?",
+        "pt": "Vale para vários dias?"
+      },
+      {
+        "role": "npc",
+        "text": "Sí, hay un abono de tres días.",
+        "pt": "Sim, tem um passe de três dias."
+      },
+      {
+        "role": "you",
+        "text": "Perfecto, voy ahora mismo.",
+        "pt": "Perfeito, vou agora mesmo."
+      }
+    ],
+    "primeiro-dia-go": [
+      {
+        "role": "npc",
+        "text": "Parece un poco perdido — ¿le ayudo?",
+        "pt": "Parece um pouco perdido — ajudo?",
+        "text_f": "Parece un poco perdida — ¿le ayudo?",
+        "pt_f": "Parece um pouco perdida — ajudo?"
+      },
+      {
+        "role": "you",
+        "text": "Sí. Necesito una SIM y una zona agradable para cenar.",
+        "pt": "Sim. Preciso de um chip e um bairro legal para jantar."
+      },
+      {
+        "role": "npc",
+        "text": "La SIM en el quiosco de enfrente. Para cenar, el casco antiguo.",
+        "pt": "O chip no quiosque em frente. Para jantar, o centro histórico."
+      },
+      {
+        "role": "you",
+        "text": "¿Hay sitios asequibles pero decentes por allí?",
+        "pt": "Tem lugares acessíveis mas bons por lá?"
+      },
+      {
+        "role": "npc",
+        "text": "Sí — calles laterales, no las trampas de la plaza.",
+        "pt": "Sim — ruas laterais, não as armadilhas da praça."
+      },
+      {
+        "role": "you",
+        "text": "Excelente consejo, lo recordaré. Muchas gracias.",
+        "pt": "Ótimo conselho, vou lembrar. Muito obrigado.",
+        "pt_f": "Ótimo conselho, vou lembrar. Muito obrigada."
+      }
+    ],
+    "cafe": [
+      {
+        "role": "npc",
+        "text": "Hola, ¿qué desea?",
+        "pt": "Oi, o que deseja?"
+      },
+      {
+        "role": "you",
+        "text": "Un café largo y un croissant, por favor.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿Para aquí o para llevar?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "Para llevar, gracias.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "Son cuatro euros cincuenta.",
+        "pt": "São quatro euros e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "Pago con tarjeta.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-base": [
+      {
+        "role": "npc",
+        "text": "Hola, ¿qué desea?",
+        "pt": "Oi, o que deseja?"
+      },
+      {
+        "role": "you",
+        "text": "Un café largo y un croissant, por favor.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿Para aquí o para llevar?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "Para llevar, gracias.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "Son cuatro euros cincuenta.",
+        "pt": "São quatro euros e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "Pago con tarjeta.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-plus": [
+      {
+        "role": "npc",
+        "text": "Aquí tiene su café con leche.",
+        "pt": "Aqui está seu café com leite."
+      },
+      {
+        "role": "you",
+        "text": "Perdón, pedí sin leche — soy alérgico.",
+        "pt": "Desculpe, pedi sem leite — sou alérgico."
+      },
+      {
+        "role": "npc",
+        "text": "¡Ay, disculpe! ¿Se lo rehago con avena?",
+        "pt": "Ai, desculpe! Refaço com aveia?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, por favor. Y un muffin sin frutos secos.",
+        "pt": "Sim, por favor. E um muffin sem oleaginosas."
+      },
+      {
+        "role": "npc",
+        "text": "De acuerdo, en dos minutos.",
+        "pt": "Certo, em dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Gracias por corregir el pedido.",
+        "pt": "Obrigado por corrigir o pedido.",
+        "pt_f": "Obrigada por corrigir o pedido."
+      }
+    ],
+    "cafe-go": [
+      {
+        "role": "npc",
+        "text": "¿Todo bien con el pedido?",
+        "pt": "Tudo certo com o pedido?"
+      },
+      {
+        "role": "you",
+        "text": "La verdad no — el café está frío y no es lo que pedí.",
+        "pt": "Na verdade não — o café está frio e não é o que pedi."
+      },
+      {
+        "role": "npc",
+        "text": "Lo siento mucho. Se lo cambio ahora mismo.",
+        "pt": "Sinto muito. Troco agora mesmo."
+      },
+      {
+        "role": "you",
+        "text": "Gracias. ¿Podrían regalar el croissant como detalle?",
+        "pt": "Obrigado. Poderiam oferecer o croissant como cortesia?",
+        "pt_f": "Obrigada. Poderiam oferecer o croissant como cortesia?"
+      },
+      {
+        "role": "npc",
+        "text": "Claro — croissant de cortesía y un café fresco bien hecho.",
+        "pt": "Claro — croissant de cortesia e um café fresco bem feito."
+      },
+      {
+        "role": "you",
+        "text": "Perfecto, es muy correcto por su parte. Gracias.",
+        "pt": "Perfeito, muito correto da sua parte. Obrigado.",
+        "pt_f": "Perfeito, muito correto da sua parte. Obrigada."
+      }
+    ],
+    "metro": [
+      {
+        "role": "npc",
+        "text": "¿Quiere un billete?",
+        "pt": "Quer um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "Un billete de ida y vuelta, por favor.",
+        "pt": "Uma passagem ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿A qué destino?",
+        "pt": "Para qual destino?"
+      },
+      {
+        "role": "you",
+        "text": "Al centro, por favor.",
+        "pt": "Ao centro, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Tome la línea 1.",
+        "pt": "Pegue a linha 1."
+      },
+      {
+        "role": "you",
+        "text": "Gracias, ¿qué sentido?",
+        "pt": "Obrigado, qual sentido?",
+        "pt_f": "Obrigada, qual sentido?"
+      }
+    ],
+    "metro-base": [
+      {
+        "role": "npc",
+        "text": "¿Quiere un billete?",
+        "pt": "Quer um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "Un billete de ida y vuelta, por favor.",
+        "pt": "Uma passagem ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿A qué destino?",
+        "pt": "Para qual destino?"
+      },
+      {
+        "role": "you",
+        "text": "Al centro, por favor.",
+        "pt": "Ao centro, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Tome la línea 1.",
+        "pt": "Pegue a linha 1."
+      },
+      {
+        "role": "you",
+        "text": "Gracias, ¿qué sentido?",
+        "pt": "Obrigado, qual sentido?",
+        "pt_f": "Obrigada, qual sentido?"
+      }
+    ],
+    "metro-plus": [
+      {
+        "role": "npc",
+        "text": "¿No abre el torniquete?",
+        "pt": "A catraca não abre?"
+      },
+      {
+        "role": "you",
+        "text": "Perdí el billete y llegaré tarde.",
+        "pt": "Perdi o bilhete e vou me atrasar."
+      },
+      {
+        "role": "npc",
+        "text": "Puede comprar otro aquí.",
+        "pt": "Pode comprar outro aqui."
+      },
+      {
+        "role": "you",
+        "text": "¿Hay un tren al centro pronto?",
+        "pt": "Tem um trem para o centro em breve?"
+      },
+      {
+        "role": "npc",
+        "text": "Sí, en cuatro minutos, dirección norte.",
+        "pt": "Sim, em quatro minutos, sentido norte."
+      },
+      {
+        "role": "you",
+        "text": "Gracias, entonces un billete sencillo.",
+        "pt": "Obrigado, então um bilhete simples.",
+        "pt_f": "Obrigada, então um bilhete simples."
+      }
+    ],
+    "metro-go": [
+      {
+        "role": "npc",
+        "text": "Las máquinas no funcionan, lo siento.",
+        "pt": "As máquinas não funcionam, desculpe."
+      },
+      {
+        "role": "you",
+        "text": "Necesito coger este tren. ¿Puedo pagar en ventanilla?",
+        "pt": "Preciso pegar este trem. Posso pagar no guichê?"
+      },
+      {
+        "role": "npc",
+        "text": "Sí — tarjeta o efectivo. ¿Qué zona?",
+        "pt": "Sim — cartão ou dinheiro. Qual zona?"
+      },
+      {
+        "role": "you",
+        "text": "Zona 1–2. Voy con prisa: cita en veinte minutos.",
+        "pt": "Zona 1–2. Tenho pressa: compromisso em vinte minutos."
+      },
+      {
+        "role": "npc",
+        "text": "Aquí tiene el billete. Andén de la derecha, sale ya.",
+        "pt": "Aqui está o bilhete. Plataforma à direita, sai já."
+      },
+      {
+        "role": "you",
+        "text": "Gracias por agilizarlo, me ha salvado el día.",
+        "pt": "Obrigado por agilizar, salvou meu dia.",
+        "pt_f": "Obrigada por agilizar, salvou meu dia."
+      }
+    ],
+    "hotel": [
+      {
+        "role": "npc",
+        "text": "Buenas noches, ¿tiene reserva?",
+        "pt": "Boa noite, tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, a nombre de Silva.",
+        "pt": "Sim, no nome Silva."
+      },
+      {
+        "role": "npc",
+        "text": "Documento, por favor.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Aquí tiene mi pasaporte.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Aquí tiene su llave. Habitación 412.",
+        "pt": "Aqui está a chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "¿El wifi ya funciona?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-base": [
+      {
+        "role": "npc",
+        "text": "Buenas noches, ¿tiene reserva?",
+        "pt": "Boa noite, tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, a nombre de Silva.",
+        "pt": "Sim, no nome Silva."
+      },
+      {
+        "role": "npc",
+        "text": "Documento, por favor.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Aquí tiene mi pasaporte.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Aquí tiene su llave. Habitación 412.",
+        "pt": "Aqui está a chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "¿El wifi ya funciona?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-plus": [
+      {
+        "role": "npc",
+        "text": "Hola, ¿en qué puedo ayudarle?",
+        "pt": "Oi, em que posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "¿Cuál es la contraseña del wifi, por favor?",
+        "pt": "Qual é a senha do wifi, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Es HotelGuest2024, red Invitados.",
+        "pt": "É HotelGuest2024, rede Convidados."
+      },
+      {
+        "role": "you",
+        "text": "¿Y puedo hacer late check-out mañana?",
+        "pt": "E posso fazer o check-out mais tarde amanhã?"
+      },
+      {
+        "role": "npc",
+        "text": "Hasta las catorce, por diez euros.",
+        "pt": "Até às quatorze, por dez euros."
+      },
+      {
+        "role": "you",
+        "text": "De acuerdo, confirmo el late check-out.",
+        "pt": "Certo, confirmo o check-out mais tarde."
+      }
+    ],
+    "hotel-go": [
+      {
+        "role": "npc",
+        "text": "Buenas, ¿problema con la habitación?",
+        "pt": "Boa noite, problema com o quarto?"
+      },
+      {
+        "role": "you",
+        "text": "Sí — el aire no funciona y el lado a la calle es muy ruidoso.",
+        "pt": "Sim — o ar não funciona e o lado da rua é muito barulhento."
+      },
+      {
+        "role": "npc",
+        "text": "Puedo cambiarle a una más tranquila en el quinto.",
+        "pt": "Posso mudar para uma mais calma no quinto."
+      },
+      {
+        "role": "you",
+        "text": "Genial. ¿Y podrían incluir salida a las quince?",
+        "pt": "Ótimo. E poderiam incluir saída às quinze?"
+      },
+      {
+        "role": "npc",
+        "text": "Hecho — cambio gratis y late check-out sin cargo.",
+        "pt": "Combinado — troca de quarto e check-out mais tarde sem custo."
+      },
+      {
+        "role": "you",
+        "text": "Excelente, gracias por resolverlo.",
+        "pt": "Excelente, obrigado por resolver.",
+        "pt_f": "Excelente, obrigada por resolver."
+      }
+    ],
+    "rua": [
+      {
+        "role": "npc",
+        "text": "¿Está perdido?",
+        "pt": "Está perdido?",
+        "text_f": "¿Está perdida?",
+        "pt_f": "Está perdida?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, ¿dónde está la farmacia más cercana?",
+        "pt": "Sim, onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Todo recto y luego a la derecha.",
+        "pt": "Em frente e depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "¿Está lejos a pie?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "No, dos minutos.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "¡Muchas gracias!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "rua-base": [
+      {
+        "role": "npc",
+        "text": "¿Está perdido?",
+        "pt": "Está perdido?",
+        "text_f": "¿Está perdida?",
+        "pt_f": "Está perdida?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, ¿dónde está la farmacia más cercana?",
+        "pt": "Sim, onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Todo recto y luego a la derecha.",
+        "pt": "Em frente e depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "¿Está lejos a pie?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "No, dos minutos.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "¡Muchas gracias!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "rua-plus": [
+      {
+        "role": "npc",
+        "text": "¿Busca algo?",
+        "pt": "Procura algo?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, un cajero. El banco está cerrado.",
+        "pt": "Sim, um caixa. O banco está fechado."
+      },
+      {
+        "role": "npc",
+        "text": "Hay uno en la farmacia de la esquina.",
+        "pt": "Tem um na farmácia da esquina."
+      },
+      {
+        "role": "you",
+        "text": "¿Acepta tarjetas extranjeras?",
+        "pt": "Aceita cartões estrangeiros?"
+      },
+      {
+        "role": "npc",
+        "text": "Sí, Visa y Mastercard normalmente.",
+        "pt": "Sim, Visa e Mastercard normalmente."
+      },
+      {
+        "role": "you",
+        "text": "Genial, gracias por la indicación.",
+        "pt": "Ótimo, obrigado pela indicação.",
+        "pt_f": "Ótimo, obrigada pela indicação."
+      }
+    ],
+    "rua-go": [
+      {
+        "role": "npc",
+        "text": "¿Perdió el último metro?",
+        "pt": "Perdeu o último metrô?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, y el hotel queda un poco lejos. ¿Bus nocturno o taxi?",
+        "pt": "Sim, e o hotel fica um pouco longe. Ônibus noturno ou táxi?"
+      },
+      {
+        "role": "npc",
+        "text": "El N02 para ahí. El taxi, unos quince euros.",
+        "pt": "O N02 para ali. O táxi, uns quinze euros."
+      },
+      {
+        "role": "you",
+        "text": "¿El bus es razonablemente seguro a esta hora?",
+        "pt": "O ônibus é razoavelmente seguro a esta hora?"
+      },
+      {
+        "role": "npc",
+        "text": "Sí, hay gente. O pida un VTC por la app.",
+        "pt": "Sim, tem movimento. Ou chame um app de carro."
+      },
+      {
+        "role": "you",
+        "text": "Me voy en bus entonces. Gracias por las opciones.",
+        "pt": "Então vou de ônibus. Obrigado pelas opções.",
+        "pt_f": "Então vou de ônibus. Obrigada pelas opções."
+      }
+    ],
+    "restaurante": [
+      {
+        "role": "npc",
+        "text": "¿Mesa para cuántos?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "Para dos, por favor.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿Ya ha elegido?",
+        "pt": "Já escolheu?"
+      },
+      {
+        "role": "you",
+        "text": "El plato del día, por favor.",
+        "pt": "O prato do dia, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿Y de beber?",
+        "pt": "E de beber?"
+      },
+      {
+        "role": "you",
+        "text": "Una jarra de agua, por favor.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-base": [
+      {
+        "role": "npc",
+        "text": "¿Mesa para cuántos?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "Para dos, por favor.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿Ya ha elegido?",
+        "pt": "Já escolheu?"
+      },
+      {
+        "role": "you",
+        "text": "El plato del día, por favor.",
+        "pt": "O prato do dia, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿Y de beber?",
+        "pt": "E de beber?"
+      },
+      {
+        "role": "you",
+        "text": "Una jarra de agua, por favor.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-plus": [
+      {
+        "role": "npc",
+        "text": "¿Alguna alergia que deba anotar?",
+        "pt": "Alguma alergia que eu deva anotar?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, soy alérgico al cacahuete.",
+        "pt": "Sim, sou alérgico a amendoim."
+      },
+      {
+        "role": "npc",
+        "text": "El curry lo lleva. Le recomiendo el pescado.",
+        "pt": "O curry tem. Recomendo o peixe."
+      },
+      {
+        "role": "you",
+        "text": "Perfecto. Sin salsa con frutos secos, por favor.",
+        "pt": "Perfeito. Sem molho com oleaginosas, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Anotado, aviso a cocina.",
+        "pt": "Anotado, aviso a cozinha."
+      },
+      {
+        "role": "you",
+        "text": "Gracias, es muy importante para mí.",
+        "pt": "Obrigado, é muito importante para mim.",
+        "pt_f": "Obrigada, é muito importante para mim."
+      }
+    ],
+    "restaurante-go": [
+      {
+        "role": "npc",
+        "text": "Aquí tiene la cuenta. ¿Le parece bien?",
+        "pt": "Aqui está a conta. Parece certo?"
+      },
+      {
+        "role": "you",
+        "text": "Hay un error: no pedimos ese postre.",
+        "pt": "Tem um erro: não pedimos aquela sobremesa."
+      },
+      {
+        "role": "npc",
+        "text": "Perdón — lo corrijo ahora mismo.",
+        "pt": "Desculpe — corrijo agora mesmo."
+      },
+      {
+        "role": "you",
+        "text": "¿Y podrían dividir la cuenta en dos, por favor?",
+        "pt": "E poderiam dividir a conta em duas, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Claro. Dos totales iguales, sin el postre.",
+        "pt": "Claro. Dois totais iguais, sem a sobremesa."
+      },
+      {
+        "role": "you",
+        "text": "Perfecto. Gracias por gestionar esto bien.",
+        "pt": "Perfeito. Obrigado por resolver bem.",
+        "pt_f": "Perfeito. Obrigada por resolver bem."
+      }
+    ],
+    "compras": [
+      {
+        "role": "npc",
+        "text": "¿Puedo ayudarle?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Busco una talla M.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "¿De qué color?",
+        "pt": "De que cor?"
+      },
+      {
+        "role": "you",
+        "text": "En azul, por favor.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿Quiere probárselo?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, ¿dónde están los probadores?",
+        "pt": "Sim, onde ficam os provadores?"
+      }
+    ],
+    "compras-base": [
+      {
+        "role": "npc",
+        "text": "¿Puedo ayudarle?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Busco una talla M.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "¿De qué color?",
+        "pt": "De que cor?"
+      },
+      {
+        "role": "you",
+        "text": "En azul, por favor.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "¿Quiere probárselo?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, ¿dónde están los probadores?",
+        "pt": "Sim, onde ficam os provadores?"
+      }
+    ],
+    "compras-plus": [
+      {
+        "role": "npc",
+        "text": "¿Le queda bien?",
+        "pt": "Ficou bom?"
+      },
+      {
+        "role": "you",
+        "text": "La M queda justa. ¿Tiene una L?",
+        "pt": "A M ficou justa. Tem um L?"
+      },
+      {
+        "role": "npc",
+        "text": "Sí, en stock. ¿Quiere cambiarla?",
+        "pt": "Sim, em estoque. Quer trocar?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, y guardar el ticket por si devuelvo.",
+        "pt": "Sim, e guardar o cupom caso eu devolva."
+      },
+      {
+        "role": "npc",
+        "text": "Treinta días para cambio o reembolso.",
+        "pt": "Trinta dias para troca ou reembolso."
+      },
+      {
+        "role": "you",
+        "text": "Perfecto, me llevo la L entonces.",
+        "pt": "Perfeito, então levo o L."
+      }
+    ],
+    "compras-go": [
+      {
+        "role": "npc",
+        "text": "¿En qué le puedo ayudar?",
+        "pt": "Em que posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "La costura se abre. ¿Puedo cambiarlo y hacer tax free?",
+        "pt": "A costura está abrindo. Posso trocar e pedir o reembolso de impostos?"
+      },
+      {
+        "role": "npc",
+        "text": "Sí. ¿Tiene el ticket y el pasaporte?",
+        "pt": "Sim. Tem o cupom e o passaporte?"
+      },
+      {
+        "role": "you",
+        "text": "Sí. ¿Para el mismo modelo hay descuento hoy?",
+        "pt": "Sim. Para o mesmo modelo tem desconto hoje?"
+      },
+      {
+        "role": "npc",
+        "text": "Puedo aplicar un diez por ciento en el cambio.",
+        "pt": "Posso aplicar dez por cento na troca."
+      },
+      {
+        "role": "you",
+        "text": "Trato hecho — y el formulario tax free, por favor.",
+        "pt": "Fechado — e o formulário de reembolso de impostos, por favor."
+      }
+    ],
+    "aeroporto": [
+      {
+        "role": "npc",
+        "text": "Pasaporte y billete, por favor.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Aquí está mi pasaporte. Viajo ligero.",
+        "pt": "Aqui está meu passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Puerta A24. Embarque en treinta minutos.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "¿Dónde está el control de seguridad?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Todo recto, siga las señales.",
+        "pt": "Em frente, siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Gracias. ¿Mi vuelo va a la hora?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-base": [
+      {
+        "role": "npc",
+        "text": "Pasaporte y billete, por favor.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Aquí está mi pasaporte. Viajo ligero.",
+        "pt": "Aqui está meu passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Puerta A24. Embarque en treinta minutos.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "¿Dónde está el control de seguridad?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Todo recto, siga las señales.",
+        "pt": "Em frente, siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Gracias. ¿Mi vuelo va a la hora?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-plus": [
+      {
+        "role": "npc",
+        "text": "Atención: cambio de puerta.",
+        "pt": "Atenção: mudança de portão."
+      },
+      {
+        "role": "you",
+        "text": "Mi vuelo a Lisboa — ¿cuál es la nueva puerta?",
+        "pt": "Meu voo para Lisboa — qual é o novo portão?"
+      },
+      {
+        "role": "npc",
+        "text": "Puerta B12 ahora. Retraso de veinte minutos.",
+        "pt": "Portão B12 agora. Atraso de vinte minutos."
+      },
+      {
+        "role": "you",
+        "text": "¿Dónde está la terminal B, por favor?",
+        "pt": "Onde fica o terminal B, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Lanzadera gratis cada cinco minutos.",
+        "pt": "Traslado gratuito a cada cinco minutos."
+      },
+      {
+        "role": "you",
+        "text": "Gracias, voy ahora mismo.",
+        "pt": "Obrigado, vou agora mesmo.",
+        "pt_f": "Obrigada, vou agora mesmo."
+      }
+    ],
+    "aeroporto-go": [
+      {
+        "role": "npc",
+        "text": "¿Perdió la conexión?",
+        "pt": "Perdeu a conexão?"
+      },
+      {
+        "role": "you",
+        "text": "Sí, por el retraso. ¿Pueden reubicarme?",
+        "pt": "Sim, pelo atraso. Podem me remanejar?"
+      },
+      {
+        "role": "npc",
+        "text": "Hay plaza esta noche vía Madrid.",
+        "pt": "Tem lugar hoje à noite via Madri."
+      },
+      {
+        "role": "you",
+        "text": "¿El equipaje facturado sigue automáticamente?",
+        "pt": "A bagagem despachada segue automaticamente?"
+      },
+      {
+        "role": "npc",
+        "text": "Sí — etiqueta prioritaria y un vale de comida.",
+        "pt": "Sim — etiqueta prioritária e um vale-refeição."
+      },
+      {
+        "role": "you",
+        "text": "Muchas gracias por encontrar una solución tan rápido.",
+        "pt": "Muito obrigado por achar uma solução tão rápido.",
+        "pt_f": "Muito obrigada por achar uma solução tão rápido."
+      }
+    ],
+    "emergencia": [
+      {
+        "role": "npc",
+        "text": "¿Se encuentra bien?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "No, necesito ayuda.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "¿Qué ocurre?",
+        "pt": "O que está acontecendo?"
+      },
+      {
+        "role": "you",
+        "text": "Me duele mucho la cabeza.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "Voy a llamar a una farmacia.",
+        "pt": "Vou chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Gracias. ¿Dónde está el hospital más cercano?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-base": [
+      {
+        "role": "npc",
+        "text": "¿Se encuentra bien?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "No, necesito ayuda.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "¿Qué ocurre?",
+        "pt": "O que está acontecendo?"
+      },
+      {
+        "role": "you",
+        "text": "Me duele mucho la cabeza.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "Voy a llamar a una farmacia.",
+        "pt": "Vou chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Gracias. ¿Dónde está el hospital más cercano?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-plus": [
+      {
+        "role": "npc",
+        "text": "¿Qué ha pasado?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "role": "you",
+        "text": "He perdido la cartera en el metro.",
+        "pt": "Perdi a carteira no metrô."
+      },
+      {
+        "role": "npc",
+        "text": "Hay que denunciarlo en comisaría.",
+        "pt": "É preciso denunciar na delegacia."
+      },
+      {
+        "role": "you",
+        "text": "¿Me indica la más cercana?",
+        "pt": "Pode me indicar a mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Dos calles más abajo, a la izquierda. Lleve DNI.",
+        "pt": "Duas ruas abaixo, à esquerda. Leve documento."
+      },
+      {
+        "role": "you",
+        "text": "Gracias. También bloquearé las tarjetas.",
+        "pt": "Obrigado. Também vou bloquear os cartões.",
+        "pt_f": "Obrigada. Também vou bloquear os cartões."
+      }
+    ],
+    "emergencia-go": [
+      {
+        "role": "npc",
+        "text": "Soy socorrista. ¿Qué le ocurre?",
+        "pt": "Sou socorrista. O que acontece?"
+      },
+      {
+        "role": "you",
+        "text": "Mareo, náuseas y un dolor sordo en el pecho.",
+        "pt": "Tontura, náusea e uma dor surda no peito."
+      },
+      {
+        "role": "npc",
+        "text": "¿Desde cuándo? ¿Está solo?",
+        "pt": "Desde quando? Está sozinho?"
+      },
+      {
+        "role": "you",
+        "text": "Desde hace una hora. ¿Puede llamar a emergencias?",
+        "pt": "Há uma hora. Pode ligar para emergências?"
+      },
+      {
+        "role": "npc",
+        "text": "Llamo al 112. Siéntese, no haga esfuerzos.",
+        "pt": "Ligo o 112. Sente-se, não faça esforço."
+      },
+      {
+        "role": "you",
+        "text": "De acuerdo. Gracias — también tengo el seguro de viaje.",
+        "pt": "Certo. Obrigado — também tenho o seguro viagem.",
+        "pt_f": "Certo. Obrigada — também tenho o seguro viagem."
+      }
+    ]
+  },
+  "de": {
+    "primeiro-dia": [
+      {
+        "role": "npc",
+        "text": "Hallo! Sind Sie neu in der Stadt?",
+        "pt": "Olá! É novo na cidade?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, ich bin zum ersten Mal hier.",
+        "pt": "Sim, é minha primeira vez aqui."
+      },
+      {
+        "role": "npc",
+        "text": "Willkommen! Suchen Sie etwas?",
+        "pt": "Bem-vindo! Procura algo?"
+      },
+      {
+        "role": "you",
+        "text": "Ich suche mein Hotel, bitte.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Es sind fünf Minuten zu Fuß.",
+        "pt": "São cinco minutos a pé."
+      },
+      {
+        "role": "you",
+        "text": "Vielen Dank für Ihre Hilfe!",
+        "pt": "Muito obrigado pela ajuda!",
+        "pt_f": "Muito obrigada pela ajuda!"
+      }
+    ],
+    "primeiro-dia-base": [
+      {
+        "role": "npc",
+        "text": "Hallo! Sind Sie neu in der Stadt?",
+        "pt": "Olá! É novo na cidade?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, ich bin zum ersten Mal hier.",
+        "pt": "Sim, é minha primeira vez aqui."
+      },
+      {
+        "role": "npc",
+        "text": "Willkommen! Suchen Sie etwas?",
+        "pt": "Bem-vindo! Procura algo?"
+      },
+      {
+        "role": "you",
+        "text": "Ich suche mein Hotel, bitte.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Es sind fünf Minuten zu Fuß.",
+        "pt": "São cinco minutos a pé."
+      },
+      {
+        "role": "you",
+        "text": "Vielen Dank für Ihre Hilfe!",
+        "pt": "Muito obrigado pela ajuda!",
+        "pt_f": "Muito obrigada pela ajuda!"
+      }
+    ],
+    "primeiro-dia-plus": [
+      {
+        "role": "npc",
+        "text": "Brauchen Sie einen Tipp für Touristen?",
+        "pt": "Precisa de uma dica para turistas?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, wo kaufe ich eine Verkehrskarte?",
+        "pt": "Sim, onde compro um cartão de transporte?"
+      },
+      {
+        "role": "npc",
+        "text": "Am Schalter in der U‑Bahn‑Station.",
+        "pt": "No guichê da estação de metrô."
+      },
+      {
+        "role": "you",
+        "text": "Gilt sie für mehrere Tage?",
+        "pt": "Vale por vários dias?"
+      },
+      {
+        "role": "npc",
+        "text": "Ja, es gibt ein Drei‑Tage‑Ticket.",
+        "pt": "Sim, tem um passe de três dias."
+      },
+      {
+        "role": "you",
+        "text": "Perfekt, ich gehe gleich hin.",
+        "pt": "Perfeito, vou para lá agora."
+      }
+    ],
+    "primeiro-dia-go": [
+      {
+        "role": "npc",
+        "text": "Sie wirken etwas verloren — kann ich helfen?",
+        "pt": "Você parece um pouco perdido — posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Ja. Ich brauche eine SIM und ein nettes Viertel zum Essen.",
+        "pt": "Sim. Preciso de um chip e um bairro legal para jantar."
+      },
+      {
+        "role": "npc",
+        "text": "SIM im Kiosk gegenüber. Zum Essen: die Altstadt.",
+        "pt": "Chip no quiosque em frente. Para jantar: a cidade antiga."
+      },
+      {
+        "role": "you",
+        "text": "Gibt es dort günstige, aber gute Orte?",
+        "pt": "Tem lugares acessíveis mas bons por lá?"
+      },
+      {
+        "role": "npc",
+        "text": "Ja — Seitengassen, nicht die Touristenfallen am Platz.",
+        "pt": "Sim — ruas laterais, não as armadilhas da praça."
+      },
+      {
+        "role": "you",
+        "text": "Toller Tipp, den merke ich mir. Vielen Dank.",
+        "pt": "Ótimo conselho, vou lembrar. Muito obrigado.",
+        "pt_f": "Ótimo conselho, vou lembrar. Muito obrigada."
+      }
+    ],
+    "cafe": [
+      {
+        "role": "npc",
+        "text": "Guten Tag, was darf es sein?",
+        "pt": "Bom dia, o que deseja?"
+      },
+      {
+        "role": "you",
+        "text": "Einen verlängerten Kaffee und ein Croissant, bitte.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Zum Hiertrinken oder mitnehmen?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "Zum Mitnehmen, danke.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "Das macht vier Euro fünfzig.",
+        "pt": "São quatro euros e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "Ich zahle mit Karte.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-base": [
+      {
+        "role": "npc",
+        "text": "Guten Tag, was darf es sein?",
+        "pt": "Bom dia, o que deseja?"
+      },
+      {
+        "role": "you",
+        "text": "Einen verlängerten Kaffee und ein Croissant, bitte.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Zum Hiertrinken oder mitnehmen?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "Zum Mitnehmen, danke.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "Das macht vier Euro fünfzig.",
+        "pt": "São quatro euros e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "Ich zahle mit Karte.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-plus": [
+      {
+        "role": "npc",
+        "text": "Hier ist Ihr Milchkaffee.",
+        "pt": "Aqui está seu café com leite."
+      },
+      {
+        "role": "you",
+        "text": "Entschuldigung, ich hatte ohne Milch bestellt — Allergie.",
+        "pt": "Desculpe, eu pedi sem leite — alergia."
+      },
+      {
+        "role": "npc",
+        "text": "Oh, sorry! Soll ich ihn mit Hafermilch neu machen?",
+        "pt": "Ah, desculpe! Refaço com leite de aveia?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, bitte. Und einen Muffin ohne Nüsse.",
+        "pt": "Sim, por favor. E um muffin sem nozes."
+      },
+      {
+        "role": "npc",
+        "text": "In Ordnung, in zwei Minuten fertig.",
+        "pt": "Certo, pronto em dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Danke, dass Sie die Bestellung korrigieren.",
+        "pt": "Obrigado por corrigir o pedido.",
+        "pt_f": "Obrigada por corrigir o pedido."
+      }
+    ],
+    "cafe-go": [
+      {
+        "role": "npc",
+        "text": "Alles in Ordnung mit der Bestellung?",
+        "pt": "Tudo certo com o pedido?"
+      },
+      {
+        "role": "you",
+        "text": "Leider nicht — der Kaffee ist kalt und nicht das, was ich wollte.",
+        "pt": "Infelizmente não — o café está frio e não é o que pedi."
+      },
+      {
+        "role": "npc",
+        "text": "Das tut mir leid. Ich mache ihn sofort neu.",
+        "pt": "Sinto muito. Refaço na hora."
+      },
+      {
+        "role": "you",
+        "text": "Danke. Könnten Sie das Croissant als Geste spendieren?",
+        "pt": "Obrigado. Poderiam oferecer o croissant como cortesia?",
+        "pt_f": "Obrigada. Poderiam oferecer o croissant como cortesia?"
+      },
+      {
+        "role": "npc",
+        "text": "Klar — Croissant gratis und ein frischer, korrekter Kaffee.",
+        "pt": "Claro — croissant de cortesia e um café fresco certo."
+      },
+      {
+        "role": "you",
+        "text": "Perfekt, das ist sehr fair. Danke.",
+        "pt": "Perfeito, muito justo. Obrigado.",
+        "pt_f": "Perfeito, muito justo. Obrigada."
+      }
+    ],
+    "metro": [
+      {
+        "role": "npc",
+        "text": "Möchten Sie ein Ticket?",
+        "pt": "Quer um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "Eine Hin‑ und Rückfahrt, bitte.",
+        "pt": "Uma ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Wohin möchten Sie?",
+        "pt": "Para onde deseja?"
+      },
+      {
+        "role": "you",
+        "text": "In die Innenstadt, bitte.",
+        "pt": "Ao centro, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Nehmen Sie die Linie 1.",
+        "pt": "Pegue a linha 1."
+      },
+      {
+        "role": "you",
+        "text": "Danke — welche Richtung?",
+        "pt": "Obrigado — qual direção?",
+        "pt_f": "Obrigada — qual direção?"
+      }
+    ],
+    "metro-base": [
+      {
+        "role": "npc",
+        "text": "Möchten Sie ein Ticket?",
+        "pt": "Quer um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "Eine Hin‑ und Rückfahrt, bitte.",
+        "pt": "Uma ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Wohin möchten Sie?",
+        "pt": "Para onde deseja?"
+      },
+      {
+        "role": "you",
+        "text": "In die Innenstadt, bitte.",
+        "pt": "Ao centro, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Nehmen Sie die Linie 1.",
+        "pt": "Pegue a linha 1."
+      },
+      {
+        "role": "you",
+        "text": "Danke — welche Richtung?",
+        "pt": "Obrigado — qual direção?",
+        "pt_f": "Obrigada — qual direção?"
+      }
+    ],
+    "metro-plus": [
+      {
+        "role": "npc",
+        "text": "Die Sperre geht nicht auf?",
+        "pt": "A catraca não abre?"
+      },
+      {
+        "role": "you",
+        "text": "Ich habe mein Ticket verloren und komme zu spät.",
+        "pt": "Perdi o bilhete e estou atrasado.",
+        "pt_f": "Perdi o bilhete e estou atrasada."
+      },
+      {
+        "role": "npc",
+        "text": "Sie können hier ein neues kaufen.",
+        "pt": "Pode comprar um novo aqui."
+      },
+      {
+        "role": "you",
+        "text": "Kommt bald ein Zug Richtung Zentrum?",
+        "pt": "Vem logo um trem para o centro?"
+      },
+      {
+        "role": "npc",
+        "text": "Ja, in vier Minuten, Richtung Norden.",
+        "pt": "Sim, em quatro minutos, sentido norte."
+      },
+      {
+        "role": "you",
+        "text": "Danke, dann nehme ich eine Einzelfahrt.",
+        "pt": "Obrigado, então peço uma passagem simples.",
+        "pt_f": "Obrigada, então peço uma passagem simples."
+      }
+    ],
+    "metro-go": [
+      {
+        "role": "npc",
+        "text": "Die Automaten sind leider kaputt.",
+        "pt": "As máquinas estão quebradas, infelizmente."
+      },
+      {
+        "role": "you",
+        "text": "Ich muss diesen Zug nehmen. Kann ich am Schalter zahlen?",
+        "pt": "Preciso pegar este trem. Posso pagar no guichê?"
+      },
+      {
+        "role": "npc",
+        "text": "Ja — Karte oder bar. Welche Zone?",
+        "pt": "Sim — cartão ou dinheiro. Qual zona?"
+      },
+      {
+        "role": "you",
+        "text": "Zone 1–2. Ich habe Eile: Termin in zwanzig Minuten.",
+        "pt": "Zona 1–2. Tenho pressa: compromisso em vinte minutos."
+      },
+      {
+        "role": "npc",
+        "text": "Hier Ihr Ticket. Bahnsteig rechts, Abfahrt gleich.",
+        "pt": "Aqui está o bilhete. Plataforma à direita, partida já."
+      },
+      {
+        "role": "you",
+        "text": "Danke fürs Tempo — Sie haben meinen Tag gerettet.",
+        "pt": "Obrigado pela agilidade — salvou meu dia.",
+        "pt_f": "Obrigada pela agilidade — salvou meu dia."
+      }
+    ],
+    "hotel": [
+      {
+        "role": "npc",
+        "text": "Guten Abend, haben Sie eine Reservierung?",
+        "pt": "Boa noite, tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, auf den Namen Silva.",
+        "pt": "Sim, no nome Silva."
+      },
+      {
+        "role": "npc",
+        "text": "Ausweis, bitte.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Hier ist mein Reisepass.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Hier ist Ihr Schlüssel. Zimmer 412.",
+        "pt": "Aqui está a chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "Funktioniert das WLAN schon?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-base": [
+      {
+        "role": "npc",
+        "text": "Guten Abend, haben Sie eine Reservierung?",
+        "pt": "Boa noite, tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, auf den Namen Silva.",
+        "pt": "Sim, no nome Silva."
+      },
+      {
+        "role": "npc",
+        "text": "Ausweis, bitte.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Hier ist mein Reisepass.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Hier ist Ihr Schlüssel. Zimmer 412.",
+        "pt": "Aqui está a chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "Funktioniert das WLAN schon?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-plus": [
+      {
+        "role": "npc",
+        "text": "Guten Tag, wie kann ich helfen?",
+        "pt": "Bom dia, como posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Wie lautet das WLAN‑Passwort, bitte?",
+        "pt": "Qual é a senha do wifi, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "HotelGuest2024 im Netz Gäste.",
+        "pt": "HotelGuest2024 na rede Convidados."
+      },
+      {
+        "role": "you",
+        "text": "Und kann ich morgen spät auschecken?",
+        "pt": "E posso fazer o check-out mais tarde amanhã?"
+      },
+      {
+        "role": "npc",
+        "text": "Bis 14 Uhr, für zehn Euro.",
+        "pt": "Até às 14h, por dez euros."
+      },
+      {
+        "role": "you",
+        "text": "Okay, bitte Late‑Checkout bestätigen.",
+        "pt": "Certo, confirme o check-out mais tarde, por favor."
+      }
+    ],
+    "hotel-go": [
+      {
+        "role": "npc",
+        "text": "Guten Abend — Problem mit dem Zimmer?",
+        "pt": "Boa noite — problema com o quarto?"
+      },
+      {
+        "role": "you",
+        "text": "Ja — die Klimaanlage geht nicht und zur Straße ist es zu laut.",
+        "pt": "Sim — o ar não funciona e do lado da rua está barulhento demais."
+      },
+      {
+        "role": "npc",
+        "text": "Ich kann Sie in ein ruhigeres Zimmer im fünften Stock legen.",
+        "pt": "Posso mudar você para um quarto mais calmo no quinto."
+      },
+      {
+        "role": "you",
+        "text": "Gerne. Und könnten Sie Checkout um 15 Uhr einschließen?",
+        "pt": "Com prazer. E poderiam incluir checkout às 15h?"
+      },
+      {
+        "role": "npc",
+        "text": "Einverstanden — kostenloser Wechsel und Late‑Checkout gratis.",
+        "pt": "Combinado — troca de quarto e check-out mais tarde sem custo."
+      },
+      {
+        "role": "you",
+        "text": "Ausgezeichnet, danke für die Lösung.",
+        "pt": "Excelente, obrigado pela solução.",
+        "pt_f": "Excelente, obrigada pela solução."
+      }
+    ],
+    "rua": [
+      {
+        "role": "npc",
+        "text": "Haben Sie sich verlaufen?",
+        "pt": "Está perdido?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, wo ist die nächste Apotheke?",
+        "pt": "Sim, onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Geradeaus, dann rechts.",
+        "pt": "Em frente, depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "Ist es weit zu Fuß?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "Nein, zwei Minuten.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Vielen Dank!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "rua-base": [
+      {
+        "role": "npc",
+        "text": "Haben Sie sich verlaufen?",
+        "pt": "Está perdido?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, wo ist die nächste Apotheke?",
+        "pt": "Sim, onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Geradeaus, dann rechts.",
+        "pt": "Em frente, depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "Ist es weit zu Fuß?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "Nein, zwei Minuten.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Vielen Dank!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "rua-plus": [
+      {
+        "role": "npc",
+        "text": "Suchen Sie etwas?",
+        "pt": "Procura algo?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, einen Geldautomaten. Die Bank ist zu.",
+        "pt": "Sim, um caixa. O banco está fechado."
+      },
+      {
+        "role": "npc",
+        "text": "Es gibt einen in der Apotheke an der Ecke.",
+        "pt": "Tem um na farmácia na esquina."
+      },
+      {
+        "role": "you",
+        "text": "Nimmt er ausländische Karten?",
+        "pt": "Aceita cartões estrangeiros?"
+      },
+      {
+        "role": "npc",
+        "text": "Meist Visa und Mastercard, ja.",
+        "pt": "Em geral Visa e Mastercard, sim."
+      },
+      {
+        "role": "you",
+        "text": "Super, danke für den Hinweis.",
+        "pt": "Ótimo, obrigado pela dica.",
+        "pt_f": "Ótimo, obrigada pela dica."
+      }
+    ],
+    "rua-go": [
+      {
+        "role": "npc",
+        "text": "Den letzten Zug verpasst?",
+        "pt": "Perdeu o último metrô?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, und mein Hotel ist etwas weit. Nachtbus oder Taxi?",
+        "pt": "Sim, e meu hotel fica um pouco longe. Ônibus noturno ou táxi?"
+      },
+      {
+        "role": "npc",
+        "text": "Der N02 hält dort. Taxi etwa fünfzehn Euro.",
+        "pt": "O N02 para ali. Táxi uns quinze euros."
+      },
+      {
+        "role": "you",
+        "text": "Ist der Bus zu dieser Zeit einigermaßen sicher?",
+        "pt": "O ônibus é razoavelmente seguro a esta hora?"
+      },
+      {
+        "role": "npc",
+        "text": "Ja, gut besucht. Oder bestellen Sie ein Ride‑Hailing.",
+        "pt": "Sim, movimentado. Ou chame um app de carro."
+      },
+      {
+        "role": "you",
+        "text": "Dann nehme ich den Bus. Danke für die Optionen.",
+        "pt": "Então pego o ônibus. Obrigado pelas opções.",
+        "pt_f": "Então pego o ônibus. Obrigada pelas opções."
+      }
+    ],
+    "restaurante": [
+      {
+        "role": "npc",
+        "text": "Einen Tisch für wie viele?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "Für zwei, bitte.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Haben Sie gewählt?",
+        "pt": "Já escolheu?"
+      },
+      {
+        "role": "you",
+        "text": "Ich nehme das Tagesgericht.",
+        "pt": "Vou de prato do dia."
+      },
+      {
+        "role": "npc",
+        "text": "Und zu trinken?",
+        "pt": "E de beber?"
+      },
+      {
+        "role": "you",
+        "text": "Eine Karaffe Wasser, bitte.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-base": [
+      {
+        "role": "npc",
+        "text": "Einen Tisch für wie viele?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "Für zwei, bitte.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Haben Sie gewählt?",
+        "pt": "Já escolheu?"
+      },
+      {
+        "role": "you",
+        "text": "Ich nehme das Tagesgericht.",
+        "pt": "Vou de prato do dia."
+      },
+      {
+        "role": "npc",
+        "text": "Und zu trinken?",
+        "pt": "E de beber?"
+      },
+      {
+        "role": "you",
+        "text": "Eine Karaffe Wasser, bitte.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-plus": [
+      {
+        "role": "npc",
+        "text": "Allergien, die ich notieren soll?",
+        "pt": "Alergias que eu deva anotar?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, ich bin allergisch gegen Erdnüsse.",
+        "pt": "Sim, sou alérgico a amendoim."
+      },
+      {
+        "role": "npc",
+        "text": "Das Curry enthält welche. Ich empfehle den Fisch.",
+        "pt": "O curry tem. Recomendo o peixe."
+      },
+      {
+        "role": "you",
+        "text": "Perfekt. Bitte keine Nuss‑Sauce.",
+        "pt": "Perfeito. Sem molho de nozes, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Notiert — ich sage es der Küche.",
+        "pt": "Anotado — aviso a cozinha."
+      },
+      {
+        "role": "you",
+        "text": "Danke, das ist mir sehr wichtig.",
+        "pt": "Obrigado, isso é muito importante para mim.",
+        "pt_f": "Obrigada, isso é muito importante para mim."
+      }
+    ],
+    "restaurante-go": [
+      {
+        "role": "npc",
+        "text": "Hier die Rechnung. Passt das?",
+        "pt": "Aqui a conta. Está certo?"
+      },
+      {
+        "role": "you",
+        "text": "Da ist ein Fehler: Wir haben dieses Dessert nicht bestellt.",
+        "pt": "Tem um erro: não pedimos aquela sobremesa."
+      },
+      {
+        "role": "npc",
+        "text": "Entschuldigung — ich korrigiere sofort.",
+        "pt": "Desculpe — corrijo na hora."
+      },
+      {
+        "role": "you",
+        "text": "Und könnten Sie die Rechnung bitte teilen?",
+        "pt": "E poderiam dividir a conta, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Natürlich. Zwei gleiche Beträge, ohne Dessert.",
+        "pt": "Claro. Dois totais iguais, sem sobremesa."
+      },
+      {
+        "role": "you",
+        "text": "Perfekt. Danke, dass Sie das sauber geregelt haben.",
+        "pt": "Perfeito. Obrigado por resolver direito.",
+        "pt_f": "Perfeito. Obrigada por resolver direito."
+      }
+    ],
+    "compras": [
+      {
+        "role": "npc",
+        "text": "Kann ich Ihnen helfen?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Ich suche eine Größe M.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "In welcher Farbe?",
+        "pt": "Em qual cor?"
+      },
+      {
+        "role": "you",
+        "text": "In Blau, bitte.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Möchten Sie es anprobieren?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, wo sind die Kabinen?",
+        "pt": "Sim, onde ficam os provadores?"
+      }
+    ],
+    "compras-base": [
+      {
+        "role": "npc",
+        "text": "Kann ich Ihnen helfen?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Ich suche eine Größe M.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "In welcher Farbe?",
+        "pt": "Em qual cor?"
+      },
+      {
+        "role": "you",
+        "text": "In Blau, bitte.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Möchten Sie es anprobieren?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, wo sind die Kabinen?",
+        "pt": "Sim, onde ficam os provadores?"
+      }
+    ],
+    "compras-plus": [
+      {
+        "role": "npc",
+        "text": "Passt es?",
+        "pt": "Fica bem?"
+      },
+      {
+        "role": "you",
+        "text": "Die M ist zu eng. Haben Sie eine L?",
+        "pt": "O M está apertado. Tem um L?"
+      },
+      {
+        "role": "npc",
+        "text": "Ja, auf Lager. Möchten Sie tauschen?",
+        "pt": "Sim, em estoque. Quer trocar?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, und den Beleg für eine mögliche Rückgabe behalten.",
+        "pt": "Sim, e guardar o cupom para eventual devolução."
+      },
+      {
+        "role": "npc",
+        "text": "Dreißig Tage für Umtausch oder Erstattung.",
+        "pt": "Trinta dias para troca ou reembolso."
+      },
+      {
+        "role": "you",
+        "text": "Perfekt, dann nehme ich die L.",
+        "pt": "Perfeito, então levo o L."
+      }
+    ],
+    "compras-go": [
+      {
+        "role": "npc",
+        "text": "Womit kann ich helfen?",
+        "pt": "Com o que posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Die Naht geht auf. Kann ich tauschen und Tax‑Free machen?",
+        "pt": "A costura está abrindo. Posso trocar e pedir o reembolso de impostos?"
+      },
+      {
+        "role": "npc",
+        "text": "Ja. Haben Sie den Beleg und den Pass?",
+        "pt": "Sim. Tem o cupom e o passaporte?"
+      },
+      {
+        "role": "you",
+        "text": "Ja. Gibt es heute Rabatt auf dasselbe Modell?",
+        "pt": "Sim. Tem desconto hoje no mesmo modelo?"
+      },
+      {
+        "role": "npc",
+        "text": "Ich kann zehn Prozent beim Umtausch geben.",
+        "pt": "Posso dar dez por cento na troca."
+      },
+      {
+        "role": "you",
+        "text": "Abgemacht — und bitte das Tax‑Free‑Formular.",
+        "pt": "Fechado — e o formulário de reembolso de impostos, por favor."
+      }
+    ],
+    "aeroporto": [
+      {
+        "role": "npc",
+        "text": "Reisepass und Ticket, bitte.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Hier ist mein Reisepass. Ich reise leicht.",
+        "pt": "Aqui está meu passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Gate A24. Boarding in dreißig Minuten.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "Wo ist die Sicherheitskontrolle?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Geradeaus, folgen Sie den Schildern.",
+        "pt": "Em frente, siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Danke. Ist mein Flug pünktlich?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-base": [
+      {
+        "role": "npc",
+        "text": "Reisepass und Ticket, bitte.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Hier ist mein Reisepass. Ich reise leicht.",
+        "pt": "Aqui está meu passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Gate A24. Boarding in dreißig Minuten.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "Wo ist die Sicherheitskontrolle?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Geradeaus, folgen Sie den Schildern.",
+        "pt": "Em frente, siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Danke. Ist mein Flug pünktlich?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-plus": [
+      {
+        "role": "npc",
+        "text": "Achtung: Gate‑Änderung.",
+        "pt": "Atenção: mudança de portão."
+      },
+      {
+        "role": "you",
+        "text": "Mein Flug nach Lissabon — welches Gate jetzt?",
+        "pt": "Meu voo para Lisboa — qual portão agora?"
+      },
+      {
+        "role": "npc",
+        "text": "Jetzt Gate B12. Zwanzig Minuten Verspätung.",
+        "pt": "Agora portão B12. Vinte minutos de atraso."
+      },
+      {
+        "role": "you",
+        "text": "Wo ist Terminal B, bitte?",
+        "pt": "Onde fica o terminal B, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Kostenloser Shuttle alle fünf Minuten.",
+        "pt": "Traslado gratuito a cada cinco minutos."
+      },
+      {
+        "role": "you",
+        "text": "Danke, ich gehe sofort hin.",
+        "pt": "Obrigado, vou imediatamente.",
+        "pt_f": "Obrigada, vou imediatamente."
+      }
+    ],
+    "aeroporto-go": [
+      {
+        "role": "npc",
+        "text": "Anschluss verpasst?",
+        "pt": "Perdeu a conexão?"
+      },
+      {
+        "role": "you",
+        "text": "Ja, wegen der Verspätung. Können Sie mich umbuchen?",
+        "pt": "Sim, por causa do atraso. Podem remarcar?"
+      },
+      {
+        "role": "npc",
+        "text": "Es gibt einen Platz heute Abend über Madrid.",
+        "pt": "Tem um assento hoje à noite via Madri."
+      },
+      {
+        "role": "you",
+        "text": "Geht das Aufgabegepäck automatisch mit?",
+        "pt": "A bagagem despachada segue automaticamente?"
+      },
+      {
+        "role": "npc",
+        "text": "Ja — Prioritätsanhänger und ein Essensgutschein.",
+        "pt": "Sim — etiqueta prioritária e um voucher de refeição."
+      },
+      {
+        "role": "you",
+        "text": "Vielen Dank, dass Sie so schnell eine Lösung fanden.",
+        "pt": "Muito obrigado por achar uma solução tão rápido.",
+        "pt_f": "Muito obrigada por achar uma solução tão rápido."
+      }
+    ],
+    "emergencia": [
+      {
+        "role": "npc",
+        "text": "Geht es Ihnen gut?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "Nein, ich brauche Hilfe.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "Was ist passiert?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "role": "you",
+        "text": "Ich habe starke Kopfschmerzen.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "Ich rufe eine Apotheke.",
+        "pt": "Vou chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Danke. Wo ist das nächste Krankenhaus?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-base": [
+      {
+        "role": "npc",
+        "text": "Geht es Ihnen gut?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "Nein, ich brauche Hilfe.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "Was ist passiert?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "role": "you",
+        "text": "Ich habe starke Kopfschmerzen.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "Ich rufe eine Apotheke.",
+        "pt": "Vou chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Danke. Wo ist das nächste Krankenhaus?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-plus": [
+      {
+        "role": "npc",
+        "text": "Was ist passiert?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "role": "you",
+        "text": "Ich habe meine Geldbörse in der U‑Bahn verloren.",
+        "pt": "Perdi minha carteira no metrô."
+      },
+      {
+        "role": "npc",
+        "text": "Sie sollten es auf der Polizei melden.",
+        "pt": "Você deve declarar na polícia."
+      },
+      {
+        "role": "you",
+        "text": "Können Sie mir die nächste zeigen?",
+        "pt": "Pode me indicar a mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Zwei Straßen weiter, links. Ausweis mitnehmen.",
+        "pt": "Duas ruas adiante, à esquerda. Leve documento."
+      },
+      {
+        "role": "you",
+        "text": "Danke. Ich sperre auch meine Karten.",
+        "pt": "Obrigado. Também vou bloquear meus cartões.",
+        "pt_f": "Obrigada. Também vou bloquear meus cartões."
+      }
+    ],
+    "emergencia-go": [
+      {
+        "role": "npc",
+        "text": "Ich bin Ersthelfer. Was fehlt Ihnen?",
+        "pt": "Sou socorrista. O que você sente?"
+      },
+      {
+        "role": "you",
+        "text": "Schwindel, Übelkeit und ein dumpfer Schmerz in der Brust.",
+        "pt": "Tontura, náusea e uma dor surda no peito."
+      },
+      {
+        "role": "npc",
+        "text": "Seit wann? Sind Sie allein?",
+        "pt": "Desde quando? Está sozinho?"
+      },
+      {
+        "role": "you",
+        "text": "Seit einer Stunde. Können Sie den Notarzt rufen?",
+        "pt": "Há uma hora. Pode chamar o resgate?"
+      },
+      {
+        "role": "npc",
+        "text": "Ich rufe 112. Setzen Sie sich, keine Anstrengung.",
+        "pt": "Ligo o 112. Sente-se, sem esforço."
+      },
+      {
+        "role": "you",
+        "text": "Okay. Danke — ich habe auch meine Reiseversicherung dabei.",
+        "pt": "Certo. Obrigado — tenho também meu seguro viagem.",
+        "pt_f": "Certo. Obrigada — tenho também meu seguro viagem."
+      }
+    ]
+  },
+  "it": {
+    "primeiro-dia": [
+      {
+        "role": "npc",
+        "text": "Ciao! Sei nuovo in città?",
+        "pt": "Oi! É novo na cidade?",
+        "text_f": "Ciao! Sei nuova in città?",
+        "pt_f": "Oi! É nova na cidade?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, è la mia prima volta.",
+        "pt": "Sim, é minha primeira vez."
+      },
+      {
+        "role": "npc",
+        "text": "Benvenuto! Cerchi qualcosa?",
+        "pt": "Bem-vindo! Procura algo?"
+      },
+      {
+        "role": "you",
+        "text": "Cerco il mio hotel, per favore.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "È a cinque minuti a piedi.",
+        "pt": "Fica a cinco minutos a pé."
+      },
+      {
+        "role": "you",
+        "text": "Grazie mille!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "primeiro-dia-base": [
+      {
+        "role": "npc",
+        "text": "Ciao! Sei nuovo in città?",
+        "pt": "Oi! É novo na cidade?",
+        "text_f": "Ciao! Sei nuova in città?",
+        "pt_f": "Oi! É nova na cidade?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, è la mia prima volta.",
+        "pt": "Sim, é minha primeira vez."
+      },
+      {
+        "role": "npc",
+        "text": "Benvenuto! Cerchi qualcosa?",
+        "pt": "Bem-vindo! Procura algo?"
+      },
+      {
+        "role": "you",
+        "text": "Cerco il mio hotel, per favore.",
+        "pt": "Procuro meu hotel, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "È a cinque minuti a piedi.",
+        "pt": "Fica a cinco minutos a pé."
+      },
+      {
+        "role": "you",
+        "text": "Grazie mille!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "primeiro-dia-plus": [
+      {
+        "role": "npc",
+        "text": "Le serve un consiglio da turista?",
+        "pt": "Precisa de uma dica de turista?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, dove compro una tessera dei trasporti?",
+        "pt": "Sim, onde compro um cartão de transporte?"
+      },
+      {
+        "role": "npc",
+        "text": "Alla biglietteria della metro.",
+        "pt": "Na bilheteria do metrô."
+      },
+      {
+        "role": "you",
+        "text": "Vale per più giorni?",
+        "pt": "Vale por vários dias?"
+      },
+      {
+        "role": "npc",
+        "text": "Sì, c’è un abbonamento di tre giorni.",
+        "pt": "Sim, tem um passe de três dias."
+      },
+      {
+        "role": "you",
+        "text": "Perfetto, vado subito lì.",
+        "pt": "Perfeito, vou para lá agora."
+      }
+    ],
+    "primeiro-dia-go": [
+      {
+        "role": "npc",
+        "text": "Sembra un po’ perso — posso aiutarla?",
+        "pt": "Parece um pouco perdido — posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Sì. Mi serve una SIM e una zona bella per cenare.",
+        "pt": "Sim. Preciso de um chip e um bairro legal para jantar."
+      },
+      {
+        "role": "npc",
+        "text": "SIM al chiosco di fronte. Per cena, prova il centro storico.",
+        "pt": "Chip no quiosque em frente. Para jantar, experimente o centro histórico."
+      },
+      {
+        "role": "you",
+        "text": "Ci sono posti convenienti ma decenti lì?",
+        "pt": "Tem lugares acessíveis mas bons por lá?"
+      },
+      {
+        "role": "npc",
+        "text": "Sì — le vie laterali, non le trappole della piazza.",
+        "pt": "Sim — ruas laterais, não as armadilhas da praça."
+      },
+      {
+        "role": "you",
+        "text": "Ottimo consiglio, lo terrò a mente. Grazie mille.",
+        "pt": "Ótimo conselho, vou lembrar. Muito obrigado.",
+        "pt_f": "Ótimo conselho, vou lembrar. Muito obrigada."
+      }
+    ],
+    "cafe": [
+      {
+        "role": "npc",
+        "text": "Buongiorno, cosa desidera?",
+        "pt": "Bom dia, o que deseja?"
+      },
+      {
+        "role": "you",
+        "text": "Un caffè allungato e un croissant, per favore.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Qui o da asporto?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "Da asporto, grazie.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "Sono quattro euro e cinquanta.",
+        "pt": "São quatro euros e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "Pago con la carta.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-base": [
+      {
+        "role": "npc",
+        "text": "Buongiorno, cosa desidera?",
+        "pt": "Bom dia, o que deseja?"
+      },
+      {
+        "role": "you",
+        "text": "Un caffè allungato e un croissant, per favore.",
+        "pt": "Um café longo e um croissant, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Qui o da asporto?",
+        "pt": "Para aqui ou para viagem?"
+      },
+      {
+        "role": "you",
+        "text": "Da asporto, grazie.",
+        "pt": "Para viagem, obrigado.",
+        "pt_f": "Para viagem, obrigada."
+      },
+      {
+        "role": "npc",
+        "text": "Sono quattro euro e cinquanta.",
+        "pt": "São quatro euros e cinquenta."
+      },
+      {
+        "role": "you",
+        "text": "Pago con la carta.",
+        "pt": "Pago no cartão."
+      }
+    ],
+    "cafe-plus": [
+      {
+        "role": "npc",
+        "text": "Ecco il suo caffè latte.",
+        "pt": "Aqui está seu caffè latte."
+      },
+      {
+        "role": "you",
+        "text": "Scusi, avevo ordinato senza latte — sono allergico.",
+        "pt": "Desculpe, tinha pedido sem leite — sou alérgico."
+      },
+      {
+        "role": "npc",
+        "text": "Oh, mi scusi! Glielo rifaccio con latte d’avena?",
+        "pt": "Ah, desculpe! Refaço com leite de aveia?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, per favore. E un muffin senza frutta secca.",
+        "pt": "Sim, por favor. E um muffin sem oleaginosas."
+      },
+      {
+        "role": "npc",
+        "text": "Va bene, pronto tra due minuti.",
+        "pt": "Certo, pronto em dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Grazie per aver corretto l’ordine.",
+        "pt": "Obrigado por corrigir o pedido.",
+        "pt_f": "Obrigada por corrigir o pedido."
+      }
+    ],
+    "cafe-go": [
+      {
+        "role": "npc",
+        "text": "Tutto a posto con l’ordine?",
+        "pt": "Tudo certo com o pedido?"
+      },
+      {
+        "role": "you",
+        "text": "Non proprio — il caffè è freddo e non è quello che ho chiesto.",
+        "pt": "Nem tanto — o café está frio e não é o que pedi."
+      },
+      {
+        "role": "npc",
+        "text": "Mi scusi davvero. Glielo preparo subito di nuovo.",
+        "pt": "Sinto muito mesmo. Refaço na hora."
+      },
+      {
+        "role": "you",
+        "text": "Grazie. Potreste offrire il croissant come cortesia?",
+        "pt": "Obrigado. Poderiam oferecer o croissant como cortesia?",
+        "pt_f": "Obrigada. Poderiam oferecer o croissant como cortesia?"
+      },
+      {
+        "role": "npc",
+        "text": "Certo — croissant omaggio e un caffè fresco preparato bene.",
+        "pt": "Claro — croissant de cortesia e um café fresco bem feito."
+      },
+      {
+        "role": "you",
+        "text": "Perfetto, è molto corretto da parte vostra. Grazie.",
+        "pt": "Perfeito, muito correto da sua parte. Obrigado.",
+        "pt_f": "Perfeito, muito correto da sua parte. Obrigada."
+      }
+    ],
+    "metro": [
+      {
+        "role": "npc",
+        "text": "Vuole un biglietto?",
+        "pt": "Quer um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "Andata e ritorno, per favore.",
+        "pt": "Ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Per dove?",
+        "pt": "Para onde?"
+      },
+      {
+        "role": "you",
+        "text": "Per il centro, per favore.",
+        "pt": "Para o centro, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Prenda la linea 1.",
+        "pt": "Pegue a linha 1."
+      },
+      {
+        "role": "you",
+        "text": "Grazie, in che direzione?",
+        "pt": "Obrigado, em que direção?",
+        "pt_f": "Obrigada, em que direção?"
+      }
+    ],
+    "metro-base": [
+      {
+        "role": "npc",
+        "text": "Vuole un biglietto?",
+        "pt": "Quer um bilhete?"
+      },
+      {
+        "role": "you",
+        "text": "Andata e ritorno, per favore.",
+        "pt": "Ida e volta, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Per dove?",
+        "pt": "Para onde?"
+      },
+      {
+        "role": "you",
+        "text": "Per il centro, per favore.",
+        "pt": "Para o centro, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Prenda la linea 1.",
+        "pt": "Pegue a linha 1."
+      },
+      {
+        "role": "you",
+        "text": "Grazie, in che direzione?",
+        "pt": "Obrigado, em que direção?",
+        "pt_f": "Obrigada, em que direção?"
+      }
+    ],
+    "metro-plus": [
+      {
+        "role": "npc",
+        "text": "Il tornello non si apre?",
+        "pt": "A catraca não abre?"
+      },
+      {
+        "role": "you",
+        "text": "Ho perso il biglietto e sono in ritardo.",
+        "pt": "Perdi o bilhete e estou atrasado.",
+        "pt_f": "Perdi o bilhete e estou atrasada."
+      },
+      {
+        "role": "npc",
+        "text": "Può comprarne un altro qui.",
+        "pt": "Pode comprar outro aqui."
+      },
+      {
+        "role": "you",
+        "text": "C’è un treno per il centro presto?",
+        "pt": "Tem um trem para o centro em breve?"
+      },
+      {
+        "role": "npc",
+        "text": "Sì, tra quattro minuti, direzione nord.",
+        "pt": "Sim, em quatro minutos, sentido norte."
+      },
+      {
+        "role": "you",
+        "text": "Grazie, allora un biglietto semplice.",
+        "pt": "Obrigado, então um bilhete simples.",
+        "pt_f": "Obrigada, então um bilhete simples."
+      }
+    ],
+    "metro-go": [
+      {
+        "role": "npc",
+        "text": "I distributori sono fuori servizio, mi dispiace.",
+        "pt": "As máquinas estão fora de serviço, desculpe."
+      },
+      {
+        "role": "you",
+        "text": "Devo prendere questo treno. Posso pagare allo sportello?",
+        "pt": "Preciso pegar este trem. Posso pagar no guichê?"
+      },
+      {
+        "role": "npc",
+        "text": "Sì — carta o contanti. Quale zona?",
+        "pt": "Sim — cartão ou dinheiro. Qual zona?"
+      },
+      {
+        "role": "you",
+        "text": "Zona 1–2. Sono di fretta: appuntamento tra venti minuti.",
+        "pt": "Zona 1–2. Tenho pressa: compromisso em vinte minutos."
+      },
+      {
+        "role": "npc",
+        "text": "Ecco il biglietto. Binario a destra, parte a breve.",
+        "pt": "Aqui está o bilhete. Plataforma à direita, sai em breve."
+      },
+      {
+        "role": "you",
+        "text": "Grazie per aver accelerato, mi avete salvato la giornata.",
+        "pt": "Obrigado por agilizar, salvaram meu dia.",
+        "pt_f": "Obrigada por agilizar, salvaram meu dia."
+      }
+    ],
+    "hotel": [
+      {
+        "role": "npc",
+        "text": "Buonasera, ha una prenotazione?",
+        "pt": "Boa noite, tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, a nome Silva.",
+        "pt": "Sim, no nome Silva."
+      },
+      {
+        "role": "npc",
+        "text": "Documento, per favore.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Ecco il mio passaporto.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Ecco la chiave. Camera 412.",
+        "pt": "Aqui está a chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "Il wifi funziona già?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-base": [
+      {
+        "role": "npc",
+        "text": "Buonasera, ha una prenotazione?",
+        "pt": "Boa noite, tem reserva?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, a nome Silva.",
+        "pt": "Sim, no nome Silva."
+      },
+      {
+        "role": "npc",
+        "text": "Documento, per favore.",
+        "pt": "Documento, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Ecco il mio passaporto.",
+        "pt": "Aqui está meu passaporte."
+      },
+      {
+        "role": "npc",
+        "text": "Ecco la chiave. Camera 412.",
+        "pt": "Aqui está a chave. Quarto 412."
+      },
+      {
+        "role": "you",
+        "text": "Il wifi funziona già?",
+        "pt": "O wifi já funciona?"
+      }
+    ],
+    "hotel-plus": [
+      {
+        "role": "npc",
+        "text": "Buongiorno, come posso aiutarla?",
+        "pt": "Bom dia, como posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Qual è la password del wifi, per favore?",
+        "pt": "Qual é a senha do wifi, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "È HotelGuest2024, rete Ospiti.",
+        "pt": "É HotelGuest2024, rede Convidados."
+      },
+      {
+        "role": "you",
+        "text": "E posso fare late check-out domani?",
+        "pt": "E posso fazer o check-out mais tarde amanhã?"
+      },
+      {
+        "role": "npc",
+        "text": "Fino alle quattordici, per dieci euro.",
+        "pt": "Até às quatorze, por dez euros."
+      },
+      {
+        "role": "you",
+        "text": "Va bene, confermo il late check-out.",
+        "pt": "Certo, confirmo o check-out mais tarde."
+      }
+    ],
+    "hotel-go": [
+      {
+        "role": "npc",
+        "text": "Buonasera — un problema con la camera?",
+        "pt": "Boa noite — algum problema com o quarto?"
+      },
+      {
+        "role": "you",
+        "text": "Sì — il clima non funziona e sul lato strada c’è troppo rumore.",
+        "pt": "Sim — o ar não funciona e do lado da rua há barulho demais."
+      },
+      {
+        "role": "npc",
+        "text": "Posso spostarla in una camera più quieta al quinto.",
+        "pt": "Posso mudar você para um quarto mais calmo no quinto."
+      },
+      {
+        "role": "you",
+        "text": "Volentieri. E potete includere il check-out alle quindici?",
+        "pt": "Com prazer. E podem incluir checkout às quinze?"
+      },
+      {
+        "role": "npc",
+        "text": "D’accordo — cambio gratis e late check-out senza costi.",
+        "pt": "Combinado — troca de quarto e check-out mais tarde sem custo."
+      },
+      {
+        "role": "you",
+        "text": "Eccellente, grazie per la soluzione.",
+        "pt": "Excelente, obrigado pela solução.",
+        "pt_f": "Excelente, obrigada pela solução."
+      }
+    ],
+    "rua": [
+      {
+        "role": "npc",
+        "text": "È perso?",
+        "pt": "Está perdido?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, dov’è la farmacia più vicina?",
+        "pt": "Sim, onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Dritto e poi a destra.",
+        "pt": "Em frente e depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "È lontano a piedi?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "No, due minuti.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Grazie mille!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "rua-base": [
+      {
+        "role": "npc",
+        "text": "È perso?",
+        "pt": "Está perdido?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, dov’è la farmacia più vicina?",
+        "pt": "Sim, onde fica a farmácia mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Dritto e poi a destra.",
+        "pt": "Em frente e depois à direita."
+      },
+      {
+        "role": "you",
+        "text": "È lontano a piedi?",
+        "pt": "É longe a pé?"
+      },
+      {
+        "role": "npc",
+        "text": "No, due minuti.",
+        "pt": "Não, dois minutos."
+      },
+      {
+        "role": "you",
+        "text": "Grazie mille!",
+        "pt": "Muito obrigado!",
+        "pt_f": "Muito obrigada!"
+      }
+    ],
+    "rua-plus": [
+      {
+        "role": "npc",
+        "text": "Cerca qualcosa?",
+        "pt": "Procura algo?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, un bancomat. La banca è chiusa.",
+        "pt": "Sim, um caixa. O banco está fechado."
+      },
+      {
+        "role": "npc",
+        "text": "Ce n’è uno in farmacia, all’angolo.",
+        "pt": "Tem um na farmácia, na esquina."
+      },
+      {
+        "role": "you",
+        "text": "Accetta carte straniere?",
+        "pt": "Aceita cartões estrangeiros?"
+      },
+      {
+        "role": "npc",
+        "text": "Sì, di solito Visa e Mastercard.",
+        "pt": "Sim, em geral Visa e Mastercard."
+      },
+      {
+        "role": "you",
+        "text": "Ottimo, grazie per l’indicazione.",
+        "pt": "Ótimo, obrigado pela indicação.",
+        "pt_f": "Ótimo, obrigada pela indicação."
+      }
+    ],
+    "rua-go": [
+      {
+        "role": "npc",
+        "text": "Ha perso l’ultima metro?",
+        "pt": "Perdeu o último metrô?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, e l’hotel è un po’ lontano. Bus notturno o taxi?",
+        "pt": "Sim, e o hotel fica um pouco longe. Ônibus noturno ou táxi?"
+      },
+      {
+        "role": "npc",
+        "text": "Il N02 ferma lì. Il taxi circa quindici euro.",
+        "pt": "O N02 para ali. O táxi uns quinze euros."
+      },
+      {
+        "role": "you",
+        "text": "Il bus è abbastanza sicuro a quest’ora?",
+        "pt": "O ônibus é razoavelmente seguro a esta hora?"
+      },
+      {
+        "role": "npc",
+        "text": "Sì, c’è gente. Oppure chiami un’auto con l’app.",
+        "pt": "Sim, tem movimento. Ou chame um carro pelo app."
+      },
+      {
+        "role": "you",
+        "text": "Prendo il bus allora. Grazie per le opzioni.",
+        "pt": "Então pego o ônibus. Obrigado pelas opções.",
+        "pt_f": "Então pego o ônibus. Obrigada pelas opções."
+      }
+    ],
+    "restaurante": [
+      {
+        "role": "npc",
+        "text": "Un tavolo per quanti?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "Per due, per favore.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Ha scelto?",
+        "pt": "Já escolheu?"
+      },
+      {
+        "role": "you",
+        "text": "Prendo il piatto del giorno.",
+        "pt": "Vou de prato do dia."
+      },
+      {
+        "role": "npc",
+        "text": "E da bere?",
+        "pt": "E de beber?"
+      },
+      {
+        "role": "you",
+        "text": "Una caraffa d’acqua, per favore.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-base": [
+      {
+        "role": "npc",
+        "text": "Un tavolo per quanti?",
+        "pt": "Mesa para quantos?"
+      },
+      {
+        "role": "you",
+        "text": "Per due, per favore.",
+        "pt": "Para dois, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Ha scelto?",
+        "pt": "Já escolheu?"
+      },
+      {
+        "role": "you",
+        "text": "Prendo il piatto del giorno.",
+        "pt": "Vou de prato do dia."
+      },
+      {
+        "role": "npc",
+        "text": "E da bere?",
+        "pt": "E de beber?"
+      },
+      {
+        "role": "you",
+        "text": "Una caraffa d’acqua, per favore.",
+        "pt": "Uma jarra d’água, por favor."
+      }
+    ],
+    "restaurante-plus": [
+      {
+        "role": "npc",
+        "text": "Allergie da segnalare?",
+        "pt": "Alergias a informar?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, sono allergico alle arachidi.",
+        "pt": "Sim, sou alérgico a amendoim."
+      },
+      {
+        "role": "npc",
+        "text": "Il curry ne contiene. Le consiglio il pesce.",
+        "pt": "O curry tem. Recomendo o peixe."
+      },
+      {
+        "role": "you",
+        "text": "Perfetto. Niente salsa con frutta secca, per favore.",
+        "pt": "Perfeito. Sem molho com oleaginosas, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Annotato, avviso la cucina.",
+        "pt": "Anotado, aviso a cozinha."
+      },
+      {
+        "role": "you",
+        "text": "Grazie, è molto importante per me.",
+        "pt": "Obrigado, é muito importante para mim.",
+        "pt_f": "Obrigada, é muito importante para mim."
+      }
+    ],
+    "restaurante-go": [
+      {
+        "role": "npc",
+        "text": "Ecco il conto. Le sembra corretto?",
+        "pt": "Aqui está a conta. Parece certo?"
+      },
+      {
+        "role": "you",
+        "text": "C’è un errore: non abbiamo ordinato quel dolce.",
+        "pt": "Tem um erro: não pedimos aquela sobremesa."
+      },
+      {
+        "role": "npc",
+        "text": "Mi scusi — correggo subito.",
+        "pt": "Desculpe — corrijo na hora."
+      },
+      {
+        "role": "you",
+        "text": "E potreste dividere il conto in due, per favore?",
+        "pt": "E poderiam dividir a conta em duas, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Certo. Due totali uguali, senza il dolce.",
+        "pt": "Claro. Dois totais iguais, sem a sobremesa."
+      },
+      {
+        "role": "you",
+        "text": "Perfetto. Grazie per averlo sistemato bene.",
+        "pt": "Perfeito. Obrigado por resolver bem.",
+        "pt_f": "Perfeito. Obrigada por resolver bem."
+      }
+    ],
+    "compras": [
+      {
+        "role": "npc",
+        "text": "Posso aiutarla?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Cerco una taglia M.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "Di che colore?",
+        "pt": "De que cor?"
+      },
+      {
+        "role": "you",
+        "text": "In blu, per favore.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Vuole provarlo?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, dove sono i camerini?",
+        "pt": "Sim, onde ficam os provadores?"
+      }
+    ],
+    "compras-base": [
+      {
+        "role": "npc",
+        "text": "Posso aiutarla?",
+        "pt": "Posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "Cerco una taglia M.",
+        "pt": "Procuro um tamanho M."
+      },
+      {
+        "role": "npc",
+        "text": "Di che colore?",
+        "pt": "De que cor?"
+      },
+      {
+        "role": "you",
+        "text": "In blu, per favore.",
+        "pt": "Em azul, por favor."
+      },
+      {
+        "role": "npc",
+        "text": "Vuole provarlo?",
+        "pt": "Quer experimentar?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, dove sono i camerini?",
+        "pt": "Sim, onde ficam os provadores?"
+      }
+    ],
+    "compras-plus": [
+      {
+        "role": "npc",
+        "text": "Le va bene?",
+        "pt": "Ficou bom?"
+      },
+      {
+        "role": "you",
+        "text": "La M è troppo stretta. Avete una L?",
+        "pt": "A M está apertada demais. Tem um L?"
+      },
+      {
+        "role": "npc",
+        "text": "Sì, in magazzino. Vuole cambiarla?",
+        "pt": "Sim, em estoque. Quer trocar?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, e tenere lo scontrino per un eventuale reso.",
+        "pt": "Sim, e guardar o cupom para eventual devolução."
+      },
+      {
+        "role": "npc",
+        "text": "Trenta giorni per cambio o rimborso.",
+        "pt": "Trinta dias para troca ou reembolso."
+      },
+      {
+        "role": "you",
+        "text": "Perfetto, allora prendo la L.",
+        "pt": "Perfeito, então levo o L."
+      }
+    ],
+    "compras-go": [
+      {
+        "role": "npc",
+        "text": "Come posso aiutarla?",
+        "pt": "Como posso ajudar?"
+      },
+      {
+        "role": "you",
+        "text": "La cucitura si sta aprendo. Posso cambiarlo e fare tax free?",
+        "pt": "A costura está abrindo. Posso trocar e pedir o reembolso de impostos?"
+      },
+      {
+        "role": "npc",
+        "text": "Sì. Ha lo scontrino e il passaporto?",
+        "pt": "Sim. Tem o cupom e o passaporte?"
+      },
+      {
+        "role": "you",
+        "text": "Sì. Per lo stesso modello c’è uno sconto oggi?",
+        "pt": "Sim. Para o mesmo modelo tem desconto hoje?"
+      },
+      {
+        "role": "npc",
+        "text": "Posso applicare il dieci percento sul cambio.",
+        "pt": "Posso aplicar dez por cento na troca."
+      },
+      {
+        "role": "you",
+        "text": "Affare fatto — e il modulo tax free, per favore.",
+        "pt": "Fechado — e o formulário de reembolso de impostos, por favor."
+      }
+    ],
+    "aeroporto": [
+      {
+        "role": "npc",
+        "text": "Passaporto e biglietto, per favore.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Ecco il passaporto. Viaggio leggero.",
+        "pt": "Aqui está o passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Gate A24. Imbarco tra trenta minuti.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "Dov’è il controllo di sicurezza?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Dritto, segua i cartelli.",
+        "pt": "Em frente, siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Grazie. Il mio volo è in orario?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-base": [
+      {
+        "role": "npc",
+        "text": "Passaporto e biglietto, per favore.",
+        "pt": "Passaporte e bilhete, por favor."
+      },
+      {
+        "role": "you",
+        "text": "Ecco il passaporto. Viaggio leggero.",
+        "pt": "Aqui está o passaporte. Viajo leve."
+      },
+      {
+        "role": "npc",
+        "text": "Gate A24. Imbarco tra trenta minuti.",
+        "pt": "Portão A24. Embarque em trinta minutos."
+      },
+      {
+        "role": "you",
+        "text": "Dov’è il controllo di sicurezza?",
+        "pt": "Onde fica o controle de segurança?"
+      },
+      {
+        "role": "npc",
+        "text": "Dritto, segua i cartelli.",
+        "pt": "Em frente, siga as placas."
+      },
+      {
+        "role": "you",
+        "text": "Grazie. Il mio volo è in orario?",
+        "pt": "Obrigado. Meu voo está no horário?",
+        "pt_f": "Obrigada. Meu voo está no horário?"
+      }
+    ],
+    "aeroporto-plus": [
+      {
+        "role": "npc",
+        "text": "Attenzione: cambio gate.",
+        "pt": "Atenção: mudança de portão."
+      },
+      {
+        "role": "you",
+        "text": "Il mio volo per Lisbona — qual è il nuovo gate?",
+        "pt": "Meu voo para Lisboa — qual é o novo portão?"
+      },
+      {
+        "role": "npc",
+        "text": "Ora gate B12. Ritardo di venti minuti.",
+        "pt": "Agora portão B12. Atraso de vinte minutos."
+      },
+      {
+        "role": "you",
+        "text": "Dov’è il terminal B, per favore?",
+        "pt": "Onde fica o terminal B, por favor?"
+      },
+      {
+        "role": "npc",
+        "text": "Navetta gratuita ogni cinque minuti.",
+        "pt": "Traslado gratuito a cada cinco minutos."
+      },
+      {
+        "role": "you",
+        "text": "Grazie, ci vado subito.",
+        "pt": "Obrigado, vou para lá agora.",
+        "pt_f": "Obrigada, vou para lá agora."
+      }
+    ],
+    "aeroporto-go": [
+      {
+        "role": "npc",
+        "text": "Ha perso la coincidenza?",
+        "pt": "Perdeu a conexão?"
+      },
+      {
+        "role": "you",
+        "text": "Sì, per il ritardo. Potete reindirizzarmi?",
+        "pt": "Sim, por causa do atraso. Podem me remanejar?"
+      },
+      {
+        "role": "npc",
+        "text": "C’è un posto stasera via Madrid.",
+        "pt": "Tem um assento hoje à noite via Madri."
+      },
+      {
+        "role": "you",
+        "text": "Il bagaglio registrato segue automaticamente?",
+        "pt": "A bagagem despachada segue automaticamente?"
+      },
+      {
+        "role": "npc",
+        "text": "Sì — etichetta priority e un voucher pasto.",
+        "pt": "Sim — etiqueta prioritária e um voucher de refeição."
+      },
+      {
+        "role": "you",
+        "text": "Grazie mille per aver trovato una soluzione così in fretta.",
+        "pt": "Muito obrigado por achar uma solução tão rápido.",
+        "pt_f": "Muito obrigada por achar uma solução tão rápido."
+      }
+    ],
+    "emergencia": [
+      {
+        "role": "npc",
+        "text": "Sta bene?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "No, ho bisogno di aiuto.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "Che succede?",
+        "pt": "O que está acontecendo?"
+      },
+      {
+        "role": "you",
+        "text": "Ho un forte mal di testa.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "Chiamo una farmacia.",
+        "pt": "Vou chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Grazie. Dov’è l’ospedale più vicino?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-base": [
+      {
+        "role": "npc",
+        "text": "Sta bene?",
+        "pt": "Você está bem?"
+      },
+      {
+        "role": "you",
+        "text": "No, ho bisogno di aiuto.",
+        "pt": "Não, preciso de ajuda."
+      },
+      {
+        "role": "npc",
+        "text": "Che succede?",
+        "pt": "O que está acontecendo?"
+      },
+      {
+        "role": "you",
+        "text": "Ho un forte mal di testa.",
+        "pt": "Estou com muita dor de cabeça."
+      },
+      {
+        "role": "npc",
+        "text": "Chiamo una farmacia.",
+        "pt": "Vou chamar uma farmácia."
+      },
+      {
+        "role": "you",
+        "text": "Grazie. Dov’è l’ospedale più vicino?",
+        "pt": "Obrigado. Onde fica o hospital mais perto?",
+        "pt_f": "Obrigada. Onde fica o hospital mais perto?"
+      }
+    ],
+    "emergencia-plus": [
+      {
+        "role": "npc",
+        "text": "Cos’è successo?",
+        "pt": "O que aconteceu?"
+      },
+      {
+        "role": "you",
+        "text": "Ho perso il portafoglio in metro.",
+        "pt": "Perdi a carteira no metrô."
+      },
+      {
+        "role": "npc",
+        "text": "Deve denunciarlo in commissariato.",
+        "pt": "Você deve denunciar na delegacia."
+      },
+      {
+        "role": "you",
+        "text": "Mi indica il più vicino?",
+        "pt": "Pode me indicar o mais perto?"
+      },
+      {
+        "role": "npc",
+        "text": "Due strade più avanti, a sinistra. Porti un documento.",
+        "pt": "Duas ruas adiante, à esquerda. Leve um documento."
+      },
+      {
+        "role": "you",
+        "text": "Grazie. Bloccherò anche le carte.",
+        "pt": "Obrigado. Também vou bloquear os cartões.",
+        "pt_f": "Obrigada. Também vou bloquear os cartões."
+      }
+    ],
+    "emergencia-go": [
+      {
+        "role": "npc",
+        "text": "Sono un soccorritore. Cosa non va?",
+        "pt": "Sou socorrista. O que não vai bem?"
+      },
+      {
+        "role": "you",
+        "text": "Vertigini, nausea e un dolore sordo al petto.",
+        "pt": "Tontura, náusea e uma dor surda no peito."
+      },
+      {
+        "role": "npc",
+        "text": "Da quanto? È da solo?",
+        "pt": "Desde quando? Está sozinho?"
+      },
+      {
+        "role": "you",
+        "text": "Da un’ora. Può chiamare i soccorsi?",
+        "pt": "Há uma hora. Pode chamar o resgate?"
+      },
+      {
+        "role": "npc",
+        "text": "Chiamo il 112. Si sieda, non faccia sforzi.",
+        "pt": "Ligo o 112. Sente-se, não faça esforço."
+      },
+      {
+        "role": "you",
+        "text": "Va bene. Grazie — ho anche l’assicurazione di viaggio qui.",
+        "pt": "Certo. Obrigado — tenho também o seguro viagem aqui.",
+        "pt_f": "Certo. Obrigada — tenho também o seguro viagem aqui."
+      }
+    ]
+  }
+}

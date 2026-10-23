@@ -1,0 +1,2375 @@
+{
+  "fr": {
+    "voice": "fr-FR",
+    "country": {
+      "code": "FR",
+      "name": "França",
+      "caption": "Torre Eiffel",
+      "photoVar": true
+    },
+    "pedagogy": {
+      "level": "A0 → A1 viagem",
+      "method": "situação real → chunks prontos → repetição → mini desafio → revisão",
+      "rule": "iniciante não começa por gramática; começa por frases de sobrevivência que viram blocos reutilizáveis",
+      "week1": [
+        "cumprimentar",
+        "pedir",
+        "preço",
+        "direção",
+        "não entendi",
+        "agradecer"
+      ]
+    },
+    "missions": {
+      "cafe": {
+        "pill": "Café",
+        "title": "Café em Paris",
+        "desc": "Peça um café, entenda preço e finalize com educação.",
+        "phrases": [
+          {
+            "text": "Bonjour.",
+            "pt": "Olá / bom dia."
+          },
+          {
+            "text": "Je voudrais un café, s’il vous plaît.",
+            "pt": "Eu gostaria de um café, por favor."
+          },
+          {
+            "text": "Un café au lait, s’il vous plaît.",
+            "pt": "Um café com leite, por favor."
+          },
+          {
+            "text": "Combien ça coûte ?",
+            "pt": "Quanto custa?"
+          },
+          {
+            "text": "Merci, bonne journée.",
+            "pt": "Obrigado, bom dia."
+          }
+        ],
+        "lessons": [
+          "Comece com “Bonjour”. Na França, pedir direto sem cumprimentar soa seco.",
+          "“Je voudrais…” é o bloco principal: educado, simples e serve para pedir quase tudo.",
+          "Preço vem com “Combien ça coûte ?”. Não tente montar frases longas no começo.",
+          "Feche com “Merci”. O objetivo é sobreviver com educação, não falar perfeito."
+        ],
+        "quiz": {
+          "q": "Como pedir um café com educação?",
+          "a": "Je voudrais un café, s’il vous plaît.",
+          "options": [
+            "Je voudrais un café, s’il vous plaît.",
+            "Où est le café ?",
+            "Je suis un café."
+          ],
+          "hint": "Je voudrais = eu gostaria. É uma frase pronta para pedir."
+        }
+      },
+      "airport": {
+        "pill": "Aeroporto",
+        "title": "Chegada no aeroporto",
+        "desc": "Encontre mala, saída, banheiro e peça ajuda.",
+        "phrases": [
+          {
+            "text": "Où sont les bagages ?",
+            "pt": "Onde estão as bagagens?"
+          },
+          {
+            "text": "Où est la sortie ?",
+            "pt": "Onde fica a saída?"
+          },
+          {
+            "text": "Où sont les toilettes ?",
+            "pt": "Onde ficam os banheiros?"
+          },
+          {
+            "text": "Je ne comprends pas.",
+            "pt": "Eu não entendo."
+          },
+          {
+            "text": "Pouvez-vous m’aider ?",
+            "pt": "Você pode me ajudar?"
+          }
+        ],
+        "lessons": [
+          "Use “Où est…” para uma coisa e “Où sont…” para várias coisas.",
+          "“Je ne comprends pas” é frase de segurança. Use sem vergonha.",
+          "“Pouvez-vous m’aider ?” é formal e serve em aeroporto, hotel e emergência.",
+          "A prioridade é localizar, não explicar muito."
+        ],
+        "quiz": {
+          "q": "Como perguntar onde fica a saída?",
+          "a": "Où est la sortie ?",
+          "options": [
+            "Où est la sortie ?",
+            "Je voudrais la sortie.",
+            "Combien la sortie ?"
+          ],
+          "hint": "Où est = onde fica. La sortie = a saída."
+        }
+      },
+      "metro": {
+        "pill": "Metrô",
+        "title": "Metrô e direção",
+        "desc": "Pergunte caminho, distância e peça repetição.",
+        "phrases": [
+          {
+            "text": "Où est le métro ?",
+            "pt": "Onde fica o metrô?"
+          },
+          {
+            "text": "Je voudrais un ticket.",
+            "pt": "Eu gostaria de um bilhete."
+          },
+          {
+            "text": "C’est loin ?",
+            "pt": "É longe?"
+          },
+          {
+            "text": "Je descends ici ?",
+            "pt": "Eu desço aqui?"
+          },
+          {
+            "text": "Répétez, s’il vous plaît.",
+            "pt": "Repita, por favor."
+          }
+        ],
+        "lessons": [
+          "“Où est…” resolve localização: metrô, hotel, rua, banheiro.",
+          "“Je voudrais un ticket” reaproveita o bloco da missão café.",
+          "“C’est loin ?” é pergunta curta e útil para direção.",
+          "Se a resposta vier rápida, use “Répétez, s’il vous plaît.”"
+        ],
+        "quiz": {
+          "q": "Como pedir para repetir?",
+          "a": "Répétez, s’il vous plaît.",
+          "options": [
+            "Répétez, s’il vous plaît.",
+            "Je descends ici ?",
+            "C’est loin ?"
+          ],
+          "hint": "Répétez = repita. S’il vous plaît = por favor."
+        }
+      },
+      "hotel": {
+        "pill": "Hotel",
+        "title": "Check-in no hotel",
+        "desc": "Confirme reserva, quarto, passaporte e café da manhã.",
+        "phrases": [
+          {
+            "text": "J’ai une réservation.",
+            "pt": "Eu tenho uma reserva."
+          },
+          {
+            "text": "Au nom de Silva.",
+            "pt": "No nome de Silva."
+          },
+          {
+            "text": "Voici mon passeport.",
+            "pt": "Aqui está meu passaporte."
+          },
+          {
+            "text": "À quelle heure est le petit-déjeuner ?",
+            "pt": "Que horas é o café da manhã?"
+          },
+          {
+            "text": "La chambre est prête ?",
+            "pt": "O quarto está pronto?"
+          }
+        ],
+        "lessons": [
+          "“J’ai…” significa “eu tenho”. Use para reserva, passaporte e dúvidas simples.",
+          "“Au nom de…” é a frase prática para check-in.",
+          "“À quelle heure…” pergunta horário. Use para café, saída, trem e passeio.",
+          "No hotel, frases curtas funcionam melhor do que explicações longas."
+        ],
+        "quiz": {
+          "q": "Como dizer “Eu tenho uma reserva”?",
+          "a": "J’ai une réservation.",
+          "options": [
+            "J’ai une réservation.",
+            "Je voudrais une réservation.",
+            "Où est une réservation ?"
+          ],
+          "hint": "J’ai = eu tenho."
+        }
+      },
+      "restaurant": {
+        "pill": "Restaurante",
+        "title": "Restaurante sem travar",
+        "desc": "Peça mesa, menu, conta e avise restrições.",
+        "phrases": [
+          {
+            "text": "Une table pour deux, s’il vous plaît.",
+            "pt": "Uma mesa para dois, por favor."
+          },
+          {
+            "text": "Je voudrais le menu.",
+            "pt": "Eu gostaria do cardápio."
+          },
+          {
+            "text": "Je prends ça.",
+            "pt": "Eu vou querer isso."
+          },
+          {
+            "text": "L’addition, s’il vous plaît.",
+            "pt": "A conta, por favor."
+          },
+          {
+            "text": "Je suis allergique aux noix.",
+            "pt": "Eu sou alérgico a nozes."
+          }
+        ],
+        "lessons": [
+          "“Pour deux” troca fácil: pour une personne, pour trois.",
+          "“Je prends ça” evita pronunciar nomes difíceis do cardápio.",
+          "“L’addition” é a conta; use com “s’il vous plaît”.",
+          "Alergia é conteúdo essencial, não extra. Incluímos cedo por segurança."
+        ],
+        "quiz": {
+          "q": "Como pedir a conta?",
+          "a": "L’addition, s’il vous plaît.",
+          "options": [
+            "L’addition, s’il vous plaît.",
+            "Je prends ça.",
+            "Une table pour deux."
+          ],
+          "hint": "L’addition = a conta."
+        }
+      },
+      "directions": {
+        "pill": "Direções",
+        "title": "Direções na rua",
+        "desc": "Peça caminho e entenda esquerda, direita e reto.",
+        "phrases": [
+          {
+            "text": "Excusez-moi.",
+            "pt": "Com licença."
+          },
+          {
+            "text": "Où est la gare ?",
+            "pt": "Onde fica a estação?"
+          },
+          {
+            "text": "C’est à gauche.",
+            "pt": "É à esquerda."
+          },
+          {
+            "text": "C’est à droite.",
+            "pt": "É à direita."
+          },
+          {
+            "text": "Allez tout droit.",
+            "pt": "Vá reto / siga em frente."
+          }
+        ],
+        "lessons": [
+          "Comece com “Excusez-moi” antes de perguntar algo na rua.",
+          "Troque o lugar depois de “Où est…”: la gare, le métro, l’hôtel.",
+          "Esquerda/direita/reto são palavras de sobrevivência.",
+          "Você não precisa entender tudo; pegue a direção principal."
+        ],
+        "quiz": {
+          "q": "Como dizer “Com licença”?",
+          "a": "Excusez-moi.",
+          "options": [
+            "Excusez-moi.",
+            "Bonne journée.",
+            "Je prends ça."
+          ],
+          "hint": "Use Excusez-moi para chamar alguém com educação."
+        }
+      },
+      "shopping": {
+        "pill": "Compras",
+        "title": "Compras e pagamento",
+        "desc": "Pergunte preço, procure item e pague com cartão.",
+        "phrases": [
+          {
+            "text": "Je cherche un adaptateur.",
+            "pt": "Estou procurando um adaptador."
+          },
+          {
+            "text": "Vous avez ça ?",
+            "pt": "Vocês têm isso?"
+          },
+          {
+            "text": "Combien ça coûte ?",
+            "pt": "Quanto custa?"
+          },
+          {
+            "text": "Je peux payer par carte ?",
+            "pt": "Posso pagar com cartão?"
+          },
+          {
+            "text": "C’est trop cher.",
+            "pt": "Está caro demais."
+          }
+        ],
+        "lessons": [
+          "“Je cherche…” é útil para farmácia, loja e mercado.",
+          "“Vous avez ça ?” serve apontando para a tela ou produto.",
+          "“Par carte” = com cartão. Muito útil em viagem.",
+          "“Trop cher” é simples e educado o suficiente para recusar."
+        ],
+        "quiz": {
+          "q": "Como perguntar se pode pagar com cartão?",
+          "a": "Je peux payer par carte ?",
+          "options": [
+            "Je peux payer par carte ?",
+            "Je voudrais payer cher.",
+            "Vous avez carte ?"
+          ],
+          "hint": "Je peux = eu posso. Payer par carte = pagar com cartão."
+        }
+      },
+      "emergency": {
+        "pill": "Emergência",
+        "title": "Emergência e segurança",
+        "desc": "Peça ajuda, médico, farmácia e diga que é urgente.",
+        "phrases": [
+          {
+            "text": "J’ai besoin d’aide.",
+            "pt": "Eu preciso de ajuda."
+          },
+          {
+            "text": "Appelez un médecin.",
+            "pt": "Chame um médico."
+          },
+          {
+            "text": "Où est la pharmacie ?",
+            "pt": "Onde fica a farmácia?"
+          },
+          {
+            "text": "Je suis perdu.",
+            "pt": "Estou perdido.",
+            "text_f": "Je suis perdue."
+          },
+          {
+            "text": "C’est urgent.",
+            "pt": "É urgente."
+          }
+        ],
+        "lessons": [
+          "Emergência entra cedo porque é frase de segurança.",
+          "“J’ai besoin de…” significa “eu preciso de…”.",
+          "“Appelez…” é comando prático: chame alguém.",
+          "Em situação real, clareza vale mais que gramática perfeita."
+        ],
+        "quiz": {
+          "q": "Como dizer “Eu preciso de ajuda”?",
+          "a": "J’ai besoin d’aide.",
+          "options": [
+            "J’ai besoin d’aide.",
+            "Je voudrais aide.",
+            "Je suis besoin."
+          ],
+          "hint": "J’ai besoin de = eu preciso de."
+        }
+      },
+      "introductions": {
+        "pill": "Apresentação",
+        "title": "Se apresentar rápido",
+        "desc": "Diga nome, país, idioma e limite seu francês.",
+        "phrases": [
+          {
+            "text": "Je m’appelle Bruno.",
+            "pt": "Eu me chamo Bruno."
+          },
+          {
+            "text": "Je suis brésilien.",
+            "pt": "Eu sou brasileiro.",
+            "text_f": "Je suis brésilienne."
+          },
+          {
+            "text": "Je parle un peu français.",
+            "pt": "Eu falo um pouco de francês."
+          },
+          {
+            "text": "Je ne parle pas bien français.",
+            "pt": "Eu não falo francês bem."
+          },
+          {
+            "text": "Enchanté.",
+            "pt": "Prazer."
+          }
+        ],
+        "lessons": [
+          "“Je m’appelle…” é a forma padrão para nome.",
+          "“Je suis…” serve para nacionalidade e estado simples.",
+          "Dizer seu limite ajuda a outra pessoa falar mais devagar.",
+          "“Enchanté” fecha apresentação com naturalidade."
+        ],
+        "quiz": {
+          "q": "Como dizer “Eu falo um pouco de francês”?",
+          "a": "Je parle un peu français.",
+          "options": [
+            "Je parle un peu français.",
+            "Je suis un peu français.",
+            "Je voudrais français."
+          ],
+          "hint": "Je parle = eu falo."
+        }
+      }
+    },
+    "library": [
+      [
+        "Cumprimento",
+        "Bonjour.",
+        "Olá / bom dia."
+      ],
+      [
+        "Educação",
+        "S’il vous plaît.",
+        "Por favor."
+      ],
+      [
+        "Agradecer",
+        "Merci beaucoup.",
+        "Muito obrigado."
+      ],
+      [
+        "Despedida",
+        "Bonne journée.",
+        "Bom dia / tenha um bom dia."
+      ],
+      [
+        "Pedir",
+        "Je voudrais un café.",
+        "Eu gostaria de um café."
+      ],
+      [
+        "Pedir",
+        "Je voudrais de l’eau.",
+        "Eu gostaria de água."
+      ],
+      [
+        "Preço",
+        "Combien ça coûte ?",
+        "Quanto custa?"
+      ],
+      [
+        "Pagamento",
+        "Je peux payer par carte ?",
+        "Posso pagar com cartão?"
+      ],
+      [
+        "Ajuda",
+        "Pouvez-vous m’aider ?",
+        "Você pode me ajudar?"
+      ],
+      [
+        "Não entendi",
+        "Je ne comprends pas.",
+        "Eu não entendo."
+      ],
+      [
+        "Repetir",
+        "Répétez, s’il vous plaît.",
+        "Repita, por favor."
+      ],
+      [
+        "Mais devagar",
+        "Parlez plus lentement, s’il vous plaît.",
+        "Fale mais devagar, por favor."
+      ],
+      [
+        "Direção",
+        "Où est le métro ?",
+        "Onde fica o metrô?"
+      ],
+      [
+        "Direção",
+        "C’est loin ?",
+        "É longe?"
+      ],
+      [
+        "Hotel",
+        "J’ai une réservation.",
+        "Eu tenho uma reserva."
+      ],
+      [
+        "Hotel",
+        "Voici mon passeport.",
+        "Aqui está meu passaporte."
+      ],
+      [
+        "Restaurante",
+        "Une table pour deux, s’il vous plaît.",
+        "Uma mesa para dois, por favor."
+      ],
+      [
+        "Restaurante",
+        "L’addition, s’il vous plaît.",
+        "A conta, por favor."
+      ],
+      [
+        "Aeroporto",
+        "Où sont les bagages ?",
+        "Onde estão as bagagens?"
+      ],
+      [
+        "Aeroporto",
+        "Où est la sortie ?",
+        "Onde fica a saída?"
+      ],
+      [
+        "Compra",
+        "Je cherche un adaptateur.",
+        "Estou procurando um adaptador."
+      ],
+      [
+        "Compra",
+        "Vous avez ça ?",
+        "Vocês têm isso?"
+      ],
+      [
+        "Emergência",
+        "J’ai besoin d’aide.",
+        "Eu preciso de ajuda."
+      ],
+      [
+        "Emergência",
+        "C’est urgent.",
+        "É urgente."
+      ],
+      [
+        "Apresentação",
+        "Je m’appelle Bruno.",
+        "Eu me chamo Bruno."
+      ],
+      [
+        "Apresentação",
+        "Je suis brésilien.",
+        "Eu sou brasileiro."
+      ],
+      [
+        "Idioma",
+        "Je parle un peu français.",
+        "Eu falo um pouco de francês."
+      ],
+      [
+        "Idioma",
+        "Je ne parle pas bien français.",
+        "Eu não falo francês bem."
+      ]
+    ]
+  },
+  "en": {
+    "voice": "en-US",
+    "country": {
+      "code": "US",
+      "name": "Estados Unidos",
+      "caption": "Miami",
+      "photoVar": true
+    },
+    "pedagogy": {
+      "level": "A0 → A1 viagem",
+      "method": "situação real → chunks prontos → repetição → mini desafio → revisão"
+    },
+    "missions": {
+      "cafe": {
+        "pill": "Café",
+        "title": "Coffee in the USA",
+        "desc": "Order coffee, ask the price and say thanks.",
+        "phrases": [
+          {
+            "text": "Hello.",
+            "pt": "Olá."
+          },
+          {
+            "text": "I’d like a coffee, please.",
+            "pt": "Eu gostaria de um café, por favor."
+          },
+          {
+            "text": "A coffee with milk, please.",
+            "pt": "Um café com leite, por favor."
+          },
+          {
+            "text": "How much is it?",
+            "pt": "Quanto custa?"
+          },
+          {
+            "text": "Thanks, have a nice day.",
+            "pt": "Obrigado, tenha um bom dia."
+          }
+        ],
+        "lessons": [
+          "Use “I’d like…” to order politely.",
+          "“Please” and “thanks” make the phrase sound natural.",
+          "Short phrases are better for beginners."
+        ],
+        "quiz": {
+          "q": "How do you order a coffee politely?",
+          "a": "I’d like a coffee, please.",
+          "options": [
+            "I’d like a coffee, please.",
+            "Where is the coffee?",
+            "I am coffee."
+          ],
+          "hint": "I’d like = eu gostaria."
+        }
+      },
+      "airport": {
+        "pill": "Aeroporto",
+        "title": "Arrival at the airport",
+        "desc": "Find bags, exits and ask for help.",
+        "phrases": [
+          {
+            "text": "Where are the bags?",
+            "pt": "Onde estão as malas?"
+          },
+          {
+            "text": "Where is the exit?",
+            "pt": "Onde fica a saída?"
+          },
+          {
+            "text": "Where is the bathroom?",
+            "pt": "Onde fica o banheiro?"
+          },
+          {
+            "text": "I don’t understand.",
+            "pt": "Eu não entendo."
+          },
+          {
+            "text": "Can you help me?",
+            "pt": "Você pode me ajudar?"
+          }
+        ],
+        "lessons": [
+          "Use “Where is…” for locations.",
+          "“I don’t understand” is your safety phrase.",
+          "“Can you help me?” works in many places."
+        ],
+        "quiz": {
+          "q": "How do you ask where the exit is?",
+          "a": "Where is the exit?",
+          "options": [
+            "Where is the exit?",
+            "I’d like the exit.",
+            "How much is the exit?"
+          ],
+          "hint": "Where is = onde fica."
+        }
+      },
+      "metro": {
+        "pill": "Metrô",
+        "title": "Subway and directions",
+        "desc": "Ask for the line, distance and a repeat.",
+        "phrases": [
+          {
+            "text": "Where is the subway?",
+            "pt": "Onde fica o metrô?"
+          },
+          {
+            "text": "I’d like a ticket.",
+            "pt": "Eu gostaria de um bilhete."
+          },
+          {
+            "text": "Is it far?",
+            "pt": "É longe?"
+          },
+          {
+            "text": "Do I get off here?",
+            "pt": "Eu desço aqui?"
+          },
+          {
+            "text": "Repeat, please.",
+            "pt": "Repita, por favor."
+          }
+        ],
+        "lessons": [
+          "Reuse “Where is…” everywhere.",
+          "Ticket phrases are direct.",
+          "Ask for repetition when people speak fast."
+        ],
+        "quiz": {
+          "q": "How do you ask someone to repeat?",
+          "a": "Repeat, please.",
+          "options": [
+            "Repeat, please.",
+            "Is it far?",
+            "I’d like a ticket."
+          ],
+          "hint": "Repeat = repita."
+        }
+      },
+      "hotel": {
+        "pill": "Hotel",
+        "title": "Hotel check-in",
+        "desc": "Confirm your booking and basic info.",
+        "phrases": [
+          {
+            "text": "I have a reservation.",
+            "pt": "Eu tenho uma reserva."
+          },
+          {
+            "text": "Under the name Silva.",
+            "pt": "No nome de Silva."
+          },
+          {
+            "text": "Here is my passport.",
+            "pt": "Aqui está meu passaporte."
+          },
+          {
+            "text": "What time is breakfast?",
+            "pt": "Que horas é o café da manhã?"
+          },
+          {
+            "text": "Is the room ready?",
+            "pt": "O quarto está pronto?"
+          }
+        ],
+        "lessons": [
+          "“I have…” is useful at check-in.",
+          "“Under the name…” is natural for reservations.",
+          "Use “What time…” for schedules."
+        ],
+        "quiz": {
+          "q": "How do you say you have a reservation?",
+          "a": "I have a reservation.",
+          "options": [
+            "I have a reservation.",
+            "I am a reservation.",
+            "Where is reservation?"
+          ],
+          "hint": "I have = eu tenho."
+        }
+      },
+      "restaurant": {
+        "pill": "Restaurante",
+        "title": "Restaurant without freezing",
+        "desc": "Ask for a table, a dish and the bill.",
+        "phrases": [
+          {
+            "text": "A table for two, please.",
+            "pt": "Uma mesa para dois, por favor."
+          },
+          {
+            "text": "I’d like the menu.",
+            "pt": "Eu gostaria do cardápio."
+          },
+          {
+            "text": "I’ll have this.",
+            "pt": "Vou querer isto."
+          },
+          {
+            "text": "The check, please.",
+            "pt": "A conta, por favor."
+          },
+          {
+            "text": "I’m allergic to nuts.",
+            "pt": "Sou alérgico a nozes."
+          }
+        ],
+        "lessons": [
+          "Pointing plus “this” helps with difficult names.",
+          "“The check, please” is essential.",
+          "Allergy phrases matter early."
+        ],
+        "quiz": {
+          "q": "How do you ask for the check?",
+          "a": "The check, please.",
+          "options": [
+            "The check, please.",
+            "I’ll have this.",
+            "A table for two."
+          ],
+          "hint": "Check = conta."
+        }
+      },
+      "shopping": {
+        "pill": "Compras",
+        "title": "Shopping and payment",
+        "desc": "Price, size and how to pay.",
+        "phrases": [
+          {
+            "text": "I’m looking for an adapter.",
+            "pt": "Estou procurando um adaptador."
+          },
+          {
+            "text": "Do you have this?",
+            "pt": "Vocês têm isso?"
+          },
+          {
+            "text": "How much is it?",
+            "pt": "Quanto custa?"
+          },
+          {
+            "text": "Can I pay by card?",
+            "pt": "Posso pagar com cartão?"
+          },
+          {
+            "text": "It’s too expensive.",
+            "pt": "Está caro demais."
+          }
+        ],
+        "lessons": [
+          "“I’m looking for…” solves many shopping situations.",
+          "“Do you have this?” works while pointing.",
+          "Card payment is essential."
+        ],
+        "quiz": {
+          "q": "How do you ask to pay by card?",
+          "a": "Can I pay by card?",
+          "options": [
+            "Can I pay by card?",
+            "I have a card?",
+            "How much card?"
+          ],
+          "hint": "Can I = posso."
+        }
+      },
+      "emergency": {
+        "pill": "Emergência",
+        "title": "Emergency help",
+        "desc": "Ask for help, a pharmacy or a doctor.",
+        "phrases": [
+          {
+            "text": "I need help.",
+            "pt": "Eu preciso de ajuda."
+          },
+          {
+            "text": "Call a doctor.",
+            "pt": "Chame um médico."
+          },
+          {
+            "text": "Where is the pharmacy?",
+            "pt": "Onde fica a farmácia?"
+          },
+          {
+            "text": "I’m lost.",
+            "pt": "Estou perdido."
+          },
+          {
+            "text": "It’s urgent.",
+            "pt": "É urgente."
+          }
+        ],
+        "lessons": [
+          "Emergency phrases must be memorized as blocks.",
+          "“I need…” is direct and clear.",
+          "Use short phrases under stress."
+        ],
+        "quiz": {
+          "q": "How do you say you need help?",
+          "a": "I need help.",
+          "options": [
+            "I need help.",
+            "I am help.",
+            "Help is me."
+          ],
+          "hint": "I need = eu preciso."
+        }
+      },
+      "introductions": {
+        "pill": "Apresentação",
+        "title": "Quick introduction",
+        "desc": "Greet, say where you’re from and thank.",
+        "phrases": [
+          {
+            "text": "My name is Bruno.",
+            "pt": "Meu nome é Bruno."
+          },
+          {
+            "text": "I’m Brazilian.",
+            "pt": "Sou brasileiro."
+          },
+          {
+            "text": "I speak a little English.",
+            "pt": "Eu falo um pouco de inglês."
+          },
+          {
+            "text": "I don’t speak English well.",
+            "pt": "Eu não falo inglês bem."
+          },
+          {
+            "text": "Nice to meet you.",
+            "pt": "Prazer."
+          }
+        ],
+        "lessons": [
+          "Name, country and language level are enough.",
+          "Say your limit so the person slows down.",
+          "Keep it short."
+        ],
+        "quiz": {
+          "q": "How do you say your name?",
+          "a": "My name is Bruno.",
+          "options": [
+            "My name is Bruno.",
+            "I am name Bruno.",
+            "Name me Bruno."
+          ],
+          "hint": "My name is = meu nome é."
+        }
+      },
+      "directions": {
+        "pill": "RUA",
+        "title": "Street directions",
+        "desc": "Ask the way: left, right and straight.",
+        "phrases": [
+          {
+            "text": "Where is the train station?",
+            "pt": "Onde fica a estação de trem?"
+          },
+          {
+            "text": "I’m lost.",
+            "pt": "Estou perdido."
+          },
+          {
+            "text": "I’m looking for this address.",
+            "pt": "Estou procurando este endereço."
+          },
+          {
+            "text": "Go straight ahead.",
+            "pt": "Siga em frente."
+          },
+          {
+            "text": "Can you show me on the map?",
+            "pt": "Você pode me mostrar no mapa?"
+          }
+        ],
+        "lessons": [
+          "Comece pedindo licença antes de perguntar o caminho.",
+          "Troque o lugar depois da pergunta: estação, metro, hotel.",
+          "Esquerda, direita e reto são palavras de sobrevivência.",
+          "Você não precisa entender tudo — pegue a direção principal.",
+          "Agradeça no fim: fecha a conversa com educação."
+        ],
+        "quiz": {
+          "q": "Como pedir licença / começar a pergunta na rua?",
+          "a": "Where is the train station?",
+          "options": [
+            "Where is the train station?",
+            "I’m lost.",
+            "I’m looking for this address."
+          ],
+          "hint": "Where"
+        }
+      }
+    },
+    "library": [
+      [
+        "Greeting",
+        "Hello.",
+        "Olá."
+      ],
+      [
+        "Polite",
+        "Please.",
+        "Por favor."
+      ],
+      [
+        "Thanks",
+        "Thank you.",
+        "Obrigado."
+      ],
+      [
+        "Order",
+        "I’d like a coffee.",
+        "Eu gostaria de um café."
+      ],
+      [
+        "Price",
+        "How much is it?",
+        "Quanto custa?"
+      ],
+      [
+        "Help",
+        "Can you help me?",
+        "Você pode me ajudar?"
+      ],
+      [
+        "Safety",
+        "I don’t understand.",
+        "Eu não entendo."
+      ],
+      [
+        "Repeat",
+        "Repeat, please.",
+        "Repita, por favor."
+      ],
+      [
+        "Direction",
+        "Where is the subway?",
+        "Onde fica o metrô?"
+      ],
+      [
+        "Hotel",
+        "I have a reservation.",
+        "Eu tenho uma reserva."
+      ],
+      [
+        "Restaurant",
+        "The check, please.",
+        "A conta, por favor."
+      ],
+      [
+        "Emergency",
+        "I need help.",
+        "Eu preciso de ajuda."
+      ]
+    ]
+  },
+  "de": {
+    "voice": "de-DE",
+    "country": {
+      "code": "DE",
+      "name": "Alemanha",
+      "caption": "Portão de Brandemburgo",
+      "photoVar": true
+    },
+    "pedagogy": {
+      "level": "A0 → A1 viagem",
+      "method": "situação real → chunks prontos → repetição → mini desafio → revisão"
+    },
+    "missions": {
+      "cafe": {
+        "pill": "Café",
+        "title": "Café em Berlim",
+        "desc": "Peça café, preço e agradeça como em uma cafeteria alemã.",
+        "phrases": [
+          {
+            "text": "Guten Tag.",
+            "pt": "Bom dia / boa tarde."
+          },
+          {
+            "text": "Ich hätte gern einen Kaffee, bitte.",
+            "pt": "Eu gostaria de um café, por favor."
+          },
+          {
+            "text": "Einen Kaffee mit Milch, bitte.",
+            "pt": "Um café com leite, por favor."
+          },
+          {
+            "text": "Wie viel kostet das?",
+            "pt": "Quanto custa isso?"
+          },
+          {
+            "text": "Danke, schönen Tag.",
+            "pt": "Obrigado, bom dia."
+          }
+        ],
+        "lessons": [
+          "“Ich hätte gern…” é o pedido educado.",
+          "“Bitte” suaviza o pedido.",
+          "Alemão parece longo, mas use como bloco pronto."
+        ],
+        "quiz": {
+          "q": "Como pedir café com educação?",
+          "a": "Ich hätte gern einen Kaffee, bitte.",
+          "options": [
+            "Ich hätte gern einen Kaffee, bitte.",
+            "Wo ist Kaffee?",
+            "Ich bin Kaffee."
+          ],
+          "hint": "Ich hätte gern = eu gostaria."
+        }
+      },
+      "airport": {
+        "pill": "Aeroporto",
+        "title": "Chegada em Frankfurt",
+        "desc": "Encontre bagagem, saída e peça ajuda no aeroporto.",
+        "phrases": [
+          {
+            "text": "Wo ist das Gepäck?",
+            "pt": "Onde está a bagagem?"
+          },
+          {
+            "text": "Wo ist der Ausgang?",
+            "pt": "Onde fica a saída?"
+          },
+          {
+            "text": "Wo ist die Toilette?",
+            "pt": "Onde fica o banheiro?"
+          },
+          {
+            "text": "Ich verstehe nicht.",
+            "pt": "Eu não entendo."
+          },
+          {
+            "text": "Können Sie mir helfen?",
+            "pt": "O senhor/a senhora pode me ajudar?"
+          }
+        ],
+        "lessons": [
+          "“Wo ist…” localiza algo.",
+          "“Ich verstehe nicht” é frase de segurança.",
+          "“Können Sie mir helfen?” é formal."
+        ],
+        "quiz": {
+          "q": "Como perguntar onde fica a saída?",
+          "a": "Wo ist der Ausgang?",
+          "options": [
+            "Wo ist der Ausgang?",
+            "Ich möchte Ausgang.",
+            "Wie viel Ausgang?"
+          ],
+          "hint": "Wo ist = onde fica."
+        }
+      },
+      "metro": {
+        "pill": "Metrô",
+        "title": "U-Bahn e direção",
+        "desc": "Pergunte linha, distância e peça para repetir.",
+        "phrases": [
+          {
+            "text": "Wo ist die U-Bahn?",
+            "pt": "Onde fica o metrô?"
+          },
+          {
+            "text": "Ich hätte gern ein Ticket.",
+            "pt": "Eu gostaria de um bilhete."
+          },
+          {
+            "text": "Ist es weit?",
+            "pt": "É longe?"
+          },
+          {
+            "text": "Steige ich hier aus?",
+            "pt": "Eu desço aqui?"
+          },
+          {
+            "text": "Wiederholen Sie bitte.",
+            "pt": "Repita, por favor."
+          }
+        ],
+        "lessons": [
+          "“U-Bahn” é metrô.",
+          "Reutilize “Ich hätte gern…”.",
+          "Peça repetição com “Wiederholen Sie bitte”."
+        ],
+        "quiz": {
+          "q": "Como pedir para repetir?",
+          "a": "Wiederholen Sie bitte.",
+          "options": [
+            "Wiederholen Sie bitte.",
+            "Ist es weit?",
+            "Ich hätte gern ein Ticket."
+          ],
+          "hint": "Wiederholen = repetir."
+        }
+      },
+      "hotel": {
+        "pill": "Hotel",
+        "title": "Check-in em Berlim",
+        "desc": "Confirme reserva e informações básicas do hotel.",
+        "phrases": [
+          {
+            "text": "Ich habe eine Reservierung.",
+            "pt": "Tenho uma reserva."
+          },
+          {
+            "text": "Auf den Namen Silva.",
+            "pt": "No nome de Silva."
+          },
+          {
+            "text": "Hier ist mein Pass.",
+            "pt": "Aqui está meu passaporte."
+          },
+          {
+            "text": "Wann ist das Frühstück?",
+            "pt": "Quando/que horas é o café da manhã?"
+          },
+          {
+            "text": "Ist das Zimmer fertig?",
+            "pt": "O quarto está pronto?"
+          }
+        ],
+        "lessons": [
+          "“Ich habe” = eu tenho.",
+          "“Auf den Namen…” é usado no check-in.",
+          "“Wann ist…” pergunta horário."
+        ],
+        "quiz": {
+          "q": "Como dizer tenho uma reserva?",
+          "a": "Ich habe eine Reservierung.",
+          "options": [
+            "Ich habe eine Reservierung.",
+            "Ich bin Reservierung.",
+            "Wo Reservierung?"
+          ],
+          "hint": "Ich habe = eu tenho."
+        }
+      },
+      "restaurant": {
+        "pill": "Restaurante",
+        "title": "Restaurante na Alemanha",
+        "desc": "Peça mesa, prato e a conta sem travar.",
+        "phrases": [
+          {
+            "text": "Einen Tisch für zwei, bitte.",
+            "pt": "Uma mesa para dois, por favor."
+          },
+          {
+            "text": "Ich hätte gern die Speisekarte.",
+            "pt": "Eu gostaria do cardápio."
+          },
+          {
+            "text": "Ich nehme das.",
+            "pt": "Vou querer isto."
+          },
+          {
+            "text": "Die Rechnung, bitte.",
+            "pt": "A conta, por favor."
+          },
+          {
+            "text": "Ich bin allergisch gegen Nüsse.",
+            "pt": "Sou alérgico a nozes."
+          }
+        ],
+        "lessons": [
+          "“Für zwei” troca pela quantidade.",
+          "“Ich nehme das” ajuda apontando.",
+          "Conta = die Rechnung."
+        ],
+        "quiz": {
+          "q": "Como pedir a conta?",
+          "a": "Die Rechnung, bitte.",
+          "options": [
+            "Die Rechnung, bitte.",
+            "Ich nehme das.",
+            "Einen Tisch für zwei."
+          ],
+          "hint": "Die Rechnung = a conta."
+        }
+      },
+      "shopping": {
+        "pill": "Compras",
+        "title": "Compras na Alemanha",
+        "desc": "Preço, tamanho e pagamento no balcão.",
+        "phrases": [
+          {
+            "text": "Ich suche einen Adapter.",
+            "pt": "Procuro um adaptador."
+          },
+          {
+            "text": "Haben Sie das?",
+            "pt": "Vocês têm isso?"
+          },
+          {
+            "text": "Wie viel kostet das?",
+            "pt": "Quanto custa isso?"
+          },
+          {
+            "text": "Kann ich mit Karte zahlen?",
+            "pt": "Posso pagar com cartão?"
+          },
+          {
+            "text": "Das ist zu teuer.",
+            "pt": "Está caro demais."
+          }
+        ],
+        "lessons": [
+          "“Ich suche…” é direto.",
+          "“Haben Sie das?” funciona apontando.",
+          "Karte = cartão."
+        ],
+        "quiz": {
+          "q": "Como perguntar para pagar com cartão?",
+          "a": "Kann ich mit Karte zahlen?",
+          "options": [
+            "Kann ich mit Karte zahlen?",
+            "Ich habe Karte?",
+            "Wie viel Karte?"
+          ],
+          "hint": "Kann ich = posso."
+        }
+      },
+      "emergency": {
+        "pill": "Emergência",
+        "title": "Emergência na Alemanha",
+        "desc": "Peça ajuda, farmácia e médico.",
+        "phrases": [
+          {
+            "text": "Ich brauche Hilfe.",
+            "pt": "Preciso de ajuda."
+          },
+          {
+            "text": "Rufen Sie einen Arzt.",
+            "pt": "Chame um médico."
+          },
+          {
+            "text": "Wo ist die Apotheke?",
+            "pt": "Onde fica a farmácia?"
+          },
+          {
+            "text": "Ich habe mich verlaufen.",
+            "pt": "Estou perdido."
+          },
+          {
+            "text": "Es ist dringend.",
+            "pt": "É urgente."
+          }
+        ],
+        "lessons": [
+          "Memorize como bloco.",
+          "“Ich brauche…” = eu preciso.",
+          "Fale curto em emergência."
+        ],
+        "quiz": {
+          "q": "Como dizer preciso de ajuda?",
+          "a": "Ich brauche Hilfe.",
+          "options": [
+            "Ich brauche Hilfe.",
+            "Ich bin Hilfe.",
+            "Hilfe brauche."
+          ],
+          "hint": "Ich brauche = eu preciso."
+        }
+      },
+      "introductions": {
+        "pill": "Apresentação",
+        "title": "Apresentação em alemão",
+        "desc": "Cumprimente, diga de onde é e agradeça.",
+        "phrases": [
+          {
+            "text": "Ich heiße Bruno.",
+            "pt": "Eu me chamo Bruno."
+          },
+          {
+            "text": "Ich bin Brasilianer.",
+            "pt": "Sou brasileiro.",
+            "text_f": "Ich bin Brasilianerin."
+          },
+          {
+            "text": "Ich spreche ein bisschen Deutsch.",
+            "pt": "Falo um pouco de alemão."
+          },
+          {
+            "text": "Ich spreche nicht gut Deutsch.",
+            "pt": "Não falo alemão bem."
+          },
+          {
+            "text": "Freut mich.",
+            "pt": "Prazer."
+          }
+        ],
+        "lessons": [
+          "Nome e país bastam.",
+          "Diga que fala pouco.",
+          "“Freut mich” é prazer em conhecer."
+        ],
+        "quiz": {
+          "q": "Como dizer seu nome?",
+          "a": "Ich heiße Bruno.",
+          "options": [
+            "Ich heiße Bruno.",
+            "Ich bin Name Bruno.",
+            "Name ich Bruno."
+          ],
+          "hint": "Ich heiße = eu me chamo."
+        }
+      },
+      "directions": {
+        "pill": "RUA",
+        "title": "Direções na rua",
+        "desc": "Peça caminho: esquerda, direita e reto.",
+        "phrases": [
+          {
+            "text": "Wo ist der Bahnhof?",
+            "pt": "Onde fica a estação?"
+          },
+          {
+            "text": "Ich habe mich verlaufen.",
+            "pt": "Estou perdido."
+          },
+          {
+            "text": "Ich suche diese Adresse.",
+            "pt": "Estou procurando este endereço."
+          },
+          {
+            "text": "Gehen Sie geradeaus.",
+            "pt": "Siga em frente."
+          },
+          {
+            "text": "Können Sie es mir auf der Karte zeigen?",
+            "pt": "Você pode me mostrar isso no mapa?"
+          }
+        ],
+        "lessons": [
+          "Comece pedindo licença antes de perguntar o caminho.",
+          "Troque o lugar depois da pergunta: estação, metro, hotel.",
+          "Esquerda, direita e reto são palavras de sobrevivência.",
+          "Você não precisa entender tudo — pegue a direção principal.",
+          "Agradeça no fim: fecha a conversa com educação."
+        ],
+        "quiz": {
+          "q": "Como pedir licença / começar a pergunta na rua?",
+          "a": "Wo ist der Bahnhof?",
+          "options": [
+            "Wo ist der Bahnhof?",
+            "Ich habe mich verlaufen.",
+            "Ich suche diese Adresse."
+          ],
+          "hint": "Wo"
+        }
+      }
+    },
+    "library": [
+      [
+        "Cumprimento",
+        "Guten Tag.",
+        "Bom dia / boa tarde."
+      ],
+      [
+        "Educação",
+        "Bitte.",
+        "Por favor."
+      ],
+      [
+        "Agradecer",
+        "Danke.",
+        "Obrigado."
+      ],
+      [
+        "Pedir",
+        "Ich hätte gern einen Kaffee.",
+        "Eu gostaria de um café."
+      ],
+      [
+        "Preço",
+        "Wie viel kostet das?",
+        "Quanto custa isso?"
+      ],
+      [
+        "Ajuda",
+        "Können Sie mir helfen?",
+        "Pode me ajudar?"
+      ],
+      [
+        "Não entendi",
+        "Ich verstehe nicht.",
+        "Eu não entendo."
+      ],
+      [
+        "Direção",
+        "Wo ist die U-Bahn?",
+        "Onde fica o metrô?"
+      ],
+      [
+        "Hotel",
+        "Ich habe eine Reservierung.",
+        "Tenho uma reserva."
+      ],
+      [
+        "Restaurante",
+        "Die Rechnung, bitte.",
+        "A conta, por favor."
+      ],
+      [
+        "Emergência",
+        "Ich brauche Hilfe.",
+        "Preciso de ajuda."
+      ]
+    ]
+  },
+  "es": {
+    "voice": "es-ES",
+    "country": {
+      "code": "ES",
+      "name": "Espanha",
+      "caption": "Palácio Real",
+      "photoVar": true
+    },
+    "pedagogy": {
+      "level": "A0 → A1 viagem",
+      "method": "situação real → chunks prontos → repetição → mini desafio → revisão"
+    },
+    "missions": {
+      "cafe": {
+        "pill": "Café",
+        "title": "Café em Madrid",
+        "desc": "Peça café, preço e agradeça como em um café espanhol.",
+        "phrases": [
+          {
+            "text": "Hola.",
+            "pt": "Olá."
+          },
+          {
+            "text": "Quisiera un café, por favor.",
+            "pt": "Eu gostaria de um café, por favor."
+          },
+          {
+            "text": "Un café con leche, por favor.",
+            "pt": "Um café com leite, por favor."
+          },
+          {
+            "text": "¿Cuánto cuesta?",
+            "pt": "Quanto custa?"
+          },
+          {
+            "text": "Gracias, buen día.",
+            "pt": "Obrigado, bom dia."
+          }
+        ],
+        "lessons": [
+          "“Quisiera…” é educado para pedir.",
+          "“Por favor” e “gracias” resolvem educação básica.",
+          "Espanhol permite frases curtas e diretas."
+        ],
+        "quiz": {
+          "q": "Como pedir um café com educação?",
+          "a": "Quisiera un café, por favor.",
+          "options": [
+            "Quisiera un café, por favor.",
+            "Dónde café.",
+            "Soy café."
+          ],
+          "hint": "Quisiera = eu gostaria."
+        }
+      },
+      "airport": {
+        "pill": "Aeroporto",
+        "title": "Chegada em Madrid",
+        "desc": "Encontre bagagem, saída e peça ajuda no aeroporto.",
+        "phrases": [
+          {
+            "text": "¿Dónde están las maletas?",
+            "pt": "Onde estão as malas?"
+          },
+          {
+            "text": "¿Dónde está la salida?",
+            "pt": "Onde fica a saída?"
+          },
+          {
+            "text": "¿Dónde está el baño?",
+            "pt": "Onde fica o banheiro?"
+          },
+          {
+            "text": "No entiendo.",
+            "pt": "Eu não entendo."
+          },
+          {
+            "text": "¿Puede ayudarme?",
+            "pt": "Você pode me ajudar?"
+          }
+        ],
+        "lessons": [
+          "Use “¿Dónde está…?” para localizar.",
+          "“No entiendo” é frase de segurança.",
+          "“¿Puede ayudarme?” é formal e útil."
+        ],
+        "quiz": {
+          "q": "Como perguntar onde fica a saída?",
+          "a": "¿Dónde está la salida?",
+          "options": [
+            "¿Dónde está la salida?",
+            "Quisiera la salida.",
+            "Cuánto salida?"
+          ],
+          "hint": "Dónde está = onde fica."
+        }
+      },
+      "metro": {
+        "pill": "Metrô",
+        "title": "Metrô em Madrid",
+        "desc": "Pergunte linha, distância e peça para repetir.",
+        "phrases": [
+          {
+            "text": "¿Dónde está el metro?",
+            "pt": "Onde fica o metrô?"
+          },
+          {
+            "text": "Quisiera un billete.",
+            "pt": "Eu gostaria de um bilhete."
+          },
+          {
+            "text": "¿Está lejos?",
+            "pt": "É longe?"
+          },
+          {
+            "text": "¿Me bajo aquí?",
+            "pt": "Eu desço aqui?"
+          },
+          {
+            "text": "Repita, por favor.",
+            "pt": "Repita, por favor."
+          }
+        ],
+        "lessons": [
+          "Reutilize “Dónde está”.",
+          "“Billete” funciona para passagem.",
+          "Peça repetição sem vergonha."
+        ],
+        "quiz": {
+          "q": "Como pedir para repetir?",
+          "a": "Repita, por favor.",
+          "options": [
+            "Repita, por favor.",
+            "¿Está lejos?",
+            "Quisiera un billete."
+          ],
+          "hint": "Repita = repita."
+        }
+      },
+      "hotel": {
+        "pill": "Hotel",
+        "title": "Check-in em Madrid",
+        "desc": "Confirme reserva e informações básicas do hotel.",
+        "phrases": [
+          {
+            "text": "Tengo una reserva.",
+            "pt": "Eu tenho uma reserva."
+          },
+          {
+            "text": "A nombre de Silva.",
+            "pt": "No nome de Silva."
+          },
+          {
+            "text": "Aquí está mi pasaporte.",
+            "pt": "Aqui está meu passaporte."
+          },
+          {
+            "text": "¿A qué hora es el desayuno?",
+            "pt": "Que horas é o café da manhã?"
+          },
+          {
+            "text": "¿La habitación está lista?",
+            "pt": "O quarto está pronto?"
+          }
+        ],
+        "lessons": [
+          "“Tengo” = eu tenho.",
+          "“A nombre de…” é usado no check-in.",
+          "“A qué hora” pergunta horário."
+        ],
+        "quiz": {
+          "q": "Como dizer que tem reserva?",
+          "a": "Tengo una reserva.",
+          "options": [
+            "Tengo una reserva.",
+            "Soy una reserva.",
+            "Dónde reserva?"
+          ],
+          "hint": "Tengo = eu tenho."
+        }
+      },
+      "restaurant": {
+        "pill": "Restaurante",
+        "title": "Restaurante na Espanha",
+        "desc": "Peça mesa, prato e a conta sem travar.",
+        "phrases": [
+          {
+            "text": "Una mesa para dos, por favor.",
+            "pt": "Uma mesa para dois, por favor."
+          },
+          {
+            "text": "Quisiera el menú.",
+            "pt": "Eu gostaria do cardápio."
+          },
+          {
+            "text": "Quiero esto.",
+            "pt": "Eu quero isto."
+          },
+          {
+            "text": "La cuenta, por favor.",
+            "pt": "A conta, por favor."
+          },
+          {
+            "text": "Soy alérgico a las nueces.",
+            "pt": "Sou alérgico a nozes."
+          }
+        ],
+        "lessons": [
+          "“Para dos” troca pela quantidade.",
+          "“Esto” ajuda quando você aponta.",
+          "A conta é “la cuenta”."
+        ],
+        "quiz": {
+          "q": "Como pedir a conta?",
+          "a": "La cuenta, por favor.",
+          "options": [
+            "La cuenta, por favor.",
+            "Quiero esto.",
+            "Una mesa para dos."
+          ],
+          "hint": "Cuenta = conta."
+        }
+      },
+      "shopping": {
+        "pill": "Compras",
+        "title": "Compras na Espanha",
+        "desc": "Preço, tamanho e pagamento no balcão.",
+        "phrases": [
+          {
+            "text": "Busco un adaptador.",
+            "pt": "Procuro um adaptador."
+          },
+          {
+            "text": "¿Tiene esto?",
+            "pt": "Você tem isso?"
+          },
+          {
+            "text": "¿Cuánto cuesta?",
+            "pt": "Quanto custa?"
+          },
+          {
+            "text": "¿Puedo pagar con tarjeta?",
+            "pt": "Posso pagar com cartão?"
+          },
+          {
+            "text": "Es muy caro.",
+            "pt": "Está muito caro."
+          }
+        ],
+        "lessons": [
+          "“Busco…” é direto.",
+          "“Tiene esto?” funciona apontando.",
+          "“Tarjeta” = cartão."
+        ],
+        "quiz": {
+          "q": "Como perguntar para pagar com cartão?",
+          "a": "¿Puedo pagar con tarjeta?",
+          "options": [
+            "¿Puedo pagar con tarjeta?",
+            "Tengo tarjeta?",
+            "Cuánto tarjeta?"
+          ],
+          "hint": "Puedo = posso."
+        }
+      },
+      "emergency": {
+        "pill": "Emergência",
+        "title": "Emergência na Espanha",
+        "desc": "Peça ajuda, farmácia e médico.",
+        "phrases": [
+          {
+            "text": "Necesito ayuda.",
+            "pt": "Preciso de ajuda."
+          },
+          {
+            "text": "Llame a un médico.",
+            "pt": "Chame um médico."
+          },
+          {
+            "text": "¿Dónde está la farmacia?",
+            "pt": "Onde fica a farmácia?"
+          },
+          {
+            "text": "Estoy perdido.",
+            "pt": "Estou perdido.",
+            "text_f": "Estoy perdida."
+          },
+          {
+            "text": "Es urgente.",
+            "pt": "É urgente."
+          }
+        ],
+        "lessons": [
+          "Memorize como bloco.",
+          "“Necesito” = preciso.",
+          "Urgência pede frase curta."
+        ],
+        "quiz": {
+          "q": "Como dizer preciso de ajuda?",
+          "a": "Necesito ayuda.",
+          "options": [
+            "Necesito ayuda.",
+            "Soy ayuda.",
+            "Ayuda necesito médico."
+          ],
+          "hint": "Necesito = preciso."
+        }
+      },
+      "introductions": {
+        "pill": "Apresentação",
+        "title": "Apresentação em espanhol",
+        "desc": "Cumprimente, diga de onde é e agradeça.",
+        "phrases": [
+          {
+            "text": "Me llamo Bruno.",
+            "pt": "Eu me chamo Bruno."
+          },
+          {
+            "text": "Soy brasileño.",
+            "pt": "Sou brasileiro.",
+            "text_f": "Soy brasileña."
+          },
+          {
+            "text": "Hablo un poco de español.",
+            "pt": "Falo um pouco de espanhol."
+          },
+          {
+            "text": "No hablo bien español.",
+            "pt": "Não falo espanhol bem."
+          },
+          {
+            "text": "Encantado.",
+            "pt": "Prazer."
+          }
+        ],
+        "lessons": [
+          "Nome e país bastam no começo.",
+          "Diga que fala pouco.",
+          "“Encantado” é natural."
+        ],
+        "quiz": {
+          "q": "Como dizer seu nome?",
+          "a": "Me llamo Bruno.",
+          "options": [
+            "Me llamo Bruno.",
+            "Soy nombre Bruno.",
+            "Nombre me Bruno."
+          ],
+          "hint": "Me llamo = eu me chamo."
+        }
+      },
+      "directions": {
+        "pill": "RUA",
+        "title": "Direções em Madrid",
+        "desc": "Peça caminho: esquerda, direita e reto.",
+        "phrases": [
+          {
+            "text": "¿Dónde está la estación?",
+            "pt": "Onde fica a estação?"
+          },
+          {
+            "text": "Estoy perdido.",
+            "pt": "Estou perdido.",
+            "text_f": "Estoy perdida."
+          },
+          {
+            "text": "Busco esta dirección.",
+            "pt": "Estou procurando este endereço."
+          },
+          {
+            "text": "Siga todo recto.",
+            "pt": "Siga em frente."
+          },
+          {
+            "text": "¿Me puede mostrar en el mapa?",
+            "pt": "Você pode me mostrar no mapa?"
+          }
+        ],
+        "lessons": [
+          "Comece pedindo licença antes de perguntar o caminho.",
+          "Troque o lugar depois da pergunta: estação, metro, hotel.",
+          "Esquerda, direita e reto são palavras de sobrevivência.",
+          "Você não precisa entender tudo — pegue a direção principal.",
+          "Agradeça no fim: fecha a conversa com educação."
+        ],
+        "quiz": {
+          "q": "Como pedir licença / começar a pergunta na rua?",
+          "a": "¿Dónde está la estación?",
+          "options": [
+            "¿Dónde está la estación?",
+            "Estoy perdido.",
+            "Busco esta dirección."
+          ],
+          "hint": "¿Dónde"
+        }
+      }
+    },
+    "library": [
+      [
+        "Cumprimento",
+        "Hola.",
+        "Olá."
+      ],
+      [
+        "Educação",
+        "Por favor.",
+        "Por favor."
+      ],
+      [
+        "Agradecer",
+        "Gracias.",
+        "Obrigado."
+      ],
+      [
+        "Pedir",
+        "Quisiera un café.",
+        "Eu gostaria de um café."
+      ],
+      [
+        "Preço",
+        "¿Cuánto cuesta?",
+        "Quanto custa?"
+      ],
+      [
+        "Ajuda",
+        "¿Puede ayudarme?",
+        "Pode me ajudar?"
+      ],
+      [
+        "Não entendi",
+        "No entiendo.",
+        "Eu não entendo."
+      ],
+      [
+        "Direção",
+        "¿Dónde está el metro?",
+        "Onde fica o metrô?"
+      ],
+      [
+        "Hotel",
+        "Tengo una reserva.",
+        "Tenho uma reserva."
+      ],
+      [
+        "Restaurante",
+        "La cuenta, por favor.",
+        "A conta, por favor."
+      ],
+      [
+        "Emergência",
+        "Necesito ayuda.",
+        "Preciso de ajuda."
+      ]
+    ]
+  },
+  "it": {
+    "voice": "it-IT",
+    "country": {
+      "code": "IT",
+      "name": "Itália",
+      "caption": "Coliseu",
+      "photoVar": true
+    },
+    "pedagogy": {
+      "level": "A0 → A1 viagem",
+      "method": "situação real → chunks prontos → repetição → mini desafio → revisão"
+    },
+    "missions": {
+      "cafe": {
+        "pill": "Café",
+        "title": "Café em Roma",
+        "desc": "Peça caffè, preço e agradeça como em um bar italiano.",
+        "phrases": [
+          {
+            "text": "Buongiorno.",
+            "pt": "Bom dia."
+          },
+          {
+            "text": "Vorrei un caffè, per favore.",
+            "pt": "Eu gostaria de um café, por favor."
+          },
+          {
+            "text": "Un caffè macchiato, per favore.",
+            "pt": "Um café macchiato, por favor."
+          },
+          {
+            "text": "Quanto costa?",
+            "pt": "Quanto custa?"
+          },
+          {
+            "text": "Grazie, buona giornata.",
+            "pt": "Obrigado, bom dia."
+          }
+        ],
+        "lessons": [
+          "“Vorrei…” é o bloco educado para pedir.",
+          "“Per favore” fecha o pedido.",
+          "Italiano de viagem funciona com frases curtas."
+        ],
+        "quiz": {
+          "q": "Como pedir café com educação?",
+          "a": "Vorrei un caffè, per favore.",
+          "options": [
+            "Vorrei un caffè, per favore.",
+            "Dov’è caffè?",
+            "Sono caffè."
+          ],
+          "hint": "Vorrei = eu gostaria."
+        }
+      },
+      "airport": {
+        "pill": "Aeroporto",
+        "title": "Chegada em Roma",
+        "desc": "Encontre bagagem, saída e peça ajuda no aeroporto.",
+        "phrases": [
+          {
+            "text": "Dove sono i bagagli?",
+            "pt": "Onde estão as bagagens?"
+          },
+          {
+            "text": "Dov’è l’uscita?",
+            "pt": "Onde fica a saída?"
+          },
+          {
+            "text": "Dov’è il bagno?",
+            "pt": "Onde fica o banheiro?"
+          },
+          {
+            "text": "Non capisco.",
+            "pt": "Eu não entendo."
+          },
+          {
+            "text": "Può aiutarmi?",
+            "pt": "Pode me ajudar?"
+          }
+        ],
+        "lessons": [
+          "“Dov’è” localiza uma coisa.",
+          "“Non capisco” é frase de segurança.",
+          "“Può aiutarmi?” é formal."
+        ],
+        "quiz": {
+          "q": "Como perguntar onde fica a saída?",
+          "a": "Dov’è l’uscita?",
+          "options": [
+            "Dov’è l’uscita?",
+            "Vorrei uscita.",
+            "Quanto uscita?"
+          ],
+          "hint": "Dov’è = onde fica."
+        }
+      },
+      "metro": {
+        "pill": "Metrô",
+        "title": "Metrô em Roma",
+        "desc": "Pergunte linha, distância e peça para repetir.",
+        "phrases": [
+          {
+            "text": "Dov’è la metropolitana?",
+            "pt": "Onde fica o metrô?"
+          },
+          {
+            "text": "Vorrei un biglietto.",
+            "pt": "Eu gostaria de um bilhete."
+          },
+          {
+            "text": "È lontano?",
+            "pt": "É longe?"
+          },
+          {
+            "text": "Scendo qui?",
+            "pt": "Eu desço aqui?"
+          },
+          {
+            "text": "Ripeta, per favore.",
+            "pt": "Repita, por favor."
+          }
+        ],
+        "lessons": [
+          "“Dov’è…” resolve localização.",
+          "“Biglietto” = bilhete.",
+          "Peça repetição com “Ripeta”."
+        ],
+        "quiz": {
+          "q": "Como pedir para repetir?",
+          "a": "Ripeta, per favore.",
+          "options": [
+            "Ripeta, per favore.",
+            "È lontano?",
+            "Vorrei un biglietto."
+          ],
+          "hint": "Ripeta = repita."
+        }
+      },
+      "hotel": {
+        "pill": "Hotel",
+        "title": "Check-in em Roma",
+        "desc": "Confirme reserva e informações básicas do hotel.",
+        "phrases": [
+          {
+            "text": "Ho una prenotazione.",
+            "pt": "Tenho uma reserva."
+          },
+          {
+            "text": "A nome Silva.",
+            "pt": "No nome de Silva."
+          },
+          {
+            "text": "Ecco il mio passaporto.",
+            "pt": "Aqui está meu passaporte."
+          },
+          {
+            "text": "A che ora è la colazione?",
+            "pt": "Que horas é o café da manhã?"
+          },
+          {
+            "text": "La camera è pronta?",
+            "pt": "O quarto está pronto?"
+          }
+        ],
+        "lessons": [
+          "“Ho” = eu tenho.",
+          "“A nome…” funciona no check-in.",
+          "“A che ora” pergunta horário."
+        ],
+        "quiz": {
+          "q": "Como dizer tenho uma reserva?",
+          "a": "Ho una prenotazione.",
+          "options": [
+            "Ho una prenotazione.",
+            "Sono prenotazione.",
+            "Dov’è prenotazione?"
+          ],
+          "hint": "Ho = tenho."
+        }
+      },
+      "restaurant": {
+        "pill": "Restaurante",
+        "title": "Restaurante em Roma",
+        "desc": "Peça mesa, prato e a conta sem travar.",
+        "phrases": [
+          {
+            "text": "Un tavolo per due, per favore.",
+            "pt": "Uma mesa para dois, por favor."
+          },
+          {
+            "text": "Vorrei il menù.",
+            "pt": "Eu gostaria do cardápio."
+          },
+          {
+            "text": "Prendo questo.",
+            "pt": "Vou querer isto."
+          },
+          {
+            "text": "Il conto, per favore.",
+            "pt": "A conta, por favor."
+          },
+          {
+            "text": "Sono allergico alle noci.",
+            "pt": "Sou alérgico a nozes."
+          }
+        ],
+        "lessons": [
+          "“Per due” troca pela quantidade.",
+          "“Questo” ajuda quando aponta.",
+          "Conta = il conto."
+        ],
+        "quiz": {
+          "q": "Como pedir a conta?",
+          "a": "Il conto, per favore.",
+          "options": [
+            "Il conto, per favore.",
+            "Prendo questo.",
+            "Un tavolo per due."
+          ],
+          "hint": "Il conto = a conta."
+        }
+      },
+      "shopping": {
+        "pill": "Compras",
+        "title": "Compras em Roma",
+        "desc": "Preço, tamanho e pagamento no balcão.",
+        "phrases": [
+          {
+            "text": "Cerco un adattatore.",
+            "pt": "Procuro um adaptador."
+          },
+          {
+            "text": "Avete questo?",
+            "pt": "Vocês têm isso?"
+          },
+          {
+            "text": "Quanto costa?",
+            "pt": "Quanto custa?"
+          },
+          {
+            "text": "Posso pagare con carta?",
+            "pt": "Posso pagar com cartão?"
+          },
+          {
+            "text": "È troppo caro.",
+            "pt": "Está caro demais."
+          }
+        ],
+        "lessons": [
+          "“Cerco…” é direto.",
+          "“Avete questo?” funciona apontando.",
+          "Carta = cartão."
+        ],
+        "quiz": {
+          "q": "Como perguntar para pagar com cartão?",
+          "a": "Posso pagare con carta?",
+          "options": [
+            "Posso pagare con carta?",
+            "Ho carta?",
+            "Quanto carta?"
+          ],
+          "hint": "Posso = posso."
+        }
+      },
+      "emergency": {
+        "pill": "Emergência",
+        "title": "Emergência em Roma",
+        "desc": "Peça ajuda, farmácia e médico.",
+        "phrases": [
+          {
+            "text": "Ho bisogno di aiuto.",
+            "pt": "Preciso de ajuda."
+          },
+          {
+            "text": "Chiami un medico.",
+            "pt": "Chame um médico."
+          },
+          {
+            "text": "Dov’è la farmacia?",
+            "pt": "Onde fica a farmácia?"
+          },
+          {
+            "text": "Mi sono perso.",
+            "pt": "Estou perdido."
+          },
+          {
+            "text": "È urgente.",
+            "pt": "É urgente."
+          }
+        ],
+        "lessons": [
+          "Memorize como bloco.",
+          "“Ho bisogno di…” = preciso de.",
+          "Urgência pede frase curta."
+        ],
+        "quiz": {
+          "q": "Como dizer preciso de ajuda?",
+          "a": "Ho bisogno di aiuto.",
+          "options": [
+            "Ho bisogno di aiuto.",
+            "Sono aiuto.",
+            "Aiuto bisogno."
+          ],
+          "hint": "Ho bisogno di = preciso de."
+        }
+      },
+      "introductions": {
+        "pill": "Apresentação",
+        "title": "Apresentação em italiano",
+        "desc": "Cumprimente, diga de onde é e agradeça.",
+        "phrases": [
+          {
+            "text": "Mi chiamo Bruno.",
+            "pt": "Eu me chamo Bruno."
+          },
+          {
+            "text": "Sono brasiliano.",
+            "pt": "Sou brasileiro.",
+            "text_f": "Sono brasiliana."
+          },
+          {
+            "text": "Parlo un po’ di italiano.",
+            "pt": "Falo um pouco de italiano."
+          },
+          {
+            "text": "Non parlo bene italiano.",
+            "pt": "Não falo italiano bem."
+          },
+          {
+            "text": "Piacere.",
+            "pt": "Prazer."
+          }
+        ],
+        "lessons": [
+          "Nome e país bastam.",
+          "Diga que fala pouco.",
+          "“Piacere” é natural."
+        ],
+        "quiz": {
+          "q": "Como dizer seu nome?",
+          "a": "Mi chiamo Bruno.",
+          "options": [
+            "Mi chiamo Bruno.",
+            "Sono nome Bruno.",
+            "Nome mi Bruno."
+          ],
+          "hint": "Mi chiamo = eu me chamo."
+        }
+      },
+      "directions": {
+        "pill": "RUA",
+        "title": "Direções em Roma",
+        "desc": "Peça caminho: esquerda, direita e reto.",
+        "phrases": [
+          {
+            "text": "Dov’è la stazione?",
+            "pt": "Onde fica a estação?"
+          },
+          {
+            "text": "Mi sono perso.",
+            "pt": "Estou perdido."
+          },
+          {
+            "text": "Cerco questo indirizzo.",
+            "pt": "Estou procurando este endereço."
+          },
+          {
+            "text": "Vada sempre dritto.",
+            "pt": "Siga em frente."
+          },
+          {
+            "text": "Può mostrarmelo sulla mappa?",
+            "pt": "Você pode me mostrar no mapa?"
+          }
+        ],
+        "lessons": [
+          "Comece pedindo licença antes de perguntar o caminho.",
+          "Troque o lugar depois da pergunta: estação, metro, hotel.",
+          "Esquerda, direita e reto são palavras de sobrevivência.",
+          "Você não precisa entender tudo — pegue a direção principal.",
+          "Agradeça no fim: fecha a conversa com educação."
+        ],
+        "quiz": {
+          "q": "Como pedir licença / começar a pergunta na rua?",
+          "a": "Dov’è la stazione?",
+          "options": [
+            "Dov’è la stazione?",
+            "Mi sono perso.",
+            "Cerco questo indirizzo."
+          ],
+          "hint": "Dov’è"
+        }
+      }
+    },
+    "library": [
+      [
+        "Cumprimento",
+        "Buongiorno.",
+        "Bom dia."
+      ],
+      [
+        "Educação",
+        "Per favore.",
+        "Por favor."
+      ],
+      [
+        "Agradecer",
+        "Grazie.",
+        "Obrigado."
+      ],
+      [
+        "Pedir",
+        "Vorrei un caffè.",
+        "Eu gostaria de um café."
+      ],
+      [
+        "Preço",
+        "Quanto costa?",
+        "Quanto custa?"
+      ],
+      [
+        "Ajuda",
+        "Può aiutarmi?",
+        "Pode me ajudar?"
+      ],
+      [
+        "Não entendi",
+        "Non capisco.",
+        "Eu não entendo."
+      ],
+      [
+        "Direção",
+        "Dov’è la metropolitana?",
+        "Onde fica o metrô?"
+      ],
+      [
+        "Hotel",
+        "Ho una prenotazione.",
+        "Tenho uma reserva."
+      ],
+      [
+        "Restaurante",
+        "Il conto, per favore.",
+        "A conta, por favor."
+      ],
+      [
+        "Emergência",
+        "Ho bisogno di aiuto.",
+        "Preciso de ajuda."
+      ]
+    ]
+  }
+}
