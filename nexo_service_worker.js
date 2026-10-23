@@ -1,7 +1,7 @@
 'use strict';
 
-const RELEASE = '4537c4c922b5577bae99abd350abb2a004f19533';
-const CORE_FILES = /* NEXO_CORE_START */ ["assets/AssetManifest.bin", "assets/AssetManifest.bin.json", "assets/FontManifest.json", "assets/assets/fonts/Lato-Bold.ttf", "assets/assets/fonts/Lato-BoldItalic.ttf", "assets/assets/fonts/Lato-Italic.ttf", "assets/assets/fonts/Lato-Regular.ttf", "assets/fonts/MaterialIcons-Regular.otf", "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf", "favicon.png", "flutter_bootstrap.4537c4c922b5577bae99abd350abb2a004f19533.js", "icons/Icon-192.png", "icons/Icon-512.png", "icons/Icon-maskable-512.png", "icons/nexo-mark.svg", "index.html", "main.4537c4c922b5577bae99abd350abb2a004f19533.dart.js", "main.dart.js_1.4537c4c922b5577bae99abd350abb2a004f19533.part.js", "manifest.json", "nexo_pwa.4537c4c922b5577bae99abd350abb2a004f19533.js", "offline.html"] /* NEXO_CORE_END */;
+const RELEASE = 'cae35885f87c80b7495c8a7ff70a3c6b1e186c54';
+const CORE_FILES = /* NEXO_CORE_START */ ["assets/AssetManifest.bin", "assets/AssetManifest.bin.json", "assets/FontManifest.json", "assets/assets/fonts/Lato-Bold.ttf", "assets/assets/fonts/Lato-BoldItalic.ttf", "assets/assets/fonts/Lato-Italic.ttf", "assets/assets/fonts/Lato-Regular.ttf", "assets/fonts/MaterialIcons-Regular.otf", "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf", "favicon.png", "flutter_bootstrap.cae35885f87c80b7495c8a7ff70a3c6b1e186c54.js", "icons/Icon-192.png", "icons/Icon-512.png", "icons/Icon-maskable-512.png", "icons/nexo-mark.svg", "index.html", "main.cae35885f87c80b7495c8a7ff70a3c6b1e186c54.dart.js", "main.dart.js_1.cae35885f87c80b7495c8a7ff70a3c6b1e186c54.part.js", "manifest.json", "nexo_practice.cae35885f87c80b7495c8a7ff70a3c6b1e186c54.js", "nexo_pwa.cae35885f87c80b7495c8a7ff70a3c6b1e186c54.js", "offline.html"] /* NEXO_CORE_END */;
 const RENDERER_FILES = /* NEXO_RENDERERS_START */ {"full": ["canvaskit/canvaskit.js", "canvaskit/canvaskit.wasm"], "chromium": ["canvaskit/chromium/canvaskit.js", "canvaskit/chromium/canvaskit.wasm"], "webparagraph": ["canvaskit/webparagraph/canvaskit.js", "canvaskit/webparagraph/canvaskit.wasm"]} /* NEXO_RENDERERS_END */;
 const SCOPE = new URL(self.registration.scope);
 const renderer = new URL(self.location.href).searchParams.get('renderer') || 'full';
@@ -16,8 +16,8 @@ function publicStaticUrl(value) {
   if (url.origin !== SCOPE.origin || !url.pathname.startsWith(SCOPE.pathname)) return null;
   if ([...url.searchParams].some(([key, val]) => key !== 'v' || !/^[a-z0-9_-]+$/i.test(val))) return null;
   const path = url.pathname.slice(SCOPE.pathname.length);
-  const rootFile = /^(?:flutter(?:_bootstrap)?(?:\.[a-f0-9]{7,40})?\.js|main(?:\.[a-f0-9]{7,40})?\.dart\.js|main\.dart\.js_\d+(?:\.[a-f0-9]{7,40})?\.part\.js|nexo_pwa(?:\.[a-f0-9]{7,40})?\.js|manifest\.json|version\.json|favicon\.png|index\.html|offline\.html)$/;
-  const assetFile = /^(?:assets|canvaskit|icons)\/[a-z0-9_./@+-]+\.(?:js|wasm|json|bin|png|jpe?g|webp|gif|svg|ttf|otf|woff2?|frag|mp3|ogg|wav|txt)$/i;
+  const rootFile = /^(?:flutter(?:_bootstrap)?(?:\.[a-f0-9]{7,40})?\.js|main(?:\.[a-f0-9]{7,40})?\.dart\.js|main\.dart\.js_\d+(?:\.[a-f0-9]{7,40})?\.part\.js|nexo_pwa(?:\.[a-f0-9]{7,40})?\.js|nexo_practice(?:\.[a-f0-9]{7,40})?\.js|manifest\.json|version\.json|favicon\.png|index\.html|offline\.html)$/;
+  const assetFile = /^(?:assets|canvaskit|icons)\/[a-z0-9_./@+-]+\.(?:js|wasm|json|bin|png|jpe?g|webp|gif|svg|ttf|otf|woff2?|frag|mp3|ogg|wav|zip|txt)$/i;
   if (!rootFile.test(path) && !assetFile.test(path)) return null;
   return url.href;
 }
@@ -148,3 +148,4 @@ self.addEventListener('fetch', (event) => {
   const file = publicStaticUrl(request.url);
   if (file) event.respondWith(staticResponse(file));
 });
+
