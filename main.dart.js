@@ -34062,7 +34062,7 @@ r=a.Z()
 q=a.Z()
 p=a.U()
 if(p>=14)A.a0(A.bB("Unsupported BMP compression type: "+p))
-p=B.Po[p]
+p=B.Pp[p]
 a.U()
 k[0]=a.U()
 k[0]=a.U()
@@ -34723,7 +34723,7 @@ r=new A.aI2(r,q,p,o,n,l,k,m,new Int32Array(2048))
 r.e=r.NA(B.PK,B.rU)
 r.f=r.NA(B.ON,B.rU)
 r.r=r.NA(B.Nd,B.Ou)
-r.w=r.NA(B.OA,B.OX)
+r.w=r.NA(B.OA,B.OY)
 r.aTZ()
 r.aU2()
 r.axS(a)
@@ -42647,7 +42647,7 @@ bAD:function bAD(a,b,c){this.a=a
 this.b=b
 this.c=c},
 Ij(a){if(a<0||a>=4)return B.Ve
-return B.P2[a]},
+return B.P3[a]},
 Ce:function Ce(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
@@ -68077,8 +68077,8 @@ s.$3(a6[1],a7[1],a8[1])
 s.$3(a6[2],a7[2],a8[2])}return!0},
 aVs(a,b,c,d,e,f,g){var s,r,q,p,o,n,m,l,k,j,i=this,h=f-e+1
 if(h<2)return
-for(s=0;B.OZ[s]<h;)++s;--s
-for(r=a.$flags|0;s>=0;--s){q=B.OZ[s]
+for(s=0;B.P_[s]<h;)++s;--s
+for(r=a.$flags|0;s>=0;--s){q=B.P_[s]
 p=e+q
 for(o=p-1;;){if(p>f)break
 n=a[p]
@@ -76435,7 +76435,7 @@ n=o.e
 o=o.cx
 r=q.gaVl()
 q.a.toString
-return new A.Wl(p,p,p,new A.bhx(),p,p,p,p,p,n,B.bG1,p,p,p,B.P8,q.gaVy(),o,p,B.c4B,s,p,r,p,p,B.OI,!1,!1,p,p,p,new A.B6(q,t.bT))},
+return new A.Wl(p,p,p,new A.bhx(),p,p,p,p,p,n,B.bG1,p,p,p,B.P9,q.gaVy(),o,p,B.c4B,s,p,r,p,p,B.OI,!1,!1,p,p,p,new A.B6(q,t.bT))},
 E(a){var s,r=this.aHs(a)
 this.a.toString
 s=this.d
@@ -78120,7 +78120,7 @@ p=q.ax
 if(p!=null)p.aN()
 q.fO()}this.am()},
 aKa(a,b){var s,r=null,q=A.b([],t.p)
-for(s=0;q.length<7;s=(s+1)%7)q.push(new A.hu(!0,new A.hr(B.am,r,r,A.k(B.Pg[s],r,r,r,r,a,r,r,r),r),r))
+for(s=0;q.length<7;s=(s+1)%7)q.push(new A.hu(!0,new A.hr(B.am,r,r,A.k(B.Ph[s],r,r,r,r,a,r,r,r),r),r))
 return q},
 E(a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=this,a1=A.c6(a2,B.aA,t.v)
 a1.toString
@@ -80482,7 +80482,7 @@ A.aog.prototype={
 pK(){return this.cy},
 tI(a){this.aG()},
 nu(a){a.toString
-return B.Pr[A.c_(a)]},
+return B.Ps[A.c_(a)]},
 nN(){var s=this.y
 return(s==null?A.r(this).i("aE.T").a(s):s).a}}
 A.aik.prototype={
@@ -80954,7 +80954,7 @@ A.Yh.prototype={
 da(a){return!this.f.zB(this.r,a.r)||this.w!=a.w}}
 A.ain.prototype={
 aNR(a,b){var s,r=null,q=A.b([],t.p)
-for(s=0;q.length<7;s=(s+1)%7)q.push(new A.hu(!0,new A.hr(B.am,r,r,A.k(B.Pg[s],r,r,r,r,a,r,r,r),r),r))
+for(s=0;q.length<7;s=(s+1)%7)q.push(new A.hu(!0,new A.hr(B.am,r,r,A.k(B.Ph[s],r,r,r,r,a,r,r,r),r),r))
 return q},
 E(a){var s,r=A.I(a),q=r.ok.x.kw(r.ax.k3),p=A.c6(a,B.aA,t.v)
 p.toString
@@ -81743,7 +81743,7 @@ return new A.LE(s.d,s.c,null)},
 $S:835}
 A.LE.prototype={
 E(a){var s=null
-return A.bTm(A.bUH(B.K,s,s,B.P8,A.c0U(),s,new A.biF(this),s,A.b([new A.Eu(this.d,s,s)],t.Ql),!1,s,B.cdQ))}}
+return A.bTm(A.bUH(B.K,s,s,B.P9,A.c0U(),s,new A.biF(this),s,A.b([new A.Eu(this.d,s,s)],t.Ql),!1,s,B.cdQ))}}
 A.biF.prototype={
 $2(a,b){this.a.c.$1(b)
 return!1},
@@ -95051,7 +95051,7 @@ return r.bjb(s.d.y.a.a)},
 $S:0}
 A.VL.prototype={
 a3(){var s=null
-return new A.a0V(new A.bv(s,t.am),new A.v_(B.h2,A.hl(B.Pr,t.iF),$.ak(),t.dX),s,A.w(t.yb,t.M),s,!0,s)}}
+return new A.a0V(new A.bv(s,t.am),new A.v_(B.h2,A.hl(B.Ps,t.iF),$.ak(),t.dX),s,A.w(t.yb,t.M),s,!0,s)}}
 A.a0V.prototype={
 gqG(){var s,r,q,p=this,o=p.d
 if(o===$){s=p.a.z
@@ -95226,8 +95226,8 @@ if(j)return new A.et(1,B.bR,k,null)
 return k},
 $S:21}
 A.a0U.prototype={
-a3(){var s=null,r=t._d,q=A.hl(B.P0,r),p=$.ak()
-return new A.a0Z(new A.v_(B.lP,q,p,t.qD),new A.yk(s,A.hl(B.P0,r),p,t.FA),new A.TO(s,p),new A.TO(s,p),s,A.w(t.yb,t.M),s,!0,s)}}
+a3(){var s=null,r=t._d,q=A.hl(B.P1,r),p=$.ak()
+return new A.a0Z(new A.v_(B.lP,q,p,t.qD),new A.yk(s,A.hl(B.P1,r),p,t.FA),new A.TO(s,p),new A.TO(s,p),s,A.w(t.yb,t.M),s,!0,s)}}
 A.a0Z.prototype={
 gvm(){var s,r,q,p=this,o=p.y
 if(o===$){s=p.a.as
@@ -99565,8 +99565,8 @@ s=r.ah
 r.eA=s==null?null:s.gMw()
 a.a=!1},
 vK(a,b,c){var s,r,q,p,o=this
-o.jd=A.bWa(o.jd,B.Pd)
-o.kF=A.bWa(o.kF,B.Pd)
+o.jd=A.bWa(o.jd,B.Pe)
+o.kF=A.bWa(o.kF,B.Pe)
 s=o.jd
 r=s!=null&&!s.ga6(s)
 s=o.kF
@@ -109846,7 +109846,7 @@ A.n4.prototype={
 J(){return"ModifierKey."+this.b}}
 A.T5.prototype={
 gbi2(){var s,r,q=A.w(t.xS,t.Dk)
-for(s=0;s<9;++s){r=B.PB[s]
+for(s=0;s<9;++s){r=B.PA[s]
 if(this.bgG(r))q.k(0,r,B.kX)}return q}}
 A.uT.prototype={}
 A.aRK.prototype={
@@ -109884,7 +109884,7 @@ i=$.h_
 if(i!=null)i.$1(new A.bY(r,q,"services library",j,null,p,!1))}}return!1},
 b4E(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g=a1.c,f=g.gbi2(),e=t.v3,d=A.w(e,t.bd),c=A.aR(e),b=this.d,a=A.en(new A.bw(b,A.r(b).i("bw<1>")),e),a0=a1 instanceof A.ya
 if(a0)a.D(0,g.gq1())
-for(s=g.a,r=null,q=0;q<9;++q){p=B.PB[q]
+for(s=g.a,r=null,q=0;q<9;++q){p=B.PA[q]
 o=$.c2T()
 n=o.h(0,new A.hf(p,B.hn))
 if(n==null)continue
@@ -119779,7 +119779,7 @@ gEb(){var s=this.a,r=this.b
 if(r==null)s=null
 else{r.a.toString
 s=!0}return s===!0},
-gKF(){return B.P9},
+gKF(){return B.Pa},
 u2(){},
 w3(){var s=A.bNb()
 s.bq(new A.aUq(this),t.H)
@@ -120448,7 +120448,7 @@ E(a){var s,r,q=this,p=null,o=q.gaRM(),n=A.mR(a),m=q.bH$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.ga9()==null){r=q.gaaZ()
-r=J.mX(r.slice(0),A.W(r).c)}else r=B.P9
+r=J.mX(r.slice(0),A.W(r).c)}else r=B.Pa
 return A.bTm(new A.eS(new A.aNm(q,a),A.HT(B.fc,new A.a3f(!1,A.aDG(A.mQ(!0,p,A.Ko(m,new A.Ir(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),p,n),p),p,o,q.gaWc(),p,p,o),p,t.ep))}}
 A.aNh.prototype={
 $1(a){var s,r=this.a
@@ -135772,7 +135772,7 @@ i=a9.Z()
 h=a9.Z()
 g=a9.U()
 if(g>=14)A.a0(A.bB("Unsupported BMP compression type: "+g))
-g=B.Po[g]
+g=B.Pp[g]
 a9.U()
 k[0]=a9.U()
 k[0]=a9.U()
@@ -136664,7 +136664,7 @@ for(o=0;o<16;){++o
 a.aF(B.ON[o])}for(n=0;n<=11;++n)a.aF(B.rU[n])
 a.aF(17)
 for(m=0;m<16;){++m
-a.aF(B.OA[m])}for(l=0;l<=161;++l)a.aF(B.OX[l])},
+a.aF(B.OA[m])}for(l=0;l<=161;++l)a.aF(B.OY[l])},
 ta(a,a0,a1,a2,a3,a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=a4[0],c=a4[240],b=e.aMM(a0,a1)
 for(s=e.Q,r=0;r<64;++r)s[B.t1[r]]=b[r]
 q=s[0]
@@ -136722,12 +136722,12 @@ gav(){return this.b}}
 A.aHN.prototype={}
 A.SN.prototype={
 nC(a){var s,r=A.cf(a,!0,null,0).dV(8)
-for(s=0;s<8;++s)if(J.y(r.a,r.d+s)!==B.Pq[s])return!1
+for(s=0;s<8;++s)if(J.y(r.a,r.d+s)!==B.Pr[s])return!1
 return!0},
 il(b7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4=this,b5=null,b6=A.cf(b7,!0,b5,0)
 b4.d=b6
 s=b6.dV(8)
-for(r=0;r<8;++r)if(J.y(s.a,s.d+r)!==B.Pq[r])return b5
+for(r=0;r<8;++r)if(J.y(s.a,s.d+r)!==B.Pr[r])return b5
 for(b6=b4.a,q=b6.cy,p=t.t,o=b6.db,n=t.Q,m=b6.ax;;){l=b4.d
 k=l.d-l.b
 j=l.U()
@@ -137042,7 +137042,7 @@ q=B.i.O(r+7,3)
 p=B.i.O(r*a8+7,3)
 o=A.b([null,null],t.nx)
 n=A.b([0,0,0,0],t.t)
-for(a0=a6>1,m=a6-a4,l=a5,k=0,j=0;k<a9;++k,l+=a7,++a.e){i=B.Pi[J.y(a2.a,a2.d++)]
+for(a0=a6>1,m=a6-a4,l=a5,k=0,j=0;k<a9;++k,l+=a7,++a.e){i=B.Pj[J.y(a2.a,a2.d++)]
 h=a2.im(p)
 a2.d=a2.d+(h.c-h.d)
 a1=h.cJ()
@@ -137072,7 +137072,7 @@ k=A.b([0,0,0,0],t.t)
 a=a2.a
 j=a.gS(a)
 j.t()
-for(i=0,h=0;i<p;++i,h=e){g=B.Pi[J.y(a1.a,a1.d++)]
+for(i=0,h=0;i<p;++i,h=e){g=B.Pj[J.y(a1.a,a1.d++)]
 f=a1.im(o)
 a1.d=a1.d+(f.c-f.d)
 a=f.cJ()
@@ -138110,7 +138110,7 @@ a7=c5.LY()
 a8=B.dJ[m][2]
 a9=c6.LY()
 b0=B.dJ[m][3]
-b1=B.OY[n+o&3]
+b1=B.OZ[n+o&3]
 b2=b1[0]
 b3=b1[1]
 b4=B.i.O((e.a*d+c.a*b+a.a*a0+a1.a*a2)*b2+(a3.a*a4+a5.a*a6+a7.a*a8+a9.a*b0)*b3,7)
@@ -138158,7 +138158,7 @@ c=e.a8(0,new A.j3(d.a*c,d.b*c,d.c*c,d.d*c))
 d=b5.M_()
 e=B.dJ[m][3]
 a0=c.a8(0,new A.j3(d.a*e,d.b*e,d.c*e,d.d*e))
-a1=B.OY[n+o&3]
+a1=B.OZ[n+o&3]
 e=a1[0]
 d=a1[1]
 a2=B.i.O(a.a*e+a0.a*d,7)
@@ -138421,7 +138421,7 @@ r+=s}},
 YC(a,b,c){var s,r,q,p,o,n,m,l,k=this
 k.d=0
 for(s=k.a,r=!0;c<s;){while(r){q=k.vk(10)
-p=B.P6[q]
+p=B.P7[q]
 o=B.i.O(p,1)&15
 if(o===12){p=B.t5[(q<<2&12|k.mi(2))>>>0]
 n=B.i.O(p,1)
@@ -138487,7 +138487,7 @@ if(!(m<s))break
 a0.aeF(l,k,q)
 i=q[0]
 h=q[1]
-g=B.P_[a0.mi(7)]&255
+g=B.P0[a0.mi(7)]&255
 f=g>>>3&15
 e=g&7
 if(f===0){if(!k){h.toString
@@ -138545,7 +138545,7 @@ if(!(l<s))break
 a4.aeF(k,j,q)
 h=q[0]
 g=q[1]
-f=B.P_[a4.mi(7)]&255
+f=B.P0[a4.mi(7)]&255
 e=f>>>3&15
 d=f&7
 if(e===0){if(!j){g.toString
@@ -138599,7 +138599,7 @@ a4.d=i+1
 o+=r}},
 NT(){var s,r,q,p,o,n,m=this
 for(s=0,r=!0;r;){q=m.vk(10)
-p=B.P6[q]
+p=B.P7[q]
 o=B.i.O(p,1)&15
 if(o===12){p=B.t5[(q<<2&12|m.mi(2))>>>0]
 n=B.i.O(p,1)
@@ -139773,14 +139773,14 @@ g.$flags&2&&A.p(g)
 g[96]=e
 g[64]=e
 g[32]=e
-for(o=n.c,d=0;d<16;++d,i=i<<2>>>0){c=A.bS(s,a5,B.PD[d])
+for(o=n.c,d=0;d<16;++d,i=i<<2>>>0){c=A.bS(s,a5,B.PC[d])
 B.bjB[o[d]].$1(c)
 i.toString
 l=d*16
 a4.adw(i,new A.jr(j,l,Math.min(384,384),l,!1),c)}}else{o=A.bXR(p,a6,n.c[0])
 o.toString
 B.bzQ[o].$1(s)
-if(i!==0)for(d=0;d<16;++d,i=i<<2>>>0){c=A.bS(s,a5,B.PD[d])
+if(i!==0)for(d=0;d<16;++d,i=i<<2>>>0){c=A.bS(s,a5,B.PC[d])
 i.toString
 o=d*16
 a4.adw(i,new A.jr(j,o,Math.min(384,384),o,!1),c)}}o=n.f
@@ -140351,8 +140351,8 @@ o=a.b
 o===$&&A.a()
 n=a.abj(B.i.O(o,1))
 o=a.b
-m=B.P3[o]
-a.b=B.P1[o]
+m=B.P4[o]
+a.b=B.P2[o]
 o=a.d
 o===$&&A.a()
 a.d=o-m
@@ -140437,8 +140437,8 @@ return 1}else{n.b=a
 return 0}},
 b35(){var s,r=this,q=r.b
 q===$&&A.a()
-s=B.P3[q]
-r.b=B.P1[q]
+s=B.P4[q]
+r.b=B.P2[q]
 q=r.d
 q===$&&A.a()
 r.d=q-s}}
@@ -146223,7 +146223,7 @@ m(){var s=this.gcd()
 s.V$=$.ak()
 s.N$=0
 this.am()},
-E(a){var s=this,r=null,q=A.ek(r,r,r,r,r,r,r,r,r,r,r,r,B.c9q,r,r),p=A.ev(!0,new A.Y(B.dY,A.f9(B.cax,r,new A.bxc(s,a),r),r),!0,!1,B.ac,!0,!0),o=A.b([A.k(s.a.c.length===0?"N\xe3o identifiquei uma lista de ingredientes. Escreva os itens que deseja comprar.":"Revise os ingredientes identificados. Quantidades e alternativas ficam como escritas; voc\xea pode editar ou remover qualquer item.",r,r,r,r,r,r,r,r),B.bA,A.f4(r,B.T,!1,r,!0,B.K,r,A.fm(),s.gcd(),r,r,r,r,r,2,B.auz,B.aw,!0,r,!0,r,!1,r,B.bu,r,r,r,r,r,r,r,2e4,r,18,8,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.b4,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.aC,r,B.bB,r,r,r,r)],t.p),n=s.e
+E(a){var s=this,r=null,q=A.ek(r,r,r,r,r,r,r,r,r,r,r,r,B.c9q,r,r),p=A.ev(!0,new A.Y(B.dY,A.f9(B.cax,r,new A.bxc(s,a),r),r),!0,!1,B.ac,!0,!0),o=A.b([A.k(s.a.c.length===0?"N\xe3o identifiquei uma lista de ingredientes. Escreva os itens que deseja comprar.":"Revise os ingredientes identificados. Quantidades e alternativas ficam como escritas; voc\xea pode editar ou remover qualquer item.",r,r,r,r,r,r,r,r),B.bA,A.f4(r,B.T,!1,r,!0,B.K,r,A.fm(),s.gcd(),r,r,r,r,r,2,B.auy,B.aw,!0,r,!0,r,!1,r,B.bu,r,r,r,r,r,r,r,2e4,r,18,8,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.b4,r,r,r,r,r,r,r,r,r,r,r,r,!0,B.aC,r,B.bB,r,r,r,r)],t.p),n=s.e
 if(n!=null)o.push(A.k(n,r,r,r,r,r,r,r,r))
 return A.ea(q,r,A.f1(o,r,r,B.dY,r,!1),p,r,!1,r,r,r)}}
 A.bxc.prototype={
@@ -146285,7 +146285,7 @@ k=A.k("Prefer\xeancias e restri\xe7\xf5es",g,g,g,g,A.L(g,g,A.v(a0)?B.Z:B.X,g,g,g
 k=A.du(B.b2,A.b([k,A.k("Opcional",g,g,g,g,A.L(g,g,A.v(a0)?B.D:B.J,g,g,g,g,g,g,g,g,11,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g)],n),B.jQ,g,3,8)
 if(c)j=g
 else{j=e?12:11
-j=A.k("Alergias, ingredientes que evita e observa\xe7\xf5es.",g,g,g,g,A.L(g,g,A.v(a0)?B.D:B.J,g,g,g,g,g,g,g,g,j,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g)}r=A.cT(!1,B.aa,!0,g,A.nT(A.b([new A.cO(B.dc,g,g,A.dL(B.Iw,g,A.k(d.y?"Revisar restri\xe7\xf5es":"Definir restri\xe7\xf5es",g,g,g,g,g,g,g,g),d.r,g),g),B.aj,A.f4(g,B.T,!1,g,!0,B.K,g,A.fm(),d.x,g,g,g,g,g,2,B.auB,B.aw,!0,g,!0,g,!1,g,B.bu,g,g,g,B.cfn,g,g,g,600,g,4,2,g,!1,"\u2022",g,g,g,g,g,!1,g,g,!1,g,!0,g,B.b4,g,g,g,g,g,g,g,g,g,g,g,g,!0,B.aC,g,B.bB,g,g,g,g)],n),B.FV,g,B.k5,g,g,B.cfo,l,g,B.k5,j,g,new A.R(o,0,o,0),k),B.b6,r,0,g,g,new A.bZ(q,new A.aH(p,1,B.U,-1)),g,g,B.b7)
+j=A.k("Alergias, ingredientes que evita e observa\xe7\xf5es.",g,g,g,g,A.L(g,g,A.v(a0)?B.D:B.J,g,g,g,g,g,g,g,g,j,g,g,g,g,g,!0,g,g,g,g,g,g,g,g),g,g,g)}r=A.cT(!1,B.aa,!0,g,A.nT(A.b([new A.cO(B.dc,g,g,A.dL(B.Iw,g,A.k(d.y?"Revisar restri\xe7\xf5es":"Definir restri\xe7\xf5es",g,g,g,g,g,g,g,g),d.r,g),g),B.aj,A.f4(g,B.T,!1,g,!0,B.K,g,A.fm(),d.x,g,g,g,g,g,2,B.auA,B.aw,!0,g,!0,g,!1,g,B.bu,g,g,g,B.cfn,g,g,g,600,g,4,2,g,!1,"\u2022",g,g,g,g,g,!1,g,g,!1,g,!0,g,B.b4,g,g,g,g,g,g,g,g,g,g,g,g,!0,B.aC,g,B.bB,g,g,g,g)],n),B.FV,g,B.k5,g,g,B.cfo,l,g,B.k5,j,g,new A.R(o,0,o,0),k),B.b6,r,0,g,g,new A.bZ(q,new A.aH(p,1,B.U,-1)),g,g,B.b7)
 q=A.bL(g,e?20:14,g)
 p=d.c.bJ(0,B.e.gjV(B.ho))?d.e:g
 o=A.v(a0)?B.a9:B.a4
@@ -146303,7 +146303,7 @@ A.azy.prototype={
 $0(){return this.a.d.$1(B.ho[this.b])},
 $S:0}
 A.aiL.prototype={
-E(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=A.v(a0)?B.a9:B.a4,d=g.e,c=g.c,b=B.Pz[c],a=B.Pu[c]
+E(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=A.v(a0)?B.a9:B.a4,d=g.e,c=g.c,b=B.OV[c],a=B.PD[c]
 if(d){s=e.b0(0.06)
 s=A.wG(s,A.v(a0)?B.ar:B.C)}else s=A.v(a0)?B.ar:B.C
 r=A.a5(17)
@@ -146328,11 +146328,11 @@ else j=A.v(a0)?B.D:B.J
 i=t.p
 k=A.af(A.b([m,B.eZ,A.ar(l,j,f,k)],i),B.B,B.q,B.u,0,f)
 m=A.bL(f,o?16:8,f)
-l=B.Pz[c]
+l=B.OV[c]
 j=o?18:13
 l=A.k(l,f,2,f,f,A.L(f,f,A.v(a0)?B.Z:B.X,f,f,f,f,f,f,f,f,j,f,f,B.a7,f,1.15,!0,f,f,f,f,f,f,f,f),f,f,f)
 j=A.bL(f,o?8:4,f)
-h=B.Pu[c]
+h=B.PD[c]
 o=o?14:11
 return A.b7(f,!0,d,A.cT(!1,B.aa,!0,f,A.db(!1,f,!0,new A.Y(new A.R(n,n,n,n),A.a7(A.b([k,m,l,j,A.aJ(A.k(h,f,3,B.aO,f,A.L(f,f,A.v(a0)?B.D:B.J,f,f,f,f,f,f,f,f,o,f,f,f,f,1.35,!0,f,f,f,f,f,f,f,f),f,f,f),1,f)],i),B.O,f,B.q,B.u,0,B.A),f),f,!0,!1,f,f,f,f,new A.aK("diet_setup_choice_"+c,t.O),f,f,f,f,f,f,g.f,f,f,f,f,f,f,f),B.b6,s,0,f,f,new A.bZ(r,new A.aH(q,p,B.U,-1)),f,f,B.b7),!1,f,f,f,!0,f,!1,f,f,f,f,f,f,f,f,f,f,b+". "+a,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,B.a0,f)}}
 A.bHT.prototype={
@@ -146377,10 +146377,10 @@ s.push(B.bA)
 h=l.x
 r=A.b([],t.cK)
 for(q=t.EY,p=0;p<4;++p){o=B.Ot[p]
-r.push(new A.fL(o.b,A.k(o.a,k,2,k,k,k,k,k,k),B.ch,k,q))}s.push(A.mN(B.auq,h,!0,r,k,new A.bb4(l),new A.bb5(),k,t.i))
+r.push(new A.fL(o.b,A.k(o.a,k,2,k,k,k,k,k,k),B.ch,k,q))}s.push(A.mN(B.aup,h,!0,r,k,new A.bb4(l),new A.bb5(),k,t.i))
 s.push(B.fq)
 s.push(A.f9(B.ccO,k,l.y?l.gb8Z():k,k))
-B.e.v(i,s)}else B.e.v(i,A.b([A.k(J.bKs(s.h(0,"calories_kcal"),0)+" kcal/dia",k,k,k,k,A.I(a).ok.e,k,k,k),B.b_,B.c8c,B.fq,A.f9(B.c7j,k,new A.bb6(l,a),k),A.c2(B.cci,k,k,k,new A.bb7(l),k,k)],h))
+B.e.v(i,s)}else B.e.v(i,A.b([A.k(J.bKs(s.h(0,"calories_kcal"),0)+" kcal/dia",k,k,k,k,A.I(a).ok.e,k,k,k),B.b_,B.c8c,B.fq,A.f9(B.c7k,k,new A.bb6(l,a),k),A.c2(B.cci,k,k,k,new A.bb7(l),k,k)],h))
 i.push(A.c2(B.c7D,k,k,k,new A.bb8(a),k,k))
 return A.ea(j,k,A.B2(k,A.eJ(A.a7(i,B.b3,k,B.q,B.u,0,B.A),k,k,B.mB,k,k,k,B.aT),l.d),k,k,!1,k,k,k)}}
 A.bb9.prototype={
@@ -147057,7 +147057,7 @@ s.N$=0
 this.am()},
 E(a){var s,r,q=this,p=null,o=A.ek(p,p,p,p,p,p,p,p,p,p,p,p,B.a1m,p,p),n=A.ev(!0,new A.Y(B.dY,A.f9(B.cbe,p,q.f?new A.beO(q,a):p,p),p),!0,!1,B.ac,!0,!0),m=t.p,l=A.b([],m)
 for(s=B.UF.ghe(),s=s.gS(s);s.t();){r=s.gM()
-l.push(A.bLi(p,A.k(r.b,p,p,p,p,p,p,p,p),new A.beP(q,r),q.gAB().n(0,r.a)))}return A.ea(o,p,A.f1(A.b([B.c7r,B.bA,A.du(B.b2,l,B.bm,p,0,8),B.bA,A.f4(p,B.T,!1,p,!0,B.K,p,A.fm(),q.ga3O(),p,p,p,p,p,2,B.auo,B.aw,!0,p,!0,p,!1,p,B.bu,p,p,p,p,p,p,p,600,p,4,p,p,!1,"\u2022",p,p,p,p,p,!1,p,p,!1,p,!0,p,B.b4,p,p,p,p,p,p,p,p,p,p,p,p,!0,B.aC,p,B.bB,p,p,p,p),B.cc8,A.a4q(p,p,B.ac,p,p,new A.beQ(q),p,B.c8Z,q.f)],m),p,p,B.dY,p,!1),n,p,!1,p,p,p)}}
+l.push(A.bLi(p,A.k(r.b,p,p,p,p,p,p,p,p),new A.beP(q,r),q.gAB().n(0,r.a)))}return A.ea(o,p,A.f1(A.b([B.c7a,B.bA,A.du(B.b2,l,B.bm,p,0,8),B.bA,A.f4(p,B.T,!1,p,!0,B.K,p,A.fm(),q.ga3O(),p,p,p,p,p,2,B.auB,B.aw,!0,p,!0,p,!1,p,B.bu,p,p,p,p,p,p,p,600,p,4,p,p,!1,"\u2022",p,p,p,p,p,!1,p,p,!1,p,!0,p,B.b4,p,p,p,p,p,p,p,p,p,p,p,p,!0,B.aC,p,B.bB,p,p,p,p),B.cc8,A.a4q(p,p,B.ac,p,p,new A.beQ(q),p,B.c8Z,q.f)],m),p,p,B.dY,p,!1),n,p,!1,p,p,p)}}
 A.beO.prototype={
 $0(){var s=this.a,r=s.gAB()
 r=A.D(r,A.r(r).c)
@@ -148445,14 +148445,14 @@ for(i=t.b7,s=s.a,h=0;h<5;++h){g=B.l5[h]
 f=s.h(0,g)
 if(f==null)A.a0(A.el(g,"code",a3))
 j.push(new A.fL(g,A.k(f.c,a3,a3,a3,a3,a3,a3,a3,a3),B.ch,a3,i))}s=r.r||r.w?a3:new A.bfO(r)
-k=A.mN(B.aut,a3,!1,j,a3,s,a3,k,t.N)
+k=A.mN(B.aus,a3,!1,j,a3,s,a3,k,t.N)
 s=r.aUX(a4,q)
 j=A.b([],o)
 for(i=[B.bTk,B.bST,B.bTJ],e=t.O,h=0;h<3;++h){d=i[h]
 c=B.i.j(d.a)
 b=r.r||r.w?a3:new A.bfP(r,q,d)
 j.push(A.dL(A.ar(d.c,a3,a3,a3),new A.aK("language_study_"+c,e),A.k(d.b,a3,a3,a3,a3,a3,a3,a3,a3),b,a3))}j=A.du(B.b2,j,B.bm,a3,8,8)
-i=A.dL(B.aru,B.cfI,B.c7k,r.r||r.w?a3:new A.bfQ(r,q),a3)
+i=A.dL(B.aru,B.cfI,B.c7l,r.r||r.w?a3:new A.bfQ(r,q),a3)
 c=A.k("Seu caminho",a3,a3,a3,a3,B.a1c,a3,a3,a3)
 b=A.b([],o)
 for(h=0;h<3;++h){a=B.l7[h]
@@ -148973,10 +148973,10 @@ return A.n($async$DW,r)},
 E(a){var s,r,q,p,o,n,m=this,l=null,k=A.ek(l,l,l,l,l,l,l,l,l,l,l,l,B.a1u,l,l),j=t.p,i=A.b([A.k("Aprender tamb\xe9m pode ser em companhia",l,l,l,l,A.I(a).ok.f,l,l,l),B.aj,B.cb1],j)
 if(m.a.c.a==null)i.push(B.bJa)
 else{s=!m.x&&!m.w
-s=A.f4(l,B.T,!1,l,!0,B.K,l,A.fm(),m.d,l,l,l,l,l,2,B.auA,B.aw,!0,l,!0,s,!1,l,B.bu,l,l,l,l,l,l,l,24,l,1,l,l,!1,"\u2022",l,l,l,l,l,!1,l,l,!1,l,!0,l,B.b4,l,l,l,l,l,l,l,l,l,l,l,l,!0,B.aC,l,B.bB,l,l,l,l)
+s=A.f4(l,B.T,!1,l,!0,B.K,l,A.fm(),m.d,l,l,l,l,l,2,B.auz,B.aw,!0,l,!0,s,!1,l,B.bu,l,l,l,l,l,l,l,24,l,1,l,l,!1,"\u2022",l,l,l,l,l,!1,l,l,!1,l,!0,l,B.b4,l,l,l,l,l,l,l,l,l,l,l,l,!0,B.aC,l,B.bB,l,l,l,l)
 r=m.y
 q=m.x
-r=A.a4q(l,l,B.ac,l,l,q||m.w?l:new A.bfX(m),B.c9g,B.c7q,r)
+r=A.a4q(l,l,B.ac,l,l,q||m.w?l:new A.bfX(m),B.c9g,B.c7r,r)
 q=q?l:new A.bfY(m)
 j=A.b([B.bA,s,r,A.f9(A.k(m.w?"Sair da liga":"Participar da liga",l,l,l,l,l,l,l,l),l,q,l)],j)
 if(m.w)j.push(A.eL(B.mT,l,B.c74,m.x?l:new A.bfZ(m),l))
@@ -149487,7 +149487,7 @@ j=A.k("Sua resposta ajusta a pr\xf3xima revis\xe3o desta frase.",m,m,m,m,A.L(m,m
 l=n.y
 r=A.dL(B.mT,m,B.a1z,l?m:new A.bgY(n),m)
 k.push(new A.jt(A.a7(A.b([B.caI,B.at,j,B.bA,A.du(B.b2,A.b([r,A.e6(B.hk,m,B.a1l,l?m:new A.bgZ(n),m)],o),B.bm,m,12,12)],o),B.O,m,B.q,B.u,0,B.A),24,!1,m))}return A.f1(k,m,m,B.pN,m,!1)},
-aNy(){var s=this,r=null,q=J.dF(s.r,new A.bgu(s)).gu(0),p=A.a2K(s.a.d),o=t.p,n=A.a7(A.b([A.k(""+q+" sess\xf5es de pr\xe1tica conclu\xeddas",r,r,r,r,B.uo,r,r,r),B.at,A.bX8(B.ac,new A.bgv(s),B.caq,B.c7i,s.CW)],o),B.O,r,B.q,B.u,0,B.A),m=s.c
+aNy(){var s=this,r=null,q=J.dF(s.r,new A.bgu(s)).gu(0),p=A.a2K(s.a.d),o=t.p,n=A.a7(A.b([A.k(""+q+" sess\xf5es de pr\xe1tica conclu\xeddas",r,r,r,r,B.uo,r,r,r),B.at,A.bX8(B.ac,new A.bgv(s),B.caq,B.c7j,s.CW)],o),B.O,r,B.q,B.u,0,B.A),m=s.c
 m.toString
 return A.f1(A.b([new A.n_("Pr\xe1tica \xb7 "+p,!1,r),B.at,B.avz,B.cv,new A.jt(n,20,!0,r),B.cm,new A.dX(new A.bgw(s),r),B.cm,A.k("Praticar aqui n\xe3o marca m\xf3dulos da trilha como conclu\xeddos.",r,r,r,r,A.L(r,r,A.v(m)?B.D:B.J,r,r,r,r,r,r,r,r,12,r,r,r,r,1.5,!0,r,r,r,r,r,r,r,r),r,r,r)],o),r,r,B.pN,r,!1)},
 E(a){var s,r,q,p=this,o=null,n=A.ek(o,o,o,o,o,o,o,o,o,o,o,o,A.k("NEXO Idiomas \xb7 "+p.a.c.c,o,o,o,o,o,o,o,o),o,o),m=A.bUG(B.bjT,new A.bh7(p),p.ax)
@@ -149620,7 +149620,7 @@ $S:797}
 A.bgH.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null
 if(b===0){s=j.a
-r=A.f4(i,B.T,!1,i,!0,B.K,i,A.fm(),s.e,i,i,i,i,i,2,B.aux,B.aw,!0,i,!0,i,!1,i,B.bu,i,i,i,B.cfJ,i,i,i,i,i,1,i,i,!1,"\u2022",i,new A.bgD(s),i,i,i,!1,i,i,!1,i,!0,i,B.b4,i,i,i,i,i,i,i,i,i,i,i,i,!0,B.aC,i,B.bB,i,i,i,i)
+r=A.f4(i,B.T,!1,i,!0,B.K,i,A.fm(),s.e,i,i,i,i,i,2,B.auw,B.aw,!0,i,!0,i,!1,i,B.bu,i,i,i,B.cfJ,i,i,i,i,i,1,i,i,!1,"\u2022",i,new A.bgD(s),i,i,i,!1,i,i,!1,i,!0,i,B.b4,i,i,i,i,i,i,i,i,i,i,i,i,!0,B.aC,i,B.bB,i,i,i,i)
 q=s.Q
 p=t.p
 q=A.du(B.b2,A.b([A.wC(i,i,i,B.cbS,i,new A.bgE(s),!q,i,i,i,i),A.wC(i,i,i,B.c7R,i,new A.bgF(s),q,i,i,i,i),A.bLi(B.arS,B.c91,new A.bgG(s),s.as)],p),B.bm,i,8,8)
@@ -149842,7 +149842,7 @@ q=A.b([],t.FG)
 for(p=h.gahY(),o=p.length,n=t.b7,m=0;m<p.length;p.length===o||(0,A.B)(p),++m){l=p[m].a
 k=A.az(l.h(0,f))
 j=A.bE(l.h(0,"preparation_label"))
-q.push(new A.fL(k,A.k(j==null?A.az(l.h(0,"name")):j,g,g,B.aO,g,g,g,g,g),B.ch,g,n))}B.e.v(a,A.b([B.b_,A.mN(B.aus,r,!0,q,new A.aK("preparo-"+s,t.O),new A.bhZ(h),g,g,t.N)],b))}a.push(A.c2(A.k(h.Q?"Voltar \xe0 busca":"Cadastrar pelos valores do r\xf3tulo",g,g,g,g,g,g,g,g),g,g,g,new A.bi_(h),g,g))
+q.push(new A.fL(k,A.k(j==null?A.az(l.h(0,"name")):j,g,g,B.aO,g,g,g,g,g),B.ch,g,n))}B.e.v(a,A.b([B.b_,A.mN(B.aur,r,!0,q,new A.aK("preparo-"+s,t.O),new A.bhZ(h),g,g,t.N)],b))}a.push(A.c2(A.k(h.Q?"Voltar \xe0 busca":"Cadastrar pelos valores do r\xf3tulo",g,g,g,g,g,g,g,g),g,g,g,new A.bi_(h),g,g))
 if(h.Q){s=A.nl(!1,h.f,B.auF,!1,g,g,g,g,150,1,g,g,g,g,g,g,!1,g,g,B.aC,B.bB,g,new A.bi0())
 r=h.y
 q=A.b([],t.FG)
@@ -149864,7 +149864,7 @@ for(o=B.e.gS(h.w.gbkv()),n=new A.h5(o,new A.bi4());n.t();){l=o.gM()
 p.k(0,A.fi(l.h(0,e)),l)}p=new A.cJ(p,p.r,p.e)
 o=t.EY
 while(p.t()){n=p.d
-q.push(new A.fL(A.fi(n.h(0,e)),A.k(A.h(n.h(0,"label"))+" ("+A.h(n.h(0,e))+" "+h.y+")",g,g,g,g,g,g,g,g),B.ch,g,o))}B.e.v(a,A.b([B.bA,A.mN(B.aur,1,!0,q,new A.aK(s,t.O),new A.bi5(h),g,g,r)],b))}a.push(B.bA)
+q.push(new A.fL(A.fi(n.h(0,e)),A.k(A.h(n.h(0,"label"))+" ("+A.h(n.h(0,e))+" "+h.y+")",g,g,g,g,g,g,g,g),B.ch,g,o))}B.e.v(a,A.b([B.bA,A.mN(B.auq,1,!0,q,new A.aK(s,t.O),new A.bi5(h),g,g,r)],b))}a.push(B.bA)
 a.push(A.nl(!1,h.e,A.js(g,g,g,g,g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,h.z===1?"Quantidade consumida ("+h.y+")":"N\xfamero de por\xe7\xf5es",!0,!0,!1,g,g,g,g,g,g,g,g,g,g,g,g,g,g),!1,g,g,g,B.lD,g,1,g,g,g,g,g,g,!1,g,g,B.aC,B.bB,g,new A.bi6(h)))
 a.push(B.cm)
 b=h.a.c
@@ -149997,7 +149997,7 @@ s.N$=0
 this.am()},
 E(a){var s,r,q,p,o,n,m=this,l=null,k=A.ek(l,l,l,l,l,l,l,l,l,l,l,l,B.a1r,l,l),j=A.ev(!0,new A.Y(B.dY,A.f9(B.ccQ,l,new A.btL(m,a),l),l),!0,!1,B.ac,!0,!0),i=A.nl(!1,m.gf9(),B.aug,!1,l,l,l,l,l,1,l,l,l,l,l,l,!1,l,l,B.aC,B.bB,l,new A.btM()),h=m.gatp(),g=A.b([],t.FG)
 for(s=t.b7,r=0;r<4;++r){q=B.OJ[r]
-g.push(new A.fL(q,A.k(q,l,l,l,l,l,l,l,l),B.ch,l,s))}h=A.mN(B.auv,h,!0,g,l,new A.btN(m),l,l,t.N)
+g.push(new A.fL(q,A.k(q,l,l,l,l,l,l,l,l),B.ch,l,s))}h=A.mN(B.auu,h,!0,g,l,new A.btN(m),l,l,t.N)
 g=A.eL(B.arY,l,A.k("A partir de "+new A.cs(A.b(A.eZ(m.x).split("-"),t.s),t.Rr).b3(0,"/"),l,l,l,l,l,l,l,l),new A.btO(m,a),l)
 s=t.p
 p=A.b([],s)
@@ -150817,7 +150817,7 @@ Yo(){var s,r,q,p,o,n,m,l=this,k=null,j=l.gfS(),i=j.a,h=B.bGb.h(0,i)
 if(h==null)return B.b8
 s=B.ny.h(0,j.b)
 if(s==null)s=B.zk
-j=A.b([new A.Y(B.FK,A.k(h.a,k,k,k,k,k,k,k,k),k),new A.cO(B.dc,k,k,A.eL(B.arD,B.cfb,B.c7b,new A.by2(l,h),k),k),B.ahV],t.p)
+j=A.b([new A.Y(B.FK,A.k(h.a,k,k,k,k,k,k,k,k),k),new A.cO(B.dc,k,k,A.eL(B.arD,B.cfb,B.c7c,new A.by2(l,h),k),k),B.ahV],t.p)
 for(r=s.length,q=t.O,p=0;p<r;++p){o=s[p]
 n=A.ar(o.e,k,k,k)
 m=A.k(o.b,k,k,k,k,k,k,k,k)
@@ -150903,7 +150903,7 @@ q=r?"Treinos, atividade e evolu\xe7\xe3o no seu ritmo.":"Ferramentas para organi
 p=t.p
 j=A.b([new A.Ib(j.c,q,j.gd4(),k),B.cm],p)
 if(r)l.a.toString
-if(r){q=A.dL(B.atF,B.cft,B.c7p,l.a.r,k)
+if(r){q=A.dL(B.atF,B.cft,B.c7q,l.a.r,k)
 B.e.v(j,A.b([q,new A.Y(B.FI,A.k("Di\xe1rio e refei\xe7\xf5es ficam na NEXO Dieta.",k,k,k,k,A.L(k,k,A.v(a)?B.D:B.J,k,k,k,k,k,k,k,k,11,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),k)],p))}if(r)B.e.v(j,A.b([l.amI(),A.dL(B.asD,k,B.c9M,l.gb_B(),k),l.amL(),new A.De(i,k)],p))
 B.e.v(j,l.ahP())
 j.push(l.Yo())
@@ -152769,7 +152769,7 @@ p=t.p
 q=A.b([B.arv,B.bA,A.k(q,e,e,e,e,A.I(a0).ok.f,e,e,e),B.bA,B.avO,B.avN],p)
 if(a1.a!==B.iT)q.push(B.jf)
 if((r?e:b.a)===!0)q.push(A.k(b.e>=1e9?"Sem cota mensal de conversa. Os limites tempor\xe1rios de seguran\xe7a continuam valendo.":b.gaoJ(),e,e,e,e,e,e,e,e))
-if((r?e:b.a)===!0)B.e.v(q,A.b([B.at,A.k(b.garB(),e,e,e,e,e,e,e,e),B.c7c],p))
+if((r?e:b.a)===!0)B.e.v(q,A.b([B.at,A.k(b.garB(),e,e,e,e,e,e,e,e),B.c7d],p))
 if((r?e:b.b)===!1)q.push(B.c7C)
 o=a.a
 n=o.c
@@ -153020,7 +153020,7 @@ if(q==null)q=""
 p=A.b([B.ai9],t.FG)
 for(o=t.b7,n=0;n<15;++n){m=B.fS[n].b
 p.push(new A.fL(m,A.k(m,j,j,j,j,j,j,j,j),B.ch,j,o))}o=t.p
-p=A.b([A.mN(B.auw,q,!0,p,j,new A.bDq(k),j,j,t.N),B.b_],o)
+p=A.b([A.mN(B.auv,q,!0,p,j,new A.bDq(k),j,j,t.N),B.b_],o)
 q=k.y
 if((q==null?j:q.length!==0)===!0){q.toString
 B.e.v(p,A.b([A.k(q,j,j,j,j,j,j,j,j),A.c2(B.oe,j,j,j,r,j,j)],o))}if(!new A.Z(i,h,A.W(i).i("Z<1>")).gS(0).t()&&!e.gS(0).t())p.push(B.bJf)
@@ -154187,7 +154187,7 @@ A.jJ(new A.aGf(d),a,520,t.H)}}
 A.aGm.prototype={
 $2(b5,b6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2=null,b3=this.a,b4=b3.c
 if(b4){s=b6.b
-r=s==null?B.Pc:s}else r=B.Pc
+r=s==null?B.Pd:s}else r=B.Pd
 q=b4?b3.f:B.zi
 b4=J.d6(r)
 s=b4.kU(r,new A.aGg())
@@ -156652,11 +156652,11 @@ return A.m(null,r)
 case 1:return A.l(p.at(-1),r)}})
 return A.n($async$tk,r)},
 aKL(){var s,r,q,p
-for(s=this.bN,r=s-0.02,q=4;q>=0;--q){p=B.OW[q]
+for(s=this.bN,r=s-0.02,q=4;q>=0;--q){p=B.OX[q]
 if(p<r){this.tk(p)
 return}}this.tk(B.n.a4(s-0.08,0.8,1.3))},
 aTU(){var s,r,q,p
-for(s=this.bN,r=s+0.02,q=0;q<5;++q){p=B.OW[q]
+for(s=this.bN,r=s+0.02,q=0;q<5;++q){p=B.OX[q]
 if(p>r){this.tk(p)
 return}}this.tk(B.n.a4(s+0.08,0.8,1.3))},
 b0G(){this.tk(1)},
@@ -157663,7 +157663,7 @@ r=A.aL(r,s,"")
 s=A.aw("\\s+",!0,!1)
 return B.h.P(A.aL(r,s," "))},
 b3z(a){var s,r={}
-r.a=B.e.ga0(B.Pf)
+r.a=B.e.ga0(B.Pg)
 s=this.c
 s.toString
 A.jI(null,new A.bmE(r,this,a),s,t.H)},
@@ -159744,7 +159744,7 @@ $1(a){return new A.mf(new A.bmD(this.a,this.b,a,this.c),null)},
 $S:73}
 A.bmD.prototype={
 $2(a,b){var s=this,r=null,q=s.c,p=A.v(q)?B.ar:B.C,o=A.k("Denunciar resposta",r,r,r,r,A.L(r,r,A.v(q)?B.Z:B.X,r,r,r,r,r,r,r,r,18,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),n=t.p,m=A.b([B.c7B,B.at],n),l=s.a
-B.e.v(m,new A.aa(B.Pf,new A.bmA(l,b,a),t.vr))
+B.e.v(m,new A.aa(B.Pg,new A.bmA(l,b,a),t.vr))
 m=A.a7(m,B.B,r,B.q,B.a6,0,B.A)
 return A.hD(A.b([A.c2(B.f_,r,r,r,new A.bmB(q),r,r),A.f9(B.c8v,r,new A.bmC(l,s.b,q,s.d),r)],n),p,r,m,r,o)},
 $S:137}
@@ -161147,7 +161147,7 @@ i.a.toString
 j.push(A.d_(!1,l,l,l,!0,l,l,l,!0,l,l,B.asJ,l,l,l,l,new A.b6L(i,a),!1,l,l,l,l,l,l,l,B.a1x,l,l,l))
 if(i.a.ch!=null)j.push(A.d_(!1,l,l,l,!0,l,l,l,!0,l,l,B.arf,l,l,l,l,new A.b6M(i,a),!1,l,l,l,l,l,l,l,B.c7F,l,l,l))
 s=i.a.k2
-if(s)j.push(A.d_(!1,l,l,l,!0,l,l,l,!0,l,l,B.Io,l,l,l,l,new A.b6N(i,a),!1,l,l,l,l,l,l,l,B.c7a,l,l,l))
+if(s)j.push(A.d_(!1,l,l,l,!0,l,l,l,!0,l,l,B.Io,l,l,l,l,new A.b6N(i,a),!1,l,l,l,l,l,l,l,B.c7b,l,l,l))
 j.push(A.d_(!1,l,l,l,!0,l,l,l,!0,l,l,B.asL,l,l,l,l,new A.b6F(i,a),!1,l,l,l,l,l,l,l,B.c8_,l,l,l))
 B.e.v(q,j)}return new A.Y(B.ajI,A.a7(q,B.B,l,B.q,B.a6,0,B.A),l)},
 $S:85}
@@ -162573,11 +162573,11 @@ if(g.n(0,"none"))J.ch(n,"none")
 p.a.toString
 m=A.fo(new A.Z(B.Ov,new A.bcW(p),t.aq))
 f=t.Z6
-e=A.fo(new A.Z(B.Pm,new A.bcX(p),f))
+e=A.fo(new A.Z(B.Pn,new A.bcX(p),f))
 l=e==null?null:e.b
-e=A.fo(new A.Z(B.OV,new A.bcY(p),f))
+e=A.fo(new A.Z(B.OW,new A.bcY(p),f))
 k=e==null?null:e.b
-c=A.fo(new A.Z(B.PC,new A.bcZ(p),f))
+c=A.fo(new A.Z(B.PB,new A.bcZ(p),f))
 j=c==null?null:"N\xedvel informado pelo usu\xe1rio: "+c.b+"."
 try{f=a0.a
 e=p.a.r.h(0,a0.a)
@@ -162703,14 +162703,14 @@ k=n.aOJ(l,b,e)
 break
 case 2:k=n.aUK(b,e,c)
 break
-case 3:k=n.a13(B.PC,n.Q,new A.bcR(n),b,e)
+case 3:k=n.a13(B.PB,n.Q,new A.bcR(n),b,e)
 break
-case 4:k=n.a13(B.Pm,n.as,new A.bcS(n),b,e)
+case 4:k=n.a13(B.Pn,n.as,new A.bcS(n),b,e)
 break
 case 5:l.toString
 k=n.b17(l,b,e)
 break
-case 6:k=n.a13(B.OV,n.at,new A.bcT(n),b,e)
+case 6:k=n.a13(B.OW,n.at,new A.bcT(n),b,e)
 break
 case 7:l.toString
 k=n.b0V(l,b,e)
@@ -163120,7 +163120,7 @@ s=A.a5(16)
 r=A.bF(g?B.a2:B.bc,1)
 q=A.k("O que mudou desde a \xfaltima revis\xe3o?",h,h,h,h,A.L(h,h,f,h,h,h,h,h,h,h,h,16,h,h,B.a7,h,h,!0,h,h,h,h,h,h,h,h),h,h,h)
 p=A.k("Voc\xea pode contar o que avan\xe7ou, o que ficou dif\xedcil ou o que precisa mudar no plano.",h,h,h,h,A.L(h,h,e,h,h,h,h,h,h,h,h,h,h,h,h,h,1.4,!0,h,h,h,h,h,h,h,h),h,h,h)
-o=A.f4(h,B.T,!1,h,!0,B.K,h,A.fm(),i.d,h,h,h,h,h,2,B.aup,B.aw,!0,h,!0,h,!1,h,B.bu,h,h,h,h,h,h,h,1000,h,6,3,h,!1,"\u2022",h,h,h,h,h,!1,h,h,!1,h,!0,h,B.b4,h,h,h,h,h,h,h,h,h,h,h,h,!0,B.aC,h,B.fs,h,h,h,h)
+o=A.f4(h,B.T,!1,h,!0,B.K,h,A.fm(),i.d,h,h,h,h,h,2,B.auo,B.aw,!0,h,!0,h,!1,h,B.bu,h,h,h,h,h,h,h,1000,h,6,3,h,!1,"\u2022",h,h,h,h,h,!1,h,h,!1,h,!0,h,B.b4,h,h,h,h,h,h,h,h,h,h,h,h,!0,B.aC,h,B.fs,h,h,h,h)
 n=i.f
 m=n||i.r?h:i.gaZY()
 l=n?B.io:B.asv
@@ -163207,7 +163207,7 @@ this.Q3()},
 Q3(){var s,r=this
 r.d=r.GJ()
 if(r.gP0()){s=r.a
-s=s.d.U1(s.c.a)}else s=A.ee(B.Pa,t.Ks)
+s=s.d.U1(s.c.a)}else s=A.ee(B.Pb,t.Ks)
 r.e=s},
 GJ(){var s=0,r=A.o(t.Bl),q,p=this,o,n,m,l,k
 var $async$GJ=A.j(function(a,b){if(a===1)return A.l(b,r)
@@ -163428,7 +163428,7 @@ $1(a){return this.a.Qe(this.b.a,a)},
 $S:16}
 A.bB7.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=null,g=b.b
-if(g==null)g=B.Pa
+if(g==null)g=B.Pb
 s=J.aV(g)
 r=s.ga6(g)?h:s.ga0(g)
 s=r==null
@@ -166079,7 +166079,7 @@ f=e?B.ja:B.yb
 return A.b7(g,g,e,A.cT(!1,B.aa,!0,g,A.db(!1,p,!0,new A.c5(B.a9a,new A.Y(B.j_,A.af(A.b([l,B.ce,j,B.cz,new A.Y(B.FI,A.ar(f,e?m:q,g,24),g)],i),B.O,B.q,B.u,0,g),g),g),g,!0,!1,g,g,g,g,g,g,g,g,g,g,g,b,g,g,g,g,g,g,g),B.b6,r,0,g,g,new A.bZ(p,new A.aH(o,n,B.U,-1)),g,g,B.b7),!1,g,g,g,!0,g,!1,g,g,g,g,g,g,g,!0,g,g,d+". "+c+" "+s+".",g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,b,g,g,g,g,g,g,g,g,g,g,B.a0,g)}}
 A.aOp.prototype={
 $1(a){var s,r,q,p,o=t.p,n=A.b([],o)
-for(s=this.a,r=0;r<4;++r){q=B.P2[r]
+for(s=this.a,r=0;r<4;++r){q=B.P3[r]
 p=A.b([],o)
 if(q.a>0)p.push(B.aW)
 p.push(s.aH6(a,q))
@@ -166573,7 +166573,7 @@ s=A.b([],t.FG)
 for(r=["Problema t\xe9cnico","D\xfavida sobre uso","Privacidade e dados","Sugest\xe3o"],q=t.b7,p=0;p<4;++p){o=r[p]
 s.push(new A.fL(o,A.k(o,m,m,m,m,m,m,m,m),B.ch,m,q))}r=n.y
 q=r?m:new A.boT(n)
-l=A.b([B.cad,B.at,B.ca3,B.aj,A.mN(B.aum,j,!0,s,m,q,m,m,t.N),B.aj,A.f4(m,B.T,!1,m,!0,B.K,m,A.fm(),n.d,m,m,m,m,m,2,B.auy,B.aw,!0,m,!0,!r,!1,m,B.bu,m,m,m,m,m,m,m,2000,m,6,3,m,!1,"\u2022",m,new A.boU(n),m,m,m,!1,m,m,!1,m,!0,m,B.b4,m,m,m,m,m,m,m,m,m,m,m,m,!0,B.aC,m,B.bB,m,m,m,m),A.f4(m,B.T,!1,m,!0,B.K,m,A.fm(),n.e,m,m,m,m,m,2,B.auI,B.aw,!0,m,!0,!n.y,!1,m,B.bu,m,m,m,m,m,m,m,80,m,1,m,m,!1,"\u2022",m,new A.boV(n),m,m,m,!1,m,m,!1,m,!0,m,B.b4,m,m,m,m,m,m,m,m,m,m,m,m,!0,B.aC,m,B.bB,m,m,m,m)],l)
+l=A.b([B.cad,B.at,B.ca3,B.aj,A.mN(B.aum,j,!0,s,m,q,m,m,t.N),B.aj,A.f4(m,B.T,!1,m,!0,B.K,m,A.fm(),n.d,m,m,m,m,m,2,B.aux,B.aw,!0,m,!0,!r,!1,m,B.bu,m,m,m,m,m,m,m,2000,m,6,3,m,!1,"\u2022",m,new A.boU(n),m,m,m,!1,m,m,!1,m,!0,m,B.b4,m,m,m,m,m,m,m,m,m,m,m,m,!0,B.aC,m,B.bB,m,m,m,m),A.f4(m,B.T,!1,m,!0,B.K,m,A.fm(),n.e,m,m,m,m,m,2,B.auI,B.aw,!0,m,!0,!n.y,!1,m,B.bu,m,m,m,m,m,m,m,80,m,1,m,m,!1,"\u2022",m,new A.boV(n),m,m,m,!1,m,m,!1,m,!0,m,B.b4,m,m,m,m,m,m,m,m,m,m,m,m,!0,B.aC,m,B.bB,m,m,m,m)],l)
 j=n.x
 if(j!=null)l.push(A.b7(m,m,m,A.k(j,m,m,m,m,A.L(m,m,A.I(a).ax.fy,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),!1,m,m,m,!1,m,!1,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.a0,m))
 l.push(B.aj)
@@ -166806,7 +166806,7 @@ r=A.b([],s)
 q=p.x
 if(q!=null)B.e.v(r,A.b([A.k(q,o,o,o,o,A.L(o,o,A.v(a)?B.D:B.J,o,o,o,o,o,o,o,o,16,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),B.aj],s))
 s=!p.r&&p.w
-r.push(A.f4(o,B.T,!1,o,!0,B.K,o,A.fm(),p.d,o,o,o,o,o,2,B.auu,B.aw,!0,o,!0,s,!1,o,B.bu,o,o,o,B.cfO,o,o,o,2000,o,6,3,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.b4,o,o,o,o,o,o,o,o,o,o,o,o,!0,B.aC,o,B.bB,o,o,o,o))
+r.push(A.f4(o,B.T,!1,o,!0,B.K,o,A.fm(),p.d,o,o,o,o,o,2,B.aut,B.aw,!0,o,!0,s,!1,o,B.bu,o,o,o,B.cfO,o,o,o,2000,o,6,3,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.b4,o,o,o,o,o,o,o,o,o,o,o,o,!0,B.aC,o,B.bB,o,o,o,o))
 r.push(B.cm)
 s=!p.r&&p.w
 r.push(A.f4(o,B.T,!1,o,!0,B.K,o,A.fm(),p.e,o,o,o,o,o,2,B.auf,B.aw,!0,o,!0,s,!1,o,B.bu,o,o,o,B.cfP,o,o,o,2000,o,4,2,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,B.b4,o,o,o,o,o,o,o,o,o,o,o,o,!0,B.aC,o,B.bB,o,o,o,o))
@@ -181893,8 +181893,8 @@ initializeLoadedHunk:function(a){var s=$__dart_deferred_initializers__[a]
 if(s==null){throw"DeferredLoading state error: code with hash '"+a+"' was not loaded"}initializeDeferredHunk(s)
 v.deferredInitialized[a]=true},
 deferredLibraryParts:{document:[0]},
-deferredPartUris:["main.dart.js_1.9b8929845276981e8a653f996ffba2063a09f235.part.js"],
-deferredPartHashes:["jZr5gW2dhVWrmD+4ROkf89xdbJw="],
+deferredPartUris:["main.dart.js_1.05c8ef4108d108a2feffde03916d2fdd50f9159d.part.js"],
+deferredPartHashes:["E4AmrRiZ81HgjZFRraHI2J24Eok="],
 typeUniverse:{eC:new Map(),tR:{},eT:{},tPV:{},sEA:[]},
 mangledGlobalNames:{t:"int",X:"double",b2:"num",f:"String",G:"bool",bN:"Null",P:"List",M:"Object",ay:"Map",bH:"JSObject"},
 mangledNames:{},
@@ -183498,8 +183498,8 @@ B.fM=new A.AR(2,"medium")
 B.kC=new A.AR(3,"high")
 B.cbQ=new A.F("Est\xfadio",null,null,null,null,null,null,null,null,null)
 B.alL=new A.H4(B.k7,B.am,B.z,B.cbQ,null)
-B.c7l=new A.F("Ampliar",null,null,null,null,null,null,null,null,null)
-B.alM=new A.H4(B.k7,B.am,B.z,B.c7l,null)
+B.c7m=new A.F("Ampliar",null,null,null,null,null,null,null,null,null)
+B.alM=new A.H4(B.k7,B.am,B.z,B.c7m,null)
 B.aR=new A.N(0,0)
 B.alN=new A.a6r(B.aR,B.aR)
 B.bR=new A.a6u(1,"loose")
@@ -184130,21 +184130,21 @@ B.auk=new A.dv(null,null,null,"Meu objetivo",null,null,null,null,null,null,"Escr
 B.aul=new A.dv(null,null,null,null,null,null,null,null,null,null,"Buscar no Workspace",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.Ix,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.aum=new A.dv(null,null,null,"Assunto",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.aun=new A.dv(null,null,null,"Unidade da base nutricional",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.auo=new A.dv(null,null,null,"Outras restri\xe7\xf5es e observa\xe7\xf5es",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.i7,!0,null,null,null,null)
-B.aup=new A.dv(null,null,null,null,null,null,null,null,null,null,"Escreva uma reflex\xe3o (opcional)",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,!0,null,null)
-B.auq=new A.dv(null,null,null,"Sua rotina de movimento",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.aur=new A.dv(null,null,null,"Medida",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.aus=new A.dv(null,null,null,"Preparo",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.aut=new A.dv(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.Im,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.i7,!0,null,null,null,null)
-B.auu=new A.dv(null,null,null,"Sobre voc\xea",null,null,null,null,null,null,"Objetivos, prefer\xeancias e contexto que deseja compartilhar",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.auo=new A.dv(null,null,null,null,null,null,null,null,null,null,"Escreva uma reflex\xe3o (opcional)",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,!0,null,null)
+B.aup=new A.dv(null,null,null,"Sua rotina de movimento",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.auq=new A.dv(null,null,null,"Medida",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.aur=new A.dv(null,null,null,"Preparo",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.aus=new A.dv(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.Im,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.i7,!0,null,null,null,null)
+B.aut=new A.dv(null,null,null,"Sobre voc\xea",null,null,null,null,null,null,"Objetivos, prefer\xeancias e contexto que deseja compartilhar",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.IT=new A.dv(null,null,null,"Refei\xe7\xe3o",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.auv=new A.dv(null,null,null,"Per\xedodo",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.auw=new A.dv(null,null,null,"Especialista",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.aux=new A.dv(null,null,null,"Buscar frase ou palavra",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.qr,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.auy=new A.dv(null,null,null,"O que aconteceu?",null,null,null,null,null,null,"Descreva o que tentou fazer e o que apareceu.",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.auz=new A.dv(null,null,null,"Um item por linha",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.i7,!0,null,null,null,null)
-B.auA=new A.dv(null,null,null,"Seu apelido na liga",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-B.auB=new A.dv(null,null,null,"Observa\xe7\xf5es adicionais (opcional)",null,null,null,u.Y,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.i7,!0,null,null,null,null)
+B.auu=new A.dv(null,null,null,"Per\xedodo",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.auv=new A.dv(null,null,null,"Especialista",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.auw=new A.dv(null,null,null,"Buscar frase ou palavra",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,B.qr,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.aux=new A.dv(null,null,null,"O que aconteceu?",null,null,null,null,null,null,"Descreva o que tentou fazer e o que apareceu.",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.auy=new A.dv(null,null,null,"Um item por linha",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.i7,!0,null,null,null,null)
+B.auz=new A.dv(null,null,null,"Seu apelido na liga",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+B.auA=new A.dv(null,null,null,"Observa\xe7\xf5es adicionais (opcional)",null,null,null,u.Y,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.i7,!0,null,null,null,null)
+B.auB=new A.dv(null,null,null,"Outras restri\xe7\xf5es e observa\xe7\xf5es",null,null,null,"O texto \xe9 salvo como observa\xe7\xe3o e n\xe3o altera os filtros.",null,2,"Ex.: evito pimenta e comidas muito picantes.",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.i7,!0,null,null,null,null)
 B.auC=new A.dv(null,null,null,null,null,null,null,null,null,null,"Um detalhe opcional para seu hist\xf3rico.",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,!0,null,null)
 B.auD=new A.dv(null,null,null,"Nome da conversa",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 B.auE=new A.dv(null,null,null,null,null,null,null,null,null,null,"Sua resposta",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"",null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
@@ -184551,8 +184551,8 @@ B.b3U=s([17,18,24,47,99,99,99,99,18,21,26,66,99,99,99,99,24,26,56,99,99,99,99,99
 B.rU=s([0,1,2,3,4,5,6,7,8,9,10,11],t.t)
 B.OO=s(["image/jpeg","image/png","image/webp"],t.s)
 B.zp=s(["public.image"],t.s)
-B.Pk=s(["jpg","jpeg","png","webp"],t.s)
-B.cgL=new A.rZ("Fotos",B.OO,B.zp,B.Pk)
+B.Pl=s(["jpg","jpeg","png","webp"],t.s)
+B.cgL=new A.rZ("Fotos",B.OO,B.zp,B.Pl)
 B.baH=s([B.cgL],t.es)
 B.baO=s([8,8,4,2],t.t)
 B.aHB=s([173,148,140],t.t)
@@ -184840,8 +184840,8 @@ B.l5=s(["fr","en","de","es","it"],t.s)
 B.afd=new A.E(1,0.8627450980392157,0.9098039215686274,1,B.w)
 B.aeY=new A.E(1,0.9490196078431372,0.8745098039215686,0.9450980392156862,B.w)
 B.bgp=s([B.afd,B.aeY],t.t_)
-B.c7n=new A.F("Coeficiente feminino",null,null,null,null,null,null,null,null,null)
-B.aia=new A.fL("female",B.c7n,B.ch,null,t.b7)
+B.c7o=new A.F("Coeficiente feminino",null,null,null,null,null,null,null,null,null)
+B.aia=new A.fL("female",B.c7o,B.ch,null,t.b7)
 B.cbK=new A.F("Coeficiente masculino",null,null,null,null,null,null,null,null,null)
 B.aib=new A.fL("male",B.cbK,B.ch,null,t.b7)
 B.bgs=s([B.aia,B.aib],t.FG)
@@ -184950,6 +184950,7 @@ B.N=new A.x(0,0)
 B.a9K=new A.cu(0.2,B.a84,B.Ew,B.N,11)
 B.bhU=s([B.a9K],t.V)
 B.OU=s([B.ao,B.IF,B.cc,B.bU,B.dz,B.et,B.IK,B.hZ,B.IL,B.IM,B.IG,B.IH,B.II,B.IJ],A.ao("A<jU>"))
+B.OV=s(["Di\xe1rio alimentar","Receitas","Refei\xe7\xf5es e compras","Refei\xe7\xf5es prontas"],t.s)
 B.bTQ=new A.eb([B.xU,"Usar meus ingredientes","Conte o que tem em casa","Tenho em casa: "])
 B.bUe=new A.eb([B.j9,"Receita r\xe1pida","Algo pr\xe1tico para hoje","Quero uma receita r\xe1pida para "])
 B.apt=new A.J(62229,"MaterialIcons",!1)
@@ -185141,8 +185142,8 @@ B.bj7=s([B.iC,B.f2,B.iD,B.lR],A.ao("A<qm>"))
 B.anl=new A.c7("home_none","Em casa, sem equipamentos","Peso corporal e apoio de cadeira ou parede.")
 B.an8=new A.c7("home_light","Em casa, com itens b\xe1sicos","Por exemplo, faixa el\xe1stica ou halteres leves.")
 B.ane=new A.c7("gym","Na academia","M\xe1quinas e equipamentos comuns, com orienta\xe7\xe3o de uso.")
-B.OV=s([B.anl,B.an8,B.ane],t.Sq)
-B.OW=s([0.82,0.9,1,1.12,1.25],t.n)
+B.OW=s([B.anl,B.an8,B.ane],t.Sq)
+B.OX=s([0.82,0.9,1,1.12,1.25],t.n)
 B.bjs=s([B.eI,B.er,B.iV,B.fK],A.ao("A<qU>"))
 B.chZ=new A.fD("Agachamento curto com apoio","Pernas e gl\xfateos","Segure uma cadeira firme e use uma amplitude confort\xe1vel.")
 B.chU=new A.fD("Flex\xe3o na parede com m\xe3os um pouco mais pr\xf3ximas","Peito e bra\xe7os","Mantenha o corpo alinhado e ajuste a dist\xe2ncia da parede para ficar confort\xe1vel.")
@@ -185151,7 +185152,7 @@ B.a2V=new A.fD("Apertar as esc\xe1pulas em p\xe9","Postura e parte alta das cost
 B.Cf=new A.fD("Marcha leve no lugar","Condicionamento","Mantenha os passos baixos e use uma parede como apoio se precisar.")
 B.uU=new A.fD("Eleva\xe7\xe3o de panturrilhas com apoio","Panturrilhas","Segure uma cadeira firme e suba/baixe sem balan\xe7ar.")
 B.bjv=s([B.chZ,B.chU,B.a2Z,B.a2V,B.Cf,B.uU],t.U7)
-B.OX=s([0,1,2,3,17,4,5,33,49,6,18,65,81,7,97,113,19,34,50,129,8,20,66,145,161,177,193,9,35,51,82,240,21,98,114,209,10,22,36,52,225,37,241,23,24,25,26,38,39,40,41,42,53,54,55,56,57,58,67,68,69,70,71,72,73,74,83,84,85,86,87,88,89,90,99,100,101,102,103,104,105,106,115,116,117,118,119,120,121,122,130,131,132,133,134,135,136,137,138,146,147,148,149,150,151,152,153,154,162,163,164,165,166,167,168,169,170,178,179,180,181,182,183,184,185,186,194,195,196,197,198,199,200,201,202,210,211,212,213,214,215,216,217,218,226,227,228,229,230,231,232,233,234,242,243,244,245,246,247,248,249,250],t.t)
+B.OY=s([0,1,2,3,17,4,5,33,49,6,18,65,81,7,97,113,19,34,50,129,8,20,66,145,161,177,193,9,35,51,82,240,21,98,114,209,10,22,36,52,225,37,241,23,24,25,26,38,39,40,41,42,53,54,55,56,57,58,67,68,69,70,71,72,73,74,83,84,85,86,87,88,89,90,99,100,101,102,103,104,105,106,115,116,117,118,119,120,121,122,130,131,132,133,134,135,136,137,138,146,147,148,149,150,151,152,153,154,162,163,164,165,166,167,168,169,170,178,179,180,181,182,183,184,185,186,194,195,196,197,198,199,200,201,202,210,211,212,213,214,215,216,217,218,226,227,228,229,230,231,232,233,234,242,243,244,245,246,247,248,249,250],t.t)
 B.bjy=s([0,1,1,1,0],t.t)
 B.bT9=new A.c3("create","Criar",B.fd)
 B.bSU=new A.c3("restore","Restaurar foto",B.y_)
@@ -185186,7 +185187,7 @@ B.aUm=s([3,5,3,5],t.t)
 B.Ja=s([0,8,0,8],t.t)
 B.O3=s([4,4,4,4],t.t)
 B.b_o=s([4,4,0,0],t.t)
-B.OY=s([B.z5,B.b1C,B.aUm,B.Ja,B.z5,B.O3,B.b_o,B.Ja],t.r)
+B.OZ=s([B.z5,B.b1C,B.aUm,B.Ja,B.z5,B.O3,B.b_o,B.Ja],t.r)
 B.bOC=new A.dr("progress","Estudei como previsto")
 B.bOZ=new A.dr("partial","Avancei em um t\xf3pico")
 B.bOx=new A.dr("adjust","Preciso ajustar a rotina")
@@ -185195,19 +185196,19 @@ B.bON=new A.dr("progress","Conclu\xed uma a\xe7\xe3o profissional")
 B.bOA=new A.dr("partial","Preparei um pr\xf3ximo passo")
 B.bOn=new A.dr("adjust","Quero rever minha estrat\xe9gia")
 B.bk2=s([B.bON,B.bOA,B.bOn],t.xV)
-B.OZ=s([1,4,13,40,121,364,1093,3280,9841,29524,88573,265720,797161,2391484],t.t)
+B.P_=s([1,4,13,40,121,364,1093,3280,9841,29524,88573,265720,797161,2391484],t.t)
 B.bOS=new A.dr("progress","Mantive meu h\xe1bito")
 B.bOs=new A.dr("partial","Fiz do meu jeito")
 B.bOL=new A.dr("adjust","Quero deixar mais leve")
 B.bkk=s([B.bOS,B.bOs,B.bOL],t.xV)
-B.P_=s([80,88,23,71,30,30,62,62,4,4,4,4,4,4,4,4,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41],t.t)
+B.P0=s([80,88,23,71,30,30,62,62,4,4,4,4,4,4,4,4,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,51,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41],t.t)
 B.bkm=s([16,11,10,16,24,40,51,61,12,12,14,19,26,58,60,55,14,13,16,24,40,57,69,56,14,17,22,29,51,87,80,62,18,22,37,56,68,109,103,77,24,35,55,64,81,104,113,92,49,64,78,87,103,121,120,101,72,92,95,98,112,100,103,99],t.t)
 B.bkG=s([35,30,20,25,30,35,30,25,25],t.n)
 B.lP=new A.t4(0,"hour")
 B.v0=new A.t4(1,"minute")
-B.P0=s([B.lP,B.v0],A.ao("A<t4>"))
+B.P1=s([B.lP,B.v0],A.ao("A<t4>"))
 B.t4=s([0,1,4,5,16,17,20,21,64,65,68,69,80,81,84,85,256,257,260,261,272,273,276,277,320,321,324,325,336,337,340,341,1024,1025,1028,1029,1040,1041,1044,1045,1088,1089,1092,1093,1104,1105,1108,1109,1280,1281,1284,1285,1296,1297,1300,1301,1344,1345,1348,1349,1360,1361,1364,1365,4096,4097,4100,4101,4112,4113,4116,4117,4160,4161,4164,4165,4176,4177,4180,4181,4352,4353,4356,4357,4368,4369,4372,4373,4416,4417,4420,4421,4432,4433,4436,4437,5120,5121,5124,5125,5136,5137,5140,5141,5184,5185,5188,5189,5200,5201,5204,5205,5376,5377,5380,5381,5392,5393,5396,5397,5440,5441,5444,5445,5456,5457,5460,5461,16384,16385,16388,16389,16400,16401,16404,16405,16448,16449,16452,16453,16464,16465,16468,16469,16640,16641,16644,16645,16656,16657,16660,16661,16704,16705,16708,16709,16720,16721,16724,16725,17408,17409,17412,17413,17424,17425,17428,17429,17472,17473,17476,17477,17488,17489,17492,17493,17664,17665,17668,17669,17680,17681,17684,17685,17728,17729,17732,17733,17744,17745,17748,17749,20480,20481,20484,20485,20496,20497,20500,20501,20544,20545,20548,20549,20560,20561,20564,20565,20736,20737,20740,20741,20752,20753,20756,20757,20800,20801,20804,20805,20816,20817,20820,20821,21504,21505,21508,21509,21520,21521,21524,21525,21568,21569,21572,21573,21584,21585,21588,21589,21760,21761,21764,21765,21776,21777,21780,21781,21824,21825,21828,21829,21840,21841,21844,21845],t.t)
-B.P1=s([127,127,191,127,159,191,223,127,143,159,175,191,207,223,239,127,135,143,151,159,167,175,183,191,199,207,215,223,231,239,247,127,131,135,139,143,147,151,155,159,163,167,171,175,179,183,187,191,195,199,203,207,211,215,219,223,227,231,235,239,243,247,251,127,129,131,133,135,137,139,141,143,145,147,149,151,153,155,157,159,161,163,165,167,169,171,173,175,177,179,181,183,185,187,189,191,193,195,197,199,201,203,205,207,209,211,213,215,217,219,221,223,225,227,229,231,233,235,237,239,241,243,245,247,249,251,253,127],t.t)
+B.P2=s([127,127,191,127,159,191,223,127,143,159,175,191,207,223,239,127,135,143,151,159,167,175,183,191,199,207,215,223,231,239,247,127,131,135,139,143,147,151,155,159,163,167,171,175,179,183,187,191,195,199,203,207,211,215,219,223,227,231,235,239,243,247,251,127,129,131,133,135,137,139,141,143,145,147,149,151,153,155,157,159,161,163,165,167,169,171,173,175,177,179,181,183,185,187,189,191,193,195,197,199,201,203,205,207,209,211,213,215,217,219,221,223,225,227,229,231,233,235,237,239,241,243,245,247,249,251,253,127],t.t)
 B.cko=s(["Analisando o contexto da pergunta\u2026","Consultando base anal\xedtica do especialista\u2026","Estruturando racioc\xednio e s\xedntese\u2026","Finalizando reda\xe7\xe3o da resposta\u2026"],t.s)
 B.Ve=new A.Ce(0,"Desativado","","Padr\xe3o (Direto)",0,"",B.qf)
 B.ckj=s(["N\xedvel 1 Focado: Analisando premissas essenciais\u2026","Validando coer\xeancia l\xf3gica e restri\xe7\xf5es\u2026","Sintetizando resposta objetiva e fundamentada\u2026"],t.s)
@@ -185217,8 +185218,8 @@ B.cki=s(["N\xedvel 2 Profundo: Decompondo problema em etapas\u2026","Mapeando va
 B.bHb=new A.Ce(2,"Profundo","2\u2605","Profundo \u2022 3 cr\xe9ditos por resposta",2,"[MODO RACIOC\xcdNIO - N\xcdVEL 2 (PROFUNDO | 2 CR\xc9DITOS)]: Execute uma decomposi\xe7\xe3o anal\xedtica estruturada passo a passo: 1. Diagn\xf3stico de contexto e premissas; 2. An\xe1lise comparativa profunda de vari\xe1veis, pr\xf3s, contras e trade-offs; 3. Recomenda\xe7\xf5es fundamentadas com plano pr\xe1tico.",B.qf)
 B.ckh=s(["N\xedvel 3 Ultra: Mobilizando comit\xea anal\xedtico especialista\u2026","Explorando hip\xf3teses e testando contra-exemplos\u2026","Estressando riscos, vari\xe1veis e cen\xe1rios cr\xedticos\u2026","Verificando integridade l\xf3gica multidisciplinar\u2026","Consolidando plano executivo de precis\xe3o m\xe1xima\u2026"],t.s)
 B.bH9=new A.Ce(3,"Ultra Especialista","3\u2605 Ultra","Ultra Especialista \u2022 4 cr\xe9ditos por resposta",3,"[MODO RACIOC\xcdNIO - N\xcdVEL 3 (ULTRA ESPECIALISTA | 3 CR\xc9DITOS)]: Execute an\xe1lise exaustiva multidisciplinar com rigor de comit\xea s\xeanior de especialistas. Identifique riscos ocultos, teste contra-exemplos e hip\xf3teses adversas, avalie impactos sist\xeamicos e entregue s\xedntese de precis\xe3o m\xe1xima com plano de execu\xe7\xe3o robusto.",B.fd)
-B.P2=s([B.Ve,B.bHa,B.bHb,B.bH9],A.ao("A<Ce>"))
-B.P3=s([7,6,6,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0],t.t)
+B.P3=s([B.Ve,B.bHa,B.bHb,B.bH9],A.ao("A<Ce>"))
+B.P4=s([7,6,6,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0],t.t)
 B.l7=s(["base","plus","go"],t.s)
 B.t5=s([28679,28679,31752,-32759,-31735,-30711,-29687,-28663,29703,29703,30727,30727,-27639,-26615,-25591,-24567],t.t)
 B.bml=s(["click","scroll"],t.s)
@@ -185228,7 +185229,7 @@ B.tV=new A.jy(B.dd,B.tU)
 B.bmV=s([B.aag,B.tV],A.ao("A<cw>"))
 B.be=s([2774754246,2222750968,2574743534,2373680118,234025727,3177933782,2976870366,1422247313,1345335392,50397442,2842126286,2099981142,436141799,1658312629,3870010189,2591454956,1170918031,2642575903,1086966153,2273148410,368769775,3948501426,3376891790,200339707,3970805057,1742001331,4255294047,3937382213,3214711843,4154762323,2524082916,1539358875,3266819957,486407649,2928907069,1780885068,1513502316,1094664062,49805301,1338821763,1546925160,4104496465,887481809,150073849,2473685474,1943591083,1395732834,1058346282,201589768,1388824469,1696801606,1589887901,672667696,2711000631,251987210,3046808111,151455502,907153956,2608889883,1038279391,652995533,1764173646,3451040383,2675275242,453576978,2659418909,1949051992,773462580,756751158,2993581788,3998898868,4221608027,4132590244,1295727478,1641469623,3467883389,2066295122,1055122397,1898917726,2542044179,4115878822,1758581177,0,753790401,1612718144,536673507,3367088505,3982187446,3194645204,1187761037,3653156455,1262041458,3729410708,3561770136,3898103984,1255133061,1808847035,720367557,3853167183,385612781,3309519750,3612167578,1429418854,2491778321,3477423498,284817897,100794884,2172616702,4031795360,1144798328,3131023141,3819481163,4082192802,4272137053,3225436288,2324664069,2912064063,3164445985,1211644016,83228145,3753688163,3249976951,1977277103,1663115586,806359072,452984805,250868733,1842533055,1288555905,336333848,890442534,804056259,3781124030,2727843637,3427026056,957814574,1472513171,4071073621,2189328124,1195195770,2892260552,3881655738,723065138,2507371494,2690670784,2558624025,3511635870,2145180835,1713513028,2116692564,2878378043,2206763019,3393603212,703524551,3552098411,1007948840,2044649127,3797835452,487262998,1994120109,1004593371,1446130276,1312438900,503974420,3679013266,168166924,1814307912,3831258296,1573044895,1859376061,4021070915,2791465668,2828112185,2761266481,937747667,2339994098,854058965,1137232011,1496790894,3077402074,2358086913,1691735473,3528347292,3769215305,3027004632,4199962284,133494003,636152527,2942657994,2390391540,3920539207,403179536,3585784431,2289596656,1864705354,1915629148,605822008,4054230615,3350508659,1371981463,602466507,2094914977,2624877800,555687742,3712699286,3703422305,2257292045,2240449039,2423288032,1111375484,3300242801,2858837708,3628615824,84083462,32962295,302911004,2741068226,1597322602,4183250862,3501832553,2441512471,1489093017,656219450,3114180135,954327513,335083755,3013122091,856756514,3144247762,1893325225,2307821063,2811532339,3063651117,572399164,2458355477,552200649,1238290055,4283782570,2015897680,2061492133,2408352771,4171342169,2156497161,386731290,3669999461,837215959,3326231172,3093850320,3275833730,2962856233,1999449434,286199582,3417354363,4233385128,3602627437,974525996],t.t)
 B.bmZ=s(["Muscula\xe7\xe3o","Treino em casa"],t.s)
-B.P6=s([6430,6400,6400,6400,3225,3225,3225,3225,944,944,944,944,976,976,976,976,1456,1456,1456,1456,1488,1488,1488,1488,718,718,718,718,718,718,718,718,750,750,750,750,750,750,750,750,1520,1520,1520,1520,1552,1552,1552,1552,428,428,428,428,428,428,428,428,428,428,428,428,428,428,428,428,654,654,654,654,654,654,654,654,1072,1072,1072,1072,1104,1104,1104,1104,1136,1136,1136,1136,1168,1168,1168,1168,1200,1200,1200,1200,1232,1232,1232,1232,622,622,622,622,622,622,622,622,1008,1008,1008,1008,1040,1040,1040,1040,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,1712,1712,1712,1712,1744,1744,1744,1744,846,846,846,846,846,846,846,846,1264,1264,1264,1264,1296,1296,1296,1296,1328,1328,1328,1328,1360,1360,1360,1360,1392,1392,1392,1392,1424,1424,1424,1424,686,686,686,686,686,686,686,686,910,910,910,910,910,910,910,910,1968,1968,1968,1968,2000,2000,2000,2000,2032,2032,2032,2032,16,16,16,16,10257,10257,10257,10257,12305,12305,12305,12305,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,878,878,878,878,878,878,878,878,1904,1904,1904,1904,1936,1936,1936,1936,-18413,-18413,-16365,-16365,-14317,-14317,-10221,-10221,590,590,590,590,590,590,590,590,782,782,782,782,782,782,782,782,1584,1584,1584,1584,1616,1616,1616,1616,1648,1648,1648,1648,1680,1680,1680,1680,814,814,814,814,814,814,814,814,1776,1776,1776,1776,1808,1808,1808,1808,1840,1840,1840,1840,1872,1872,1872,1872,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,14353,14353,14353,14353,16401,16401,16401,16401,22547,22547,24595,24595,20497,20497,20497,20497,18449,18449,18449,18449,26643,26643,28691,28691,30739,30739,-32749,-32749,-30701,-30701,-28653,-28653,-26605,-26605,-24557,-24557,-22509,-22509,-20461,-20461,8207,8207,8207,8207,8207,8207,8207,8207,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,524,524,524,524,524,524,524,524,524,524,524,524,524,524,524,524,556,556,556,556,556,556,556,556,556,556,556,556,556,556,556,556,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232],t.t)
+B.P7=s([6430,6400,6400,6400,3225,3225,3225,3225,944,944,944,944,976,976,976,976,1456,1456,1456,1456,1488,1488,1488,1488,718,718,718,718,718,718,718,718,750,750,750,750,750,750,750,750,1520,1520,1520,1520,1552,1552,1552,1552,428,428,428,428,428,428,428,428,428,428,428,428,428,428,428,428,654,654,654,654,654,654,654,654,1072,1072,1072,1072,1104,1104,1104,1104,1136,1136,1136,1136,1168,1168,1168,1168,1200,1200,1200,1200,1232,1232,1232,1232,622,622,622,622,622,622,622,622,1008,1008,1008,1008,1040,1040,1040,1040,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,396,1712,1712,1712,1712,1744,1744,1744,1744,846,846,846,846,846,846,846,846,1264,1264,1264,1264,1296,1296,1296,1296,1328,1328,1328,1328,1360,1360,1360,1360,1392,1392,1392,1392,1424,1424,1424,1424,686,686,686,686,686,686,686,686,910,910,910,910,910,910,910,910,1968,1968,1968,1968,2000,2000,2000,2000,2032,2032,2032,2032,16,16,16,16,10257,10257,10257,10257,12305,12305,12305,12305,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,330,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,878,878,878,878,878,878,878,878,1904,1904,1904,1904,1936,1936,1936,1936,-18413,-18413,-16365,-16365,-14317,-14317,-10221,-10221,590,590,590,590,590,590,590,590,782,782,782,782,782,782,782,782,1584,1584,1584,1584,1616,1616,1616,1616,1648,1648,1648,1648,1680,1680,1680,1680,814,814,814,814,814,814,814,814,1776,1776,1776,1776,1808,1808,1808,1808,1840,1840,1840,1840,1872,1872,1872,1872,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,6157,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,-12275,14353,14353,14353,14353,16401,16401,16401,16401,22547,22547,24595,24595,20497,20497,20497,20497,18449,18449,18449,18449,26643,26643,28691,28691,30739,30739,-32749,-32749,-30701,-30701,-28653,-28653,-26605,-26605,-24557,-24557,-22509,-22509,-20461,-20461,8207,8207,8207,8207,8207,8207,8207,8207,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,104,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,4107,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,266,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,298,524,524,524,524,524,524,524,524,524,524,524,524,524,524,524,524,556,556,556,556,556,556,556,556,556,556,556,556,556,556,556,556,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,136,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,168,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,460,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,2059,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232],t.t)
 B.bOO=new A.dr("progress","Acompanhei minhas fontes")
 B.bOE=new A.dr("partial","Li sobre um tema")
 B.bP_=new A.dr("adjust","Quero mudar meu foco")
@@ -185250,18 +185251,18 @@ B.t8=s([],t.V)
 B.zi=s([],t.GJ)
 B.boa=s([],A.ao("A<qS>"))
 B.bo0=s([],t.Ug)
-B.Pd=s([],A.ao("A<cqk>"))
+B.Pe=s([],A.ao("A<cqk>"))
 B.boi=s([],t.R)
 B.bo7=s([],t.Ib)
 B.boe=s([],t.fJ)
-B.Pa=s([],A.ao("A<o0>"))
+B.Pb=s([],A.ao("A<o0>"))
 B.boj=s([],t.ER)
 B.ckk=s([],t.ss)
 B.bo2=s([],t.m0)
 B.bo6=s([],t.H7)
-B.P8=s([],t.tc)
+B.P9=s([],t.tc)
 B.t7=s([],t.jl)
-B.P9=s([],t.wi)
+B.Pa=s([],t.wi)
 B.boc=s([],A.ao("A<rn<@>>"))
 B.bo9=s([],t.zU)
 B.bob=s([],t.Di)
@@ -185270,7 +185271,7 @@ B.zj=s([],t.AO)
 B.bnZ=s([],t.D1)
 B.t9=s([],t.QF)
 B.bo4=s([],t.An)
-B.Pc=s([],t.gH)
+B.Pd=s([],t.gH)
 B.bo5=s([],t.eo)
 B.zk=s([],t.Qg)
 B.bo3=s([],t.Lx)
@@ -185292,15 +185293,15 @@ B.bOu=new A.dr("partial","Avancei em uma parte")
 B.bOI=new A.dr("adjust","Travei e preciso rever")
 B.boG=s([B.bOQ,B.bOu,B.bOI],t.xV)
 B.boN=s(["female","male"],t.s)
-B.Pf=s(["Resposta perigosa ou inadequada","Informa\xe7\xe3o incorreta","Conte\xfado ofensivo","Outro motivo"],t.s)
+B.Pg=s(["Resposta perigosa ou inadequada","Informa\xe7\xe3o incorreta","Conte\xfado ofensivo","Outro motivo"],t.s)
 B.bU1=new A.eb(["calories_kcal","Energia","kcal",1e4])
 B.bUg=new A.eb(["protein_g","Prote\xednas","g",1000])
 B.bU2=new A.eb(["carbs_g","Carboidratos","g",2000])
 B.bU6=new A.eb(["fat_g","Gorduras","g",1000])
 B.bU7=new A.eb(["fiber_g","Fibras","g",200])
 B.zm=s([B.bU1,B.bUg,B.bU2,B.bU6,B.bU7],A.ao("A<+(f,f,f,t)>"))
-B.Pg=s(["S","M","T","W","T","F","S"],t.s)
-B.cgN=new A.rZ("Foto da refei\xe7\xe3o",B.OO,B.zp,B.Pk)
+B.Ph=s(["S","M","T","W","T","F","S"],t.s)
+B.cgN=new A.rZ("Foto da refei\xe7\xe3o",B.OO,B.zp,B.Pl)
 B.bpz=s([B.cgN],t.es)
 B.bqp=s([0,1,2,3,6,4,5,6,6,6,6,6,6,6,6,7,0],t.t)
 B.bP7=new A.y_(0,"none")
@@ -185308,7 +185309,7 @@ B.bP8=new A.y_(1,"sub")
 B.bP9=new A.y_(2,"up")
 B.bPa=new A.y_(3,"average")
 B.bPb=new A.y_(4,"paeth")
-B.Pi=s([B.bP7,B.bP8,B.bP9,B.bPa,B.bPb],A.ao("A<y_>"))
+B.Pj=s([B.bP7,B.bP8,B.bP9,B.bPa,B.bPb],A.ao("A<y_>"))
 B.bSm=new A.V("Prote\xednas","protein_g")
 B.bQj=new A.V("Carboidratos","carbs_g")
 B.bQy=new A.V("Gorduras","fat_g")
@@ -185322,7 +185323,7 @@ B.br2=s([B.a9I],t.V)
 B.br5=s([B.a1P,B.a1R,B.a1S,B.a1T,B.a1U,B.a1V,B.a1W,B.a1X,B.a1Y,B.a1Z,B.a1N,B.a1O],t.JN)
 B.anv=new A.c7("beginner","Estou come\xe7ando","Prefiro movimentos simples e volume inicial menor.")
 B.anh=new A.c7("some_experience","J\xe1 tenho alguma experi\xeancia","Conhe\xe7o os movimentos b\xe1sicos e consigo seguir uma rotina.")
-B.Pm=s([B.anv,B.anh],t.Sq)
+B.Pn=s([B.anv,B.anh],t.Sq)
 B.bOW=new A.dr("progress","Avancei")
 B.bOR=new A.dr("partial","Fiz um pouco")
 B.bOF=new A.dr("adjust","Quero ajustar")
@@ -185465,8 +185466,8 @@ B.bhK=s([B.a4q,B.cb,B.oK,B.c5],t.Y)
 B.a6p=new A.cc("session","Agenda e sess\xf5es","Registre minutos estudados e marque a sess\xe3o como realizada para somar ao resumo. Para planejar, use Minha agenda.",B.j9,B.bhK,!0)
 B.CE=new A.b0("title","Pergunta",B.aJ,B.T,!0,0,1e8)
 B.a3M=new A.b0("answer","Resposta",B.cq,B.T,!0,0,1e8)
-B.Pl=s([B.CE,B.a3M],t.Y)
-B.a6Z=new A.cc("card","Revis\xf5es","Crie cart\xf5es e revise por repeti\xe7\xe3o espa\xe7ada.",B.mL,B.Pl,!1)
+B.Pm=s([B.CE,B.a3M],t.Y)
+B.a6Z=new A.cc("card","Revis\xf5es","Crie cart\xf5es e revise por repeti\xe7\xe3o espa\xe7ada.",B.mL,B.Pm,!1)
 B.a4h=new A.b0("title","Mat\xe9ria",B.aJ,B.T,!0,0,1e8)
 B.CC=new A.b0("total","Quest\xf5es feitas",B.cx,B.T,!0,1,1e8)
 B.CF=new A.b0("correct","Acertos",B.cx,B.T,!0,0,1e8)
@@ -185493,7 +185494,7 @@ B.aoW=new A.J(61044,"MaterialIcons",!1)
 B.a3H=new A.b0("board","Banca",B.aJ,B.T,!1,0,1e8)
 B.bxc=s([B.CJ,B.a3H,B.CC,B.CF,B.cb],t.Y)
 B.a6I=new A.cc("exercise","Desempenho","Acompanhe acertos por disciplina e banca.",B.aoW,B.bxc,!1)
-B.a6o=new A.cc("card","Revis\xf5es","Reforce pontos dif\xedceis com cart\xf5es.",B.mL,B.Pl,!1)
+B.a6o=new A.cc("card","Revis\xf5es","Reforce pontos dif\xedceis com cart\xf5es.",B.mL,B.Pm,!1)
 B.bhX=s([B.a6y,B.a6M,B.a6I,B.a6o],t.UB)
 B.bYD=new A.eK("concursos","NEXO Concursos","Seu edital, um passo de cada vez.","Tutor de concursos","Ajude com meu edital, d\xfavidas e revis\xe3o usando o material que eu enviar. N\xe3o invente pesos, datas, regras ou perfil de banca. Ao criar quest\xf5es, identifique-as como autorais criadas por IA e aguarde minha tentativa antes de revelar a resposta; n\xe3o atribua quest\xf5es inventadas a provas reais. Para normas atuais, pe\xe7a o texto atualizado e recomende confer\xeancia oficial.",B.bCM,B.bhX)
 B.bgd=s(["Ingl\xeas","Espanhol","Franc\xeas","Italiano","Alem\xe3o"],t.s)
@@ -185750,18 +185751,18 @@ B.bdR=s([249,253,253,255,255,255,255,255,255,255,255],t.t)
 B.biA=s([B.bi6,B.bAL,B.bdR],t.r)
 B.bh2=s([255,244,252,255,255,255,255,255,255,255,255],t.t)
 B.bgw=s([234,254,254,255,255,255,255,255,255,255,255],t.t)
-B.Pt=s([253,255,255,255,255,255,255,255,255,255,255],t.t)
-B.bef=s([B.bh2,B.bgw,B.Pt],t.r)
+B.Pu=s([253,255,255,255,255,255,255,255,255,255,255],t.t)
+B.bef=s([B.bh2,B.bgw,B.Pu],t.r)
 B.bwU=s([255,246,254,255,255,255,255,255,255,255,255],t.t)
 B.bmE=s([239,253,254,255,255,255,255,255,255,255,255],t.t)
-B.Pn=s([254,255,254,255,255,255,255,255,255,255,255],t.t)
-B.bs4=s([B.bwU,B.bmE,B.Pn],t.r)
+B.Po=s([254,255,254,255,255,255,255,255,255,255,255],t.t)
+B.bs4=s([B.bwU,B.bmE,B.Po],t.r)
 B.OG=s([255,248,254,255,255,255,255,255,255,255,255],t.t)
 B.bf7=s([251,255,254,255,255,255,255,255,255,255,255],t.t)
 B.bjL=s([B.OG,B.bf7,B.eQ],t.r)
 B.yR=s([255,253,254,255,255,255,255,255,255,255,255],t.t)
 B.bjF=s([251,254,254,255,255,255,255,255,255,255,255],t.t)
-B.bfo=s([B.yR,B.bjF,B.Pn],t.r)
+B.bfo=s([B.yR,B.bjF,B.Po],t.r)
 B.b_c=s([255,254,253,255,254,255,255,255,255,255,255],t.t)
 B.bgV=s([250,255,254,255,254,255,255,255,255,255,255],t.t)
 B.ta=s([254,255,255,255,255,255,255,255,255,255,255],t.t)
@@ -185783,7 +185784,7 @@ B.bjf=s([B.btZ,B.bjD,B.eQ],t.r)
 B.b3V=s([252,255,255,255,255,255,255,255,255,255,255],t.t)
 B.aUf=s([B.yR,B.b3V,B.eQ],t.r)
 B.Pv=s([255,254,254,255,255,255,255,255,255,255,255],t.t)
-B.b7i=s([B.Pv,B.Pt,B.eQ],t.r)
+B.b7i=s([B.Pv,B.Pu,B.eQ],t.r)
 B.blI=s([255,254,253,255,255,255,255,255,255,255,255],t.t)
 B.OM=s([250,255,255,255,255,255,255,255,255,255,255],t.t)
 B.b3R=s([B.blI,B.OM,B.ta],t.r)
@@ -185839,7 +185840,7 @@ B.a86=new A.jN(10,"reserved10")
 B.a87=new A.jN(11,"cmyk")
 B.a88=new A.jN(12,"cmykRle8")
 B.a89=new A.jN(13,"cmykRle4")
-B.Po=s([B.D0,B.a85,B.a8a,B.vv,B.a8b,B.a8c,B.vw,B.a8d,B.a8e,B.a8f,B.a86,B.a87,B.a88,B.a89],A.ao("A<jN>"))
+B.Pp=s([B.D0,B.a85,B.a8a,B.vv,B.a8b,B.a8c,B.vw,B.a8d,B.a8e,B.a8f,B.a86,B.a87,B.a88,B.a89],A.ao("A<jN>"))
 B.nj=s([B.iI,B.f4,B.oL,B.oM,B.vp],t.QP)
 B.bEG=new A.fc("application/pdf","%PDF",null)
 B.bEE=new A.fc("application/postscript","%Q",null)
@@ -185872,10 +185873,10 @@ B.bEP=new A.fc("image/heic","\x00\x00\x00\x00ftypheix","\x00\x00\x00\x00\xff\xff
 B.bET=new A.fc("image/heif","\x00\x00\x00\x00ftypmif1","\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff")
 B.btW=s([B.bEG,B.bEE,B.bEZ,B.bF1,B.bEL,B.bEV,B.bEH,B.bEJ,B.bED,B.bEK,B.bEU,B.bEM,B.bEQ,B.bEX,B.bEI,B.bEW,B.bEN,B.bEB,B.bEC,B.bF2,B.bEO,B.bER,B.bES,B.bEY,B.bF0,B.bEF,B.bF_,B.bEP,B.bET],t.gg)
 B.zq=s([0,128,192,224,240,248,252,254,255],t.t)
-B.Pq=s([137,80,78,71,13,10,26,10],t.t)
+B.Pr=s([137,80,78,71,13,10,26,10],t.t)
 B.zr=s([0,1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767,65535,131071,262143,524287,1048575,2097151,4194303,8388607,16777215,33554431,67108863,134217727,268435455,536870911,1073741823,2147483647,4294967295],t.t)
 B.buw=s([3,4,5,6,7,8,9,10,11,13,15,17,19,23,27,31,35,43,51,59,67,83,99,115,131,163,195,227,258],t.t)
-B.Pr=s([B.h2,B.k1,B.CS,B.oN,B.CT],A.ao("A<mz>"))
+B.Ps=s([B.h2,B.k1,B.CS,B.oN,B.CT],A.ao("A<mz>"))
 B.bv9=s([1,2,3,4,5,7,9,13,17,25,33,49,65,97,129,193,257,385,513,769,1025,1537,2049,3073,4097,6145,8193,12289,16385,24577],t.t)
 B.af7=new A.E(1,0.10196078431372549,0.16470588235294117,0.2823529411764706,B.w)
 B.acA=new A.E(1,0.20392156862745098,0.12549019607843137,0.23529411764705882,B.w)
@@ -185885,7 +185886,6 @@ B.cf2=new A.Ea(1,"crossColor")
 B.cf3=new A.Ea(2,"subtractGreen")
 B.a2d=new A.Ea(3,"colorIndexing")
 B.bwu=s([B.a2c,B.cf2,B.cf3,B.a2d],A.ao("A<Ea>"))
-B.Pu=s(["Registre refei\xe7\xf5es e acompanhe seu dia.","Encontre ideias e salve suas favoritas.","Organize o que preparar e comprar.","Acompanhe refei\xe7\xf5es prontas ou fora de casa."],t.s)
 B.b7n=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
 B.bmX=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.bet=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
@@ -185895,8 +185895,8 @@ B.bZw=new A.cQ("Principais destaques","Quais s\xe3o as not\xedcias mais relevant
 B.bZG=new A.cQ("Explicar not\xedcia","Poderia me explicar o contexto e o impacto desta not\xedcia de forma neutra? ",B.fO)
 B.c_2=new A.cQ("Impacto no bolso","Como a atual situa\xe7\xe3o econ\xf4mica afeta a infla\xe7\xe3o e o custo de vida no dia a dia?",B.mQ)
 B.bwE=s([B.bZw,B.bZG,B.c_2],t.ZM)
-B.c7m=new A.F("Excluir cart\xe3o",null,null,null,null,null,null,null,null,null)
-B.bPm=new A.j2("delete",48,null,B.c7m,null,t.wI)
+B.c7n=new A.F("Excluir cart\xe3o",null,null,null,null,null,null,null,null,null)
+B.bPm=new A.j2("delete",48,null,B.c7n,null,t.wI)
 B.bwF=s([B.bPm],t.Do)
 B.bwI=s([45,95,45,20,45,90,45,45,45],t.n)
 B.bwP=s([120,120,20,45,20,15,20,120,120],t.n)
@@ -185904,7 +185904,6 @@ B.lz=new A.JS(0,"butt")
 B.lA=new A.JS(1,"round")
 B.a0q=new A.JS(2,"square")
 B.bxs=s([B.lz,B.lA,B.a0q],A.ao("A<JS>"))
-B.Pz=s(["Di\xe1rio alimentar","Receitas","Refei\xe7\xf5es e compras","Comer fora"],t.s)
 B.bxU=s(["sem_sal","com_sal","sem_pele"],t.s)
 B.lc=new A.n4(0,"controlModifier")
 B.ld=new A.n4(1,"shiftModifier")
@@ -185915,22 +185914,23 @@ B.zN=new A.n4(5,"numLockModifier")
 B.zO=new A.n4(6,"scrollLockModifier")
 B.zP=new A.n4(7,"functionModifier")
 B.V0=new A.n4(8,"symbolModifier")
-B.PB=s([B.lc,B.ld,B.le,B.lf,B.zM,B.zN,B.zO,B.zP,B.V0],A.ao("A<n4>"))
+B.PA=s([B.lc,B.ld,B.le,B.lf,B.zM,B.zN,B.zO,B.zP,B.V0],A.ao("A<n4>"))
 B.anr=new A.c7("not_sure","Ainda n\xe3o sei","O plano come\xe7a com atividades leves para descobrir seu ritmo.")
 B.an9=new A.c7("beginner","Iniciante","Estou construindo a base e quero praticar o essencial.")
 B.an0=new A.c7("intermediate","Intermedi\xe1rio","J\xe1 consigo usar o idioma em algumas situa\xe7\xf5es.")
 B.anw=new A.c7("advanced","Avan\xe7ado","Quero trabalhar nuances, flu\xeancia e precis\xe3o.")
-B.PC=s([B.anr,B.an9,B.an0,B.anw],t.Sq)
+B.PB=s([B.anr,B.an9,B.an0,B.anw],t.Sq)
 B.bzb=s([73,67,67,95,80,82,79,70,73,76,69,0],t.t)
 B.zs=s([!0,!1],t.HZ)
 B.bzQ=s([A.cpn(),A.cph(),A.cpx(),A.cpv(),A.cpp(),A.cpo(),A.cpq()],t.ox)
-B.PD=s([0,4,8,12,128,132,136,140,256,260,264,268,384,388,392,396],t.t)
+B.PC=s([0,4,8,12,128,132,136,140,256,260,264,268,384,388,392,396],t.t)
 B.aeO=new A.E(0.14901960784313725,0,0,0,B.w)
 B.fU=new A.x(0,3)
 B.a9M=new A.cu(0,B.b5,B.aeO,B.fU,8)
 B.agT=new A.E(0.058823529411764705,0,0,0,B.w)
 B.a9V=new A.cu(0,B.b5,B.agT,B.fU,1)
 B.bzV=s([B.a9M,B.a9V],t.V)
+B.PD=s(["Registre refei\xe7\xf5es e acompanhe seu dia.","Encontre ideias e salve suas favoritas.","Organize o que preparar e comprar.","Registre marmitas, delivery e refei\xe7\xf5es de restaurante."],t.s)
 B.bzZ=s([null,A.cpO(),A.cpP(),A.cpN()],A.ao("A<~(t,t,t,t,t,dR)?>"))
 B.c_3=new A.cQ("Receita r\xe1pida","Tenho os seguintes ingredientes em casa. O que posso cozinhar em 20 minutos? ",B.mP)
 B.aq_=new A.J(63020,"MaterialIcons",!1)
@@ -187330,7 +187330,7 @@ B.bzv=s(["tiff","tif"],t.s)
 B.bwb=s(["psd"],t.s)
 B.bA8=s(["uvi","uvg","uvvg","uvvi"],t.s)
 B.bnf=s(["djvu","djv"],t.s)
-B.PA=s(["sub"],t.s)
+B.Pz=s(["sub"],t.s)
 B.bnC=s(["dwg"],t.s)
 B.bnD=s(["dxf"],t.s)
 B.boI=s(["fbs"],t.s)
@@ -187458,7 +187458,7 @@ B.bl_=s(["avi"],t.s)
 B.btg=s(["movie"],t.s)
 B.byn=s(["smv"],t.s)
 B.bqs=s(["ice"],t.s)
-B.bFz=new A.bh(B.bHj,[B.bow,B.bl2,B.bkV,B.bkW,B.bkX,B.blV,B.blY,B.blZ,B.bm_,B.bm0,B.bm1,B.bmO,B.bn3,B.bn5,B.bn4,B.bnt,B.bBX,B.bnQ,B.bnY,B.bom,B.bou,B.bvC,B.bpD,B.bpH,B.bpU,B.byL,B.bqG,B.bqJ,B.br7,B.bxY,B.bmk,B.brl,B.brm,B.bsj,B.bqh,B.bmD,B.bsF,B.bBc,B.bts,B.btt,B.btS,B.bsI,B.bsL,B.btu,B.bsU,B.bsT,B.bsV,B.bte,B.bth,B.btj,B.bnj,B.btH,B.beV,B.bul,B.buF,B.buz,B.buC,B.buD,B.buU,B.bC0,B.bvu,B.bvF,B.bkQ,B.bw8,B.buW,B.bv1,B.bv3,B.bv4,B.bku,B.bm5,B.bmH,B.bvK,B.bvJ,B.bvP,B.bw9,B.bmT,B.bwd,B.bwW,B.bx2,B.bxd,B.bx5,B.bx7,B.bxj,B.bpm,B.bsX,B.bxe,B.bxk,B.bxl,B.bxm,B.bxF,B.bxJ,B.bxK,B.byw,B.byv,B.bxQ,B.bxZ,B.by_,B.by7,B.bym,B.bxi,B.byB,B.bpJ,B.bpO,B.byA,B.byC,B.byF,B.bzm,B.bzp,B.bzG,B.bzz,B.bvL,B.bwa,B.bwi,B.bzi,B.bwk,B.bkT,B.bqE,B.bky,B.bkU,B.bkE,B.boJ,B.bpa,B.bBW,B.bC1,B.bkC,B.bl3,B.bl4,B.bl5,B.bkw,B.bkI,B.bkK,B.bmh,B.bp7,B.bkY,B.btl,B.bsw,B.byZ,B.bqI,B.bkA,B.btm,B.bls,B.bwY,B.bm3,B.bt9,B.bm4,B.bmj,B.bxf,B.bAP,B.blF,B.blG,B.bmL,B.blW,B.bms,B.bmq,B.bmm,B.bmn,B.bmo,B.bmp,B.bB7,B.bvR,B.bw_,B.blP,B.bvr,B.bwX,B.bA6,B.bAc,B.bAf,B.bAg,B.boM,B.bni,B.bt8,B.bnq,B.bnc,B.brU,B.bkF,B.byU,B.bpq,B.bsG,B.bu1,B.bop,B.btx,B.bwx,B.byj,B.byE,B.bon,B.box,B.boy,B.boL,B.btv,B.bxT,B.bpG,B.bp6,B.bp_,B.bp0,B.bsm,B.bp3,B.buh,B.buf,B.bug,B.boO,B.blq,B.bn8,B.bBY,B.bBS,B.bpb,B.bzO,B.bps,B.bpt,B.bpu,B.bpr,B.bpV,B.bpc,B.bpe,B.bpE,B.brP,B.brQ,B.bpI,B.bpj,B.bpw,B.bpy,B.bpN,B.bpR,B.bzB,B.bAx,B.bq5,B.bD3,B.bq6,B.bse,B.bqe,B.bqf,B.bqg,B.brd,B.bvp,B.bvq,B.bz8,B.btp,B.bkB,B.bqL,B.bxG,B.bqr,B.bqy,B.bqQ,B.bqR,B.bqz,B.bCl,B.bqo,B.bwy,B.bwz,B.bwV,B.bqM,B.bCj,B.boK,B.br6,B.bxa,B.brc,B.brf,B.brY,B.brD,B.bmf,B.brH,B.boX,B.brS,B.brT,B.brW,B.bs_,B.bqi,B.brL,B.brR,B.byg,B.byD,B.bs8,B.bsa,B.bsb,B.b1K,B.bkO,B.bw7,B.bu7,B.buJ,B.bxI,B.bso,B.bvV,B.bsN,B.bsM,B.blX,B.btG,B.bsW,B.boU,B.bqC,B.bt2,B.bn1,B.bne,B.bsK,B.btr,B.btz,B.bvN,B.bzP,B.btn,B.btk,B.bCp,B.bmi,B.blM,B.bp4,B.bC5,B.bC7,B.bC8,B.bCa,B.bol,B.bmd,B.bqF,B.bsl,B.bzu,B.blS,B.byM,B.bw3,B.bvZ,B.bw4,B.byh,B.bw1,B.bvX,B.bto,B.bnk,B.bnm,B.bBA,B.bBz,B.bCk,B.btw,B.btB,B.btA,B.bzf,B.bu0,B.bu8,B.bu2,B.bu3,B.bu4,B.btY,B.bdN,B.bxh,B.bxg,B.bnR,B.bnS,B.bov,B.bun,B.buM,B.bum,B.buo,B.bup,B.buq,B.buO,B.bur,B.buQ,B.but,B.buR,B.buu,B.buS,B.buv,B.bus,B.buT,B.buP,B.bCe,B.bn7,B.buV,B.bw5,B.byi,B.bw2,B.bvY,B.bC9,B.bCb,B.bnl,B.bnn,B.bsZ,B.bno,B.boo,B.bvt,B.bvk,B.byN,B.bnV,B.bnT,B.bBe,B.bvO,B.bvl,B.blu,B.bt_,B.bwC,B.bwf,B.brM,B.blm,B.btI,B.btC,B.bmI,B.bmy,B.bx8,B.bxb,B.bsg,B.byG,B.bxS,B.bxV,B.bxW,B.bxX,B.bqx,B.bqO,B.bqD,B.bqK,B.bzN,B.bta,B.bzl,B.bxP,B.bnE,B.by0,B.bxN,B.bxM,B.bxO,B.byl,B.bxR,B.by3,B.byo,B.byk,B.bz0,B.byH,B.bz1,B.byI,B.bz3,B.byK,B.bz4,B.bz5,B.bz2,B.byP,B.byR,B.byV,B.bya,B.bCn,B.blj,B.bBV,B.bzg,B.bvn,B.bzx,B.bzC,B.btK,B.bzD,B.bzU,B.bA3,B.bzX,B.bzY,B.bA_,B.bAz,B.bAH,B.bAB,B.bAI,B.bB8,B.bBp,B.bBr,B.bBF,B.btT,B.bBy,B.bBB,B.byJ,B.bBQ,B.bC2,B.bql,B.bqn,B.bqm,B.buK,B.buL,B.bxB,B.byr,B.bmv,B.bD1,B.bCX,B.bAK,B.bB1,B.bBg,B.bqc,B.bBD,B.bBE,B.bfD,B.bkt,B.bkx,B.bnh,B.bko,B.bkq,B.bkr,B.blh,B.bzA,B.blr,B.blD,B.blE,B.bh1,B.bAv,B.bm6,B.bm8,B.bvE,B.bu6,B.bmC,B.bmJ,B.bna,B.bnd,B.bgM,B.bB_,B.btV,B.bnu,B.bwZ,B.bnz,B.bot,B.bos,B.bli,B.bpP,B.bwc,B.bvo,B.byp,B.bvA,B.bkP,B.byt,B.bpn,B.bzW,B.bpF,B.bpK,B.bpQ,B.bq7,B.bqH,B.bqN,B.bre,B.bs9,B.bsr,B.bt1,B.bw6,B.bkN,B.bsi,B.bBm,B.bBu,B.bBR,B.bsQ,B.buj,B.bmF,B.bmr,B.biB,B.btF,B.bBn,B.btd,B.bwg,B.bxH,B.bzE,B.bBC,B.btU,B.bua,B.buX,B.bv0,B.bv2,B.bwS,B.bx4,B.by5,B.by6,B.byY,B.bBP,B.byx,B.byb,B.byc,B.byz,B.byS,B.byT,B.bz6,B.bpk,B.bzh,B.bzj,B.bzn,B.bzq,B.bzo,B.buk,B.bA2,B.byy,B.bnb,B.boP,B.bC6,B.bCg,B.bCu,B.bBL,B.bBO,B.bBU,B.bC_,B.bC3,B.bCd,B.bnv,B.bCf,B.bCh,B.bCm,B.bCo,B.btJ,B.bCF,B.bCH,B.bD0,B.bkp,B.bkz,B.bkZ,B.bt0,B.bsx,B.biy,B.bux,B.bxr,B.by9,B.bA5,B.bok,B.bnr,B.bnw,B.bnx,B.bsn,B.bwl,B.bnN,B.bnO,B.bnP,B.bx3,B.bBa,B.bkD,B.blN,B.boS,B.bt5,B.bsv,B.bB5,B.bBl,B.bwR,B.bx9,B.bB4,B.bCc,B.bm2,B.bmg,B.bmt,B.bmu,B.bmK,B.bCt,B.bzI,B.buN,B.bzJ,B.bBw,B.bBx,B.bl0,B.blt,B.bm7,B.bpd,B.bpx,B.bq9,B.bqa,B.bqw,B.brg,B.bro,B.brX,B.bvS,B.blx,B.by2,B.byW,B.bzv,B.bwb,B.bA8,B.bnf,B.PA,B.bnC,B.bnD,B.boI,B.bp1,B.bp5,B.btb,B.bx6,B.bsR,B.bB9,B.bu5,B.bB6,B.bC4,B.bBd,B.baR,B.bwT,B.bmw,B.bgT,B.bqt,B.by8,B.bvs,B.bvG,B.bvU,B.bvm,B.bvD,B.bw0,B.bx_,B.bzs,B.bBT,B.bCi,B.bCq,B.bnX,B.bpC,B.bpB,B.bqB,B.bty,B.bn0,B.bnB,B.bpo,B.bpS,B.bAJ,B.bAG,B.bBI,B.bBJ,B.bBH,B.bkL,B.bqu,B.bmM,B.bmN,B.bqj,B.brk,B.bsP,B.btO,B.b7a,B.bns,B.bxn,B.by4,B.bzH,B.bgh,B.bzK,B.bA0,B.bAu,B.bmQ,B.bn6,B.bsO,B.bxL,B.PA,B.boZ,B.boY,B.bpT,B.b7f,B.byu,B.br4,B.bBo,B.bBq,B.bkS,B.b7j,B.bn2,B.boH,B.br8,B.btX,B.buG,B.bvi,B.bor,B.by1,B.bA4,B.bAy,B.bAw,B.bAj,B.big,B.bpW,B.bpX,B.bpY,B.brh,B.bri,B.bt4,B.bzF,B.bti,B.bAn,B.buy,B.btf,B.bA7,B.bA9,B.bAa,B.bAb,B.bAe,B.bny,B.bp9,B.btM,B.bwm,B.bAd,B.bAC,B.bBb,B.boz,B.boT,B.boW,B.bsy,B.bt6,B.btc,B.bkR,B.bAF,B.bBj,B.bBs,B.bBt,B.bBG,B.bl_,B.btg,B.byn,B.bqs],t.AH)
+B.bFz=new A.bh(B.bHj,[B.bow,B.bl2,B.bkV,B.bkW,B.bkX,B.blV,B.blY,B.blZ,B.bm_,B.bm0,B.bm1,B.bmO,B.bn3,B.bn5,B.bn4,B.bnt,B.bBX,B.bnQ,B.bnY,B.bom,B.bou,B.bvC,B.bpD,B.bpH,B.bpU,B.byL,B.bqG,B.bqJ,B.br7,B.bxY,B.bmk,B.brl,B.brm,B.bsj,B.bqh,B.bmD,B.bsF,B.bBc,B.bts,B.btt,B.btS,B.bsI,B.bsL,B.btu,B.bsU,B.bsT,B.bsV,B.bte,B.bth,B.btj,B.bnj,B.btH,B.beV,B.bul,B.buF,B.buz,B.buC,B.buD,B.buU,B.bC0,B.bvu,B.bvF,B.bkQ,B.bw8,B.buW,B.bv1,B.bv3,B.bv4,B.bku,B.bm5,B.bmH,B.bvK,B.bvJ,B.bvP,B.bw9,B.bmT,B.bwd,B.bwW,B.bx2,B.bxd,B.bx5,B.bx7,B.bxj,B.bpm,B.bsX,B.bxe,B.bxk,B.bxl,B.bxm,B.bxF,B.bxJ,B.bxK,B.byw,B.byv,B.bxQ,B.bxZ,B.by_,B.by7,B.bym,B.bxi,B.byB,B.bpJ,B.bpO,B.byA,B.byC,B.byF,B.bzm,B.bzp,B.bzG,B.bzz,B.bvL,B.bwa,B.bwi,B.bzi,B.bwk,B.bkT,B.bqE,B.bky,B.bkU,B.bkE,B.boJ,B.bpa,B.bBW,B.bC1,B.bkC,B.bl3,B.bl4,B.bl5,B.bkw,B.bkI,B.bkK,B.bmh,B.bp7,B.bkY,B.btl,B.bsw,B.byZ,B.bqI,B.bkA,B.btm,B.bls,B.bwY,B.bm3,B.bt9,B.bm4,B.bmj,B.bxf,B.bAP,B.blF,B.blG,B.bmL,B.blW,B.bms,B.bmq,B.bmm,B.bmn,B.bmo,B.bmp,B.bB7,B.bvR,B.bw_,B.blP,B.bvr,B.bwX,B.bA6,B.bAc,B.bAf,B.bAg,B.boM,B.bni,B.bt8,B.bnq,B.bnc,B.brU,B.bkF,B.byU,B.bpq,B.bsG,B.bu1,B.bop,B.btx,B.bwx,B.byj,B.byE,B.bon,B.box,B.boy,B.boL,B.btv,B.bxT,B.bpG,B.bp6,B.bp_,B.bp0,B.bsm,B.bp3,B.buh,B.buf,B.bug,B.boO,B.blq,B.bn8,B.bBY,B.bBS,B.bpb,B.bzO,B.bps,B.bpt,B.bpu,B.bpr,B.bpV,B.bpc,B.bpe,B.bpE,B.brP,B.brQ,B.bpI,B.bpj,B.bpw,B.bpy,B.bpN,B.bpR,B.bzB,B.bAx,B.bq5,B.bD3,B.bq6,B.bse,B.bqe,B.bqf,B.bqg,B.brd,B.bvp,B.bvq,B.bz8,B.btp,B.bkB,B.bqL,B.bxG,B.bqr,B.bqy,B.bqQ,B.bqR,B.bqz,B.bCl,B.bqo,B.bwy,B.bwz,B.bwV,B.bqM,B.bCj,B.boK,B.br6,B.bxa,B.brc,B.brf,B.brY,B.brD,B.bmf,B.brH,B.boX,B.brS,B.brT,B.brW,B.bs_,B.bqi,B.brL,B.brR,B.byg,B.byD,B.bs8,B.bsa,B.bsb,B.b1K,B.bkO,B.bw7,B.bu7,B.buJ,B.bxI,B.bso,B.bvV,B.bsN,B.bsM,B.blX,B.btG,B.bsW,B.boU,B.bqC,B.bt2,B.bn1,B.bne,B.bsK,B.btr,B.btz,B.bvN,B.bzP,B.btn,B.btk,B.bCp,B.bmi,B.blM,B.bp4,B.bC5,B.bC7,B.bC8,B.bCa,B.bol,B.bmd,B.bqF,B.bsl,B.bzu,B.blS,B.byM,B.bw3,B.bvZ,B.bw4,B.byh,B.bw1,B.bvX,B.bto,B.bnk,B.bnm,B.bBA,B.bBz,B.bCk,B.btw,B.btB,B.btA,B.bzf,B.bu0,B.bu8,B.bu2,B.bu3,B.bu4,B.btY,B.bdN,B.bxh,B.bxg,B.bnR,B.bnS,B.bov,B.bun,B.buM,B.bum,B.buo,B.bup,B.buq,B.buO,B.bur,B.buQ,B.but,B.buR,B.buu,B.buS,B.buv,B.bus,B.buT,B.buP,B.bCe,B.bn7,B.buV,B.bw5,B.byi,B.bw2,B.bvY,B.bC9,B.bCb,B.bnl,B.bnn,B.bsZ,B.bno,B.boo,B.bvt,B.bvk,B.byN,B.bnV,B.bnT,B.bBe,B.bvO,B.bvl,B.blu,B.bt_,B.bwC,B.bwf,B.brM,B.blm,B.btI,B.btC,B.bmI,B.bmy,B.bx8,B.bxb,B.bsg,B.byG,B.bxS,B.bxV,B.bxW,B.bxX,B.bqx,B.bqO,B.bqD,B.bqK,B.bzN,B.bta,B.bzl,B.bxP,B.bnE,B.by0,B.bxN,B.bxM,B.bxO,B.byl,B.bxR,B.by3,B.byo,B.byk,B.bz0,B.byH,B.bz1,B.byI,B.bz3,B.byK,B.bz4,B.bz5,B.bz2,B.byP,B.byR,B.byV,B.bya,B.bCn,B.blj,B.bBV,B.bzg,B.bvn,B.bzx,B.bzC,B.btK,B.bzD,B.bzU,B.bA3,B.bzX,B.bzY,B.bA_,B.bAz,B.bAH,B.bAB,B.bAI,B.bB8,B.bBp,B.bBr,B.bBF,B.btT,B.bBy,B.bBB,B.byJ,B.bBQ,B.bC2,B.bql,B.bqn,B.bqm,B.buK,B.buL,B.bxB,B.byr,B.bmv,B.bD1,B.bCX,B.bAK,B.bB1,B.bBg,B.bqc,B.bBD,B.bBE,B.bfD,B.bkt,B.bkx,B.bnh,B.bko,B.bkq,B.bkr,B.blh,B.bzA,B.blr,B.blD,B.blE,B.bh1,B.bAv,B.bm6,B.bm8,B.bvE,B.bu6,B.bmC,B.bmJ,B.bna,B.bnd,B.bgM,B.bB_,B.btV,B.bnu,B.bwZ,B.bnz,B.bot,B.bos,B.bli,B.bpP,B.bwc,B.bvo,B.byp,B.bvA,B.bkP,B.byt,B.bpn,B.bzW,B.bpF,B.bpK,B.bpQ,B.bq7,B.bqH,B.bqN,B.bre,B.bs9,B.bsr,B.bt1,B.bw6,B.bkN,B.bsi,B.bBm,B.bBu,B.bBR,B.bsQ,B.buj,B.bmF,B.bmr,B.biB,B.btF,B.bBn,B.btd,B.bwg,B.bxH,B.bzE,B.bBC,B.btU,B.bua,B.buX,B.bv0,B.bv2,B.bwS,B.bx4,B.by5,B.by6,B.byY,B.bBP,B.byx,B.byb,B.byc,B.byz,B.byS,B.byT,B.bz6,B.bpk,B.bzh,B.bzj,B.bzn,B.bzq,B.bzo,B.buk,B.bA2,B.byy,B.bnb,B.boP,B.bC6,B.bCg,B.bCu,B.bBL,B.bBO,B.bBU,B.bC_,B.bC3,B.bCd,B.bnv,B.bCf,B.bCh,B.bCm,B.bCo,B.btJ,B.bCF,B.bCH,B.bD0,B.bkp,B.bkz,B.bkZ,B.bt0,B.bsx,B.biy,B.bux,B.bxr,B.by9,B.bA5,B.bok,B.bnr,B.bnw,B.bnx,B.bsn,B.bwl,B.bnN,B.bnO,B.bnP,B.bx3,B.bBa,B.bkD,B.blN,B.boS,B.bt5,B.bsv,B.bB5,B.bBl,B.bwR,B.bx9,B.bB4,B.bCc,B.bm2,B.bmg,B.bmt,B.bmu,B.bmK,B.bCt,B.bzI,B.buN,B.bzJ,B.bBw,B.bBx,B.bl0,B.blt,B.bm7,B.bpd,B.bpx,B.bq9,B.bqa,B.bqw,B.brg,B.bro,B.brX,B.bvS,B.blx,B.by2,B.byW,B.bzv,B.bwb,B.bA8,B.bnf,B.Pz,B.bnC,B.bnD,B.boI,B.bp1,B.bp5,B.btb,B.bx6,B.bsR,B.bB9,B.bu5,B.bB6,B.bC4,B.bBd,B.baR,B.bwT,B.bmw,B.bgT,B.bqt,B.by8,B.bvs,B.bvG,B.bvU,B.bvm,B.bvD,B.bw0,B.bx_,B.bzs,B.bBT,B.bCi,B.bCq,B.bnX,B.bpC,B.bpB,B.bqB,B.bty,B.bn0,B.bnB,B.bpo,B.bpS,B.bAJ,B.bAG,B.bBI,B.bBJ,B.bBH,B.bkL,B.bqu,B.bmM,B.bmN,B.bqj,B.brk,B.bsP,B.btO,B.b7a,B.bns,B.bxn,B.by4,B.bzH,B.bgh,B.bzK,B.bA0,B.bAu,B.bmQ,B.bn6,B.bsO,B.bxL,B.Pz,B.boZ,B.boY,B.bpT,B.b7f,B.byu,B.br4,B.bBo,B.bBq,B.bkS,B.b7j,B.bn2,B.boH,B.br8,B.btX,B.buG,B.bvi,B.bor,B.by1,B.bA4,B.bAy,B.bAw,B.bAj,B.big,B.bpW,B.bpX,B.bpY,B.brh,B.bri,B.bt4,B.bzF,B.bti,B.bAn,B.buy,B.btf,B.bA7,B.bA9,B.bAa,B.bAb,B.bAe,B.bny,B.bp9,B.btM,B.bwm,B.bAd,B.bAC,B.bBb,B.boz,B.boT,B.boW,B.bsy,B.bt6,B.btc,B.bkR,B.bAF,B.bBj,B.bBs,B.bBt,B.bBG,B.bl_,B.btg,B.byn,B.bqs],t.AH)
 B.bHx={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Esc:49,Escape:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.bFB=new A.bh(B.bHx,[458907,458873,458978,458982,458833,458832,458831,458834,458881,458879,458880,458805,458801,458794,458799,458800,786544,786543,786980,786986,786981,786979,786983,786977,786982,458809,458806,458853,458976,458980,458890,458876,458875,458828,458791,458782,458783,458784,458785,458786,458787,458788,458789,458790,65717,786616,458829,458792,458798,458793,458793,458810,458819,458820,458821,458856,458857,458858,458859,458860,458861,458862,458811,458863,458864,458865,458866,458867,458812,458813,458814,458815,458816,458817,458818,458878,18,19,392961,392970,392971,392972,392973,392974,392975,392976,392962,392963,392964,392965,392966,392967,392968,392969,392977,392978,392979,392980,392981,392982,392983,392984,392985,392986,392987,392988,392989,392990,392991,458869,458826,16,458825,458852,458887,458889,458888,458756,458757,458758,458759,458760,458761,458762,458763,458764,458765,458766,458767,458768,458769,458770,458771,458772,458773,458774,458775,458776,458777,458778,458779,458780,458781,787101,458896,458897,458898,458899,458900,786836,786834,786891,786847,786826,786865,787083,787081,787084,786611,786609,786608,786637,786610,786612,786819,786615,786613,786614,458979,458983,24,458797,458891,458835,458850,458841,458842,458843,458844,458845,458846,458847,458848,458849,458839,458939,458968,458969,458885,458851,458836,458840,458855,458963,458962,458961,458960,458964,458837,458934,458935,458838,458868,458830,458827,458877,458824,458807,458854,458822,23,458915,458804,21,458823,458871,786850,458803,458977,458981,787103,458808,65666,458796,17,20,458795,22,458874,65667,786994],t.eL)
 B.bFE=new A.c1([8,"\\b",9,"\\t",10,"\\n",11,"\\v",12,"\\f",13,"\\r",34,'\\"',39,"\\'",92,"\\\\"],t.TM)
@@ -187998,7 +187998,7 @@ B.bI6={"primeiro-dia":0,cafe:1,metro:2,hotel:3,rua:4,restaurante:5,compras:6,aer
 B.tr=new A.bh(B.bI6,["introductions","cafe","metro","hotel","directions","restaurant","shopping","airport","emergency"],t.li)
 B.bHC={arroz:0,preto:1,preta:2,branco:3,branca:4,verde:5,vermelho:6,vermelha:7,feijoes:8,feijao:9,frango:10,carne:11,bovina:12,porco:13,suina:14,peixe:15,salmao:16,atum:17,sardinha:18,ovo:19,ovos:20,leite:21,queijo:22,iogurte:23,manteiga:24,creme:25,aveia:26,pao:27,paes:28,macarrao:29,milho:30,trigo:31,farinha:32,lentilha:33,ervilha:34,grao:35,bico:36,soja:37,batata:38,doce:39,mandioca:40,cenoura:41,tomate:42,alface:43,brocolis:44,espinafre:45,couve:46,cebola:47,alho:48,abobrinha:49,abobora:50,pepino:51,berinjela:52,beterraba:53,banana:54,maca:55,laranja:56,limao:57,uva:58,morango:59,abacate:60,abacaxi:61,mamao:62,manga:63,melancia:64,melao:65,pera:66,pessego:67,coco:68,amendoim:69,amendoa:70,nozes:71,castanha:72,azeite:73,oleo:74,acucar:75,mel:76,cafe:77,cha:78,suco:79,agua:80,chocolate:81,biscoito:82,bolo:83,cozido:84,cozida:85,cozidos:86,cozidas:87,cru:88,crua:89,crus:90,cruas:91,assado:92,assada:93,frito:94,frita:95,grelhado:96,grelhada:97,integral:98,desnatado:99,peito:100,coxa:101,pele:102,sal:103}
 B.bx1=s(["rice"],t.s)
-B.P4=s(["black"],t.s)
+B.P5=s(["black"],t.s)
 B.PF=s(["white"],t.s)
 B.bpM=s(["green"],t.s)
 B.Pw=s(["red"],t.s)
@@ -188007,19 +188007,19 @@ B.bll=s(["beans","bean"],t.s)
 B.bma=s(["chicken"],t.s)
 B.blo=s(["beef","meat"],t.s)
 B.bln=s(["beef"],t.s)
-B.Ps=s(["pork"],t.s)
+B.Pt=s(["pork"],t.s)
 B.boQ=s(["fish"],t.s)
 B.bxC=s(["salmon"],t.s)
 B.bzM=s(["tuna"],t.s)
 B.bxE=s(["sardine","sardines"],t.s)
-B.P7=s(["egg","eggs"],t.s)
+B.P8=s(["egg","eggs"],t.s)
 B.bt3=s(["milk"],t.s)
 B.bm9=s(["cheese"],t.s)
 B.bCK=s(["yogurt"],t.s)
 B.bly=s(["butter"],t.s)
 B.bmG=s(["cream"],t.s)
 B.bui=s(["oats","oat"],t.s)
-B.P5=s(["bread"],t.s)
+B.P6=s(["bread"],t.s)
 B.bvj=s(["pasta","spaghetti","macaroni"],t.s)
 B.bmB=s(["corn"],t.s)
 B.bBh=s(["wheat"],t.s)
@@ -188078,15 +188078,15 @@ B.blO=s(["cake"],t.s)
 B.t6=s(["cooked","boiled"],t.s)
 B.tb=s(["raw"],t.s)
 B.Px=s(["roasted","baked"],t.s)
-B.Pe=s(["fried"],t.s)
-B.Ph=s(["grilled"],t.s)
+B.Pf=s(["fried"],t.s)
+B.Pi=s(["grilled"],t.s)
 B.bBi=s(["whole","wholegrain","brown"],t.s)
 B.bye=s(["skim","nonfat"],t.s)
 B.blv=s(["breast"],t.s)
 B.bzt=s(["thigh"],t.s)
 B.byf=s(["skin"],t.s)
 B.bxD=s(["salt"],t.s)
-B.UL=new A.bh(B.bHC,[B.bx1,B.P4,B.P4,B.PF,B.PF,B.bpM,B.Pw,B.Pw,B.blk,B.bll,B.bma,B.blo,B.bln,B.Ps,B.Ps,B.boQ,B.bxC,B.bzM,B.bxE,B.P7,B.P7,B.bt3,B.bm9,B.bCK,B.bly,B.bmG,B.bui,B.P5,B.P5,B.bvj,B.bmB,B.bBh,B.boV,B.bsd,B.bvz,B.bmc,B.bmb,B.byq,B.bvW,B.byX,B.blR,B.blQ,B.bzy,B.bsf,B.blw,B.bys,B.brC,B.buE,B.bpl,B.bD8,B.bwh,B.bmP,B.bnU,B.blp,B.blf,B.bkM,B.buI,B.bsc,B.bpL,B.byO,B.bl1,B.bvH,B.bvh,B.bsH,B.bB3,B.bsS,B.bvy,B.bvw,B.bmx,B.bvx,B.bkH,B.bB0,B.bu9,B.buB,B.buA,B.byQ,B.bqd,B.bmz,B.bzk,B.brn,B.bB2,B.bme,B.bmA,B.blO,B.t6,B.t6,B.t6,B.t6,B.tb,B.tb,B.tb,B.tb,B.Px,B.Px,B.Pe,B.Pe,B.Ph,B.Ph,B.bBi,B.bye,B.blv,B.bzt,B.byf,B.bxD],t.AH)
+B.UL=new A.bh(B.bHC,[B.bx1,B.P5,B.P5,B.PF,B.PF,B.bpM,B.Pw,B.Pw,B.blk,B.bll,B.bma,B.blo,B.bln,B.Pt,B.Pt,B.boQ,B.bxC,B.bzM,B.bxE,B.P8,B.P8,B.bt3,B.bm9,B.bCK,B.bly,B.bmG,B.bui,B.P6,B.P6,B.bvj,B.bmB,B.bBh,B.boV,B.bsd,B.bvz,B.bmc,B.bmb,B.byq,B.bvW,B.byX,B.blR,B.blQ,B.bzy,B.bsf,B.blw,B.bys,B.brC,B.buE,B.bpl,B.bD8,B.bwh,B.bmP,B.bnU,B.blp,B.blf,B.bkM,B.buI,B.bsc,B.bpL,B.byO,B.bl1,B.bvH,B.bvh,B.bsH,B.bB3,B.bsS,B.bvy,B.bvw,B.bmx,B.bvx,B.bkH,B.bB0,B.bu9,B.buB,B.buA,B.byQ,B.bqd,B.bmz,B.bzk,B.brn,B.bB2,B.bme,B.bmA,B.blO,B.t6,B.t6,B.t6,B.t6,B.tb,B.tb,B.tb,B.tb,B.Px,B.Px,B.Pf,B.Pf,B.Pi,B.Pi,B.bBi,B.bye,B.blv,B.bzt,B.byf,B.bxD],t.AH)
 B.bI4={type:0}
 B.bG_=new A.bh(B.bI4,["line"],t.li)
 B.bG3=new A.bh(B.d8,[],A.ao("bh<mJ,X>"))
@@ -189384,13 +189384,13 @@ B.c8z=new A.F("Check-in salvo no hist\xf3rico.",null,null,null,null,null,null,nu
 B.bXy=new A.cj(B.c8z,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
 B.cbX=new A.F("N\xe3o foi poss\xedvel enviar o relato. Tente novamente.",null,null,null,null,null,null,null,null,null)
 B.bXA=new A.cj(B.cbX,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
-B.c7f=new A.F("Preparando PDF\u2026",null,null,null,null,null,null,null,null,null)
+B.c7g=new A.F("Preparando PDF\u2026",null,null,null,null,null,null,null,null,null)
 B.aiv=new A.bI(6e7)
-B.bXB=new A.cj(B.c7f,null,null,null,null,null,null,null,null,null,null,null,null,B.aiv,!1,null,null,null,B.K,null)
+B.bXB=new A.cj(B.c7g,null,null,null,null,null,null,null,null,null,null,null,null,B.aiv,!1,null,null,null,B.K,null)
 B.cbV=new A.F("Mem\xf3ria salva. Ela ser\xe1 usada nas pr\xf3ximas respostas.",null,null,null,null,null,null,null,null,null)
 B.bXC=new A.cj(B.cbV,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
-B.c7e=new A.F("Kit de campanha pronto.",null,null,null,null,null,null,null,null,null)
-B.bXD=new A.cj(B.c7e,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
+B.c7f=new A.F("Kit de campanha pronto.",null,null,null,null,null,null,null,null,null)
+B.bXD=new A.cj(B.c7f,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
 B.c83=new A.F("Etapa conclu\xedda e progresso salvo.",null,null,null,null,null,null,null,null,null)
 B.bXE=new A.cj(B.c83,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
 B.cbD=new A.F("Protocolo copiado",null,null,null,null,null,null,null,null,null)
@@ -189433,8 +189433,8 @@ B.c9N=new A.F("N\xe3o foi poss\xedvel copiar. Tente novamente.",null,null,null,n
 B.bXU=new A.cj(B.c9N,null,null,null,null,null,null,null,B.iq,null,null,null,null,B.af,!1,null,null,null,B.K,null)
 B.c8V=new A.F("N\xe3o foi poss\xedvel compartilhar a imagem.",null,null,null,null,null,null,null,null,null)
 B.bXV=new A.cj(B.c8V,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
-B.c7g=new A.F("Texto transcrito. Revise antes de enviar.",null,null,null,null,null,null,null,null,null)
-B.bXW=new A.cj(B.c7g,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
+B.c7h=new A.F("Texto transcrito. Revise antes de enviar.",null,null,null,null,null,null,null,null,null)
+B.bXW=new A.cj(B.c7h,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
 B.c9C=new A.F("Estamos criando sua conta no NEXO. \xc9 rapidinho.",null,null,null,null,null,null,null,null,null)
 B.Ft=new A.bI(3e6)
 B.bXX=new A.cj(B.c9C,null,null,null,null,null,null,null,B.iq,null,null,null,null,B.Ft,!1,null,null,null,B.K,null)
@@ -189444,8 +189444,8 @@ B.caG=new A.F("Texto copiado",null,null,null,null,null,null,null,null,null)
 B.bXZ=new A.cj(B.caG,null,null,null,null,null,null,null,B.iq,null,null,null,null,B.dX,!1,null,null,null,B.K,null)
 B.cbP=new A.F("N\xe3o foi poss\xedvel abrir o compartilhamento.",null,null,null,null,null,null,null,null,null)
 B.bY_=new A.cj(B.cbP,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
-B.c7h=new A.F("N\xe3o consegui salvar a revis\xe3o.",null,null,null,null,null,null,null,null,null)
-B.bY0=new A.cj(B.c7h,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
+B.c7i=new A.F("N\xe3o consegui salvar a revis\xe3o.",null,null,null,null,null,null,null,null,null)
+B.bY0=new A.cj(B.c7i,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
 B.c9f=new A.F("Seu rascunho foi preservado. Limpe o pedido para usar outro modelo.",null,null,null,null,null,null,null,null,null)
 B.bY1=new A.cj(B.c9f,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
 B.caV=new A.F("Entre na sua conta para enviar um relato \xe0 equipe NEXO.",null,null,null,null,null,null,null,null,null)
@@ -189458,8 +189458,8 @@ B.c9t=new A.F("Conversa inteira copiada para a \xe1rea de transfer\xeancia.",nul
 B.bY5=new A.cj(B.c9t,null,null,null,null,null,null,null,null,null,null,null,null,B.dX,!1,null,null,null,B.K,null)
 B.caX=new A.F("Resposta salva nos check-ins do plano.",null,null,null,null,null,null,null,null,null)
 B.bY6=new A.cj(B.caX,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
-B.c7d=new A.F("N\xe3o consegui salvar essa resposta.",null,null,null,null,null,null,null,null,null)
-B.bY7=new A.cj(B.c7d,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
+B.c7e=new A.F("N\xe3o consegui salvar essa resposta.",null,null,null,null,null,null,null,null,null)
+B.bY7=new A.cj(B.c7e,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
 B.cag=new A.F("N\xe3o consegui adicionar esse cart\xe3o.",null,null,null,null,null,null,null,null,null)
 B.bY8=new A.cj(B.cag,null,null,null,null,null,null,null,null,null,null,null,null,B.af,!1,null,null,null,B.K,null)
 B.c85=new A.F("Esta atividade n\xe3o tem conte\xfado nesta fase.",null,null,null,null,null,null,null,null,null)
@@ -189974,15 +189974,15 @@ B.c74=new A.F("Atualizar classifica\xe7\xe3o",null,null,null,null,null,null,null
 B.c75=new A.F("Estimar meu gasto di\xe1rio",null,null,null,null,null,null,null,null,null)
 B.oe=new A.F("Tentar novamente",null,null,null,null,null,null,null,null,null)
 B.c76=new A.F("Melhorar a foto",null,null,null,null,null,null,null,null,null)
-B.c7a=new A.F("Regenerar resposta",null,null,null,null,null,null,null,null,null)
-B.c7b=new A.F("Ver dicas e cuidados",null,null,null,null,null,null,null,null,null)
-B.c7c=new A.F("Fotos analisadas e imagens criadas compartilham esta cota.",null,B.ir,null,null,null,null,null,null,null)
-B.c7i=new A.F("Desafio de 3 minutos",null,null,null,null,null,null,null,null,null)
-B.c7j=new A.F("Usar como refer\xeancia e revisar metas",null,null,null,null,null,null,null,null,null)
-B.c7k=new A.F("Fazer teste de n\xedvel",null,null,null,null,null,null,null,null,null)
-B.c7p=new A.F("Acompanhar alimenta\xe7\xe3o",null,null,null,null,null,null,null,null,null)
-B.c7q=new A.F("Quero mostrar meu apelido e meus pontos aos participantes.",null,null,null,null,null,null,null,null,null)
-B.c7r=new A.F("Quais ingredientes voc\xea precisa evitar? As escolhas filtram a cole\xe7\xe3o de receitas. Observa\xe7\xf5es escritas n\xe3o s\xe3o interpretadas como filtros autom\xe1ticos.",null,null,null,null,null,null,null,null,null)
+B.c7a=new A.F("Quais ingredientes voc\xea precisa evitar? Marque os ingredientes para filtrar as receitas. Use o campo de texto para informa\xe7\xf5es adicionais.",null,null,null,null,null,null,null,null,null)
+B.c7b=new A.F("Regenerar resposta",null,null,null,null,null,null,null,null,null)
+B.c7c=new A.F("Ver dicas e cuidados",null,null,null,null,null,null,null,null,null)
+B.c7d=new A.F("Fotos analisadas e imagens criadas compartilham esta cota.",null,B.ir,null,null,null,null,null,null,null)
+B.c7j=new A.F("Desafio de 3 minutos",null,null,null,null,null,null,null,null,null)
+B.c7k=new A.F("Usar como refer\xeancia e revisar metas",null,null,null,null,null,null,null,null,null)
+B.c7l=new A.F("Fazer teste de n\xedvel",null,null,null,null,null,null,null,null,null)
+B.c7q=new A.F("Acompanhar alimenta\xe7\xe3o",null,null,null,null,null,null,null,null,null)
+B.c7r=new A.F("Quero mostrar meu apelido e meus pontos aos participantes.",null,null,null,null,null,null,null,null,null)
 B.c7t=new A.F("Praticar di\xe1logo",null,null,null,null,null,null,null,null,null)
 B.uq=new A.F("Fechar",null,null,null,null,null,null,null,null,null)
 B.c7y=new A.F("Abrir trilha completa do L\xedngua Go",null,null,null,null,null,null,null,null,null)
