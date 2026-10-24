@@ -1,19 +1,19 @@
 {
   "schema_version": 2,
-  "phase": "pwa-reliability",
-  "source_commit": "7fdd6d1",
-  "compiled_source_commit": "7fdd6d1",
-  "built_at_utc": "2026-10-24T19:33:28.675545+00:00",
+  "phase": "home-editorial",
+  "source_commit": "ed94016882debbd960c891189463340965e18e32",
+  "compiled_source_commit": "ed94016882debbd960c891189463340965e18e32",
+  "built_at_utc": "2026-10-24T19:53:04.888928+00:00",
   "flutter": "3.47.1",
-  "validated_by": "release build",
+  "validated_by": "Release build; 30 widget tests; desktop and mobile visual review",
   "entry_points": {
-    "bootstrap": "flutter_bootstrap.7fdd6d1.js",
-    "main": "main.7fdd6d1.dart.js",
-    "pwa_client": "nexo_pwa.7fdd6d1.js",
+    "bootstrap": "flutter_bootstrap.ed94016882debbd960c891189463340965e18e32.js",
+    "main": "main.ed94016882debbd960c891189463340965e18e32.dart.js",
+    "pwa_client": "nexo_pwa.ed94016882debbd960c891189463340965e18e32.js",
     "worker": "nexo_service_worker.js"
   },
   "delivery": {
-    "main_raw_bytes": 5654879,
+    "main_raw_bytes": 5657946,
     "renderer_raw_bytes": {
       "full": 7371336,
       "chromium": 5514779,
