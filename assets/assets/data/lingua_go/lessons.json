@@ -27044,8 +27044,8 @@
                 },
                 {
                   "w": "Good",
-                  "m": "Bom dia, até logo.",
-                  "p": "hav e gud dei si iu sun"
+                  "m": "bom / boa",
+                  "p": "gud"
                 }
               ],
               "type": "teach"
@@ -27055,7 +27055,7 @@
               "objective": "O que você ouviu?",
               "target": "Good morning.",
               "pt": "Bom dia.",
-              "pron": "rê-lô",
+              "pron": "gud mór-ning",
               "words": [],
               "type": "listen",
               "options": [
@@ -30421,8 +30421,8 @@
                 },
                 {
                   "w": "Good",
-                  "m": "Bom dia, até logo.",
-                  "p": "hav e gud dei si iu sun"
+                  "m": "bom / boa",
+                  "p": "gud"
                 }
               ],
               "type": "teach"
@@ -42539,8 +42539,8 @@
                 },
                 {
                   "w": "good",
-                  "m": "",
-                  "p": "hav e gud dei si iu sun"
+                  "m": "bom / boa",
+                  "p": "gud"
                 },
                 {
                   "w": "day",
@@ -42601,8 +42601,8 @@
                 },
                 {
                   "w": "good",
-                  "m": "",
-                  "p": "hav e gud dei si iu sun"
+                  "m": "bom / boa",
+                  "p": "gud"
                 },
                 {
                   "w": "day",
