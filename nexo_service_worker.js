@@ -1,7 +1,7 @@
 'use strict';
 
-const RELEASE = 'c95f83d028a09946d616ca9d31bd0e838abcf97e';
-const CORE_FILES = /* NEXO_CORE_START */ ["assets/AssetManifest.bin", "assets/AssetManifest.bin.json", "assets/FontManifest.json", "assets/assets/fonts/Lato-Bold.ttf", "assets/assets/fonts/Lato-BoldItalic.ttf", "assets/assets/fonts/Lato-Italic.ttf", "assets/assets/fonts/Lato-Regular.ttf", "assets/fonts/MaterialIcons-Regular.otf", "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf", "favicon.png", "flutter_bootstrap.c95f83d028a09946d616ca9d31bd0e838abcf97e.js", "icons/Icon-192.png", "icons/Icon-512.png", "icons/Icon-maskable-512.png", "icons/nexo-mark.svg", "index.html", "main.c95f83d028a09946d616ca9d31bd0e838abcf97e.dart.js", "main.dart.js_1.c95f83d028a09946d616ca9d31bd0e838abcf97e.part.js", "manifest.json", "nexo_practice.c95f83d028a09946d616ca9d31bd0e838abcf97e.js", "nexo_pwa.c95f83d028a09946d616ca9d31bd0e838abcf97e.js", "offline.html"] /* NEXO_CORE_END */;
+const RELEASE = '89d48aafff0d5adb67a44ddfaac559576e1f1643';
+const CORE_FILES = /* NEXO_CORE_START */ ["assets/AssetManifest.bin", "assets/AssetManifest.bin.json", "assets/FontManifest.json", "assets/assets/fonts/Lato-Bold.ttf", "assets/assets/fonts/Lato-BoldItalic.ttf", "assets/assets/fonts/Lato-Italic.ttf", "assets/assets/fonts/Lato-Regular.ttf", "assets/fonts/MaterialIcons-Regular.otf", "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf", "favicon.png", "flutter_bootstrap.89d48aafff0d5adb67a44ddfaac559576e1f1643.js", "icons/Icon-192.png", "icons/Icon-512.png", "icons/Icon-maskable-512.png", "icons/nexo-mark.svg", "index.html", "main.89d48aafff0d5adb67a44ddfaac559576e1f1643.dart.js", "main.dart.js_1.89d48aafff0d5adb67a44ddfaac559576e1f1643.part.js", "manifest.json", "nexo_practice.89d48aafff0d5adb67a44ddfaac559576e1f1643.js", "nexo_pwa.89d48aafff0d5adb67a44ddfaac559576e1f1643.js", "offline.html"] /* NEXO_CORE_END */;
 const RENDERER_FILES = /* NEXO_RENDERERS_START */ {"full": ["canvaskit/canvaskit.js", "canvaskit/canvaskit.wasm"], "chromium": ["canvaskit/chromium/canvaskit.js", "canvaskit/chromium/canvaskit.wasm"], "webparagraph": ["canvaskit/webparagraph/canvaskit.js", "canvaskit/webparagraph/canvaskit.wasm"]} /* NEXO_RENDERERS_END */;
 const SCOPE = new URL(self.registration.scope);
 const renderer = new URL(self.location.href).searchParams.get('renderer') || 'full';
@@ -39,7 +39,9 @@ function cacheable(response) {
 async function cacheStatic(url, cache, mandatory) {
   const response = await fetch(new Request(url, {
     credentials: 'omit',
-    cache: url === INDEX_URL ? 'no-cache' : 'default',
+    // Revalidate mutable assets for each release. A new CacheStorage bucket
+    // must not inherit stale fonts, manifests or lessons from the HTTP cache.
+    cache: /[./][a-f0-9]{7,40}[./]/.test(new URL(url).pathname) ? 'default' : 'no-cache',
   }));
   if (!cacheable(response)) {
     if (mandatory) throw new Error('NEXO offline asset unavailable');
