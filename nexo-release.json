@@ -1,19 +1,19 @@
 {
   "schema_version": 2,
-  "phase": "recipe-restriction-behavior",
-  "source_commit": "5c01cae5d1605c249ecfacc7cb530417bab4f41d",
-  "compiled_source_commit": "5c01cae5d1605c249ecfacc7cb530417bab4f41d",
-  "built_at_utc": "2026-10-25T14:41:26.791789+00:00",
+  "phase": "global-visual-coherence",
+  "source_commit": "0049e5cb6b4128ce2cf24dea5db89b2cd598b375",
+  "compiled_source_commit": "0049e5cb6b4128ce2cf24dea5db89b2cd598b375",
+  "built_at_utc": "2026-10-25T20:27:45.839310+00:00",
   "flutter": "3.47.1",
-  "validated_by": "35 final behavior checks; 523 full suite passes with 6 baseline failures; saved favorite browser review",
+  "validated_by": "550 Flutter tests; analyzer without errors or warnings; desktop and mobile review",
   "entry_points": {
-    "bootstrap": "flutter_bootstrap.5c01cae5d1605c249ecfacc7cb530417bab4f41d.js",
-    "main": "main.5c01cae5d1605c249ecfacc7cb530417bab4f41d.dart.js",
-    "pwa_client": "nexo_pwa.5c01cae5d1605c249ecfacc7cb530417bab4f41d.js",
+    "bootstrap": "flutter_bootstrap.0049e5cb6b4128ce2cf24dea5db89b2cd598b375.js",
+    "main": "main.0049e5cb6b4128ce2cf24dea5db89b2cd598b375.dart.js",
+    "pwa_client": "nexo_pwa.0049e5cb6b4128ce2cf24dea5db89b2cd598b375.js",
     "worker": "nexo_service_worker.js"
   },
   "delivery": {
-    "main_raw_bytes": 5687427,
+    "main_raw_bytes": 5702868,
     "renderer_raw_bytes": {
       "full": 7371336,
       "chromium": 5514779,
