@@ -29,6 +29,33 @@
     try { current.start(); } catch (_) { finish(null,'Não foi possível iniciar o microfone.'); }
   });
   window.nexoDeviceCancelReminder = key => { clearTimeout(reminders.get(key)); reminders.delete(key); };
+  window.nexoDeviceReminderCalendar = (key, hour, minute) => {
+    const names = {culinaria:'Dieta', fitness:'Fitness', financas:'Finanças', idiomas:'Idiomas'};
+    if (!names[key] || !Number.isInteger(hour) || !Number.isInteger(minute) || hour < 0 || hour > 23 || minute < 0 || minute > 59) return false;
+    const now = new Date(), start = new Date(now);
+    start.setHours(hour, minute, 0, 0);
+    if (start <= now) start.setDate(start.getDate() + 1);
+    const pad = value => String(value).padStart(2, '0');
+    const local = start.getFullYear() + pad(start.getMonth()+1) + pad(start.getDate()) + 'T' + pad(hour) + pad(minute) + '00';
+    const stamp = now.toISOString().replace(/[-:]/g,'').replace(/\.\d{3}Z$/, 'Z');
+    const uid = (window.crypto?.randomUUID?.() || (Date.now().toString(36) + '-' + Math.random().toString(36).slice(2))) + '@nexo';
+    const content = [
+      'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//NEXO//Lembretes//PT-BR','CALSCALE:GREGORIAN',
+      'BEGIN:VEVENT','UID:'+uid,'DTSTAMP:'+stamp,'DTSTART:'+local,'DURATION:PT5M','RRULE:FREQ=DAILY',
+      'SUMMARY:NEXO '+names[key]+' - rotina',
+      'DESCRIPTION:Altere ou exclua o evento na sua agenda.',
+      'BEGIN:VALARM','ACTION:DISPLAY','DESCRIPTION:Um momento para continuar sua rotina.','TRIGGER:PT0S','END:VALARM',
+      'END:VEVENT','END:VCALENDAR','',
+    ].join('\r\n');
+    try {
+      const url = URL.createObjectURL(new Blob([content], {type:'text/calendar;charset=utf-8'}));
+      const link = document.createElement('a');
+      link.href = url; link.download = 'nexo-lembrete-'+key+'.ics';
+      document.body.appendChild(link); link.click(); link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      return true;
+    } catch (_) { return false; }
+  };
   window.nexoDeviceReminder = async (key,hour,minute) => {
     window.nexoDeviceCancelReminder(key);
     if(!('Notification' in window) || (Notification.permission !== 'granted' && await Notification.requestPermission()!=='granted')) return false;
