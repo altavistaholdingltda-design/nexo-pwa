@@ -31,7 +31,7 @@
   window.nexoDeviceCancelReminder = key => { clearTimeout(reminders.get(key)); reminders.delete(key); };
   window.nexoDeviceReminder = async (key,hour,minute) => {
     window.nexoDeviceCancelReminder(key);
-    if(!('Notification' in window) || await Notification.requestPermission()!=='granted') return false;
+    if(!('Notification' in window) || (Notification.permission !== 'granted' && await Notification.requestPermission()!=='granted')) return false;
     const schedule = () => {
       const now = new Date(), at = new Date(); at.setHours(hour,minute,0,0);
       if(at<=now)at.setDate(at.getDate()+1);
@@ -45,5 +45,17 @@
     };
     schedule(); return true;
   };
+  // Restore opted-in schedules on a new page session, without requesting permission.
+  if ('Notification' in window && Notification.permission === 'granted') {
+    for (const key of ['culinaria', 'fitness', 'financas', 'idiomas']) {
+      try {
+        const stored = localStorage.getItem('flutter.nexo.reminder.' + key);
+        const value = stored && JSON.parse(stored);
+        const match = typeof value === 'string' && /^(\d{1,2}):(\d{1,2})$/.exec(value);
+        if (match && Number(match[1]) < 24 && Number(match[2]) < 60)
+          window.nexoDeviceReminder(key, Number(match[1]), Number(match[2]));
+      } catch (_) { /* The user can configure the reminder again. */ }
+    }
+  }
   window.addEventListener('pagehide',()=>{ if(recognition)recognition.abort(); window.nexoDeviceStopAudio(); });
 })();
