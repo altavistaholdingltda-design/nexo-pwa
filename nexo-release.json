@@ -1,19 +1,19 @@
 {
   "schema_version": 2,
-  "phase": "tools-specialist-accent",
-  "source_commit": "98e5caca65019b0dbcfa0ee9cdcfa260c1c0f4ef",
-  "compiled_source_commit": "98e5caca65019b0dbcfa0ee9cdcfa260c1c0f4ef",
-  "built_at_utc": "2026-10-28T10:35:00.698927+00:00",
+  "phase": "dieta-home-option4-colors",
+  "source_commit": "d342d1c05d1448974740128f5bad7a94a36017c4",
+  "compiled_source_commit": "d342d1c05d1448974740128f5bad7a94a36017c4",
+  "built_at_utc": "2026-10-28T10:53:04.491298+00:00",
   "flutter": "3.47.1",
-  "validated_by": "Flutter web release build",
+  "validated_by": "Flutter web release build; Dart analyzer",
   "entry_points": {
-    "bootstrap": "flutter_bootstrap.98e5caca65019b0dbcfa0ee9cdcfa260c1c0f4ef.js",
-    "main": "main.98e5caca65019b0dbcfa0ee9cdcfa260c1c0f4ef.dart.js",
-    "pwa_client": "nexo_pwa.98e5caca65019b0dbcfa0ee9cdcfa260c1c0f4ef.js",
+    "bootstrap": "flutter_bootstrap.d342d1c05d1448974740128f5bad7a94a36017c4.js",
+    "main": "main.d342d1c05d1448974740128f5bad7a94a36017c4.dart.js",
+    "pwa_client": "nexo_pwa.d342d1c05d1448974740128f5bad7a94a36017c4.js",
     "worker": "nexo_service_worker.js"
   },
   "delivery": {
-    "main_raw_bytes": 5837426,
+    "main_raw_bytes": 5836606,
     "renderer_raw_bytes": {
       "full": 7371336,
       "chromium": 5514779,
